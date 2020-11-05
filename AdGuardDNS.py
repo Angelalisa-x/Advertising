@@ -22,11 +22,15 @@ class AdGuardDNS:
                     continue
                 if "!" in line:
                     continue
+                if "*" in line:
+                    continue
                 if line in ['\n','\r\n']:
                     continue
                 if line.strip() == "":
                     continue
                 if "@" in line:
+                    continue
+                if "//" in line:
                     continue
                 #line = line.split(",")[1]
                 

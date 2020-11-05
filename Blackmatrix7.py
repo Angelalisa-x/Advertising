@@ -28,6 +28,10 @@ class Blackmatrix7:
                         continue
                     if "@" in line:
                         continue
+                    if "*" in line:
+                        continue
+                    if "//" in line:
+                        continue
                     #line = line.split(",")[1]
                     
                     str=[]

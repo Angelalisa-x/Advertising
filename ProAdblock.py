@@ -25,6 +25,10 @@ class ProAdblock:
                     continue
                 if "@" in line:
                     continue
+                if "*" in line:
+                    continue
+                if "//" in line:
+                    continue
                 if line in ['\n','\r\n']:
                     continue
                 if line.strip() == "":
