@@ -36,7 +36,13 @@ class E7KMbb:
                     continue
                 if "*" in line:
                     continue
+                if "/" in line:
+                    continue
                 if "//" in line:
+                    continue
+                if "$" in line:
+                    continue
+                if "。" in line:
                     continue
                 if line in ['\n','\r\n']:
                     continue

@@ -62,6 +62,8 @@ if __name__ == '__main__':
     with open("Advertising.list","w") as fin:
         for num1,value in enumerate(file):
             if(num1 >= num-2):
+                if ".," in value:
+                    continue
                 fin.write(value)
             #print("the nume:%s,the value is %s", num, value)
         file.close()
