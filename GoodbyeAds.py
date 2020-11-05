@@ -18,10 +18,28 @@ class GoodbyeAds:
             f.write(html)
         f.close()
 
-        with open("11.txt","w") as fin:
+        with open("11.txt","a+") as fin:
             for line in open("1.txt"):
                 if "#" in line:
-                    print(line)
+                    #print(line)
                     continue
-                fin.write(line)
-        
+                if "!" in line:
+                    continue
+                if "@" in line:
+                    continue
+                if line in ['\n','\r\n']:
+                    continue
+                if line.strip() == "":
+                    continue
+                line = line.split("||")[1]
+                
+                str=[]
+                str = line
+    
+                str = str[0:str.find('^')] + "\n"
+                #str = "HOST," + str
+                #str = str + ",Advertising" + "\n"
+                fin.write(str)
+                
+        fin.close()
+
