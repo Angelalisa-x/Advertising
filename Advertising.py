@@ -64,6 +64,8 @@ if __name__ == '__main__':
             if(num1 >= num-2):
                 if ".," in value:
                     continue
+                if 'api.ksapisrv.com' in value:
+                    continue
                 fin.write(value)
             #print("the nume:%s,the value is %s", num, value)
         file.close()
