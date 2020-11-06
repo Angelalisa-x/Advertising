@@ -23,4 +23,10 @@ class WhiteList:
         html = requests.get(url).text
         #print(html)
         return html
+    
+    def pull4():
+        url = 'https://raw.githubusercontent.com/Angelalisa-x/Advertising/master/WhiteList.txt'
+        html = requests.get(url).text
+        #print(html)
+        return html
  
