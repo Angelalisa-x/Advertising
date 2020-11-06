@@ -33,8 +33,19 @@ if __name__ == '__main__':
 
     strWhite3 = []
     strWhite3 = WhiteList.pull3()
+
     strWhite4 = []
     strWhite4 = WhiteList.pull4()
+
+    strWhite5 = []
+    strWhite5 = WhiteList.pull5()
+
+    strWhite6 = []
+    strWhite6 = WhiteList.pull6()
+
+    strWhite7 = []
+    strWhite7 = WhiteList.pull7()
+
 
     #去重
     readPath='11.txt'
@@ -72,6 +83,12 @@ if __name__ == '__main__':
             if str1 in strWhite3:
                 continue
             if str1 in strWhite4:
+                continue
+            if str1 in strWhite5:
+                continue
+            if str1 in strWhite6:
+                continue
+            if str1 in strWhite7:
                 continue
             # if "HOST,p3.pstatp.com,AdvertisingTest" in str:
             #     continue
@@ -126,6 +143,15 @@ if __name__ == '__main__':
                 if str in strWhite4:
                     count +=1
                     continue
+                if str in strWhite5:
+                    count +=1
+                    continue
+                if str in strWhite6:
+                    count +=1
+                    continue
+                if str in strWhite7:
+                    count +=1
+                    continue
                 else:
                     if "meituan.net" == str:
                         #print(str)
@@ -146,6 +172,12 @@ if __name__ == '__main__':
                     if str in strWhite3:
                         continue
                     if str in strWhite4:
+                        continue
+                    if str in strWhite5:
+                        continue
+                    if str in strWhite6:
+                        continue
+                    if str in strWhite7:
                         continue
 
             str = "HOST-SUFFIX," + str
