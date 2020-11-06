@@ -38,11 +38,31 @@ if __name__ == '__main__':
     outfiile.close()
     f.close()
 
+    #Blackmatrix7 进行处理
+    with open("Blackmatrix7.list", 'w') as f:
+        for line in open("77.txt"):
+            str=[]
+            str = line
+            str = str[0:str.find('/n')]
+            if "#" in line:
+                continue
+            if line in ['\n','\r\n']:
+                continue
+            if line.strip() == "":
+                continue
+            # if "HOST,p3.pstatp.com,AdvertisingTest" in str:
+            #     continue
+
+            str = str + "\n"
+            f.write(str)
+    f.close()
+
     #文本行数
     num = 0
     with open("7.txt", 'r') as f:
         num = sum(1 for line in f)
         print('总行数为%s行。' % num)
+    f.close()
 
         #格式
     with open("11.txt","w") as fin:
@@ -50,9 +70,19 @@ if __name__ == '__main__':
             str=[]
             str = line
             str = str[0:str.find('/n')]
+            if "meituan.net" == str:
+                #print(str)
+                continue
+            if "api.ksapisrv.com" == str:
+                continue
+
+            if "www.ksapisrv.com" == str:
+                continue
+            if "music.126.net" == str:
+                continue
 
             str = "HOST-SUFFIX," + str
-            str = str + ",Advertising" + "\n"
+            str = str + ",REJECT" + "\n"
             fin.write(str)
         fin.close()
 
@@ -64,8 +94,9 @@ if __name__ == '__main__':
             if(num1 >= num-2):
                 if ".," in value:
                     continue
-                if '.ksapisrv.com' in value:
+                if "tos.pstatp.com" in value:
                     continue
+
                 fin.write(value)
             #print("the nume:%s,the value is %s", num, value)
         file.close()
@@ -76,5 +107,6 @@ if __name__ == '__main__':
     os.remove("1.txt")
     os.remove("11.txt")
     os.remove("7.txt")
+    os.remove("77.txt")
     os.remove("cnews.test2.txt")
     shutil.rmtree("__pycache__")
