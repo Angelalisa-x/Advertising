@@ -14,4 +14,3 @@ Quantumult X 日常去广告规则：https://raw.githubusercontent.com/Angelalis
 非常感谢大神提供的思路
     https://github.com/blackmatrix7/ios_rule_script
 
-非常感谢~
