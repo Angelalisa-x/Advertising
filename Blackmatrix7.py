@@ -14,6 +14,11 @@ class Blackmatrix7:
         with open("1.txt","w") as f:
             f.write(html)
         f.close()
+
+        with open("77.txt","w") as f:
+            f.write(html)
+        f.close
+
         with open("7.txt","w+") as fin7:
             with open("11.txt","w+") as fin:
                 for line in open("1.txt"):
