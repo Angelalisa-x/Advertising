@@ -33,6 +33,8 @@ if __name__ == '__main__':
 
     strWhite3 = []
     strWhite3 = WhiteList.pull3()
+    strWhite4 = []
+    strWhite4 = WhiteList.pull4()
 
     #去重
     readPath='11.txt'
@@ -68,6 +70,8 @@ if __name__ == '__main__':
                 #print(str)
                 continue
             if str1 in strWhite3:
+                continue
+            if str1 in strWhite4:
                 continue
             # if "HOST,p3.pstatp.com,AdvertisingTest" in str:
             #     continue
@@ -119,6 +123,9 @@ if __name__ == '__main__':
                 if str in strWhite3:
                     count +=1
                     continue
+                if str in strWhite4:
+                    count +=1
+                    continue
                 else:
                     if "meituan.net" == str:
                         #print(str)
@@ -137,6 +144,8 @@ if __name__ == '__main__':
                         #print(str)
                         continue
                     if str in strWhite3:
+                        continue
+                    if str in strWhite4:
                         continue
 
             str = "HOST-SUFFIX," + str
