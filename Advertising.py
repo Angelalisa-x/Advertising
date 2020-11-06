@@ -165,5 +165,5 @@ if __name__ == '__main__':
     os.remove("11.txt")
     os.remove("7.txt")
     os.remove("77.txt")
-    #os.remove("cnews.test2.txt")
+    os.remove("cnews.test2.txt")
     shutil.rmtree("__pycache__")
