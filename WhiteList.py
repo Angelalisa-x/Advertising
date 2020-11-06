@@ -17,4 +17,10 @@ class WhiteList:
         html = requests.get(url).text
         #print(html)
         return html
+    
+    def pull3():
+        url = 'https://raw.githubusercontent.com/liwenjie119/adg-rules/master/white.txt'
+        html = requests.get(url).text
+        #print(html)
+        return html
  
