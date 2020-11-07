@@ -224,7 +224,7 @@ if __name__ == '__main__':
 
     print('count: %s' %count)
     file = open("11.txt","r")
-    with open("Advertising.list","w") as fin:
+    with open("Advertising.txt","w") as fin:
         for num1,value in enumerate(file):
             if(num1 >= static_num-count-1):
                 if ".," in value:
@@ -235,36 +235,139 @@ if __name__ == '__main__':
     file.close()
     fin.close()
 
-
+##########################################################################
 #white过滤
-    # ctrl = 0
-    # file = open("Blackmatrix7.list","w")
-    # file_1 = open("Blackmatrix7_1.list","w")
+    ctrl = 0
+    ctrl_1 = 0
+    file_1 = open("Blackmatrix7_1.list","w")
 
-    # while ctrl < static_white_num:
-    #     whiteline = []
-    #     whiteline = whiteListPro(ctrl)
-    #     whiteline = whiteline[0:whiteline.find("\n")]
-    #     #print(whiteline)
-    #     for line in open("Blackmatrix7.txt"):
-    #         str = []
-    #         str = line
+    while ctrl < static_white_num:
+        whiteline = []
+        whiteline = whiteListPro(ctrl)
+        whiteline = whiteline[0:whiteline.find("\n")]
+        #print(whiteline)
+        for line in open("Blackmatrix7.txt"):
+            str = []
+            str = line
             
+            if (str.find(whiteline) >= 0):
+                file_1.write(line)
+                ctrl_1 +=1
 
-    #         if (str.find(whiteline) >= 0):
-    #             #print(whiteline)
-    #             #print(str)
-    #             file_1.write(line)
+        ctrl += 1
+    file_1.close()
 
-    #     ctrl += 1
-
-    # file.close()
-    # file_1.close
-
-
+    #white hangshu 
+    # static_white_num_2 =0
+    # with open("Blackmatrix7_1.list", 'r') as f:
+    #     static_white_num_2 = sum(1 for line in f)
+    #     print('总行数为%s行。' % static_white_num_2)
+    # f.close()
 
 
+    with open("Blackmatrix7_1.list", 'a+') as f:
+        for line in open("Blackmatrix7.txt"):
+            f.write(line)
+    f.close()
 
+#white 去重
+    readPath='Blackmatrix7_1.list'
+    writePath='Blackmatrix7.txt'
+    lines_seen=set()
+    outfiile=open(writePath,'w+')
+    f=open(readPath,'r')
+    for line in f:
+        if line not in lines_seen:
+            outfiile.write(line)
+            lines_seen.add(line)
+    outfiile.close()
+    f.close()
+
+
+    count = 0
+    #格式
+    with open("Blackmatrix7.list","w") as fin:
+        #for line in open("cnews.test2.txt"):
+        file = open("Blackmatrix7.txt","r")
+        for num1,line in enumerate(file):
+            str=[]
+            str = line
+            str = str[0:str.find('/n')]
+            if num1 < ctrl_1-1:
+                continue
+            fin.write(line)
+        file.close()
+        fin.close()
+
+#######################################################################################
+
+
+
+##########################################################################
+#white过滤
+    ctrl = 0
+    ctrl_1 = 0
+    file_1 = open("Advertising_1.list","w")
+
+    while ctrl < static_white_num:
+        whiteline = []
+        whiteline = whiteListPro(ctrl)
+        whiteline = whiteline[0:whiteline.find("\n")]
+        #print(whiteline)
+        for line in open("Advertising.txt"):
+            str = []
+            str = line
+            
+            if (str.find(whiteline) >= 0):
+                #print(whiteline)
+                #print(str)
+                file_1.write(line)
+                ctrl_1 += 1
+
+        ctrl += 1
+    print("adverti ctrl_1:",ctrl_1)
+    file_1.close()
+
+    #white hangshu 
+    # static_white_num_3 =0
+    # with open("Advertising_1.list", 'r') as f:
+    #     static_white_num_3 = sum(1 for line in f)
+    #     print('总行数为%s行。' % static_white_num_3)
+    # f.close()
+
+
+    with open("Advertising_1.list", 'a+') as f:
+        for line in open("Advertising.txt"):
+            f.write(line)
+    f.close()
+
+#white 去重
+    readPath='Advertising_1.list'
+    writePath='Advertising.txt'
+    lines_seen=set()
+    outfiile=open(writePath,'w+')
+    f=open(readPath,'r')
+    for line in f:
+        if line not in lines_seen:
+            outfiile.write(line)
+            lines_seen.add(line)
+    outfiile.close()
+    f.close()
+
+
+    count = 0
+    #格式
+    with open("Advertising.list","w") as fin:
+        #for line in open("cnews.test2.txt"):
+        file = open("Advertising.txt","r")
+        for num1,line in enumerate(file):
+            if num1 < ctrl_1-1:
+                continue
+            fin.write(line)
+        file.close()
+        fin.close()
+
+#######################################################################################
    
 
 
@@ -277,4 +380,7 @@ if __name__ == '__main__':
     os.remove("WhiteList_1.txt")
     os.remove("whiteList1.txt")
     os.remove("Blackmatrix7.txt")
+    os.remove("Advertising.txt")
+    os.remove("Blackmatrix7_1.list")
+    os.remove("Advertising_1.list")
     shutil.rmtree("__pycache__")
