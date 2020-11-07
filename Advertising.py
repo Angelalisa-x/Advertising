@@ -42,20 +42,20 @@ if __name__ == '__main__':
     strWhite2 = []
     strWhite2 = WhiteList.pull2()
 
-    # strWhite3 = []
-    # strWhite3 = WhiteList.pull3()
+    strWhite3 = []
+    strWhite3 = WhiteList.pull3()
 
     strWhite4 = []
     strWhite4 = WhiteList.pull4()
 
-    # strWhite5 = []
-    # strWhite5 = WhiteList.pull5()
+    strWhite5 = []
+    strWhite5 = WhiteList.pull5()
 
     strWhite6 = []
     strWhite6 = WhiteList.pull6()
 
-    # strWhite7 = []
-    # strWhite7 = WhiteList.pull7()
+    strWhite7 = []
+    strWhite7 = WhiteList.pull7()
 
 
     #去重
@@ -86,43 +86,6 @@ if __name__ == '__main__':
     outfiile.close()
     f.close()
 
-    #Blackmatrix7 进行处理
-    with open("Blackmatrix7.list", 'w') as f:
-        for line in open("77.txt"):
-            str=[]
-            str = line
-            str = str[0:str.find('/n')]
-            str1 = str[str.find(',')+1: str.rfind(',')]
-            if "#" in line:
-                continue
-            if "*" in line:
-                continue
-            if line in ['\n','\r\n']:
-                continue
-            if line.strip() == "":
-                continue
-            if str1 in strWhite:
-                #print(str)
-                continue
-            # if str1 in strWhite2:
-            #     #print(str)
-            #     continue
-            # if str1 in strWhite3:
-            #     continue
-            # if str1 in strWhite4:
-            #     continue
-            # if str1 in strWhite5:
-            #     continue
-            # if str1 in strWhite6:
-            #     continue
-            # if str1 in strWhite7:
-            #     continue
-            # if "HOST,p3.pstatp.com,AdvertisingTest" in str:
-            #     continue
-
-            str = str + "\n"
-            f.write(str)
-    f.close()
 
     #文本行数
     static_num = 0
@@ -168,25 +131,25 @@ if __name__ == '__main__':
                     count +=1
                     #print(str)
                     continue
-                # if str in strWhite2:
-                #     count +=1
-                #     #print(str)
-                #     continue
-                # if str in strWhite3:
-                #     count +=1
-                #     continue
-                # if str in strWhite4:
-                #     count +=1
-                #     continue
-                # if str in strWhite5:
-                #     count +=1
-                #     continue
-                # if str in strWhite6:
-                #     count +=1
-                #     continue
-                # if str in strWhite7:
-                #     count +=1
-                #     continue
+                if str in strWhite2:
+                    count +=1
+                    #print(str)
+                    continue
+                if str in strWhite3:
+                    count +=1
+                    continue
+                if str in strWhite4:
+                    count +=1
+                    continue
+                if str in strWhite5:
+                    count +=1
+                    continue
+                if str in strWhite6:
+                    count +=1
+                    continue
+                if str in strWhite7:
+                    count +=1
+                    continue
                 else:
                     if "meituan.net" == str:
                         #print(str)
@@ -201,19 +164,19 @@ if __name__ == '__main__':
                     if str in strWhite:
                         #print(str)
                         continue
-                    # if str in strWhite2:
-                    #     #print(str)
-                    #     continue
-                    # if str in strWhite3:
-                    #     continue
-                    # if str in strWhite4:
-                    #     continue
-                    # if str in strWhite5:
-                    #     continue
-                    # if str in strWhite6:
-                    #     continue
-                    # if str in strWhite7:
-                    #     continue
+                    if str in strWhite2:
+                        #print(str)
+                        continue
+                    if str in strWhite3:
+                        continue
+                    if str in strWhite4:
+                        continue
+                    if str in strWhite5:
+                        continue
+                    if str in strWhite6:
+                        continue
+                    if str in strWhite7:
+                        continue
 
             str = "HOST-SUFFIX," + str
             str = str + ",REJECT" + "\n"
@@ -221,7 +184,8 @@ if __name__ == '__main__':
         file.close()
         fin.close()
 
-
+###################################################
+#Advertising 进行处理
     print('count: %s' %count)
     file = open("11.txt","r")
     with open("Advertising.list","w") as fin:
@@ -229,11 +193,51 @@ if __name__ == '__main__':
             if(num1 >= static_num-count-1):
                 if ".," in value:
                     continue
+                if ".126.net" in value:
+                    continue
 
                 fin.write(value)
             #print("the nume:%s,the value is %s", static_num, value)
     file.close()
     fin.close()
+
+###################################################
+    #Blackmatrix7 进行处理
+    with open("Blackmatrix7.list", 'w') as f:
+        for line in open("77.txt"):
+            str=[]
+            str = line
+            str = str[0:str.find('/n')]
+            str1 = str[str.find(',')+1: str.rfind(',')]
+            if "#" in line:
+                continue
+            if "*" in line:
+                continue
+            if line in ['\n','\r\n']:
+                continue
+            if line.strip() == "":
+                continue
+            if str1 in strWhite:
+                #print(str)
+                continue
+            if str1 in strWhite2:
+                #print(str)
+                continue
+            if str1 in strWhite3:
+                continue
+            if str1 in strWhite4:
+                continue
+            if str1 in strWhite5:
+                continue
+            if str1 in strWhite6:
+                continue
+            if str1 in strWhite7:
+                continue
+
+            str = str + "\n"
+            f.write(str)
+    f.close()
+#############################################################################
 
 # ##########################################################################
 # #white过滤
