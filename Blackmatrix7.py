@@ -9,6 +9,7 @@ class Blackmatrix7:
 
     def pull():
         url = 'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/AdvertisingTest/AdvertisingTest.list'
+        #url = 'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Advertising/Advertising.list'
         html = requests.get(url).text
         #print(html)
         with open("1.txt","w") as f:
