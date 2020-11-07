@@ -1,15 +1,14 @@
-#https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
-
+#https://www.kbsml.com/wp-content/uploads/adblock/adguard/adg-kall-dns.txt
 
 import requests, re
 import shutil
 
 from bs4 import BeautifulSoup
 
-class jdlingyu:
+class kbsml:
 
     def pull():
-        url = 'https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts'
+        url = 'https://www.kbsml.com/wp-content/uploads/adblock/adguard/adg-kall-dns.txt'
         html = requests.get(url).text
         #print(html)
         with open("1.txt","w") as f:
@@ -32,40 +31,31 @@ class jdlingyu:
                 if "#" in line:
                     #print(line)
                     continue
-                if "::" in line:
-                    continue
-                if "<" in line:
-                    continue
-                if ">" in line:
-                    continue
                 if "!" in line:
                     continue
-                if "localhost" in line:
-                    continue
-                if "ip6" in line:
-                    continue
-                if "@" in line:
-                    continue
                 if "*" in line:
-                    continue
-                if "/" in line:
-                    continue
-                if "//" in line:
-                    continue
-                if "$" in line:
-                    continue
-                if "。" in line:
                     continue
                 if line in ['\n','\r\n']:
                     continue
                 if line.strip() == "":
                     continue
-
+                if "@" in line:
+                    continue
+                if "//" in line:
+                    continue
+                if "/" in line:
+                    continue
+                if "$" in line:
+                    continue
+                if "。" in line:
+                    continue
+                #line = line.split(",")[1]
                 
                 str=[]
                 str = line
+                str = str[str.find('||')+2: str.rfind('^')] + "\n"
     
-                str = str[str.find('127.0.0.1 ')+10:str.find('/')] + "\n"
+                #str = str[0:str.find(',')] + "\n"
                 #str = "HOST," + str
                 #str = str + ",Advertising" + "\n"
                 fin.write(str)

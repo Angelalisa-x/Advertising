@@ -15,7 +15,15 @@ from AdGuardDNS import AdGuardDNS
 from FindDuplicate import FindDuplicate
 from WhiteList import WhiteList
 from jdlingyu import jdlingyu
+from kbsml import kbsml
 
+
+def whiteListPro(num):
+    file = open("WhiteList.txt","r")
+    for num1,line in enumerate(file):
+        if num1 == num:
+            #print("line:",line)
+            return line
 
 
 if __name__ == '__main__':
@@ -25,6 +33,7 @@ if __name__ == '__main__':
     ProAdblock.pull()
     AdGuardDNS.pull()
     jdlingyu.pull()
+    #kbsml.pull()
 
     strWhite = []
     strWhite = WhiteList.pull()
@@ -33,20 +42,20 @@ if __name__ == '__main__':
     strWhite2 = []
     strWhite2 = WhiteList.pull2()
 
-    strWhite3 = []
-    strWhite3 = WhiteList.pull3()
+    # strWhite3 = []
+    # strWhite3 = WhiteList.pull3()
 
     strWhite4 = []
     strWhite4 = WhiteList.pull4()
 
-    strWhite5 = []
-    strWhite5 = WhiteList.pull5()
+    # strWhite5 = []
+    # strWhite5 = WhiteList.pull5()
 
     strWhite6 = []
     strWhite6 = WhiteList.pull6()
 
-    strWhite7 = []
-    strWhite7 = WhiteList.pull7()
+    # strWhite7 = []
+    # strWhite7 = WhiteList.pull7()
 
 
     #去重
@@ -63,8 +72,22 @@ if __name__ == '__main__':
     outfiile.close()
     f.close()
 
+#white 去重
+    readPath='WhiteList_1.txt'
+    writePath='WhiteList.txt'
+    lines_seen=set()
+    outfiile=open(writePath,'w+')
+    f=open(readPath,'r')
+    for line in f:
+        if line not in lines_seen:
+            outfiile.write(line)
+            lines_seen.add(line)
+
+    outfiile.close()
+    f.close()
+
     #Blackmatrix7 进行处理
-    with open("Blackmatrix7.list", 'w') as f:
+    with open("Blackmatrix7.txt", 'w') as f:
         for line in open("77.txt"):
             str=[]
             str = line
@@ -81,19 +104,19 @@ if __name__ == '__main__':
             if str1 in strWhite:
                 #print(str)
                 continue
-            if str1 in strWhite2:
-                #print(str)
-                continue
-            if str1 in strWhite3:
-                continue
-            if str1 in strWhite4:
-                continue
-            if str1 in strWhite5:
-                continue
-            if str1 in strWhite6:
-                continue
-            if str1 in strWhite7:
-                continue
+            # if str1 in strWhite2:
+            #     #print(str)
+            #     continue
+            # if str1 in strWhite3:
+            #     continue
+            # if str1 in strWhite4:
+            #     continue
+            # if str1 in strWhite5:
+            #     continue
+            # if str1 in strWhite6:
+            #     continue
+            # if str1 in strWhite7:
+            #     continue
             # if "HOST,p3.pstatp.com,AdvertisingTest" in str:
             #     continue
 
@@ -102,10 +125,18 @@ if __name__ == '__main__':
     f.close()
 
     #文本行数
-    num = 0
+    static_num = 0
     with open("7.txt", 'r') as f:
-        num = sum(1 for line in f)
-        print('总行数为%s行。' % num)
+        static_num = sum(1 for line in f)
+        print('总行数为%s行。' % static_num)
+    f.close()
+
+
+#white hangshu 
+    static_white_num =0
+    with open("WhiteList.txt", 'r') as f:
+        static_white_num = sum(1 for line in f)
+        print('总行数为%s行。' % static_white_num)
     f.close()
 
 
@@ -118,7 +149,7 @@ if __name__ == '__main__':
             str=[]
             str = line
             str = str[0:str.find('/n')]
-            if num1 < num-1:
+            if num1 < static_num-1:
                 if "meituan.net" == str:
                     #print(str)
                     count +=1
@@ -137,25 +168,25 @@ if __name__ == '__main__':
                     count +=1
                     #print(str)
                     continue
-                if str in strWhite2:
-                    count +=1
-                    #print(str)
-                    continue
-                if str in strWhite3:
-                    count +=1
-                    continue
-                if str in strWhite4:
-                    count +=1
-                    continue
-                if str in strWhite5:
-                    count +=1
-                    continue
-                if str in strWhite6:
-                    count +=1
-                    continue
-                if str in strWhite7:
-                    count +=1
-                    continue
+                # if str in strWhite2:
+                #     count +=1
+                #     #print(str)
+                #     continue
+                # if str in strWhite3:
+                #     count +=1
+                #     continue
+                # if str in strWhite4:
+                #     count +=1
+                #     continue
+                # if str in strWhite5:
+                #     count +=1
+                #     continue
+                # if str in strWhite6:
+                #     count +=1
+                #     continue
+                # if str in strWhite7:
+                #     count +=1
+                #     continue
                 else:
                     if "meituan.net" == str:
                         #print(str)
@@ -170,19 +201,19 @@ if __name__ == '__main__':
                     if str in strWhite:
                         #print(str)
                         continue
-                    if str in strWhite2:
-                        #print(str)
-                        continue
-                    if str in strWhite3:
-                        continue
-                    if str in strWhite4:
-                        continue
-                    if str in strWhite5:
-                        continue
-                    if str in strWhite6:
-                        continue
-                    if str in strWhite7:
-                        continue
+                    # if str in strWhite2:
+                    #     #print(str)
+                    #     continue
+                    # if str in strWhite3:
+                    #     continue
+                    # if str in strWhite4:
+                    #     continue
+                    # if str in strWhite5:
+                    #     continue
+                    # if str in strWhite6:
+                    #     continue
+                    # if str in strWhite7:
+                    #     continue
 
             str = "HOST-SUFFIX," + str
             str = str + ",REJECT" + "\n"
@@ -195,14 +226,46 @@ if __name__ == '__main__':
     file = open("11.txt","r")
     with open("Advertising.list","w") as fin:
         for num1,value in enumerate(file):
-            if(num1 >= num-count-1):
+            if(num1 >= static_num-count-1):
                 if ".," in value:
                     continue
 
                 fin.write(value)
-            #print("the nume:%s,the value is %s", num, value)
+            #print("the nume:%s,the value is %s", static_num, value)
     file.close()
     fin.close()
+
+
+#white过滤
+    # ctrl = 0
+    # file = open("Blackmatrix7.list","w")
+    # file_1 = open("Blackmatrix7_1.list","w")
+
+    # while ctrl < static_white_num:
+    #     whiteline = []
+    #     whiteline = whiteListPro(ctrl)
+    #     whiteline = whiteline[0:whiteline.find("\n")]
+    #     #print(whiteline)
+    #     for line in open("Blackmatrix7.txt"):
+    #         str = []
+    #         str = line
+            
+
+    #         if (str.find(whiteline) >= 0):
+    #             #print(whiteline)
+    #             #print(str)
+    #             file_1.write(line)
+
+    #     ctrl += 1
+
+    # file.close()
+    # file_1.close
+
+
+
+
+
+   
 
 
     
@@ -211,4 +274,7 @@ if __name__ == '__main__':
     os.remove("7.txt")
     os.remove("77.txt")
     #os.remove("cnews.test2.txt")
+    os.remove("WhiteList_1.txt")
+    os.remove("whiteList1.txt")
+    os.remove("Blackmatrix7.txt")
     shutil.rmtree("__pycache__")

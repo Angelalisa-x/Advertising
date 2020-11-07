@@ -18,8 +18,16 @@ class E7KMbb:
         with open("11.txt","a+") as fin:
             fwhite=open("WhiteList_1.txt","a+")
             for line in open("1.txt"):
+                str=[]
+                str = line
+                if "@@||*" in line:
+                    str = str[str.find("@@||*")+5:str.rfind("^")] + "\n"
+                    fwhite.write(str)
+                    continue
                 if "@@||" in line:
-                    fwhite.write(line)
+                    str = str[str.find("@@||")+4:str.rfind("^")] + "\n"
+                    fwhite.write(str)
+                    continue
                 if "#" in line:
                     #print(line)
                     continue
