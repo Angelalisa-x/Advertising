@@ -88,9 +88,9 @@ class WhiteList:
             #str = "HOST," + str
             #str = str + ",Advertising" + "\n" 
         fwhite.close()
-        #return html
+        return html
     
-    #def pull3():
+    def pull3():
         url = 'https://raw.githubusercontent.com/liwenjie119/adg-rules/master/white.txt'
         html = requests.get(url).text
         #print(html)
@@ -137,11 +137,11 @@ class WhiteList:
         #print(html)
         return html
 
-    # def pull5():
-    #     url = 'https://raw.githubusercontent.com/pluwen/china-domain-allowlist/master/allow-list.sorl'
-    #     html = requests.get(url).text
-    #     #print(html)
-    #     return html
+    def pull5():
+        url = 'https://raw.githubusercontent.com/pluwen/china-domain-allowlist/master/allow-list.sorl'
+        html = requests.get(url).text
+        #print(html)
+        return html
 
     def pull6():
         url = 'https://raw.githubusercontent.com/HXHGTS/WhiteList/master/WhiteList.txt'
@@ -173,8 +173,9 @@ class WhiteList:
             #str = "HOST," + str
             #str = str + ",Advertising" + "\n" 
         fwhite.close()
+        return html
 
-    #def pull7():
+    def pull7():
         url = 'https://raw.githubusercontent.com/etotakeo/AdGuardDNSPassList/master/DNS-Pass-List'
         html = requests.get(url).text
         #print(html)
