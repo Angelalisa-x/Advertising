@@ -16,7 +16,10 @@ class AdGuardDNS:
         f.close()
 
         with open("11.txt","a+") as fin:
+            fwhite=open("WhiteList.txt","a+")
             for line in open("1.txt"):
+                if "@@||" in line:
+                    fwhite.write(line)
                 if "#" in line:
                     #print(line)
                     continue
@@ -50,3 +53,4 @@ class AdGuardDNS:
                 fin.write(str)
                 
         fin.close()
+        fwhite.close()

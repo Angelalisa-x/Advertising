@@ -19,7 +19,10 @@ class GoodbyeAds:
         f.close()
 
         with open("11.txt","a+") as fin:
+            fwhite=open("WhiteList.txt","w+")
             for line in open("1.txt"):
+                if "@@||" in line:
+                    fwhite.write(line)
                 if "#" in line:
                     #print(line)
                     continue
@@ -52,4 +55,5 @@ class GoodbyeAds:
                 fin.write(str)
                 
         fin.close()
+        fwhite.close()
 
