@@ -20,7 +20,7 @@ from WhiteList import WhiteList
 if __name__ == '__main__':
     Blackmatrix7.pull()
     GoodbyeAds.pull()
-    E7KMbb.pull()
+    #E7KMbb.pull()
     ProAdblock.pull()
     AdGuardDNS.pull()
 
