@@ -19,7 +19,7 @@ class GoodbyeAds:
         f.close()
 
         with open("11.txt","a+") as fin:
-            fwhite=open("WhiteList.txt","w+")
+            fwhite=open("WhiteList_1.txt","w+")
             for line in open("1.txt"):
                 if "@@||" in line:
                     fwhite.write(line)

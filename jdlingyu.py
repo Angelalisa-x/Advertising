@@ -17,7 +17,7 @@ class jdlingyu:
         f.close()
 
         with open("11.txt","a+") as fin:
-            fwhite=open("WhiteList.txt","a+")
+            fwhite=open("WhiteList_1.txt","a+")
             for line in open("1.txt"):
                 if "@@||" in line:
                     fwhite.write(line)
