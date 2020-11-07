@@ -14,6 +14,7 @@ from Blackmatrix7 import Blackmatrix7
 from AdGuardDNS import AdGuardDNS
 from FindDuplicate import FindDuplicate
 from WhiteList import WhiteList
+from jdlingyu import jdlingyu
 
 
 
@@ -23,6 +24,7 @@ if __name__ == '__main__':
     #E7KMbb.pull()
     ProAdblock.pull()
     AdGuardDNS.pull()
+    jdlingyu.pull()
 
     strWhite = []
     strWhite = WhiteList.pull()
@@ -206,5 +208,5 @@ if __name__ == '__main__':
     os.remove("11.txt")
     os.remove("7.txt")
     os.remove("77.txt")
-    os.remove("cnews.test2.txt")
+    #os.remove("cnews.test2.txt")
     shutil.rmtree("__pycache__")
