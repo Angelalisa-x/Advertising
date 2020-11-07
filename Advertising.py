@@ -72,6 +72,8 @@ if __name__ == '__main__':
             str1 = str[str.find(',')+1: str.rfind(',')]
             if "#" in line:
                 continue
+            if "*" in line:
+                continue
             if line in ['\n','\r\n']:
                 continue
             if line.strip() == "":
