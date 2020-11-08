@@ -16,30 +16,31 @@ class Blackmatrix7:
             f.write(html)
         f.close()
 
-        with open("77.txt","w") as f:
-            f.write(html)
-        f.close
+        # with open("77.txt","w") as f:
+        #     f.write(html)
+        # f.close
 
         with open("7.txt","w+") as fin7:
             with open("11.txt","w+") as fin:
                 for line in open("1.txt"):
+                    str1 = []
+                    str1 = line
+                    str1 = str1[0:str1.find('/n')]
                     if "#" in line:
                         #print(line)
                         continue
                     if "!" in line:
                         continue
-                    if line in ['\n','\r\n']:
+                    if line == '\n':
                         continue
-                    if line.strip() == "":
-                        continue
-                    if "@" in line:
-                        continue
-                    if "*" in line:
-                        continue
-                    if "/" in line:
-                        continue
-                    if "//" in line:
-                        continue
+                    # if "@" in line:
+                    #     continue
+                    # # if "*" in line:
+                    # #     continue
+                    # # if "/" in line:
+                    # #     continue
+                    # if "//" in line:
+                    #     continue
                     if "$" in line:
                         continue
                     if "。" in line:
@@ -53,8 +54,9 @@ class Blackmatrix7:
                     #str = str[0:str.find(',')] + "\n"
                     #str = "HOST," + str
                     #str = str + ",Advertising" + "\n"
+                    str1 = str1 + "\n"
                     fin.write(str)
-                    fin7.write(str)
+                    fin7.write(str1)
                 
         fin.close()
         fin7.close()
