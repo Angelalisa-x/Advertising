@@ -95,14 +95,6 @@ if __name__ == '__main__':
     f.close()
 
 
-# #white hangshu 
-#     static_white_num =0
-#     with open("WhiteList.txt", 'r') as f:
-#         static_white_num = sum(1 for line in f)
-#         print('总行数为%s行。' % static_white_num)
-#     f.close()
-
-
     count = 0
     #格式
     with open("11.txt","w") as fin:
@@ -190,7 +182,7 @@ if __name__ == '__main__':
     file = open("11.txt","r")
     with open("Advertising.list","w") as fin:
         for num1,value in enumerate(file):
-            if(num1 >= static_num-count-1):
+            if(num1 >= static_num-count-2):
                 if ".," in value:
                     continue
                 if ".126.net" in value:
