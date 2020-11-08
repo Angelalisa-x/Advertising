@@ -40,7 +40,7 @@ class WhiteList:
             str=[]
             str = line
             str = str[str.find(',')+1: str.rfind(',')] + "\n"
-            fwhite.write(str)
+            #fwhite.write(str)
 
             #str = str[0:str.find(',')] + "\n"
             #str = "HOST," + str
