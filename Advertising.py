@@ -20,36 +20,6 @@ from jdlingyu import jdlingyu
 from kbsml import kbsml
 
 
-# def whiteListPro(num):
-#     file = open("WhiteList.txt","r")
-#     for num1,line in enumerate(file):
-#         if num1 == num:
-#             #print("line:",line)
-#             return line
-
-
-'''
-字符串查找函数，使用二分查找法在列表中进行查询
-'''
-def binarySearch(value, lines):
-    right = len(lines) - 1
-    left = 0
-    a = value.strip()
-    while left <= right:
-        middle = int((right + left + 1)/2)
-        b = lines[middle].strip()
-        if a == b:
-            return 1
-
-        if a < b:
-            right = middle - 1
-        else:
-            left = middle + 1
-
-    return 0
-
-
-
 if __name__ == '__main__':
     Blackmatrix7.pull()
     GoodbyeAds.pull()
@@ -72,11 +42,11 @@ if __name__ == '__main__':
     strWhite4 = []
     strWhite4 = WhiteList.pull4()
 
-    strWhite5 = []
-    strWhite5 = WhiteList.pull5()
+    # strWhite5 = []
+    # strWhite5 = WhiteList.pull5()
 
-    strWhite6 = []
-    strWhite6 = WhiteList.pull6()
+    # strWhite6 = []
+    # strWhite6 = WhiteList.pull6()
 
     strWhite7 = []
     strWhite7 = WhiteList.pull7()
@@ -143,29 +113,6 @@ if __name__ == '__main__':
                 if "music.126.net" == str:
                     count +=1
                     continue
-                if str in strWhite:
-                    count +=1
-                    #print(str)
-                    continue
-                if str in strWhite2:
-                    count +=1
-                    #print(str)
-                    continue
-                if str in strWhite3:
-                    count +=1
-                    continue
-                if str in strWhite4:
-                    count +=1
-                    continue
-                if str in strWhite5:
-                    count +=1
-                    continue
-                if str in strWhite6:
-                    count +=1
-                    continue
-                if str in strWhite7:
-                    count +=1
-                    continue
                 else:
                     if "meituan.net" == str:
                         #print(str)
@@ -176,22 +123,6 @@ if __name__ == '__main__':
                     if "www.ksapisrv.com" == str:
                         continue
                     if "music.126.net" == str:
-                        continue
-                    if str in strWhite:
-                        #print(str)
-                        continue
-                    if str in strWhite2:
-                        #print(str)
-                        continue
-                    if str in strWhite3:
-                        continue
-                    if str in strWhite4:
-                        continue
-                    if str in strWhite5:
-                        continue
-                    if str in strWhite6:
-                        continue
-                    if str in strWhite7:
                         continue
 
             str = "HOST-SUFFIX," + str

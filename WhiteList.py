@@ -137,43 +137,43 @@ class WhiteList:
         #print(html)
         return html
 
-    def pull5():
-        url = 'https://raw.githubusercontent.com/pluwen/china-domain-allowlist/master/allow-list.sorl'
-        html = requests.get(url).text
-        #print(html)
-        return html
+    # def pull5():
+    #     url = 'https://raw.githubusercontent.com/pluwen/china-domain-allowlist/master/allow-list.sorl'
+    #     html = requests.get(url).text
+    #     #print(html)
+    #     return html
 
-    def pull6():
-        url = 'https://raw.githubusercontent.com/HXHGTS/WhiteList/master/WhiteList.txt'
-        html = requests.get(url).text
-        #print(html)
-        with open("whiteList1.txt","w") as f:
-            f.write(html)
-        f.close()
+    # def pull6():
+    #     url = 'https://raw.githubusercontent.com/HXHGTS/WhiteList/master/WhiteList.txt'
+    #     html = requests.get(url).text
+    #     #print(html)
+    #     with open("whiteList1.txt","w") as f:
+    #         f.write(html)
+    #     f.close()
 
-        fwhite=open("WhiteList_1.txt","a+")
-        for line in open("whiteList1.txt"):
-            if "#" in line:
-                #print(line)
-                continue
-            if "!" in line:
-                continue
-            if line in ['\n','\r\n']:
-                continue
-            if line.strip() == "":
-                continue
+    #     fwhite=open("WhiteList_1.txt","a+")
+    #     for line in open("whiteList1.txt"):
+    #         if "#" in line:
+    #             #print(line)
+    #             continue
+    #         if "!" in line:
+    #             continue
+    #         if line in ['\n','\r\n']:
+    #             continue
+    #         if line.strip() == "":
+    #             continue
 
 
-            str=[]
-            str = line
-            str = str[str.find('[/')+2: str.rfind('/]')] + "\n"
-            fwhite.write(str)
+    #         str=[]
+    #         str = line
+    #         str = str[str.find('[/')+2: str.rfind('/]')] + "\n"
+    #         fwhite.write(str)
 
-            #str = str[0:str.find(',')] + "\n"
-            #str = "HOST," + str
-            #str = str + ",Advertising" + "\n" 
-        fwhite.close()
-        return html
+    #         #str = str[0:str.find(',')] + "\n"
+    #         #str = "HOST," + str
+    #         #str = str + ",Advertising" + "\n" 
+    #     fwhite.close()
+    #     return html
 
     def pull7():
         url = 'https://raw.githubusercontent.com/etotakeo/AdGuardDNSPassList/master/DNS-Pass-List'
