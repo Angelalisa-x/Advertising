@@ -18,12 +18,12 @@ from jdlingyu import jdlingyu
 from kbsml import kbsml
 
 
-def whiteListPro(num):
-    file = open("WhiteList.txt","r")
-    for num1,line in enumerate(file):
-        if num1 == num:
-            #print("line:",line)
-            return line
+# def whiteListPro(num):
+#     file = open("WhiteList.txt","r")
+#     for num1,line in enumerate(file):
+#         if num1 == num:
+#             #print("line:",line)
+#             return line
 
 
 if __name__ == '__main__':
@@ -95,12 +95,12 @@ if __name__ == '__main__':
     f.close()
 
 
-#white hangshu 
-    static_white_num =0
-    with open("WhiteList.txt", 'r') as f:
-        static_white_num = sum(1 for line in f)
-        print('总行数为%s行。' % static_white_num)
-    f.close()
+# #white hangshu 
+#     static_white_num =0
+#     with open("WhiteList.txt", 'r') as f:
+#         static_white_num = sum(1 for line in f)
+#         print('总行数为%s行。' % static_white_num)
+#     f.close()
 
 
     count = 0
