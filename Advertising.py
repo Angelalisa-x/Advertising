@@ -151,13 +151,65 @@ if __name__ == '__main__':
     fin.close()
 #################################################################################
 
+
+
 ############################################################################
     #Blackmatrix7 进行处理
+    # with open("Blackmatrix7.txt", 'w') as f:
+    #     for line in open("7.txt"):
+    #         f.write(line)
+    # f.close()
+
+
+    fobj=open('exist.txt','w+')
+    with open('whiteList.txt','r') as f:
+        for line in f:
+            with open('7.txt','r') as obj:
+                    for strs in obj:
+                            if line.strip() in strs:
+                                #print(line)
+                                fobj.write(strs)
+                                continue
+    fobj.close()
+    obj.close()
+
+    str1 = []
+    file_1 = open("exist.txt","r",encoding="utf-8")
+    for line in file_1.readlines():
+        str1.append(line.replace("\n",""))
+
+    str2 = []
+    file_2 = open("7.txt", "r", encoding="utf-8")
+    for line in file_2.readlines():
+        str2.append(line.replace("\n", ""))
+
+    str_dump = []
+    for line in str1:
+        if line in str2:
+            str_dump.append(line)    #将两个文件重复的内容取出来
+
+    str_all = set(str1 + str2)      #将两个文件放到集合里，过滤掉重复内容
+
+    for i in str_dump:              
+        if i in str_all:
+            str_all.remove(i)		#去掉重复的文件
+
+    for str in str_all:             #去重后的结果写入文件
+        #print(str)
+        with open("BX.txt","a+",encoding="utf-8") as f:
+            f.write(str + "\n")
+
+
+    file_1.close()
+    file_2.close()
+
     with open("Blackmatrix7.list", 'w') as f:
-        for line in open("7.txt"):
+        for line in open("BX.txt"):
             f.write(line)
     f.close()
-#############################################################################
+
+###############################################################################################################
+
 
 
 #########################################################################################################
@@ -174,10 +226,7 @@ if __name__ == '__main__':
     fobj.close()
     obj.close()
 
-#######################################################################################################
 
-################################################################################################################
-#def file_qc():
     str1 = []
     file_1 = open("exist.txt","r",encoding="utf-8")
     for line in file_1.readlines():
@@ -208,9 +257,6 @@ if __name__ == '__main__':
     file_1.close()
     file_2.close()
 
-###############################################################################################################
-
-#############################################################################################################
 #Advertising 进行处理
     with open("Advertising.list", 'w') as f:
         for line in open("QX.list"):
@@ -226,5 +272,6 @@ if __name__ == '__main__':
     os.remove("whiteList1.txt")
     os.remove("Advertising.txt")
     os.remove("QX.list")
+    os.remove("BX.txt")
     os.remove("exist.txt")
     shutil.rmtree("__pycache__")
