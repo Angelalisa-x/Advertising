@@ -38,6 +38,10 @@ def pullBlackmatrix7():
         f.write(html)
     f.close()
 
+    BlackmatrixBackups = open("BlackmatrixBackups.list","w")
+    BlackmatrixBackups.write(html)
+    BlackmatrixBackups.close()
+
     with open("blackmatrix7.txt","w+") as fin7:
         for line in open("1.txt"):
             if "#" in line:
