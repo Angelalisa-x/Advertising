@@ -1,6 +1,7 @@
 # coding=utf-8
 import sys,os
 import shutil
+from pathlib import Path
 
 sys.path.append( os.path.join(os.path.dirname(__file__),'CustomRuleAD'))
 import CustomRuleAD
@@ -11,16 +12,26 @@ import whiteList
 ###################### CustomRuleAD ##################################
 def doProcessCustomRuleAD():
     CustomRuleAD.doProcessCustomRuleAD()
-    shutil.rmtree(os.path.join(os.path.dirname(__file__),'CustomRuleAD\__pycache__'))
+
+    my_file = Path(os.path.join(os.path.dirname(__file__),'CustomRuleAD\__pycache__'))
+    if my_file.exists():
+        # 指定的文件或目录存在
+        shutil.rmtree(os.path.join(os.path.dirname(__file__),'CustomRuleAD\__pycache__'))
+
     shutil.copy("KnightAD.list", os.path.join(os.path.dirname(__file__),'CustomRuleAD'))
     os.remove("KnightAD.list")
 
 ####################### WhiteList #########################################
 def doProcessWhiteList():
     whiteList.doProcessWhiteList()
-    shutil.rmtree(os.path.join(os.path.dirname(__file__),'WhiteList\__pycache__'))
+
+    my_file = Path(os.path.join(os.path.dirname(__file__),'WhiteList\__pycache__'))
+    if my_file.exists():
+        # 指定的文件或目录存在
+        shutil.rmtree(os.path.join(os.path.dirname(__file__),'WhiteList\__pycache__'))
+
     shutil.copy("whiteList.list", os.path.join(os.path.dirname(__file__),'WhiteList'))
-    #os.remove("whiteList.list")
+    os.remove("whiteList.list")
 
 if __name__ == '__main__':
     doProcessCustomRuleAD()
@@ -30,7 +41,7 @@ if __name__ == '__main__':
 
 
 
-    from pathlib import Path
+    
     my_file = Path("__pycache__")
     if my_file.exists():
         # 指定的文件或目录存在
