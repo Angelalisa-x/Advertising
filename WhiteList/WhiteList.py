@@ -17,9 +17,9 @@ class whiteList:
         f.close()
 
 ######################### 格式处理 #############################
-    def geshiProcess():
-        f = open("whiteList.list","w+")
-        for line in open("whiteList.txt","r"):
+    def geshiProcess(targetFile,readPath):
+        f = open(targetFile,"w+")
+        for line in open(readPath,"r"):
             str = []
             str = line
             str = str[0:str.find("\n")]
@@ -191,13 +191,14 @@ if __name__ == '__main__':
     # whiteList.pullADgk()
 
 
-    whiteList.quchong("whiteList.txt","whiteList_1.txt")
-    whiteList.geshiProcess()
+    whiteList.quchong("whiteList_2.txt","whiteList_1.txt")
+    whiteList.geshiProcess("whiteList.list","whiteList_2.txt")
 
 
 
     os.remove("whiteList1.txt")
     os.remove("whiteList_1.txt")
+    os.remove("whiteList_2.txt")
     #shutil.rmtree("__pycache__")
 
 
