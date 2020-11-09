@@ -1,0 +1,2207 @@
+! Homepage: www.kbsml.com
+! Title: adg-kall-dns
+! Description: adg-kall-dns collected on the network and I have written some rules
+! Version: 1.0.0.24
+! TimeUpdated: 2020-11-07T20:40
+! Expires: 7 days
+!
+||511.la^
+||xmj1.app^
+||yunyemh.com^
+||c.mse.360.cn^
+||vod.300hu.com^
+||yqhlty.com^
+||win-winfuture.cn^
+||xxmh270.com^
+||ircxmgr.cn^
+||tsbbyy.com^
+||laofisina.com^
+||bdn.135editor.com^
+||jspassport.ssl.qhimg.com^
+||yabo729.com^
+||ad.player.baidu.com^
+||zzpzero.com^
+||sconf.f.360.cn^
+||p.s.360.cn^
+||tjtiebz.cn^
+||yabo816.com^
+||qhcksjb.com^
+||xn--2qux23c9ziyrq.club^
+||huiyutz.cn^
+||meituan.xn--io0a7i^
+||169bj.cn^
+||ad.wx.com^
+||pgdt.ugdtimg.com^
+||cathaycentury.com^
+||yb6277.vip^
+||pgdt.gtimg.cn^
+||adsmind.gdtimg.com^
+||cfg.mse.sogou.com^
+||wxsnsdy.wxs.qq.com^
+||wxsnsdythumb.wxs.qq.com^
+||dada.dadawm.cc^
+||pagead2.googlesyndication.com^
+||m.56fba.cn^
+||qs.lindanmiaoxiang.cn^
+||jfsdiwmnbsk*.top^
+@@||mdevstat.qqlive.qq.com^
+@@||aeventlog.beacon.qq.com^
+@@||rs1.qq.com^
+@@||t-flow.flyme.cn^
+@@||rs2.qq.com^
+@@||qappcenterv6.3g.qq.com^
+@@||y.gtimg.cn^
+||ad.browser.qq.com^
+||ad.us.sinaimg.cn^
+||adsp.xunlei.com^
+||advertpay-vip-ssl.xunlei.com^
+||adse.ximalaya.com^
+||ad.ximalaya.com^
+||adbehavior.ximalaya.com^
+||adse.wsa.ximalaya.com^
+||adbs.ximalaya.com^
+||adsebs.ximalaya.com^
+||dns.ximalaya.com^
+||s1j.kuwo.cn^
+||jx.kuwo.cn^
+||g.koowo.com^
+||mobilead.kuwo.cn^
+||rich.kuwo.cn^
+||fex.bdstatic.com^
+||wkctj.baidu.com^
+||kdh8.com^
+||927278.com^
+||ybvip1879.vip^
+||antiadblocksystems.com^
+||d3cod80thn7qnd.cloudfront.net^
+||adtival.network^
+||voiceads.cn^
+||adsco.re^
+||uhsmmaq4l2n5.com^
+||klmc88.cn^
+||56fba.cn^
+||txzs168.net^
+||q68.com^
+||gralfusnzpo009.top^
+||shengdaoyiliao.com^
+||3lga3.cn^
+||huichuan.sm.cn^
+||pop.ad.52yoo.cn^
+||ykad-gateway.youku.com^
+||g.ads.cn.miaozhen.com^
+||rtb.admaster.com.cn^
+||appdownload.youku.com^
+||iyes.youku.com^
+||umdc.aliapp.org^
+||cn-vmc-images.alicdn.com^
+||ad.oceanengine.com^
+||avgle.com^
+||addthis.com^
+||ie8eamus.com^
+||histats.com^
+||go.ero-advertising.com^
+||allmygoodlife.com^
+||jads.co^
+||www.juicyads.in^
+||palundrus.com^
+||bongacams.com^
+||www.gralfusnzpo008.top^
+||www.toutiaopage.com^
+||jxhf.gx10010.com.cn^
+||tu.cvnad.com^
+||adx.open-adx.com^
+||adservice.sigmob.cn^
+||dc.sigmob.cn^
+||valipl.cp31.ott.cibntv.net^
+||vali.cp31.ott.cibntv.net^
+||kbsml.com:‌‍​‍‌‌​‍‍‌​​‍‌‍​‌‍​‌‍‌‌​‌‍‌‌kbsml.com
+||nex.163.com^
+||httpdns.n.netease.com^
+||ntvsw.com^
+||exdynsrv.com^
+||inswebt.com^
+||adskeeper.co.uk^
+||runative-syndicate.com^
+||game-video.cdn.bcebos.com^
+||api.ad.xiaomi.com^
+||test.ad.xiaomi.com^
+||sdkconfig.ad.xiaomi.com^
+||api.ad.intl.xiaomi.com^
+||c.duomai.com^
+||wa11ace.net^
+||hzyyhz.cn^
+||m.pianku.tv^
+||njcn888.com^
+||track.miui.com^
+/([a-z0-9]{9,}[\.])?[a-z0-9]{9,}\.jddebug\.com/
+/([a-z0-9]{9,}[\.])?[a-z0-9]{9,}\.sngdia\.imtmp\.net/
+||adashx.m.taobao.com^$important
+||ads.service.kugou.com^$important
+@@||m.youtube.com^$important
+@@||union-click.jd.com^$important
+||adserviceretry.kugou.com^$important
+||adashbc.ut.taobao.com^$important
+||boxer.baidu.com^
+||adashx4yt.m.taobao.com^
+@@||aeventlog.beacon.qq.com^$important
+@@||get.adobe.com^$important
+@@||imedl.sogoucdn.com^$important
+@@||update.sdk.jiguang.cn^$important
+@@||c.isdspeed.qq.com^$important
+||wxa.wxs.qq.com^
+@@||v2.get.sogou.com^$important
+@@||input.shouji.sogou.com^$important
+@@||get.sogou.com^$important
+||umengacs.m.taobao.com^$important
+@@||qzone.qq.com^$important
+@@||console.bce.baidu.com^$important
+@@||m.qpic.cn^$important
+@@||ssl.google-analytics.com^$important
+@@||cws-cctv.conviva.com^$important
+@@||tools.3g.qq.com^$important
+@@||cloud.xdrig.com^$important
+@@||dns.weixin.qq.com^$important
+@@||adash.man.aliyuncs.com^$important
+@@||dig.bdurl.net^$important
+@@||dp3.qq.com^$important
+@@||me.xdrig.com^$important
+@@||h5.m.taobao.com^$important
+@@||cdn.ark.qq.com^$important
+@@||cm.bilibili.com^$important
+@@||fp-it.fengkongcloud.com^$important
+@@||zhihu-web-analytics.zhihu.com^$important
+@@||wbapp.mobile.sina.cn^$important
+@@||jpush.html5.qq.com^$important
+@@||data.yd126.com^$important
+@@||acs.m.taobao.com^$important
+@@||www.360kuai.com^$important
+@@||h5.mse.360.cn^$important
+@@||ali-stats.jpush.cn^$important
+@@||www.google-analytics.com^$important
+@@||stat.hao.uc.cn^$important
+@@||hao.uc.cn^$important
+@@||b.bdstatic.com^$important
+@@||c.bing.com^$important
+@@||otf.msn.com^$important
+@@||woodpecker.uc.cn^$important
+@@||www.huabian.com^$important
+@@||uxip.meizu.com^$important
+@@||app-measurement.com^$important
+@@||vs.biz.weibo.com^$important
+@@||ef-dongfeng.tanx.com^$important
+@@||wup.imtt.qq.com^$important
+@@||ark.letv.com^$important
+@@||adm.zookingsoft.com^$important
+@@||d1.sina.com.cn^$important
+@@||beacon.sina.com.cn^$important
+@@||woocall.sina.com.cn^$important
+@@||d.s11.cn^$important
+@@||update.360safe.com^$important
+@@||ucus.ucweb.com^$important
+@@||updatecenter.qq.com^$important
+@@||c.msn.com^$important
+@@||int.dpool.sina.com.cn^$important
+@@||scdown.qq.com^$important
+@@||displaycatalog.mp.microsoft.com^$important
+@@||windows.policies.live.net^$important
+@@||mapi.m.jd.com^$important
+@@||eimg.smzdm.com^$important
+@@||mazu.3g.qq.com^$important
+@@||mountain.zhidao.baidu.com^$important
+@@||openapi.guanjia.qq.com^$important
+@@||rs1.qq.com^$important
+@@||httpring.qq.com^$important
+@@||masdkv6.3g.qq.com^$important
+@@||cn.register.xmpush.xiaomi.com^$important
+@@||qappcenterv6.3g.qq.com^$important
+@@||lf.snssdk.com^$important
+@@||android.rqd.qq.com^$important
+@@||r6.mo.baidu.com^$important
+@@||web.vortex.data.microsoft.com^$important
+@@||mdevstat.qqlive.qq.com^$important
+@@||sf6-ttcdn-tos.pstatp.com^$important
+@@||sf1-ttcdn-tos.pstatp.com^$important
+@@||info.pinyin.sogou.com^$important
+@@||account.migc.g.mi.com^$important
+@@||data.mistat.xiaomi.com^$important
+@@||data.flurry.com^$important
+@@||s.jpush.cn^$important
+@@||sdkclick.mobile.sina.cn^$important
+@@||api.sec.miui.com^$important
+@@||dp.im.weibo.cn^$important
+@@||g.live.com^$important
+@@||g0.baidu.com^$important
+@@||btrace.qq.com^$important
+@@||gw5.push.mcp.weibo.cn^$important
+@@||commdata.v.qq.com^$important
+@@||dw-online.ksosoft.com^$important
+@@||show-g.mediav.com^$important
+@@||news.qhstatic.com^$important
+@@||bbs.8023ak.cn^$important
+@@||statusapi.micloud.xiaomi.net^$important
+@@||cgi.connect.qq.com^$important
+@@||pingjs.qq.com^$important
+@@||d3g.qq.com^$important
+@@||dxp.baidu.com^$important
+@@||pmm.people.com.cn^$important
+/(dafahao|minghui|dongtaiwang|epochtimes|ntdtv|falundafa|wujieliulanzhengjian)/
+/(beijingspring|chinaaffairs|chengmingmag|dafahao|dongtaiwang|epochweekly|epochtimes)/
+@@||oth.eve.mdt.qq.com^$important
+@@||zconfig.alibabausercontent.com^$important
+@@||oth.str.mdt.qq.com^$important
+@@||2052.flash2-http.qq.com^$important
+@@||e.crashlytics.com^$important
+@@||b.qchannel03.cn^$important
+@@||cmshow.gtimg.cn^$important
+@@||crl.microsoft.com^$important
+@@||kepler.jd.com^$important
+@@||info.3g.qq.com^$important
+@@||tj.youzanyun.com^$important
+@@||hub5idx.shub.sandai.net^$important
+@@||stat.download.xunlei.com^$important
+@@||etl-xlmc-ssl.sandai.net^$important
+@@||tianshu.gtimg.cn^$important
+@@||cdn.cnbj1.fds.api.mi-img.com^$important
+@@||*.cdninstagram.com^$important
+@@||data.mistat.intl.xiaomi.com^$important
+@@||c.tieba.baidu.com^$important
+@@||update.miui.com^$important
+@@||im.qq.com^$important
+@@||view.inews.qq.com^$important
+@@||gia.jd.com^$important
+@@||wl.jd.com^$important
+@@||mos.m.taobao.com^$important
+@@||cmshow.qq.com^$important
+@@||adidasapp.api.adidas.com.cn^$important
+@@||at.umeng.com^$important
+@@||api.video.xiaomi.com^$important
+@@||*.mi-img.com^$important
+@@||t7.baidu.com^$important
+@@||soft.tbs.imtt.qq.com^$important
+@@||pingtcss.qq.com^$important
+@@||cl2.webterren.com^$important
+@@||*.imtt.qq.com^$important
+@@||free.sinaimg.cn^$important
+@@||appmsg.gzmtr.cn^$important
+@@||dldir1.qq.com^$important
+@@||weixin.qq.com^$important
+@@||*.img.mobile.sina.cn^$important
+||v.jingwoxin.com^$important
+||jingwoxin.com^$important
+@@||126.net^$important
+@@||raw.githubusercontent.com^$important
+||vs2.bjct.u3.ucweb.com^$important
+||track.uc.cn^$important
+@@||quan.suning.com^$important
+@@||mparticle.uc.cn^$important
+@@||g.shumafen.cn^$important
+@@||dd.myapp.com^$important
+@@||s.click.taobao.com^$important
+@@||zkres.myzaker.com^$important
+@@||*.video.xiaomi.com^$important
+@@||inews.gtimg.com^$important
+@@||duapps.com^$important
+@@||snssdk.com^$important
+@@||mobile.appchina.com^$important
+@@||connect.rom.miui.com^$important
+@@||app.market.xiaomi.com^$important
+@@||facebook.com^$important
+@@||vectorsdk.map.qq.com^$important
+@@||twimg.com^$important
+@@||mam.netease.com^$important
+@@||pp.myapp.com^$important
+@@||duiba.com.cn^$important
+@@||t.me^$important
+@@||graph.qq.com^$important
+@@||api.device.xiaomi.net^$important
+@@||api.account.xiaomi.com^$important
+@@||metok.sys.miui.com^$important
+@@||mibi.api.xiaomi.com^$important
+@@||t.cn^$important
+@@||work.weixin.qq.com^$important
+@@||aliyun.com^$important
+@@||toutiaocdn.com^$important
+@@||qlogo.cn^$important
+@@||sm.cn^$important
+||vs1.szcu.u3.ucweb.com^$important
+@@||sina.cn^$important
+@@||broccoli.uc.cn^$important
+@@||bing.com^$important
+@@||t.co^$important
+@@||youtu.be^$important
+@@||youtubei.googleapis.com^$important
+@@||vdun.weibo.com^$important
+@@||pingfore.qq.com^$important
+@@||stat.y.qq.com^$important
+@@||api.comm.miui.com^$important
+@@||ssl-cdn.static.browser.mi-img.com^$important
+@@||yun.rili.cn^$important
+@@||lhl.zxcs.linghit.com^$important
+@@||uczzd.cn^$important
+@@||iflow.uc.cn^$important
+@@||ctrip.com^$important
+@@||*.market.mi-img.com^$important
+@@||wx2.sinaimg.cn^$important
+@@||c.y.qq.com^$important
+@@||*.micloud.xiaomi.net^$important
+@@||api.rikka.app^$important
+@@||oppo.yidianzixun.com^$important
+@@||ib11.go2yd.com^$important
+@@||lol.qq.com^$important
+@@||lpl.qq.com^$important
+@@||logs.game.qq.com^$important
+@@||*.lol.qq.com^$important
+@@||ip.cn^$important
+@@||suo.im^$important
+@@||bigota.d.miui.com^$important
+@@||api.jr.mi.com^$important
+@@||kyaru-concat.now.sh^$important
+||xiaoluoyl.com^$important
+@@||api.zhihu.com^$important
+@@||appcloud.zhihu.com^$important
+@@||weidian.com^$important
+@@||api.io.mi.com^$important
+@@||spclient.wg.spotify.com^$important
+@@||tvepg.pandora.xiaomi.com^$important
+@@||bmap6.cn^$important
+@@||mobile.controller.duokanbox.com^$important
+@@||api.ts.feedback.qy.net^$important
+@@||feedback.miui.com^$important
+@@||spotifycdn.net^$important
+@@||spotify.com^$important
+@@||akamaized.net^$important
+@@||duckduckgo.com^$important
+@@||mi-img.com^$important
+@@||www.recaptcha.net^$important
+@@||bonuscloud.io^$important
+@@||computemaster.bxcearth.com^$important
+@@||simg.sinajs.cn^$important
+@@||pinghot.qq.com^$important
+@@||*.y.qq.com^$important
+@@||yun.duiba.com.cn^$important
+@@||*.gtimg.cn^$important
+@@||ip.taobao.com^$important
+@@||cn.ultraiso.net^$important
+@@||cdn.jsdelivr.net^$important
+@@||sqimg.qq.com^$important
+@@||imtt.dd.qq.com^$important
+@@||image.uc.cn^$important
+@@||m.video.9ddm.com^$important
+@@||o2o.api.xiaomi.com^$important
+@@||sec.resource.xiaomi.net^$important
+@@||c.pc.qq.com^$important
+@@||cpu.baidu.com^$important
+||activity.m.iqiyi.com^$important
+@@||www.jiaoyimao.com^$important
+@@||m.jiaoyimao.com^$important
+@@||res.imtt.qq.com^$important
+@@||recmd.html5.qq.com^$important
+@@||debugtbs.qq.com^$important
+@@||3gimg.qq.com^$important
+@@||tdid.m.qq.com^$important
+@@||cc.map.qq.com^$important
+@@||dnet.mb.qq.com^$important
+@@||web.vip.miui.com^$important
+@@||app.zhuanzhuan.com^$important
+@@||client.wns.windows.com^$important
+@@||gcable.com.cn^$important
+@@||96956.com.cn^$important
+@@||uee.me^$important
+@@||map.qq.com^$important
+@@||baike.so.com^$important
+@@||tracker.ai.xiaomi.com^$important
+@@||mi.com^$important
+@@||img.zuoyebang.cc^$important
+@@||p2p.huya.com^$important
+@@||translator.qq.com^$important
+@@||*.alipay.com^$important
+@@||mail.qq.com^$important
+@@||mjrpay.jd.com^$important
+@@||cfm.jd.com^$important
+@@||jr.jd.com^$important
+@@||qun.qzone.qq.com^$important
+@@||xzz.xiaomin.tech^$important
+@@||ohssr.cn^$important
+@@||alicdn.com^$important
+@@||ykimg.com^$important
+@@||*.market.xiaomi.com^$important
+@@||dmm.co.jp^$important
+@@||vmware.com^$important
+@@||upgrade.ptmi.gitv.tv^$important
+@@||*.tieba.baidu.com^$important
+@@||images.uc.cn^$important
+@@||www.baidu.com^$important
+@@||restapi.amap.com^$important
+@@||plbslog.umeng.com^$important
+@@||*.gdt.qq.com^$important
+@@||sofire.baidu.com^$important
+@@||*.duoku.com^$important
+@@||*.netease.com^$important
+@@||*.mkey.163.com^$important
+0.0.0.0  zzpzero.com
+0.0.0.0  sconf.f.360.cn
+0.0.0.0  p.s.360.cn
+0.0.0.0  tjtiebz.cn
+0.0.0.0  yabo816.com
+0.0.0.0  qhcksjb.com
+0.0.0.0  xn--2qux23c9ziyrq.club
+0.0.0.0  huiyutz.cn
+0.0.0.0  meituan.xn--io0a7i
+0.0.0.0  169bj.cn
+0.0.0.0  ad.wx.com
+0.0.0.0  pgdt.ugdtimg.com
+0.0.0.0  cathaycentury.com
+0.0.0.0  yb6277.vip
+0.0.0.0  pgdt.gtimg.cn
+0.0.0.0  adsmind.gdtimg.com
+0.0.0.0  cfg.mse.sogou.com
+0.0.0.0  wxsnsdy.wxs.qq.com
+0.0.0.0  wxsnsdythumb.wxs.qq.com
+0.0.0.0  dada.dadawm.cc
+0.0.0.0  pagead2.googlesyndication.com
+0.0.0.0  m.56fba.cn
+0.0.0.0  qs.lindanmiaoxiang.cn
+0.0.0.0  jfsdiwmnbsk*.top
+0.0.0.0  ad.browser.qq.com
+0.0.0.0  ad.us.sinaimg.cn
+0.0.0.0  adsp.xunlei.com
+0.0.0.0  advertpay-vip-ssl.xunlei.com
+0.0.0.0  adse.ximalaya.com
+0.0.0.0  ad.ximalaya.com
+0.0.0.0  adbehavior.ximalaya.com
+0.0.0.0  adse.wsa.ximalaya.com
+0.0.0.0  adbs.ximalaya.com
+0.0.0.0  adsebs.ximalaya.com
+0.0.0.0  dns.ximalaya.com
+0.0.0.0  s1j.kuwo.cn
+0.0.0.0  jx.kuwo.cn
+0.0.0.0  g.koowo.com
+0.0.0.0  mobilead.kuwo.cn
+0.0.0.0  rich.kuwo.cn
+0.0.0.0  fex.bdstatic.com
+0.0.0.0  wkctj.baidu.com
+0.0.0.0  kdh8.com
+0.0.0.0  927278.com
+0.0.0.0  ybvip1879.vip
+0.0.0.0  antiadblocksystems.com
+0.0.0.0  d3cod80thn7qnd.cloudfront.net
+0.0.0.0  adtival.network
+0.0.0.0  voiceads.cn
+0.0.0.0  adsco.re
+0.0.0.0  uhsmmaq4l2n5.com
+0.0.0.0  klmc88.cn
+0.0.0.0  56fba.cn
+0.0.0.0  txzs168.net
+0.0.0.0  q68.com
+0.0.0.0  gralfusnzpo009.top
+0.0.0.0  shengdaoyiliao.com
+0.0.0.0  3lga3.cn
+0.0.0.0  huichuan.sm.cn
+0.0.0.0  pop.ad.52yoo.cn
+0.0.0.0  ykad-gateway.youku.com
+0.0.0.0  g.ads.cn.miaozhen.com
+0.0.0.0  rtb.admaster.com.cn
+0.0.0.0  appdownload.youku.com
+0.0.0.0  iyes.youku.com
+0.0.0.0  umdc.aliapp.org
+0.0.0.0  cn-vmc-images.alicdn.com
+0.0.0.0  ad.oceanengine.com
+0.0.0.0  avgle.com
+0.0.0.0  addthis.com
+0.0.0.0  ie8eamus.com
+0.0.0.0  histats.com
+0.0.0.0  go.ero-advertising.com
+0.0.0.0  allmygoodlife.com
+0.0.0.0  jads.co
+0.0.0.0  www.juicyads.in
+0.0.0.0  palundrus.com
+0.0.0.0  bongacams.com
+0.0.0.0  www.gralfusnzpo008.top
+0.0.0.0  www.toutiaopage.com
+0.0.0.0  jxhf.gx10010.com.cn
+0.0.0.0  tu.cvnad.com
+0.0.0.0  adx.open-adx.com
+0.0.0.0  adservice.sigmob.cn
+0.0.0.0  dc.sigmob.cn
+0.0.0.0  valipl.cp31.ott.cibntv.net
+0.0.0.0  vali.cp31.ott.cibntv.net
+0.0.0.0  kbsml.com:‌‍​‍‌‌​‍‍‌​​‍‌‍​‌‍​‌‍‌‌​‌‍‌‌kbsml.com
+0.0.0.0  nex.163.com
+0.0.0.0  httpdns.n.netease.com
+0.0.0.0  ntvsw.com
+0.0.0.0  exdynsrv.com
+0.0.0.0  inswebt.com
+0.0.0.0  adskeeper.co.uk
+0.0.0.0  runative-syndicate.com
+0.0.0.0  game-video.cdn.bcebos.com
+0.0.0.0  api.ad.xiaomi.com
+0.0.0.0  test.ad.xiaomi.com
+0.0.0.0  sdkconfig.ad.xiaomi.com
+0.0.0.0  api.ad.intl.xiaomi.com
+0.0.0.0  c.duomai.com
+0.0.0.0  wa11ace.net
+0.0.0.0  hzyyhz.cn
+0.0.0.0  m.pianku.tv
+0.0.0.0  njcn888.com
+0.0.0.0  track.miui.com
+0.0.0.0  adashx.m.taobao.com
+0.0.0.0  ads.service.kugou.com
+0.0.0.0  adserviceretry.kugou.com
+0.0.0.0  adashbc.ut.taobao.com
+0.0.0.0  boxer.baidu.com
+0.0.0.0  adashx4yt.m.taobao.com
+0.0.0.0  wxa.wxs.qq.com
+0.0.0.0  umengacs.m.taobao.com
+0.0.0.0  vs1.szcu.u3.ucweb.com
+
+#pkg=ad.xiaomi.com;（小米视频）MIUI
+0.0.0.0   api.ad.xiaomi.com
+0.0.0.0   sdkconfig.ad.xiaomi.com
+0.0.0.0   m.track.ad.xiaomi.com
+0.0.0.0   irs01.com
+0.0.0.0   m.irs01.com
+0.0.0.0   z.irs01.com
+0.0.0.0   s.irs03.com
+0.0.0.0   s1.irs03.com
+0.0.0.0   397c0.admaster.com.cn
+0.0.0.0   clickc.admaster.com.cn
+0.0.0.0   v.admaster.com.cn
+0.0.0.0   ppvabs.pplive.com
+0.0.0.0   cdn.ad.xiaomi.com
+0.0.0.0   e.ad.xiaomi.com
+0.0.0.0   log.ad.xiaomi.com
+0.0.0.0   zeus.ad.xiaomi.com
+0.0.0.0   test.ad.xiaomi.com
+0.0.0.0   test.e.ad.xiaomi.com
+0.0.0.0   test.zeus.ad.xiaomi.com
+0.0.0.0   api.tw06.xlmc.sec.miui.com
+0.0.0.0   vt.ipinyou.com
+0.0.0.0   diagnosis.ad.xiaomi.com
+0.0.0.0   sdk2.youguoquan.com
+0.0.0.0   msg.71.am
+0.0.0.0   msg.qy.net
+0.0.0.0   api.ts.feedback.71.am
+0.0.0.0   bj.imp.voiceads.cn
+0.0.0.0   o2o.api.xiaomi.com
+0.0.0.0   xiaomi.m.cn.miaozhen.com
+0.0.0.0   resolver.msg.xiaomi.net
+#pkg=tv.qq.com;（腾讯视频）Tencent［V6.4.0或以下］
+0.0.0.0   aiseet.aa.atianqi.com
+0.0.0.0   dp3.play.aiseet.atianqi.com
+0.0.0.0   livep.l.aiseet.atianqi.com
+0.0.0.0   lives.l.aiseet.atianqi.com
+0.0.0.0   vmindhls.tc.qq.com
+0.0.0.0   monitor-uu.play.aiseet.atianqi.com
+0.0.0.0   sdkconfig.play.aiseet.atianqi.com
+0.0.0.0   c.l.qq.com
+0.0.0.0   mdevstat.qqlive.qq.com
+0.0.0.0   bs.l.qq.com
+0.0.0.0   c2.l.qq.com
+0.0.0.0   cb.l.qq.com
+0.0.0.0   cm.l.qq.com
+0.0.0.0   hm.l.qq.com
+0.0.0.0   l.qq.com
+0.0.0.0   l2.l.qq.com
+0.0.0.0   lb.l.qq.com
+0.0.0.0   livec.l.qq.com
+0.0.0.0   livem.l.qq.com
+0.0.0.0   livep.l.qq.com
+0.0.0.0   lives.l.qq.com
+0.0.0.0   ls.l.qq.com
+0.0.0.0   p2.l.qq.com
+0.0.0.0   p3.l.qq.com
+0.0.0.0   t.l.qq.com
+0.0.0.0   vd.l.qq.com
+0.0.0.0   w.l.qq.com
+0.0.0.0   news.l.qq.com
+0.0.0.0   mcgi.v.qq.com
+0.0.0.0   soup.v.qq.com
+0.0.0.0   bksoup.v.qq.com
+#pkg=tv.sohu.com;（搜狐视频）Sohu
+0.0.0.0   agn.aty.sohu.com
+0.0.0.0   f.aty.sohu.com
+0.0.0.0   m.aty.sohu.com
+0.0.0.0   mmg.aty.sohu.com
+0.0.0.0   p.aty.sohu.com
+0.0.0.0   pg.aty.sohu.com
+0.0.0.0   pm.aty.sohu.com
+0.0.0.0   v.aty.sohu.com
+0.0.0.0   vg.aty.sohu.com
+0.0.0.0   vm.aty.sohu.com
+0.0.0.0   da.mmarket.com
+0.0.0.0   sohu.irs01.com
+#pkg=le.com;（乐视视频）Letv
+0.0.0.0   api.game.letvstore.com
+0.0.0.0   dev.dc.letv.com
+0.0.0.0   msg.m.letv.com
+0.0.0.0   n.mark.letv.com
+0.0.0.0   static.app.m.letv.com
+0.0.0.0   test.ark.letv.com
+#pkg=pptv.com;�?PP视频 ）PPTV
+0.0.0.0   de.as.cp61.ott.cibntv.net
+0.0.0.0   vpptv.admaster.com.cn
+0.0.0.0   pptv.m.cn.miaozhen.com
+0.0.0.0   tpptv.ipdx.cn.miaozhen.com
+0.0.0.0   ads.aplus.pptv.com
+0.0.0.0   app.aplus.pptv.com
+0.0.0.0   as.aplus.pptv.com
+0.0.0.0   de.as.pptv.com
+0.0.0.0   jp.as.pptv.com
+0.0.0.0   static.g.pptv.com
+0.0.0.0   tj.g.pptv.com
+0.0.0.0   ads.data.pplive.com
+0.0.0.0   gas.data.pplive.com
+0.0.0.0   plt.data.pplive.com
+0.0.0.0   web.data.pplive.com
+#pkg=mgtv.com;�?芒果TV ）Mgtv
+0.0.0.0   mobile.da.mgtv.com
+0.0.0.0   mobile2.da.mgtv.com
+0.0.0.0   ott.da.mgtv.com
+0.0.0.0   ott2.da.mgtv.com
+0.0.0.0   ott3.da.mgtv.com
+0.0.0.0   ys.da.mgtv.com
+0.0.0.0   ynet.da.mgtv.com
+0.0.0.0   pc.da.mgtv.com
+0.0.0.0   pc1.da.mgtv.com
+0.0.0.0   pcweb-v1.log.mgtv.com
+0.0.0.0   pcweb.v1.mgtv.com
+0.0.0.0   py.da.mgtv.com
+0.0.0.0   v1-play.log.mgtv.com
+0.0.0.0   v2.da.mgtv.com
+0.0.0.0   v2.log.mgtv.com
+0.0.0.0   web.da.mgtv.com
+0.0.0.0   x.da.mgtv.com
+0.0.0.0   y.da.mgtv.com
+0.0.0.0   zx.da.mgtv.com
+0.0.0.0   apperr.log.mgtv.com
+0.0.0.0   m2.da.mgtv.com
+0.0.0.0   m.da.mgtv.com
+#pkg=tv.cntv.cn;（央视影音）CNTV
+0.0.0.0   mdrecv.app.cntvwb.cn
+0.0.0.0   sdapprecv.app.cntvwb.cn
+0.0.0.0   vdapprecv.app.cntvwb.cn
+0.0.0.0   cws-cctv.conviva.com
+0.0.0.0   galaxy.bjcathay.com
+0.0.0.0   rtas.videocc.net
+0.0.0.0   a.cctv.com
+0.0.0.0   a.cntv.cn
+0.0.0.0   ad.cctv.com
+0.0.0.0   d.cntv.cn
+0.0.0.0   adguanggao.eee114.com
+0.0.0.0   cctv.adsunion.com
+#pkg=fun.tv;（风行视频）Funshion
+0.0.0.0   aa0.pub.funshion.com
+0.0.0.0   aa1.pub.funshion.com
+0.0.0.0   adm.funshion.com
+0.0.0.0   conf.funshion.com
+0.0.0.0   pub.funshion.com
+0.0.0.0   vs.funshion.com
+0.0.0.0   rt.funshion.net
+0.0.0.0   stat.funshion.net
+0.0.0.0   fun.adx.admaster.com.cn
+#pkg=ad.cmvideo.cn;（咪咕¦土豆¦酷6¦人人¦等）
+0.0.0.0   ggx.cmvideo.cn
+0.0.0.0   adextensioncontrol.tudou.com
+0.0.0.0   iwstat.tudou.com
+0.0.0.0   nstat.tudou.com
+0.0.0.0   stats.tudou.com
+0.0.0.0   at-img1.tdimg.com
+0.0.0.0   at-img2.tdimg.com
+0.0.0.0   at-img3.tdimg.com
+0.0.0.0   adplay.tudou.com
+0.0.0.0   adcontrol.tudou.com
+0.0.0.0   stat.tudou.com
+0.0.0.0   1.allyes.com.cn
+0.0.0.0   analytics.ku6.com
+0.0.0.0   gug.ku6cdn.com
+0.0.0.0   ku6.allyes.com
+0.0.0.0   ku6afp.allyes.com
+0.0.0.0   pq.stat.ku6.com
+0.0.0.0   st.vq.ku6.cn
+0.0.0.0   stat0.888.ku6.com
+0.0.0.0   stat1.888.ku6.com
+0.0.0.0   stat2.888.ku6.com
+0.0.0.0   stat3.888.ku6.com
+0.0.0.0   static.ku6.com
+0.0.0.0   v0.stat.ku6.com
+0.0.0.0   v1.stat.ku6.com
+0.0.0.0   v2.stat.ku6.com
+0.0.0.0   v3.stat.ku6.com
+0.0.0.0   dcads.sina.com.cn
+0.0.0.0   acs.56.com
+0.0.0.0   acs.agent.56.com
+0.0.0.0   acs.agent.v-56.com
+0.0.0.0   bill.agent.56.com
+0.0.0.0   bill.agent.v-56.com
+0.0.0.0   stat.56.com
+0.0.0.0   stat2.corp.56.com
+0.0.0.0   union.56.com
+0.0.0.0   uvimage.56.com
+0.0.0.0   v16.56.com
+0.0.0.0   pole.6rooms.com
+0.0.0.0   shrek.6.cn
+0.0.0.0   simba.6.cn
+0.0.0.0   union.6.cn
+0.0.0.0   86file.megajoy.com
+0.0.0.0   86get.joy.cn
+0.0.0.0   86log.joy.cn
+0.0.0.0   casting.openv.com
+0.0.0.0   m.openv.tv
+0.0.0.0   uniclick.openv.com
+0.0.0.0   mcfg.sandai.net
+0.0.0.0   biz5.sandai.net
+0.0.0.0   server1.adpolestar.net
+0.0.0.0   advstat.xunlei.com
+0.0.0.0   mpv.sandai.net
+0.0.0.0   3.iscrv.com
+0.0.0.0   www.wjxcdn.com
+0.0.0.0   adsmis.duxiaoman.com
+0.0.0.0   data.danmu.baofeng.com
+0.0.0.0   static.danmu.baofeng.com
+0.0.0.0   active.baofeng.com
+0.0.0.0   breeze.olclient.baofeng.com
+0.0.0.0   co.dtech.baofeng.com
+0.0.0.0   coop.pop.baofeng.com
+0.0.0.0   androidlog.shouji.baofeng.com
+0.0.0.0   iphonelog.shouji.baofeng.com
+0.0.0.0   dailylog.storm.baofeng.com
+0.0.0.0   eventlog.hd.baofeng.com
+0.0.0.0   log.ltype.baofeng.com
+0.0.0.0   log.nvwa.baofeng.com
+0.0.0.0   logger.treexml.baofeng.com
+0.0.0.0   p2pmid.baofeng.com
+0.0.0.0   pvlog.hd.baofeng.com
+0.0.0.0   log.vdinfo.baofeng.com
+0.0.0.0   midinfo.baofeng.com
+0.0.0.0   vdinfo.baofeng.com
+0.0.0.0   videodown.baofeng.com
+0.0.0.0   action.logger.baofeng.com
+0.0.0.0   duration.logger.baofeng.com
+0.0.0.0   houyi.logger.baofeng.com
+0.0.0.0   storm.logger.baofeng.com
+0.0.0.0   tips.logger.baofeng.com
+0.0.0.0   tree.logger.baofeng.com
+0.0.0.0   sclog.moviebox.baofeng.com
+0.0.0.0   timelog.moviebox.baofeng.com
+0.0.0.0   vvlog.moviebox.baofeng.com
+0.0.0.0   config.baofeng.net
+0.0.0.0   jfm4.pop.baofeng.net
+0.0.0.0   listlog.baofeng.net
+0.0.0.0   nclog.mars.baofeng.net
+0.0.0.0   nclog.pad.baofeng.net
+0.0.0.0   loading.baofeng5.baofeng.net
+0.0.0.0   onlinetips.baofeng5.baofeng.net
+0.0.0.0   clicklog.moviebox.baofeng.net
+0.0.0.0   pvlog.moviebox.baofeng.net
+0.0.0.0   rec.moviebox.baofeng.net
+0.0.0.0   corner.houyi.baofeng.net
+0.0.0.0   app.houyi.baofeng.net
+0.0.0.0   ck.houyi.baofeng.net
+0.0.0.0   d3f.houyi.baofeng.net
+0.0.0.0   log.houyi.baofeng.net
+0.0.0.0   mid.houyi.baofeng.net
+0.0.0.0   parser.houyi.baofeng.net
+0.0.0.0   static.houyi.baofeng.net
+0.0.0.0   wbwl.houyi.baofeng.net
+0.0.0.0   web.houyi.baofeng.net
+0.0.0.0   wl.houyi.baofeng.net
+0.0.0.0   wx.houyi.baofeng.net
+0.0.0.0   xs.houyi.baofeng.net
+0.0.0.0   ebp.renren.com
+0.0.0.0   bolt.jebe.renren.com
+0.0.0.0   static.jebe.renren.com
+0.0.0.0   xray.jebe.renren.com
+0.0.0.0   pat.farvd.com
+0.0.0.0   ad-cache.dopool.com
+0.0.0.0   analytics3.dopool.com
+0.0.0.0   adapi.starschina.com
+0.0.0.0   analytics3.starschina.com
+0.0.0.0   app.starschina.com
+0.0.0.0   ssp.cibn.starschina.com
+0.0.0.0   ssp.tadseeker.com
+0.0.0.0   api.adv.ott.cibntv.net
+0.0.0.0   ad.molitv.cn
+0.0.0.0   vyk.admaster.com.cn
+0.0.0.0   ems.cp12.wasu.tv
+0.0.0.0   pl.cp12.wasu.tv
+0.0.0.0   valatm.cp12.wasu.tv
+0.0.0.0   adlog.molitv.cn
+0.0.0.0   ipmatm.cp12.wasu.tv
+0.0.0.0   topapi.cp12.wasu.tv
+0.0.0.0   countatm.cp12.wasu.tv
+#pkg=ad.adwars.com;大圣净化规�?
+0.0.0.0   wxsnsdy.wxs.qq.com
+0.0.0.0   wxsnsdythumb.wxs.qq.com
+0.0.0.0   canvas.gdt.qq.com
+0.0.0.0   pgdt.gtimg.cn
+0.0.0.0   pgdt.ugdtimg.com
+0.0.0.0   wxa.wxs.qq.com
+0.0.0.0   ad.wx.com
+0.0.0.0   report.huatuo.qq.com
+0.0.0.0   ic.snssdk.com
+0.0.0.0   mon.snssdk.com
+0.0.0.0   extlog.snssdk.com
+0.0.0.0   toblog.ctobsnssdk.com
+0.0.0.0   tobapplog.ctobsnssdk.com
+0.0.0.0   gecko-hl.snssdk.com
+0.0.0.0   bds.snssdk.com
+0.0.0.0   sdfp.snssdk.com
+0.0.0.0   mcs.snssdk.com
+0.0.0.0   gecko-lq.snssdk.com
+0.0.0.0   ad.toutiao.com
+0.0.0.0   adshare.toutiao.com
+0.0.0.0   whoami.akamai.net
+0.0.0.0   awake-stats.jpush.cn
+0.0.0.0   miniapp.qiluyidian.mobi
+0.0.0.0   js.jrjimg.cn
+0.0.0.0   static.bshare.cn
+0.0.0.0   launches.appsflyer.com
+0.0.0.0   api-access.pangolin-sdk-toutiao.com
+0.0.0.0   log-api.pangolin-sdk-toutiao.com
+0.0.0.0   test.adsp.xunlei.com
+0.0.0.0   api-mcp.adsp.xunlei.com
+0.0.0.0   xladapi.izuiyou.com
+0.0.0.0   advertpay-vip-ssl.xunlei.com
+0.0.0.0   watch.advertising.speed.cdn.vip.xunlei.com
+0.0.0.0   xunlei.adx.admaster.com.cn
+0.0.0.0   config.adview.cn
+0.0.0.0   p2sdmkj6t.bkt.clouddn.com
+0.0.0.0   log.umsns.com
+0.0.0.0   stats.umsns.com
+0.0.0.0   s.youmi.net
+0.0.0.0   r.youmi.net
+0.0.0.0   stat.gw.youmi.net
+0.0.0.0   track.dmp.youmi.net
+0.0.0.0   bid.adview.cn
+0.0.0.0   ad.bayescom.com
+0.0.0.0   ad.qingting.fm
+0.0.0.0   s.qtad.qingting.fm
+0.0.0.0   list.z.qingting.fm
+0.0.0.0   adlaunch.qingting.fm
+0.0.0.0   ad-cdn.qingting.fm
+0.0.0.0   ad.ximalaya.com
+0.0.0.0   adse.ximalaya.com
+0.0.0.0   adse.wsa.ximalaya.com
+0.0.0.0   adsebs.ximalaya.com
+0.0.0.0   events.appsflyer.com
+0.0.0.0   adbehavior.ximalaya.com
+0.0.0.0   ad.thsi.cn
+0.0.0.0   adm.10jqka.com.cn
+0.0.0.0   ads.voiceads.cn
+0.0.0.0   r.inad.com
+0.0.0.0   sdk.cferw.com
+0.0.0.0   anquan.luomi.com
+0.0.0.0   sdk.zsdfm.com
+0.0.0.0   adnew.wifi8.com
+0.0.0.0   ad.ikonke.com
+0.0.0.0   adx.hupu.com
+0.0.0.0   goblin.hupu.com
+0.0.0.0   shence.hupu.com
+0.0.0.0   ccdace.hupu.com
+0.0.0.0   hd.hupu.com
+0.0.0.0   p.l.qq.com
+0.0.0.0   dp3.qq.com
+0.0.0.0   us.l.qq.com
+0.0.0.0   ad.tencentmusic.com
+0.0.0.0   adstats.tencentmusic.com
+0.0.0.0   adcdn.tencentmusic.com
+0.0.0.0   adexpo.tencentmusic.com
+0.0.0.0   g1.163.com
+0.0.0.0   nex.163.com
+0.0.0.0   ali-stats.jpush.cn
+0.0.0.0   stats.jpush.cn
+0.0.0.0   gd-stats.jpush.cn
+0.0.0.0   tsis.jpush.cn
+0.0.0.0   bjuser.jpush.cn
+0.0.0.0   admusicpic.music.126.net
+0.0.0.0   iadmusicmat.music.126.net
+0.0.0.0   zhihu-web-analytics.zhihu.com
+0.0.0.0   sdkapp.mobile.sina.cn
+0.0.0.0   wbapp.mobile.sina.cn
+0.0.0.0   vs.biz.weibo.com
+0.0.0.0   dp.im.weibo.cn
+0.0.0.0   sax.sina.com.cn
+0.0.0.0   saxn.sina.com.cn
+0.0.0.0   beacon.sina.com.cn
+0.0.0.0   s3.pfp.sina.net
+0.0.0.0   d0.sina.com.cn
+0.0.0.0   d1.sina.com.cn
+0.0.0.0   d2.sina.com.cn
+0.0.0.0   d5.sina.com.cn
+0.0.0.0   d7.sina.com.cn
+0.0.0.0   d8.sina.com.cn
+0.0.0.0   d9.sina.com.cn
+0.0.0.0   smart-789.kakamobi.cn
+0.0.0.0   smart-789.image.mucang.cn
+0.0.0.0   short-video.kakamobi.cn
+0.0.0.0   video-ad.sm.cn
+0.0.0.0   rest.irs01.com
+0.0.0.0   px.ucweb.com
+0.0.0.0   huichuan.sm.cn
+0.0.0.0   image.uczzd.cn
+0.0.0.0   ad.quwin.cn
+0.0.0.0   ubmcmm.baidustatic.com
+0.0.0.0   adserviceretry.kugou.com
+0.0.0.0   adserviceretry.kglink.cn
+0.0.0.0   adservice.sigmob.cn
+0.0.0.0   stadig.ifeng.com
+0.0.0.0   cloudservice22.kingsoft-office-service.com
+0.0.0.0   api.touchxd.com
+0.0.0.0   b-gi.getui.com
+0.0.0.0   kepler.jd.com
+0.0.0.0   orbit.jd.com
+0.0.0.0   t.appsflyer.com
+0.0.0.0   api-luckycoinsdk.doglobal.net
+0.0.0.0   durdcn.doglobal.net
+0.0.0.0   api-es.doglobal.net
+0.0.0.0   crab.baidu.com
+0.0.0.0   cmta.yangkeduo.com
+0.0.0.0   id6.me
+0.0.0.0   v3-ad.ixigua.com
+0.0.0.0   rcv.aiclk.com
+0.0.0.0   cdn.aiclk.com
+0.0.0.0   cfg-cdn.aiclk.com
+0.0.0.0   ad-sdk.aiclk.com
+0.0.0.0   api.aiclk.com
+0.0.0.0   update0.aiclk.com
+0.0.0.0   sdk-ab-config.aiclk.com
+0.0.0.0   sdk-globalconfig.aiclk.com
+0.0.0.0   adx.maplehaze.cn
+0.0.0.0   pv.sohu.com
+0.0.0.0   log.kajicam.com
+0.0.0.0   conf.xdrig.com
+0.0.0.0   api-ad.kajicam.com
+0.0.0.0   me.xdrig.com
+0.0.0.0   api.ad.yipinread.com
+0.0.0.0   dpush-api.domob.cn
+0.0.0.0   engine.lvehaisen.com
+0.0.0.0   t.cr-nielsen.com
+0.0.0.0   sdk.tf.360.cn
+0.0.0.0   sdkrec.tf.360.cn
+0.0.0.0   sdk.s.360.cn
+0.0.0.0   me.cpatrk.net
+0.0.0.0   ap.cpatrk.net
+0.0.0.0   umdc.aliapp.org
+0.0.0.0   certify-js.alexametrics.com
+0.0.0.0   pg-ad-b1.ws.126.net
+0.0.0.0   pg-ad-b2.ws.126.net
+0.0.0.0   yt-adp.ws.126.net
+0.0.0.0   yt-adv.bn.netease.com
+0.0.0.0   m.xsm98e.cn
+0.0.0.0   e.xsm98e.cn
+0.0.0.0   doubleclick.ctfile.com
+0.0.0.0   mydisplay.ctfile.com
+0.0.0.0   dns.m.sm.cn
+0.0.0.0   log.m.sm.cn
+0.0.0.0   stats.g.doubleclick.net
+0.0.0.0   mobds.pthejzb.com
+0.0.0.0   pms.mb.qq.com
+0.0.0.0   adsmind.apdcdn.tc.qq.com
+0.0.0.0   sdk.mobad.ijinshan.com
+0.0.0.0   ad.51wnl-cq.com
+0.0.0.0   norma-external-collect.meizu.com
+0.0.0.0   api.adxpand.com
+0.0.0.0   android.rqd.qq.com
+0.0.0.0   www.qchannel01.cn
+0.0.0.0   www.qchannel02.cn
+0.0.0.0   log.qchannel03.cn
+0.0.0.0   www.qchannel04.cn
+0.0.0.0   d.qchannel03.cn
+0.0.0.0   b.qchannel03.cn
+0.0.0.0   a.qchannel03.cn
+0.0.0.0   df.mic.mob.com
+0.0.0.0   dfe.mic.mob.com
+0.0.0.0   l.gm.mob.com
+0.0.0.0   f.gm.mob.com
+0.0.0.0   js.users.51.la
+0.0.0.0   av1.xdrig.com
+0.0.0.0   adpai.thepaper.cn
+0.0.0.0   df.tanx.com
+0.0.0.0   ef-dongfeng.tanx.com
+0.0.0.0   applog.uc.cn
+0.0.0.0   fbapi.guguread.com
+0.0.0.0   jrad.jd.com
+0.0.0.0   api.adnet.mob.com
+0.0.0.0   puds.ucweb.com
+0.0.0.0   tracking.ad-survey.com
+0.0.0.0   api1.888zy.cn
+0.0.0.0   i8.i8ggwm.com
+0.0.0.0   dig.zjurl.cn
+0.0.0.0   open.e.kuaishou.com
+0.0.0.0   dm.toutiao.com
+0.0.0.0   sdk.api.oaid.wocloud.cn
+0.0.0.0   i.w.inmobi.cn
+0.0.0.0   sdktm.w.inmobi.cn
+0.0.0.0   dm.bytedance.com
+0.0.0.0   dm.pstatp.com
+0.0.0.0   sdkauth.hpplay.cn
+0.0.0.0   imdns.hpplay.cn
+0.0.0.0   sdk.guard.mob.com
+0.0.0.0   stg-data.ads.heytapmobi.com
+0.0.0.0   dolphin-center.adsame.com
+0.0.0.0   keybut.com
+0.0.0.0   api.df.mob.com
+0.0.0.0   api-analytics-cn.huami.com
+0.0.0.0   wgo.mmstat.com
+0.0.0.0   api.applink.mob.com
+0.0.0.0   x.ojgoy.cn
+0.0.0.0   img.xuwnz.cn
+0.0.0.0   m.shilian168.cn
+0.0.0.0   img.wusnz.cn
+0.0.0.0   img.srxjz.cn
+0.0.0.0   m.zdjgj.cn
+0.0.0.0   i.luyongkang.top
+0.0.0.0   m.szwjzl.cn
+0.0.0.0   ee.j5s9b.cn
+0.0.0.0   m.j5s9b.cn
+0.0.0.0   uo.jstaogu.com
+0.0.0.0   po.jiangchangbo.com
+0.0.0.0   ee.x8r9m.cn
+0.0.0.0   v.37uta.cn
+0.0.0.0   rz.w8r4q.cn
+0.0.0.0   m.89kvh.cn
+0.0.0.0   ok.4qn9c.cn
+0.0.0.0   ee.89kvh.cn
+0.0.0.0   xn--mtso8sj6menhyil.online
+0.0.0.0   wx.sifakaoshi360.com
+0.0.0.0   pv.vipwm.cc
+0.0.0.0   xn--xhq9mt12cf5v.website
+0.0.0.0   r2.tschewang.com
+0.0.0.0   80vn.cn
+0.0.0.0   www.hxcav77.com
+0.0.0.0   assets.ckjr001.com
+0.0.0.0   kpstaticbj.wx.ckjr001.com
+0.0.0.0   www.meipian7.cn
+0.0.0.0   wxa79ef55c1a84e284.wx.ckjr001.com
+0.0.0.0   uvu.nojmlxq.cn
+0.0.0.0   veim.lrswl.com
+0.0.0.0   adsdk.yandex.ru
+0.0.0.0   hybird.rayjump.com
+0.0.0.0   c.kuaiduizuoye.com
+0.0.0.0   edgecast-vod.yimg.com
+0.0.0.0   edgecast-vod.yahoo.net
+0.0.0.0   cdn.yimg.com
+0.0.0.0   adeng.hpplay.cn
+0.0.0.0   ad.hpplay.cn
+0.0.0.0   rp.hpplay.cn
+0.0.0.0   logrp.hpplay.cn
+0.0.0.0   widgets.outbrain.com
+0.0.0.0   mp.nextmedia.com
+0.0.0.0   pv.dakawm.cc
+0.0.0.0   m.zhuanzhuzibu.com
+0.0.0.0   jpg.mengbingyuan.com
+0.0.0.0   syy.dxwpedu.me
+0.0.0.0   y76.ylems.club
+0.0.0.0   epp.2polj.top
+0.0.0.0   qqwx.zhangguangzong.com
+0.0.0.0   ads.reader.yueyouxs.com
+0.0.0.0   vpn.ch-hr12333.com
+0.0.0.0   c.sayhi.360.cn
+0.0.0.0   cloud.zyiis.net
+0.0.0.0   ads.weilitoutiao.net
+0.0.0.0   ssp-api.domob.cn
+0.0.0.0   ssp-event.domob.cn
+0.0.0.0   dsa-mfp.fengshows.cn
+0.0.0.0   du.163.com
+0.0.0.0   yaolu.mh.163.com
+0.0.0.0   yaolu.yuedu.163.com
+0.0.0.0   newswifiapi.dftoutiao.com
+0.0.0.0   miniapp.bilibili.com
+0.0.0.0   dataflow.biliapi.com
+0.0.0.0   rtbapi.douyucdn.cn
+0.0.0.0   msg.douyu.com
+0.0.0.0   api.e.kuaishou.com
+0.0.0.0   api2.e.kuaishou.com
+#pkg=googleanalysis.mobi;谷歌广告服务
+0.0.0.0   google-analytics.com
+0.0.0.0   googlesyndication.com
+0.0.0.0   pagead.googlesyndication.com
+0.0.0.0   pagead1.googlesyndication.com
+0.0.0.0   pagead2.googlesyndication.com
+0.0.0.0   ad-g.doubleclick.net
+0.0.0.0   ad.doubleclick.net
+0.0.0.0   ad.mo.doubleclick.net
+0.0.0.0   doubleclick.net
+0.0.0.0   googleads.g.doubleclick.net
+0.0.0.0   lb.usemaxserver.de
+0.0.0.0   tracking.klickthru.com
+0.0.0.0   gsmtop.net
+0.0.0.0   click.buzzcity.net
+0.0.0.0   ads.admoda.com
+0.0.0.0   stats.pflexads.com
+0.0.0.0   a.glcdn.co
+0.0.0.0   wwww.adleads.com
+0.0.0.0   ad.madvertise.de
+0.0.0.0   apps.buzzcity.net
+0.0.0.0   ads.mobgold.com
+0.0.0.0   android.bcfads.com
+0.0.0.0   show.buzzcity.net
+0.0.0.0   api.analytics.omgpop.com
+0.0.0.0   r.edge.inmobicdn.net
+0.0.0.0   www.mmnetwork.mobi
+0.0.0.0   img.ads.huntmad.com
+0.0.0.0   creative1cdn.mobfox.com
+0.0.0.0   admicro2.vcmedia.vn
+0.0.0.0   admicro1.vcmedia.vn
+0.0.0.0   s3.phluant.com
+0.0.0.0   c.vrvm.com
+0.0.0.0   go.vrvm.com
+0.0.0.0   static.estebull.com
+0.0.0.0   mobile.Banzai.it
+0.0.0.0   ads.xxxad.net
+0.0.0.0   img.ads.mojiva.com
+0.0.0.0   adcontent.saymedia.com
+0.0.0.0   ads.saymedia.com
+0.0.0.0   ftpcontent.worldnow.com
+0.0.0.0   s0.2mdn.net
+0.0.0.0   img.ads.mocean.mobi
+0.0.0.0   bigmobileads.com
+0.0.0.0   banners.bigmobileads.com
+0.0.0.0   ads.mopub.com
+0.0.0.0   images.mpression.net
+0.0.0.0   images.millennialmedia.com
+0.0.0.0   oasc04012.247realmedia.com
+0.0.0.0   assets.cntdy.mobi
+0.0.0.0   ad.leadboltapps.net
+0.0.0.0   api.airpush.com
+0.0.0.0   ad.where.com
+0.0.0.0   i.tapit.com
+0.0.0.0   cdn1.crispadvertising.com
+0.0.0.0   cdn2.crispadvertising.com
+0.0.0.0   medrx.sensis.com.au
+0.0.0.0   rs-staticart.ybcdn.net
+0.0.0.0   img.ads.taptapnetworks.com
+0.0.0.0   adserver.ubiyoo.com
+0.0.0.0   c753738.r38.cf2.rackcdn.com
+0.0.0.0   edge.reporo.net
+0.0.0.0   ads.n-ws.org
+0.0.0.0   adultmoda.com
+0.0.0.0   ads.smartdevicemedia.com
+0.0.0.0   b.scorecardresearch.com
+0.0.0.0   m.adsymptotic.com
+0.0.0.0   cdn.vdopia.com
+0.0.0.0   api.yp.com
+0.0.0.0   asotrack1.fluentmobile.com
+0.0.0.0   android-sdk31.transpera.com
+0.0.0.0   apps.mobilityware.com
+0.0.0.0   ads.mobilityware.com
+0.0.0.0   ads.admarvel.com
+0.0.0.0   netdna.reporo.net
+0.0.0.0   www.eltrafiko.com
+0.0.0.0   cdn.trafficforce.com
+0.0.0.0   gts-ads.twistbox.com
+0.0.0.0   static.cdn.gtsmobi.com
+0.0.0.0   ads.matomymobile.com
+0.0.0.0   ads.adiquity.com
+0.0.0.0   img.ads.mobilefuse.net
+0.0.0.0   as.adfonic.net
+0.0.0.0   media.mobpartner.mobi
+0.0.0.0   cdn.us.goldspotmedia.com
+0.0.0.0   ads2.mediaarmor.com
+0.0.0.0   cdn.nearbyad.com
+0.0.0.0   ads.ookla.com
+0.0.0.0   mobiledl.adobe.com
+0.0.0.0   ads.flurry.com
+0.0.0.0   gemini.yahoo.com
+0.0.0.0   d3anogn3pbtk4v.cloudfront.net
+0.0.0.0   d3oltyb66oj2v8.cloudfront.net
+0.0.0.0   d2bgg7rjywcwsy.cloudfront.net
+0.0.0.0   a.vserv.mobi
+0.0.0.0   admin.vserv.mobi
+0.0.0.0   c.vserv.mobi
+0.0.0.0   ads.vserv.mobi
+0.0.0.0   sf.vserv.mobi
+0.0.0.0   hybl9bazbc35.pflexads.com
+0.0.0.0   hhbekxxw5d9e.pflexads.com
+0.0.0.0   www.pflexads.com
+0.0.0.0   orencia.pflexads.com
+0.0.0.0   atti.velti.com
+0.0.0.0   ru.velti.com
+0.0.0.0   mwc.velti.com
+0.0.0.0   cdn.celtra.com
+0.0.0.0   ads.celtra.com
+0.0.0.0   cache-ssl.celtra.com
+0.0.0.0   cache.celtra.com
+0.0.0.0   track.celtra.com
+0.0.0.0   wv.inner-active.mobi
+0.0.0.0   cdn1.inner-active.mobi
+0.0.0.0   m2m1.inner-active.mobi
+0.0.0.0   bo.jumptap.com
+0.0.0.0   i.jumptap.com
+0.0.0.0   a.applovin.com
+0.0.0.0   d.applovin.com
+0.0.0.0   pdn.applovin.com
+0.0.0.0   mobpartner.mobi
+0.0.0.0   go.mobpartner.mobi
+0.0.0.0   r.mobpartner.mobi
+0.0.0.0   uk-ad2.adinfuse.com
+0.0.0.0   adinfuse.com
+0.0.0.0   go.adinfuse.com
+0.0.0.0   ad1.adinfuse.com
+0.0.0.0   ad2.adinfuse.com
+0.0.0.0   sky.adinfuse.com
+0.0.0.0   orange-fr.adinfuse.com
+0.0.0.0   sky-connect.adinfuse.com
+0.0.0.0   uk-go.adinfuse.com
+0.0.0.0   orangeuk-mc.adinfuse.com
+0.0.0.0   intouch.adinfuse.com
+0.0.0.0   funnel0.adinfuse.com
+0.0.0.0   cvt.mydas.mobi
+0.0.0.0   lp.mydas.mobi
+0.0.0.0   golds.lp.mydas.mobi
+0.0.0.0   suo.lp.mydas.mobi
+0.0.0.0   aio.lp.mydas.mobi
+0.0.0.0   lp.mp.mydas.mobi
+0.0.0.0   media.mydas.mobi
+0.0.0.0   ads.mp.mydas.mobi
+0.0.0.0   neptune.appads.com
+0.0.0.0   neptune1.appads.com
+0.0.0.0   neptune2.appads.com
+0.0.0.0   neptune3.appads.com
+0.0.0.0   saturn.appads.com
+0.0.0.0   saturn1.appads.com
+0.0.0.0   saturn2.appads.com
+0.0.0.0   saturn3.appads.com
+0.0.0.0   jupiter.appads.com
+0.0.0.0   jupiter1.appads.com
+0.0.0.0   jupiter2.appads.com
+0.0.0.0   jupiter3.appads.com
+0.0.0.0   req.appads.com
+0.0.0.0   req1.appads.com
+0.0.0.0   req2.appads.com
+0.0.0.0   req3.appads.com
+0.0.0.0   swappit.tapad.com
+0.0.0.0   campaign-tapad.s3.amazonaws.com
+0.0.0.0   adsrv1.tapad.com
+0.0.0.0   ads1.mojiva.com
+0.0.0.0   ads2.mojiva.com
+0.0.0.0   ads3.mojiva.com
+0.0.0.0   ads4.mojiva.com
+0.0.0.0   ads5.mojiva.com
+0.0.0.0   i.w.inmobi.com
+0.0.0.0   r.w.inmobi.com
+0.0.0.0   c.w.inmobi.com
+0.0.0.0   adtracker.inmobi.com
+0.0.0.0   china.inmobi.com
+0.0.0.0   japan.inmobi.com
+0.0.0.0   mdn1.phluantmobile.net
+0.0.0.0   mdn2.phluantmobile.net
+0.0.0.0   mdn3.phluantmobile.net
+0.0.0.0   mdn3origin.phluantmobile.net
+0.0.0.0   img.ads1.mojiva.com
+0.0.0.0   img.ads2.mojiva.com
+0.0.0.0   img.ads3.mojiva.com
+0.0.0.0   img.ads4.mojiva.com
+0.0.0.0   img.ads1.mocean.mobi
+0.0.0.0   img.ads2.mocean.mobi
+0.0.0.0   img.ads3.mocean.mobi
+0.0.0.0   img.ads4.mocean.mobi
+0.0.0.0   akamai.smartadserver.com
+0.0.0.0   cdn1.smartadserver.com
+0.0.0.0   diff.smartadserver.com
+0.0.0.0   diff2.smartadserver.com
+0.0.0.0   diff3.smartadserver.com
+0.0.0.0   eqx.smartadserver.com
+0.0.0.0   im2.smartadserver.com
+0.0.0.0   itx5-publicidad.smartadserver.com
+0.0.0.0   itx5.smartadserver.com
+0.0.0.0   tcy.smartadserver.com
+0.0.0.0   ww129.smartadserver.com
+0.0.0.0   ww13.smartadserver.com
+0.0.0.0   ww14.smartadserver.com
+0.0.0.0   ww234.smartadserver.com
+0.0.0.0   ww251.smartadserver.com
+0.0.0.0   ww264.smartadserver.com
+0.0.0.0   ww302.smartadserver.com
+0.0.0.0   ww362.smartadserver.com
+0.0.0.0   ww370.smartadserver.com
+0.0.0.0   ww381.smartadserver.com
+0.0.0.0   ww392.smartadserver.com
+0.0.0.0   ww55.smartadserver.com
+0.0.0.0   ww57.smartadserver.com
+0.0.0.0   ww84.smartadserver.com
+0.0.0.0   www.smartadserver.com
+0.0.0.0   www2.smartadserver.com
+0.0.0.0   www3.smartadserver.com
+0.0.0.0   www4.smartadserver.com
+0.0.0.0   ads.mobclix.com
+0.0.0.0   data.mobclix.com
+0.0.0.0   s.mobclix.com
+0.0.0.0   ads.mdotm.com
+0.0.0.0   cdn.mdotm.com
+0.0.0.0   ads2.greystripe.com
+0.0.0.0   adsx.greystripe.com
+0.0.0.0   c.greystripe.com
+0.0.0.0   aax-us-east.amazon-adsystem.com
+0.0.0.0   aax-us-west.amazon-adsystem.com
+0.0.0.0   s.amazon-adsystem.com
+0.0.0.0   admarvel.s3.amazonaws.com
+0.0.0.0   html5adkit.plusmo.s3.amazonaws.com
+0.0.0.0   inneractive-assets.s3.amazonaws.com
+0.0.0.0   strikeadcdn.s3.amazonaws.com
+0.0.0.0   a.admob.com
+0.0.0.0   analytics.admob.com
+0.0.0.0   c.admob.com
+0.0.0.0   media.admob.com
+0.0.0.0   p.admob.com
+0.0.0.0   met.adwhirl.com
+0.0.0.0   mob.adwhirl.com
+0.0.0.0   ad.leadboltmobile.net
+0.0.0.0   mobileads.msn.com
+0.0.0.0   aos.wall.youmi.net
+0.0.0.0   au.youmi.net
+0.0.0.0   coconuts.boy.jp
+0.0.0.0   iacpromotion.s3.amazonaws.com
+0.0.0.0   plugin.2easydroid.com
+0.0.0.0   adimg3.search.naver.net
+0.0.0.0   ads.adadapted.com
+0.0.0.0   a.medialytics.com
+0.0.0.0   c.medialytics.com
+0.0.0.0   cdn.creative.medialytics.com
+0.0.0.0   p.medialytics.com
+0.0.0.0   px.cdn.creative.medialytics.com
+0.0.0.0   t.medialytics.com
+#pkg=baidu.com;百度广告服务
+0.0.0.0   afd.baidu.com
+0.0.0.0   als.baidu.com
+0.0.0.0   cbjs.baidu.com
+0.0.0.0   cm.baidu.com
+0.0.0.0   cm.pos.baidu.com
+0.0.0.0   cpro.baidu.cn
+0.0.0.0   cpro.baidu.com
+0.0.0.0   crs.baidu.com
+0.0.0.0   eclick.baidu.com
+0.0.0.0   eiv.baidu.com
+0.0.0.0   entry.baidu.com
+0.0.0.0   hm.baidu.com
+0.0.0.0   idm-su.baidu.com
+0.0.0.0   idm.bce.baidu.com
+0.0.0.0   mobads-logs.baidu.com
+0.0.0.0   mobads.baidu.com
+0.0.0.0   msite.baidu.com
+0.0.0.0   nsclick.baidu.com
+0.0.0.0   nsclickvideo.baidu.com
+0.0.0.0   pc.videoclick.baidu.com
+0.0.0.0   pos.baidu.com
+0.0.0.0   push.zhanzhang.baidu.com
+0.0.0.0   river.zhidao.baidu.com
+0.0.0.0   s.cpro.baidu.com
+0.0.0.0   wangmeng.baidu.com
+0.0.0.0   wn.pos.baidu.com
+0.0.0.0   bdplus.baidu.com
+0.0.0.0   btlaunch.baidu.com
+0.0.0.0   datax.baidu.com
+0.0.0.0   openrcv.baidu.com
+0.0.0.0   a.baidu.com
+0.0.0.0   cb.baidu.com
+0.0.0.0   hdj.baidu.com
+0.0.0.0   mssp.baidu.com
+0.0.0.0   nlog.baidu.com
+0.0.0.0   ad.player.baidu.com
+0.0.0.0   sestat.baidu.com
+0.0.0.0   stat.v.baidu.com
+0.0.0.0   videopush.baidu.com
+0.0.0.0   wisepush.video.baidu.com
+0.0.0.0   hmma.baidu.com
+0.0.0.0   dup.baidustatic.com
+0.0.0.0   sp0.baidu.com
+0.0.0.0   qapm.baidu.com
+0.0.0.0   fclog.baidu.com
+0.0.0.0   sofire.baidu.com
+0.0.0.0   tcbox.baidu.com
+0.0.0.0   browserkernel.baidu.com
+0.0.0.0   hijack.baidu.com
+#pkg=qq.com;腾讯广告服务
+0.0.0.0   ad.qun.qq.com
+0.0.0.0   adping.qq.com
+0.0.0.0   adpm.app.qq.com
+0.0.0.0   adrdir.qq.com
+0.0.0.0   adsclick.qq.com
+0.0.0.0   adsfile.qq.com
+0.0.0.0   adsgroup.qq.com
+0.0.0.0   adshmct.qq.com
+0.0.0.0   adshmmsg.qq.com
+0.0.0.0   adslvfile.qq.com
+0.0.0.0   adslvseed.qq.com
+0.0.0.0   adsqqclick.qq.com
+0.0.0.0   adstextview.qq.com
+0.0.0.0   adsview.qq.com
+0.0.0.0   adsview2.qq.com
+0.0.0.0   adv.app.qq.com
+0.0.0.0   adver.qq.com
+0.0.0.0   d3g.qq.com
+0.0.0.0   jqmt.qq.com
+0.0.0.0   jsqmt.qq.com
+0.0.0.0   vr.gdt.qq.com
+0.0.0.0   ta.qq.com
+0.0.0.0   tajs.qq.com
+0.0.0.0   tcss.qq.com
+0.0.0.0   p.tencentmind.com
+0.0.0.0   e.qq.com
+0.0.0.0   cm.e.qq.com
+0.0.0.0   sdk.e.qq.com
+0.0.0.0   c.gdt.qq.com
+0.0.0.0   d.gdt.qq.com
+0.0.0.0   i.gdt.qq.com
+0.0.0.0   mi.gdt.qq.com
+0.0.0.0   q.i.gdt.qq.com
+0.0.0.0   rm.gdt.qq.com
+0.0.0.0   t.gdt.qq.com
+0.0.0.0   v.gdt.qq.com
+0.0.0.0   win.gdt.qq.com
+0.0.0.0   v2.gdt.qq.com
+0.0.0.0   android.bugly.qq.com
+0.0.0.0   api.poll.aiseet.atianqi.com
+0.0.0.0   btrace.qq.com
+0.0.0.0   otheve.beacon.qq.com
+0.0.0.0   log.tbs.qq.com
+0.0.0.0   tools.3g.qq.com
+0.0.0.0   wxsnsdy.tc.qq.com
+0.0.0.0   wxsnsdy.video.qq.com
+0.0.0.0   mazu.3g.qq.com
+0.0.0.0   oth.str.mdt.qq.com
+0.0.0.0   oth.eve.mdt.qq.com
+0.0.0.0   rpt.gdt.qq.com
+0.0.0.0   mtrace.qq.com
+0.0.0.0   ipv4.gdt.qq.com
+0.0.0.0   misc.wcd.qq.com
+0.0.0.0   raddus.bayescom.com
+0.0.0.0   mazu.m.qq.com
+0.0.0.0   mtt.eve.mdt.qq.com
+0.0.0.0   push.pgl.qq.com
+0.0.0.0   rmpad.imtt.qq.com
+#pkg=alibaba.com;阿里广告服务
+0.0.0.0   adash.man.aliyuncs.com
+0.0.0.0   cdn-ads.oss-cn-shanghai.aliyuncs.com
+0.0.0.0   ynuf.aliapp.org
+0.0.0.0   file.ipinyou.com.cn
+0.0.0.0   i.ipinyou.com
+0.0.0.0   ipinyou.com
+0.0.0.0   s.ipinyou.com
+0.0.0.0   sdsp.ipinyou.com
+0.0.0.0   stats.ipinyou.com
+0.0.0.0   www.ipinyou.com
+0.0.0.0   www.ipinyou.com.cn
+0.0.0.0   init.phpwind.com
+0.0.0.0   nt.phpwind.com
+0.0.0.0   s.phpwind.com
+0.0.0.0   cdn0.mobmore.com
+0.0.0.0   ex.mobmore.com
+0.0.0.0   feedback.whalecloud.com
+0.0.0.0   www.whalecloud.com
+0.0.0.0   cdn.puata.info
+0.0.0.0   ex.puata.info
+0.0.0.0   www.uyunad.com
+0.0.0.0   adashbc.m.taobao.com
+0.0.0.0   adashbc.ut.taobao.com
+0.0.0.0   adashxgc.ut.taobao.com
+0.0.0.0   adashx.m.taobao.com
+0.0.0.0   c-adash.m.taobao.com
+0.0.0.0   m-adash.m.taobao.com
+0.0.0.0   unidesk.alicdn.com
+0.0.0.0   adash.m.taobao.com
+0.0.0.0   nbsdk-baichuan.alicdn.com
+0.0.0.0   h-adashx.ut.taobao.com
+0.0.0.0   tunion-api.m.taobao.com
+0.0.0.0   baichuan-sdk.alicdn.com
+0.0.0.0   acs4baichuan.m.taobao.com
+0.0.0.0   amdc.m.taobao.com
+0.0.0.0   amdcopen.m.taobao.com
+0.0.0.0   eco.taobao.com
+0.0.0.0   umengacs.m.taobao.com
+0.0.0.0   umengjmacs.m.taobao.com
+0.0.0.0   ilce.alicdn.com
+#pkg=xxx.ad.doubleclick.net;广告联盟
+0.0.0.0   cm.g.doubleclick.net
+0.0.0.0   pubads.g.doubleclick.net
+0.0.0.0   securepubads.g.doubleclick.net
+0.0.0.0   static.doubleclick.net
+0.0.0.0   tpc.googlesyndication.com
+0.0.0.0   partner.googleadservices.com
+0.0.0.0   www.googleadservices.com
+0.0.0.0   static.googleadsserving.cn
+0.0.0.0   www.googletagmanager.com
+0.0.0.0   www.google-analytics.com
+0.0.0.0   3m.mediav.com
+0.0.0.0   ckmap.mediav.com
+0.0.0.0   click.mediav.com
+0.0.0.0   cm.mediav.com
+0.0.0.0   g1max.mediav.com
+0.0.0.0   g1xd.mediav.com
+0.0.0.0   item.mediav.com
+0.0.0.0   juxiao.mediav.com
+0.0.0.0   material-ssl.mediav.com
+0.0.0.0   material.mediav.com
+0.0.0.0   max-l.mediav.com
+0.0.0.0   max.mediav.com
+0.0.0.0   mvp.mediav.com
+0.0.0.0   pages-juxiao.mediav.com
+0.0.0.0   pages.juxiao.mediav.com
+0.0.0.0   pv.mediav.com
+0.0.0.0   s3m.mediav.com
+0.0.0.0   sdk.mediav.com
+0.0.0.0   secure.mediav.com
+0.0.0.0   show-3.mediav.com
+0.0.0.0   show-g.mediav.com
+0.0.0.0   show-m.mediav.com
+0.0.0.0   show-s.mediav.com
+0.0.0.0   show.g.mediav.com
+0.0.0.0   show.m.mediav.com
+0.0.0.0   show.mediav.com
+0.0.0.0   ssxd.mediav.com
+0.0.0.0   static-ssl.mediav.com
+0.0.0.0   static.mediav.com
+0.0.0.0   t.dsp.mediav.com
+0.0.0.0   track.mediav.com
+0.0.0.0   tran.mediav.com
+0.0.0.0   view.mediav.com
+0.0.0.0   www.mediav.com
+0.0.0.0   xd.mediav.com
+0.0.0.0   c.bing.com
+0.0.0.0   c.msn.com
+0.0.0.0   otf.msn.com
+0.0.0.0   api.so.lianmeng.360.cn
+0.0.0.0   s.lianmeng.360.cn
+0.0.0.0   s1.stat.lianmeng.360.cn
+0.0.0.0   stat.lianmeng.360.cn
+0.0.0.0   cm.lianmeng.360.cn
+0.0.0.0   service.jiagu.360.cn
+0.0.0.0   cpull.360.cn
+0.0.0.0   s.360.cn
+0.0.0.0   p.s.360.cn
+0.0.0.0   a.appjiagu.com
+0.0.0.0   api.appjiagu.com
+0.0.0.0   b.appjiagu.com
+0.0.0.0   c.appjiagu.com
+0.0.0.0   j.appjiagu.com
+0.0.0.0   p.appjiagu.com
+0.0.0.0   s.appjiagu.com
+0.0.0.0   cm.adkmob.com
+0.0.0.0   ssdk.adkmob.com
+0.0.0.0   bigdata.advmob.cn
+0.0.0.0   folder.advmob.cn
+0.0.0.0   bu1.duba.com
+0.0.0.0   bu2.duba.com
+0.0.0.0   service.ad.duomi.com
+0.0.0.0   adxserver.ad.cmvideo.cn
+0.0.0.0   dspserver.ad.cmvideo.cn
+0.0.0.0   openstorage.ad.cmvideo.cn
+0.0.0.0   test.ad.cmvideo.cn
+0.0.0.0   api.iapps.ifeng.com
+0.0.0.0   api.newad.ifeng.com
+0.0.0.0   exp.3g.ifeng.com
+0.0.0.0   ifengad.3g.ifeng.com
+0.0.0.0   stadig0.ifeng.com
+0.0.0.0   dmpclick.deliver.ifeng.com
+0.0.0.0   dol.deliver.ifeng.com
+0.0.0.0   dolphin.deliver.ifeng.com
+0.0.0.0   ids1.deliver.ifeng.com
+0.0.0.0   iis1.deliver.ifeng.com
+0.0.0.0   iis3g.deliver.ifeng.com
+0.0.0.0   mfp.deliver.ifeng.com
+0.0.0.0   js.51taifu.com
+0.0.0.0   wl.51taifu.com
+0.0.0.0   adv.fjtv.net
+0.0.0.0   adsys.chinacloudapp.cn
+0.0.0.0   advapi.ahtv.cn
+0.0.0.0   ad.zuimeitianqi.com
+0.0.0.0   stat.zuimeitianqi.com
+0.0.0.0   a.tribalfusion.com
+0.0.0.0   acuityplatform.com
+0.0.0.0   ad-delivery.net
+0.0.0.0   adadvisor.net
+0.0.0.0   ads.creative-serving.com
+0.0.0.0   adserver.adtech.de
+0.0.0.0   api.primecaster.net
+0.0.0.0   api.tr.blismedia.com
+0.0.0.0   b1sync.zemanta.com
+0.0.0.0   bh.contextweb.com
+0.0.0.0   bttrack.com
+0.0.0.0   c1.adform.net
+0.0.0.0   cdn.districtm.io
+0.0.0.0   cm.adgrx.com
+0.0.0.0   cm.ctnsnet.com
+0.0.0.0   cm.eyereturn.com
+0.0.0.0   cm.netseer.com
+0.0.0.0   cms.quantserve.com
+0.0.0.0   cr-p16.ladsp.com
+0.0.0.0   cti.w55c.net
+0.0.0.0   d5p.de17a.com
+0.0.0.0   dpm.demdex.net
+0.0.0.0   dsp.adfarm1.adition.com
+0.0.0.0   gload.adhood.com
+0.0.0.0   green.erne.co
+0.0.0.0   i.w55c.net
+0.0.0.0   magnetic.t.domdex.com
+0.0.0.0   map.media6degrees.com
+0.0.0.0   match.adsby.bidtheatre.com
+0.0.0.0   match.prod.bidr.io
+0.0.0.0   match.rundsp.com
+0.0.0.0   mpp.vindicosuite.com
+0.0.0.0   onetag-sys.com
+0.0.0.0   p.rfihub.com
+0.0.0.0   pix.impdesk.com
+0.0.0.0   pixel-a.sitescout.com
+0.0.0.0   pixel.mathtag.com
+0.0.0.0   pixel.rubiconproject.com
+0.0.0.0   pixel.tapad.com
+0.0.0.0   px.adhigh.net
+0.0.0.0   px.owneriq.net
+0.0.0.0   px.powerlinks.com
+0.0.0.0   pxl.connexity.net
+0.0.0.0   r.254a.com
+0.0.0.0   rbp.emea.mxptint.net
+0.0.0.0   rbp.mxptint.net
+0.0.0.0   rc2waycm-atl.netmng.com
+0.0.0.0   rcp.c.appier.net
+0.0.0.0   rp.gwallet.com
+0.0.0.0   rub.pxl.ace.advertising.com
+0.0.0.0   rubicon-match.dotomi.com
+0.0.0.0   sync-dsp.ad-m.asia
+0.0.0.0   sync-tm.everesttech.net
+0.0.0.0   sync.1rx.io
+0.0.0.0   sync.adaptv.advertising.com
+0.0.0.0   sync.adotmob.com
+0.0.0.0   sync.extend.tv
+0.0.0.0   sync.intentiq.com
+0.0.0.0   sync.ipredictive.com
+0.0.0.0   sync.mathtag.com
+0.0.0.0   sync.tidaltv.com
+0.0.0.0   tap-t.rubiconproject.com
+0.0.0.0   tap.rubiconproject.com
+0.0.0.0   token.rubiconproject.com
+0.0.0.0   track-east.mobileadtrading.com
+0.0.0.0   track.eyeviewads.com
+0.0.0.0   tracking.m6r.eu
+0.0.0.0   um.simpli.fi
+0.0.0.0   um2.eqads.com
+0.0.0.0   usync.aws.rubiconproject.com
+0.0.0.0   renren2.maoyun.tv
+0.0.0.0   qp.yunanfuwuqi.com
+0.0.0.0   a.ecook.cn
+0.0.0.0   s.hzht666.com
+0.0.0.0   vip.qqxwf.com
+0.0.0.0   ad.lqalm.com
+0.0.0.0   js.feitian001.com
+0.0.0.0   ss.swagger1.com
+0.0.0.0   xs.swagger1.com
+0.0.0.0   hoisin.coocaatv.com
+0.0.0.0   kovjo.com
+0.0.0.0   fzz.cloud.1234507.com
+0.0.0.0   hbdt.luomi.com
+0.0.0.0   trafficfactory.biz
+0.0.0.0   ad.sinovision.net
+0.0.0.0   adsys.sinovision.net
+0.0.0.0   www.admaji.com
+0.0.0.0   ad.cacafly.com
+0.0.0.0   ad.funp.com
+0.0.0.0   ad.hiiir.com
+0.0.0.0   ad.jamba.net
+0.0.0.0   ad.jamster.co.uk
+0.0.0.0   ad.obuy.tw
+0.0.0.0   ads.fetnet.net
+0.0.0.0   ads.ign.com
+0.0.0.0   ads.ttv.com.tw
+0.0.0.0   drd.hauchi.com.tw
+0.0.0.0   ysm.hauchi.com.tw
+0.0.0.0   r.pixgold.com
+0.0.0.0   ad.evozi.com
+0.0.0.0   a.api.ad-locus.com
+0.0.0.0   ad-locus.com
+0.0.0.0   api.ad-locus.com
+0.0.0.0   user.ad-locus.com
+0.0.0.0   adbana.com
+0.0.0.0   api.adbana.com
+0.0.0.0   apistat.adbana.com
+0.0.0.0   cnf.adbana.com
+0.0.0.0   stat.adbana.com
+0.0.0.0   api.adcome.cn
+0.0.0.0   music.adcome.cn
+0.0.0.0   res.adcome.cn
+0.0.0.0   aduu.cn
+0.0.0.0   mgr.aduu.cn
+0.0.0.0   res.aduu.cn
+0.0.0.0   appuu.cn
+0.0.0.0   www.appuu.cn
+0.0.0.0   58749.admaster.com.cn
+0.0.0.0   79t2.admaster.com.cn
+0.0.0.0   8b4pea.c.admaster.com.cn
+0.0.0.0   8b6dfa.v.admaster.com.cn
+0.0.0.0   8chzga.v.admaster.com.cn
+0.0.0.0   8dcyqu.c.admaster.com.cn
+0.0.0.0   c.admaster.com.cn
+0.0.0.0   click.admaster.com.cn
+0.0.0.0   cm.admaster.com.cn
+0.0.0.0   iclick.cm.admaster.com.cn
+0.0.0.0   letv.axp.admaster.com.cn
+0.0.0.0   letv.cm.admaster.com.cn
+0.0.0.0   pptv.adx.admaster.com.cn
+0.0.0.0   pptv.cm.admaster.com.cn
+0.0.0.0   pxl.idx.admaster.com.cn
+0.0.0.0   rtb.admaster.com.cn
+0.0.0.0   smt.admaster.com.cn
+0.0.0.0   sohutv.cm.admaster.com.cn
+0.0.0.0   vamaker.cm.admaster.com.cn
+0.0.0.0   vbaof.admaster.com.cn
+0.0.0.0   vhunantv.admaster.com.cn
+0.0.0.0   view.admaster.com.cn
+0.0.0.0   viqiyi.admaster.com.cn
+0.0.0.0   vletv.admaster.com.cn
+0.0.0.0   vqq.admaster.com.cn
+0.0.0.0   vsohu.admaster.com.cn
+0.0.0.0   wisemedia.cm.admaster.com.cn
+0.0.0.0   www.admaster.com.cn
+0.0.0.0   js.admin6.com
+0.0.0.0   conversion.adpro.cn
+0.0.0.0   m.adpro.cn
+0.0.0.0   x.adpro.cn
+0.0.0.0   adpro.pro.cn
+0.0.0.0   adx.pro.cn
+0.0.0.0   conversion.pro.cn
+0.0.0.0   dsp.pro.cn
+0.0.0.0   mediapro.pro.cn
+0.0.0.0   pro.cn
+0.0.0.0   ssp.pro.cn
+0.0.0.0   www.pro.cn
+0.0.0.0   dmp.adpush.cn
+0.0.0.0   img.adpush.cn
+0.0.0.0   net.adpush.cn
+0.0.0.0   ssp.adpush.cn
+0.0.0.0   zc.adpush.cn
+0.0.0.0   www.adpush.cn
+0.0.0.0   config.adsage.cn
+0.0.0.0   www.adsage.cn
+0.0.0.0   config.adsage.com
+0.0.0.0   download.adsage.com
+0.0.0.0   entry.adsage.com
+0.0.0.0   mobi.adsage.com
+0.0.0.0   mws.adsage.com
+0.0.0.0   trc.adsage.com
+0.0.0.0   zt.adsage.com
+0.0.0.0   config.mobisage.cn
+0.0.0.0   www.minesage.com
+0.0.0.0   0127.adsame.com
+0.0.0.0   114study.adsame.com
+0.0.0.0   adplace.adsame.com
+0.0.0.0   adsame.com
+0.0.0.0   adsamer.adsame.com
+0.0.0.0   asp.adsame.com
+0.0.0.0   autobild.adsame.com
+0.0.0.0   botuu.adsame.com
+0.0.0.0   caing.adsame.com
+0.0.0.0   caixin.adsame.com
+0.0.0.0   conde.adsame.com
+0.0.0.0   corebug.adsame.com
+0.0.0.0   dcci.adsame.com
+0.0.0.0   demo.adsame.com
+0.0.0.0   dolphin.adsame.com
+0.0.0.0   dolphin1.adsame.com
+0.0.0.0   dspimg.adsame.com
+0.0.0.0   eagle.adsame.com
+0.0.0.0   eagleasp.adsame.com
+0.0.0.0   eagledemo.adsame.com
+0.0.0.0   eaglepro.adsame.com
+0.0.0.0   easynews.adsame.com
+0.0.0.0   hnb2c.adsame.com
+0.0.0.0   i.adsame.com
+0.0.0.0   ifeng.adsame.com
+0.0.0.0   jfdaily.adsame.com
+0.0.0.0   jrj.adsame.com
+0.0.0.0   jsmedia.adsame.com
+0.0.0.0   mail.adsame.com
+0.0.0.0   material.jfdaily.adsame.com
+0.0.0.0   max.adsame.com
+0.0.0.0   maxsys.adsame.com
+0.0.0.0   meihua.adsame.com
+0.0.0.0   mix.adsame.com
+0.0.0.0   oeeee.adsame.com
+0.0.0.0   panda.adsame.com
+0.0.0.0   preview.adsame.com
+0.0.0.0   qianlong.adsame.com
+0.0.0.0   rayli.adsame.com
+0.0.0.0   return.adsame.com
+0.0.0.0   samba.adsame.com
+0.0.0.0   sambaclk.adsame.com
+0.0.0.0   sambasys.adsame.com
+0.0.0.0   sammax.adsame.com
+0.0.0.0   sammix.adsame.com
+0.0.0.0   samrt.adsame.com
+0.0.0.0   stnn.adsame.com
+0.0.0.0   techweb.adsame.com
+0.0.0.0   techweb.iv.adsame.com
+0.0.0.0   uusee.adsame.com
+0.0.0.0   vdcci.adsame.com
+0.0.0.0   vtechweb.adsame.com
+0.0.0.0   xcar.adsame.com
+0.0.0.0   xinhuanet.adsame.com
+0.0.0.0   yaolan.adsame.com
+0.0.0.0   www.adsame.com
+0.0.0.0   juxiao.adsmogo.net
+0.0.0.0   www.adsmogo.net
+0.0.0.0   adsmogo.com
+0.0.0.0   click1forhz.adsmogo.com
+0.0.0.0   click2forhz.adsmogo.com
+0.0.0.0   click3forhz.adsmogo.com
+0.0.0.0   my.adsmogo.com
+0.0.0.0   www.adsmogo.com
+0.0.0.0   adfill.adview.cn
+0.0.0.0   adview.cn
+0.0.0.0   report.adview.cn
+0.0.0.0   rtb.adview.cn
+0.0.0.0   test2014.adview.cn
+0.0.0.0   www.adview.cn
+0.0.0.0   a-ad.adwo.com
+0.0.0.0   ad-bg.adwo.com
+0.0.0.0   ad-count.adwo.com
+0.0.0.0   ad.adwo.com
+0.0.0.0   adtest.adwo.com
+0.0.0.0   ama.adwo.com
+0.0.0.0   apiconfig.adwo.com
+0.0.0.0   game.adwo.com
+0.0.0.0   mw.adwo.com
+0.0.0.0   nhz.adwo.com
+0.0.0.0   r2.adwo.com
+0.0.0.0   r3.adwo.com
+0.0.0.0   sdu.adwo.com
+0.0.0.0   static.adwo.com
+0.0.0.0   track.adwo.com
+0.0.0.0   www.adwo.com
+0.0.0.0   api.domob.cn
+0.0.0.0   c.domob.cn
+0.0.0.0   domob.cn
+0.0.0.0   domob.com.cn
+0.0.0.0   dvx-android.domob.cn
+0.0.0.0   e.domob.cn
+0.0.0.0   e.domob.com.cn
+0.0.0.0   r.domob.cn
+0.0.0.0   r.ow.domob.cn
+0.0.0.0   s.domob.cn
+0.0.0.0   scc.domob.cn
+0.0.0.0   sd.domob.cn
+0.0.0.0   sdl.domob.cn
+0.0.0.0   sm.domob.cn
+0.0.0.0   swx.domob.cn
+0.0.0.0   api.doumob.com
+0.0.0.0   www.doumob.com
+0.0.0.0   duomeng.cn
+0.0.0.0   c.duomeng.cn
+0.0.0.0   c.duomeng.net
+0.0.0.0   e.duomeng.org
+0.0.0.0   c1.guomob.com
+0.0.0.0   code.guomob.com
+0.0.0.0   guomob.com
+0.0.0.0   pic.guomob.com
+0.0.0.0   t3.guomob.com
+0.0.0.0   t4.guomob.com
+0.0.0.0   www.guomob.com
+0.0.0.0   a.irs01.com
+0.0.0.0   bitauto.irs01.com
+0.0.0.0   h.irs01.com
+0.0.0.0   iqiyi.irs01.com
+0.0.0.0   letv.irs01.com
+0.0.0.0   pcauto.irs01.com
+0.0.0.0   qq.irs01.com
+0.0.0.0   v.irs01.com
+0.0.0.0   v12-r0566gbscjw.z.irs01.com
+0.0.0.0   yyt.irs01.com
+0.0.0.0   ad.madserving.com
+0.0.0.0   ads.static.madserving.com
+0.0.0.0   adv.madserving.com
+0.0.0.0   appsrv1.madserving.com
+0.0.0.0   appsrv4.madserving.com
+0.0.0.0   clk.madserving.com
+0.0.0.0   clk.pdb.madserving.com
+0.0.0.0   imp.madserving.com
+0.0.0.0   imp.pdb.madserving.com
+0.0.0.0   a.ads.cn.miaozhen.com
+0.0.0.0   a.cn.miaozhen.com
+0.0.0.0   a.tac.miaozhen.com
+0.0.0.0   alicdnv2.sitemonitor.cn.miaozhen.com
+0.0.0.0   baofeng.m.cn.miaozhen.com
+0.0.0.0   c.m.cn.miaozhen.com
+0.0.0.0   c.x.cn.miaozhen.com
+0.0.0.0   cm.cn.miaozhen.com
+0.0.0.0   e.ads.cn.miaozhen.com
+0.0.0.0   e.cn.miaozhen.com
+0.0.0.0   e.mbm.cn.miaozhen.com
+0.0.0.0   e.x.cn.miaozhen.com
+0.0.0.0   exchange.ipdx.cn.miaozhen.com
+0.0.0.0   g.ads.cn.miaozhen.com
+0.0.0.0   g.cn.miaozhen.com
+0.0.0.0   g.mbm.cn.miaozhen.com
+0.0.0.0   g.x.cn.miaozhen.com
+0.0.0.0   gs.m.cn.miaozhen.com
+0.0.0.0   hunantv.m.cn.miaozhen.com
+0.0.0.0   iqiyi.m.cn.miaozhen.com
+0.0.0.0   js.miaozhen.com
+0.0.0.0   letv.m.cn.miaozhen.com
+0.0.0.0   miaozhen.com
+0.0.0.0   mse.mbm.cn.miaozhen.com
+0.0.0.0   msg.cn.miaozhen.com
+0.0.0.0   msg.mbm.cn.miaozhen.com
+0.0.0.0   qq.m.cn.miaozhen.com
+0.0.0.0   sitemonitor.cn.miaozhen.com
+0.0.0.0   sohutv.m.cn.miaozhen.com
+0.0.0.0   stm-cdn.cn.miaozhen.com
+0.0.0.0   stm-collect.cn.miaozhen.com
+0.0.0.0   survey.miaozhen.com
+0.0.0.0   t.pg.cn.miaozhen.com
+0.0.0.0   tencent-dtv.m.cn.miaozhen.com
+0.0.0.0   tyaqy.m.cn.miaozhen.com
+0.0.0.0   tytx.m.cn.miaozhen.com
+0.0.0.0   wisem-cm.cn.miaozhen.com
+0.0.0.0   xiangchaokankan.m.cn.miaozhen.com
+0.0.0.0   yktd.ads.cn.miaozhen.com
+0.0.0.0   yktd.cm.cn.miaozhen.com
+0.0.0.0   yktd.m.cn.miaozhen.com
+0.0.0.0   youku-dtv.m.cn.miaozhen.com
+0.0.0.0   api.cmt.mob.com
+0.0.0.0   api.exc.mob.com
+0.0.0.0   api.share.mob.com
+0.0.0.0   c.data.mob.com
+0.0.0.0   cca.mob.com
+0.0.0.0   devs.data.mob.com
+0.0.0.0   m.data.mob.com
+0.0.0.0   api.mobgi.com
+0.0.0.0   mobgi.com
+0.0.0.0   stat.mobgi.com
+0.0.0.0   ssl.ymapp.com
+0.0.0.0   video.ymapp.com
+0.0.0.0   w.ymapp.com
+0.0.0.0   img-cdn-spot.ymcdn.cn
+0.0.0.0   a.img.static.youmi.net
+0.0.0.0   a1.img.static.youmi.net
+0.0.0.0   a2.img.static.youmi.net
+0.0.0.0   a3.img.static.youmi.net
+0.0.0.0   apk.static.youmi.net
+0.0.0.0   banner.img.static.youmi.net
+0.0.0.0   cf8d.stat.gw.youmi.net
+0.0.0.0   notifiter.youmi.net
+0.0.0.0   pkg-cdn.youmi.net
+0.0.0.0   static.youmi.net
+0.0.0.0   t.youmi.net
+0.0.0.0   youmi.net
+0.0.0.0   www.youmi.net
+0.0.0.0   api.youxiaoad.com
+0.0.0.0   source.youxiaoad.com
+0.0.0.0   ssp.youxiaoad.com
+0.0.0.0   admedia.com
+0.0.0.0   b.admedia.com
+0.0.0.0   g.admedia.com
+0.0.0.0   inline.admedia.com
+0.0.0.0   m.admedia.com
+0.0.0.0   4171764.fls.doubleclick.net
+0.0.0.0   ad-apac.doubleclick.net
+0.0.0.0   ad.jp.doubleclick.net
+0.0.0.0   adclick.g.doublecklick.net
+0.0.0.0   adclick.g.doubleclick.net
+0.0.0.0   bid.g.doubleclick.net
+0.0.0.0   pagead46.l.doubleclick.net
+0.0.0.0   afs.googlesyndication.com
+0.0.0.0   video-ad-stats.googlesyndication.com
+0.0.0.0   s1.2mdn.net
+0.0.0.0   adfarm.mediaplex.com
+0.0.0.0   ssl.google-analytics.com
+0.0.0.0   i.l.inmobicdn.net
+0.0.0.0   au.w.inmobi.cn
+0.0.0.0   sdkm.w.inmobi.cn
+0.0.0.0   a.ai.inmobi.com
+0.0.0.0   api.w.inmobi.com
+0.0.0.0   apptv.w.inmobi.com
+0.0.0.0   au.w.inmobi.com
+0.0.0.0   cf.cdn.inmobi.com
+0.0.0.0   config-ltvp.inmobi.com
+0.0.0.0   config.inmobi.com
+0.0.0.0   e-ltvp.inmobi.com
+0.0.0.0   et.w.inmobi.com
+0.0.0.0   rules-ltvp.inmobi.com
+0.0.0.0   sdkm.w.inmobi.com
+0.0.0.0   www.inmobi.com
+0.0.0.0   ad.googleanalysis.mobi
+0.0.0.0   stat.googleanalysis.mobi
+0.0.0.0   ad1.greedland.net
+0.0.0.0   ad1.sina.com.cn
+0.0.0.0   ad1.udn.com
+0.0.0.0   ad2.sina.com.cn
+0.0.0.0   ad2.udn.com
+0.0.0.0   ad2.yam.com
+0.0.0.0   ad.363.in
+0.0.0.0   ad3.sina.com.cn
+0.0.0.0   ad3.udn.com
+0.0.0.0   ad4.sina.com
+0.0.0.0   ad4.sina.com.cn
+0.0.0.0   ad4.udn.com
+0.0.0.0   ad5.sina.com.cn
+0.0.0.0   ad.adhouyi.cn
+0.0.0.0   adapi.lenovogame.com
+0.0.0.0   ad.api.moji.com
+0.0.0.0   adapi.shouji.360.cn
+0.0.0.0   adasad.myweb.hinet.net
+0.0.0.0   ad.caiyunapp.com
+0.0.0.0   adcast.deviantart.com
+0.0.0.0   ad.cdn.sex
+0.0.0.0   ad.cn.doubleclick.net
+0.0.0.0   adcore.lenovomm.com
+0.0.0.0   ad.dev.360.cn
+0.0.0.0   ad.dqwjzm.com
+0.0.0.0   ad.duapps.com
+0.0.0.0   ade.googlesyndication.com
+0.0.0.0   adeventtracker.spotify.com
+0.0.0.0   adfilter.imtt.qq.com
+0.0.0.0   ad.flurry.com
+0.0.0.0   adfuture.cn
+0.0.0.0   ad.gamebox.360.cn
+0.0.0.0   adgeo.163.com
+0.0.0.0   ad.greedland.net
+0.0.0.0   adimages.sina.com.hk
+0.0.0.0   adimg.daumcdn.net
+0.0.0.0   adimg.deviantart.net
+0.0.0.0   adimg.mobile.sina.cn
+0.0.0.0   adimg.qxlsjw.com
+0.0.0.0   adimg.uve.weibo.com
+0.0.0.0   adinfo.ra1.xlmc.sec.miui.com
+0.0.0.0   ad.jsnbrynb.com
+0.0.0.0   adlaunch.moji.com
+0.0.0.0   adlog.flurry.com
+0.0.0.0   ad.mail.sohu.com
+0.0.0.0   adm.baidu.com
+0.0.0.0   admd.yam.com
+0.0.0.0   admeld.adnxs.com
+0.0.0.0   adm.icast.cn
+0.0.0.0   adm.leju.sina.com.cn
+0.0.0.0   ad.netowl.jp
+0.0.0.0   adnet.sohu.com
+0.0.0.0   adn.insight.ucweb.com
+0.0.0.0   a.domob.cn
+0.0.0.0   a.dounanhuahui.com
+0.0.0.0   adpublish.ydstatic.com
+0.0.0.0   ad.qq.com
+0.0.0.0   adres.myaora.net
+0.0.0.0   ads1.msads.net
+0.0.0.0   ads1.msn.com
+0.0.0.0   ads2.msads.net
+0.0.0.0   ads2.msn.com
+0.0.0.0   ads.adaptv.advertising.com
+0.0.0.0   ads-a.juicyads.com
+0.0.0.0   ads.bssdl.kugou.com
+0.0.0.0   adscdn.baidu.com
+0.0.0.0   adsco.re
+0.0.0.0   adsence.sogou.com
+0.0.0.0   adsense.html5.qq.com
+0.0.0.0   adserve2.tom.com
+0.0.0.0   adserver.adtechus.com
+0.0.0.0   adserver.juicyads.com
+0.0.0.0   adserver-us.adtech.advertising.com
+0.0.0.0   adserver.xpanama.net
+0.0.0.0   adserver.yahoo.com
+0.0.0.0   adservice.google.com
+0.0.0.0   ads.eu.msn.com
+0.0.0.0   adsfs.oppomobile.com
+0.0.0.0   ads.gionee.com
+0.0.0.0   ads.gmodules.com
+0.0.0.0   ads.google.com
+0.0.0.0   adsina.allyes.com
+0.0.0.0   ads.msn.com
+0.0.0.0   ads.ninemsn.com.au
+0.0.0.0   ad.sohu.com
+0.0.0.0   adsolution.imtt.qq.com
+0.0.0.0   ads.pubmatic.com
+0.0.0.0   adsp.xunlei.com
+0.0.0.0   adsrich.qq.com
+0.0.0.0   ads.servebom.com
+0.0.0.0   ads.service.kugou.com
+0.0.0.0   ads.sina.com
+0.0.0.0   ads.stickyadstv.com
+0.0.0.0   adss.yahoo.com
+0.0.0.0   adstream.123.sogoucdn.com
+0.0.0.0   adsunflower.com
+0.0.0.0   ads.waps.cn
+0.0.0.0   ads.wapx.cn
+0.0.0.0   ads-west-colo.adsymptotic.com
+0.0.0.0   ads.yahoo.com
+0.0.0.0   ads.yam.com
+0.0.0.0   ads.yimg.com
+0.0.0.0   adsyndication.msn.com
+0.0.0.0   ads.youtube.com
+0.0.0.0   adtrack.ucweb.com
+0.0.0.0   adui.tg.meitu.com
+0.0.0.0   adv2.downsave.com
+0.0.0.0   ad.wang502.com
+0.0.0.0   ad.winrar.com.cn
+0.0.0.0   ad.wretch.cc
+0.0.0.0   adx.ads.oppomobile.com
+0.0.0.0   adx.g.doubleclick.net
+0.0.0.0   adx-static.ksosoft.com
+0.0.0.0   ad.xxguan.cn
+0.0.0.0   adx.xiaodutv.com
+0.0.0.0   ad.gtbrowser.com
+0.0.0.0   www.admarket.mobi
+0.0.0.0   z.domob.cn
+0.0.0.0   z.sora.yoyi.com.cn
+0.0.0.0   cnzz.mmstat.com
+0.0.0.0   z3.cnzz.com
+0.0.0.0   s4.cnzz.com
+0.0.0.0   ei.cnzz.com
+0.0.0.0   c.cnzz.com
+0.0.0.0   s13.cnzz.com
+0.0.0.0   w.cnzz.com
+0.0.0.0   v1.cnzz.com
+0.0.0.0   s5.cnzz.com
+0.0.0.0   s6.cnzz.com
+0.0.0.0   cs6.cnzz.com
+0.0.0.0   s9.cnzz.com
+0.0.0.0   s22.cnzz.com
+0.0.0.0   s23.cnzz.com
+0.0.0.0   s11.cnzz.com
+0.0.0.0   s95.cnzz.com
+0.0.0.0   s96.cnzz.com
+0.0.0.0   gxbr.cnzz.com
+0.0.0.0   z11.cnzz.com
+0.0.0.0   z13.cnzz.com
+0.0.0.0   z1.cnzz.com
+0.0.0.0   z2.cnzz.com
+0.0.0.0   z4.cnzz.com
+0.0.0.0   z5.cnzz.com
+0.0.0.0   z6.cnzz.com
+0.0.0.0   z7.cnzz.com
+0.0.0.0   z8.cnzz.com
+0.0.0.0   z9.cnzz.com
+0.0.0.0   z10.cnzz.com
+0.0.0.0   z12.cnzz.com
+0.0.0.0   zs10.cnzz.com
+0.0.0.0   zs11.cnzz.com
+0.0.0.0   zs12.cnzz.com
+0.0.0.0   zs13.cnzz.com
+0.0.0.0   zs14.cnzz.com
+0.0.0.0   zs15.cnzz.com
+0.0.0.0   zs16.cnzz.com
+0.0.0.0   zs1.cnzz.com
+0.0.0.0   zs25.cnzz.com
+0.0.0.0   zs2.cnzz.com
+0.0.0.0   zs3.cnzz.com
+0.0.0.0   zs4.cnzz.com
+0.0.0.0   zs5.cnzz.com
+0.0.0.0   zs6.cnzz.com
+0.0.0.0   zs7.cnzz.com
+0.0.0.0   zs8.cnzz.com
+0.0.0.0   zs9.cnzz.com
+0.0.0.0   zvs1.cnzz.com
+0.0.0.0   zvs2.cnzz.com
+0.0.0.0   hqs1.cnzz.com
+0.0.0.0   hqs4.cnzz.com
+0.0.0.0   hqs7.cnzz.com
+0.0.0.0   hqs9.cnzz.com
+0.0.0.0   hzs10.cnzz.com
+0.0.0.0   hzs12.cnzz.com
+0.0.0.0   hzs13.cnzz.com
+0.0.0.0   hzs14.cnzz.com
+0.0.0.0   hzs17.cnzz.com
+0.0.0.0   hzs23.cnzz.com
+0.0.0.0   hzs2.cnzz.com
+0.0.0.0   hzs3.cnzz.com
+0.0.0.0   hzs5.cnzz.com
+0.0.0.0   hzs7.cnzz.com
+0.0.0.0   hzs8.cnzz.com
+0.0.0.0   hzs9.cnzz.com
+0.0.0.0   hzvs1.cnzz.com
+0.0.0.0   pcookie.cnzz.com

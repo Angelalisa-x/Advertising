@@ -157,14 +157,34 @@ class WhiteList:
             #str = str + ",Advertising" + "\n" 
         fwhite.close()
         return html
+
+    def pullkbsml():
+        #url = 'https://www.kbsml.com/wp-content/uploads/adblock/adguard/adg-kall-dns.txt'
+        #url = 'https://www.kbsml.com/wp-content/uploads/adblock/adguard/adg-kall.txt'
+
+        fwhite=open("WhiteList_1.txt","w+")
+        for line in open("kbsmlDns.txt",encoding='UTF-8'):
+            str=[]
+            str = line
+            if "@@||*" in line:
+                str = str[str.find("@@||*")+5:str.rfind("^")] + "\n"
+                fwhite.write(str)
+                continue
+            if "@@||" in line:
+                str = str[str.find("@@||")+4:str.rfind("^")] + "\n"
+                fwhite.write(str)
+                continue
+        fwhite.close()
  
 
 if __name__ == '__main__':
     WhiteList.pull2()
     WhiteList.pull3()
     WhiteList.pull7()
-    WhiteList.quchong("WhiteList_1.txt","WhiteList.txt")
+    WhiteList.pullkbsml()
 
+
+    WhiteList.quchong("WhiteList_1.txt","WhiteList.txt")
     WhiteList.geshiProcess()
 
 
