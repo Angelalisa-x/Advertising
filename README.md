@@ -10,6 +10,7 @@
     https://github.com/blackmatrix7/ios_rule_script
 
 Quantumult X 日常去广告规则：https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/AdvertisingTest/AdvertisingTest.list
+
 重度用户补充：https://raw.githubusercontent.com/Angelalisa-x/Advertising/master/CustomRuleAD/KnightAD.list
 
 以上规则都已经做白名单处理，还是有误杀的情况，如果有白名单规则，可以下方留言
