@@ -131,7 +131,8 @@ class whiteList:
         #url = 'https://www.kbsml.com/wp-content/uploads/adblock/adguard/adg-kall.txt'
 
         fwhite=open("whiteList_1.txt","a+")
-        for line in open("kbsmlDns.txt",encoding='UTF-8'):
+        #for line in open("kbsmlDns.txt",encoding='UTF-8'):
+        for line in open("WhiteList\kbsmlDns.txt",encoding='UTF-8'):
             str=[]
             str = line
             if "@@||*" in line:
@@ -182,24 +183,38 @@ class whiteList:
     #             continue
     #     fwhite.close()    
  
-
-if __name__ == '__main__':
+ ############################ 执行函数 Start ##########################
+def doProcessWhiteList():
     whiteList.pull2()
     whiteList.pull3()
     whiteList.pull7()
     whiteList.pullkbsml()
     # whiteList.pullADgk()
 
-
     whiteList.quchong("whiteList_2.txt","whiteList_1.txt")
     whiteList.geshiProcess("whiteList.list","whiteList_2.txt")
-
 
 
     os.remove("whiteList1.txt")
     os.remove("whiteList_1.txt")
     os.remove("whiteList_2.txt")
-    #shutil.rmtree("__pycache__")
+ ############################ 执行函数 End ##########################
+
+# if __name__ == '__main__':
+#     whiteList.pull2()
+#     whiteList.pull3()
+#     whiteList.pull7()
+#     whiteList.pullkbsml()
+#     # whiteList.pullADgk()
+
+#     whiteList.quchong("whiteList_2.txt","whiteList_1.txt")
+#     whiteList.geshiProcess("whiteList.list","whiteList_2.txt")
+
+
+#     os.remove("whiteList1.txt")
+#     os.remove("whiteList_1.txt")
+#     os.remove("whiteList_2.txt")
+#     #shutil.rmtree("__pycache__")
 
 
 
