@@ -248,6 +248,8 @@ def pullEach():
                 continue
             if "@" in line:
                 continue
+            if '\/' in line:
+                continue
             if ":" in line:
                 continue
             if "||*." in line:

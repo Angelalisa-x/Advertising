@@ -459,7 +459,6 @@ HOST-SUFFIX,onderlea.info,REJECT
 HOST-SUFFIX,rcdn.pro,REJECT
 HOST-SUFFIX,s1-a*.dnvod.tv,REJECT
 HOST-SUFFIX,mob.hr,REJECT
-HOST-SUFFIX,/movie1168\.com\/storage\/go\/[0-9a-zA-Z]{0,40}\.gif/,REJECT
 HOST-SUFFIX,.3.n.2.1.l50.js,REJECT
 HOST-SUFFIX,.3.n.2.2.l30.js,REJECT
 HOST-SUFFIX,vkcdnservice.appspot.com^,REJECT
