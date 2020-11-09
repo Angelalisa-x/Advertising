@@ -106,6 +106,8 @@ def pullEach():
                 continue
             if "。" in line:
                 continue
+            if "@" in line:
+                continue
             if ":" in line:
                 continue
             if "||*." in line:
@@ -147,6 +149,10 @@ def pullEach():
                 continue
             if "。" in line:
                 continue
+            if "@" in line:
+                continue
+            if "@@" in line:
+                continue
             if "/" in line:
                 continue
             if "||*." in line:
@@ -171,6 +177,99 @@ def pullEach():
                 continue
     fin7.close()
             ############### kbsmlDns End ####################
+
+            ################## GoodbyeAds Start ####################
+    # url = 'https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Formats/GoodbyeAds-AdBlock-Filter.txt'
+    # html = requests.get(url).text
+    # with open("1.txt","w",encoding='UTF-8') as f:
+    #     f.write(html)
+    # f.close()
+
+    # with open("KnightAD.txt","a+",encoding='UTF-8') as fin7:
+    #     for line in open("1.txt",encoding='UTF-8'):
+    #         str=[]
+    #         str = line
+    #         if "#" in line:
+    #             continue
+    #         if "!" in line:
+    #             continue
+    #         if line == '\n':
+    #             continue
+    #         if "。" in line:
+    #             continue
+    #         if "@" in line:
+    #             continue
+    #         if ":" in line:
+    #             continue
+    #         if "||*." in line:
+    #             str = str[str.find("||*.")+4:str.rfind("^")] + "\n"
+    #             fin7.write(str)
+    #             continue
+    #         if "||." in line:
+    #             str = str[str.find("||.")+3:str.rfind("^")] + "\n"
+    #             fin7.write(str)
+    #             continue
+    #         if "||*" in line:
+    #             str = str[str.find("||*")+3:str.rfind("^")] + "\n"
+    #             fin7.write(str)
+    #             continue
+    #         if "||" in line:
+    #             str = str[str.find("||")+2:str.rfind("^")] + "\n"
+    #             fin7.write(str)
+    #             continue
+    #         if "$" in line:
+    #             continue
+    #         fin7.write(str)
+    # fin7.close()
+            ################## GoodbyeAds End ####################
+
+            ################## AdGuardDNS Start ####################
+    url = 'https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt'
+    html = requests.get(url).text
+    with open("1.txt","w",encoding='UTF-8') as f:
+        f.write(html)
+    f.close()
+
+    with open("KnightAD.txt","a+",encoding='UTF-8') as fin7:
+        for line in open("1.txt",encoding='UTF-8'):
+            str=[]
+            str = line
+            if "#" in line:
+                continue
+            if "!" in line:
+                continue
+            if line == '\n':
+                continue
+            if "。" in line:
+                continue
+            if "@" in line:
+                continue
+            if ":" in line:
+                continue
+            if "||*." in line:
+                str = str[str.find("||*.")+4:str.rfind("^")] + "\n"
+                fin7.write(str)
+                continue
+            if "||." in line:
+                str = str[str.find("||.")+3:str.rfind("^")] + "\n"
+                fin7.write(str)
+                continue
+            if "||*" in line:
+                str = str[str.find("||*")+3:str.rfind("^")] + "\n"
+                fin7.write(str)
+                continue
+            if "||" in line:
+                str = str[str.find("||")+2:str.rfind("^")] + "\n"
+                fin7.write(str)
+                continue
+            if "$" in line:
+                continue
+            fin7.write(str)
+    fin7.close()
+            ################## AdGuardDNS End ####################
+
+
+            
 
 ###################### 执行函数 Start ########################
 def doProcessCustomRuleAD():
