@@ -4,10 +4,8 @@ import shutil
 
 
 class whiteList:
-    #去重
-    def quchong(readPath,writePath):
-        # readPath='whiteList_1.txt'
-        # writePath='whiteList.list'
+##################### 去重 ###############################
+    def quchong(writePath,readPath):
         lines_seen=set()
         outfiile=open(writePath,'w+')
         f=open(readPath,'r')
@@ -15,11 +13,10 @@ class whiteList:
             if line not in lines_seen:
                 outfiile.write(line)
                 lines_seen.add(line)
-
         outfiile.close()
         f.close()
 
-    #格式处理
+######################### 格式处理 #############################
     def geshiProcess():
         f = open("whiteList.list","w+")
         for line in open("whiteList.txt","r"):
@@ -30,6 +27,7 @@ class whiteList:
             f.write(str)
         f.close()
 
+######################## pull #####################################
     def pull2():
         url = 'https://raw.githubusercontent.com/Potterli20/filtering/master/filtering.txt'
         html = requests.get(url).text
@@ -193,7 +191,7 @@ if __name__ == '__main__':
     # whiteList.pullADgk()
 
 
-    whiteList.quchong("whiteList_1.txt","whiteList.txt")
+    whiteList.quchong("whiteList.txt","whiteList_1.txt")
     whiteList.geshiProcess()
 
 
