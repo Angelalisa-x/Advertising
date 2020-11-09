@@ -275,48 +275,48 @@ def pullEach():
             ################## AdGuardDNS End ####################
 
             ################## 1Hosts-Pro Start ###################
-    url = 'https://badmojr.github.io/1Hosts/Pro/adblock.txt'
-    html = requests.get(url).text
-    with open("1.txt","w",encoding='UTF-8') as f:
-        f.write(html)
-    f.close()
+    # url = 'https://badmojr.github.io/1Hosts/Pro/adblock.txt'
+    # html = requests.get(url).text
+    # with open("1.txt","w",encoding='UTF-8') as f:
+    #     f.write(html)
+    # f.close()
 
-    with open("KnightAD.txt","a+",encoding='UTF-8') as fin7:
-        for line in open("1.txt",encoding='UTF-8'):
-            str=[]
-            str = line
-            if "#" in line:
-                continue
-            if "!" in line:
-                continue
-            if line == '\n':
-                continue
-            if "。" in line:
-                continue
-            if "@" in line:
-                continue
-            if ":" in line:
-                continue
-            if "||*." in line:
-                str = str[str.find("||*.")+4:str.rfind("^")] + "\n"
-                fin7.write(str)
-                continue
-            if "||." in line:
-                str = str[str.find("||.")+3:str.rfind("^")] + "\n"
-                fin7.write(str)
-                continue
-            if "||*" in line:
-                str = str[str.find("||*")+3:str.rfind("^")] + "\n"
-                fin7.write(str)
-                continue
-            if "||" in line:
-                str = str[str.find("||")+2:str.rfind("^")] + "\n"
-                fin7.write(str)
-                continue
-            if "$" in line:
-                continue
-            fin7.write(str)
-    fin7.close()            
+    # with open("KnightAD.txt","a+",encoding='UTF-8') as fin7:
+    #     for line in open("1.txt",encoding='UTF-8'):
+    #         str=[]
+    #         str = line
+    #         if "#" in line:
+    #             continue
+    #         if "!" in line:
+    #             continue
+    #         if line == '\n':
+    #             continue
+    #         if "。" in line:
+    #             continue
+    #         if "@" in line:
+    #             continue
+    #         if ":" in line:
+    #             continue
+    #         if "||*." in line:
+    #             str = str[str.find("||*.")+4:str.rfind("^")] + "\n"
+    #             fin7.write(str)
+    #             continue
+    #         if "||." in line:
+    #             str = str[str.find("||.")+3:str.rfind("^")] + "\n"
+    #             fin7.write(str)
+    #             continue
+    #         if "||*" in line:
+    #             str = str[str.find("||*")+3:str.rfind("^")] + "\n"
+    #             fin7.write(str)
+    #             continue
+    #         if "||" in line:
+    #             str = str[str.find("||")+2:str.rfind("^")] + "\n"
+    #             fin7.write(str)
+    #             continue
+    #         if "$" in line:
+    #             continue
+    #         fin7.write(str)
+    # fin7.close()            
             ################## 1Hosts-Pro End #####################
           
 

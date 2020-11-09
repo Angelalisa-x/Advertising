@@ -7,7 +7,7 @@ sys.path.append( os.path.join(os.path.dirname(__file__),'CustomRuleAD'))
 import CustomRuleAD
 
 sys.path.append( os.path.join(os.path.dirname(__file__),'WhiteList'))
-import whiteList
+import WhiteList
 
 ###################### CustomRuleAD ##################################
 def doProcessCustomRuleAD():
@@ -23,7 +23,7 @@ def doProcessCustomRuleAD():
 
 ####################### WhiteList #########################################
 def doProcessWhiteList():
-    whiteList.doProcessWhiteList()
+    WhiteList.doProcessWhiteList()
 
     my_file = Path(os.path.join(os.path.dirname(__file__),'WhiteList\__pycache__'))
     if my_file.exists():
