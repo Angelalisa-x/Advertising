@@ -115,6 +115,8 @@ def baimingdangProcess(targetFile,readPath):
             continue
         if ",lianmeng," in line:
             continue
+        if "kepler.jd.com" in line:
+            continue
         fin.write(line)
     fin.close()   
 
