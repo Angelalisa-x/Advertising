@@ -302,7 +302,7 @@ def pullEach():
             ################## AdGuardDNS End ####################
 
             ################## 1Hosts-Pro Start ###################
-    url = 'https://badmojr.github.io/1Hosts/Pro/adblock.txt'
+    url = 'https://badmojr.github.io/1Hosts/Lite/domains.txt'
     html = requests.get(url).text
     with open("1.txt","w",encoding='UTF-8') as f:
         f.write(html)
@@ -323,24 +323,6 @@ def pullEach():
             if "@" in line:
                 continue
             if ":" in line:
-                continue
-            if "ksapisrv.com" in line:
-                continue
-            if "||*." in line:
-                str = str[str.find("||*.")+4:str.rfind("^")] + "\n"
-                fin7.write(str)
-                continue
-            if "||." in line:
-                str = str[str.find("||.")+3:str.rfind("^")] + "\n"
-                fin7.write(str)
-                continue
-            if "||*" in line:
-                str = str[str.find("||*")+3:str.rfind("^")] + "\n"
-                fin7.write(str)
-                continue
-            if "||" in line:
-                str = str[str.find("||")+2:str.rfind("^")] + "\n"
-                fin7.write(str)
                 continue
             if "$" in line:
                 continue
