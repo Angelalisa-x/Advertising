@@ -93,7 +93,7 @@ def geshiProcess(targetFile,readPath):
 def baimingdangProcess(targetFile,readPath):
     fin = open(targetFile,"w")
     for line in open(readPath,"r"):
-        if ".music.126.net" in line:
+        if "music.126.net" in line:
             continue
         if ".snssdk.com" in line:
             continue

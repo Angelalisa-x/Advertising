@@ -186,7 +186,7 @@ class whiteList:
  ############################ 执行函数 Start ##########################
 def doProcessWhiteList():
     whiteList.pull2()
-    whiteList.pull3()
+    #whiteList.pull3()
     whiteList.pull7()
     whiteList.pullkbsml()
     # whiteList.pullADgk()
