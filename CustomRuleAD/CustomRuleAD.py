@@ -463,13 +463,10 @@ def pullEach():
                 fin7.write(str)
                 continue
     fin7.close()               
-            ################## sbc.io-hosts End     #####################
+            ################## sbc.io-hosts End     #####################      
 
-            
-            
 
-            
-          
+
 
 ###################### 执行函数 Start ########################
 def doProcessCustomRuleAD():
