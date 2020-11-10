@@ -105,6 +105,10 @@ def baimingdangProcess(targetFile,readPath):
             continue
         if ".netease.com" in line:
             continue
+        if "gia.jd.com" in line:
+            continue
+        if ".m.jd.com" in line:
+            continue
         fin.write(line)
     fin.close()   
 
