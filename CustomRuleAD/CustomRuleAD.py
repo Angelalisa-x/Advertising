@@ -115,9 +115,12 @@ def baimingdangProcess(targetFile,readPath):
             continue
         if ",lianmeng," in line:
             continue
-        if "app-measurement.com" in line:
+        str=[]
+        str = line
+        str = str[0:str.find('/n')]
+        if "meituan.net" == str:
             continue
-        if "analytics-api.smzdm.com" in line:
+        if "meituan.com" == str:
             continue
         fin.write(line)
     fin.close()   
