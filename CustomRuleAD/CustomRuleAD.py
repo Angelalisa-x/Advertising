@@ -117,7 +117,7 @@ def baimingdangProcess(targetFile,readPath):
             continue
         if "app-measurement.com" in line:
             continue
-        if "wq.360buyimg.com" in line:
+        if "analytics-api.smzdm.com" in line:
             continue
         fin.write(line)
     fin.close()   
