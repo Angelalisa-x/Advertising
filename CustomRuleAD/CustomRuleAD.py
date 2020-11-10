@@ -99,6 +99,12 @@ def baimingdangProcess(targetFile,readPath):
             continue
         if ".pstatp.com" in line:
             continue
+        if ".mkey.163.com" in line:
+            continue
+        if "jr.jd.com" in line:
+            continue
+        if ".netease.com" in line:
+            continue
         fin.write(line)
     fin.close()   
 
