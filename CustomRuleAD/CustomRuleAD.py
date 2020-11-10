@@ -113,6 +113,8 @@ def baimingdangProcess(targetFile,readPath):
             continue
         if "dig.bdurl.net" in line:
             continue
+        if ",lianmeng," in line:
+            continue
         fin.write(line)
     fin.close()   
 
