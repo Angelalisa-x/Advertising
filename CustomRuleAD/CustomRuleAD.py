@@ -111,6 +111,8 @@ def baimingdangProcess(targetFile,readPath):
             continue
         if "union-click.jd.com" in line:
             continue
+        if "dig.bdurl.net" in line:
+            continue
         fin.write(line)
     fin.close()   
 
