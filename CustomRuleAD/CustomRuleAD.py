@@ -324,6 +324,8 @@ def pullEach():
                 continue
             if ":" in line:
                 continue
+            if "ksapisrv.com" in line:
+                continue
             if "||*." in line:
                 str = str[str.find("||*.")+4:str.rfind("^")] + "\n"
                 fin7.write(str)
@@ -345,6 +347,40 @@ def pullEach():
             fin7.write(str)
     fin7.close()            
             ################## 1Hosts-Pro End #####################
+
+            ################## AdAway Start #####################
+    url = 'https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt'
+    html = requests.get(url).text
+    with open("1.txt","w",encoding='UTF-8') as f:
+        f.write(html)
+    f.close()
+
+    with open("KnightAD.txt","a+",encoding='UTF-8') as fin7:
+        for line in open("1.txt",encoding='UTF-8'):
+            str=[]
+            str = line
+            if "#" in line:
+                continue
+            if "!" in line:
+                continue
+            if line == '\n':
+                continue
+            if "。" in line:
+                continue
+            if "@" in line:
+                continue
+            if ":" in line:
+                continue
+            if "localhost" in line:
+                continue
+            if "127.0.0.1 " in line:
+                str = str[str.find("127.0.0.1 ")+10:str.rfind("\n")] + "\n"
+                fin7.write(str)
+                continue
+    fin7.close()  
+            ################## AdAway End   #####################
+
+            
           
 
 ###################### 执行函数 Start ########################
