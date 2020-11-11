@@ -113,7 +113,15 @@ def baimingdangProcess(targetFile,readPath):
             continue
         if "dig.bdurl.net" in line:
             continue
+        if "app-measurement.com" in line:
+            continue
         if ",lianmeng," in line:
+            continue
+        if ",analytics-api.smzdm.com," in line:
+            continue
+        if ",ssl.google-analytics.com," in line:
+            continue
+        if ",wq.360buyimg.com," in line:
             continue
         str=[]
         str = line
@@ -121,6 +129,8 @@ def baimingdangProcess(targetFile,readPath):
         if "meituan.net" == str:
             continue
         if "meituan.com" == str:
+            continue
+        if "kepler.jd.com" == str:
             continue
         fin.write(line)
     fin.close()   
