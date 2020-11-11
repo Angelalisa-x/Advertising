@@ -115,9 +115,15 @@ def baimingdangProcess(targetFile,readPath):
             continue
         if "app-measurement.com" in line:
             continue
+        if "ynuf.aliapp.org" in line:
+            continue
+        if ",wanproxy.127.net," in line:
+            continue
         if ",lianmeng," in line:
             continue
         if ",analytics," in line:
+            continue
+        if ",aliapp.org," in line:
             continue
         if ",analytics-api.smzdm.com," in line:
             continue
