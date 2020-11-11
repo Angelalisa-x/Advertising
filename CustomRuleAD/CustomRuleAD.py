@@ -125,6 +125,18 @@ def baimingdangProcess(targetFile,readPath):
             continue
         if "ynuf.aliapp.org" in line:
             continue
+        if "uland.taobao.com" in line:
+            continue
+        if "mos.m.taobao.com" in line:
+            continue
+        if "s.click.taobao.com" in line:
+            continue
+        if "h5.m.taobao.com" in line:
+            continue
+        if "ip.taobao.com" in line:
+            continue
+        if "acs.m.taobao.com" in line:
+            continue
         if ",lianmeng," in line:
             continue
         if ",analytics," in line:
