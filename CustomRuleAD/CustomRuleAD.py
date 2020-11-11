@@ -109,27 +109,27 @@ def baimingdangProcess(targetFile,readPath):
             continue
         if ".m.jd.com" in line:
             continue
+        if "mapi.m.jd.com" in line:
+            continue
+        if "wl.jd.com" in line:
+            continue
         if "union-click.jd.com" in line:
             continue
         if "dig.bdurl.net" in line:
             continue
+        if "mjrpay.jd.com" in line:
+            continue
+        if "cfm.jd.com" in line:
+            continue
         if "app-measurement.com" in line:
             continue
         if "ynuf.aliapp.org" in line:
-            continue
-        if ",wanproxy.127.net," in line:
             continue
         if ",lianmeng," in line:
             continue
         if ",analytics," in line:
             continue
         if ",aliapp.org," in line:
-            continue
-        if ",analytics-api.smzdm.com," in line:
-            continue
-        if "google-analytics.com" in line:
-            continue
-        if "wq.360buyimg.com" in line:
             continue
         str=[]
         str = line
