@@ -10305,8 +10305,6 @@ HOST-SUFFIX,pagead46.googlesyndication.com,REJECT
 HOST-SUFFIX,safeframe.googlesyndication.com,REJECT
 HOST-SUFFIX,cdn.googletoolservices.com,REJECT
 HOST-SUFFIX,afs.googleusercontent.com,REJECT
-HOST-SUFFIX,click.google-analytics.com,REJECT
-HOST-SUFFIX,sandbox.google-analytics.com,REJECT
 HOST-SUFFIX,gooncheck.com,REJECT
 HOST-SUFFIX,4017905155.gopeerclick.com,REJECT
 HOST-SUFFIX,gopopup.com,REJECT
