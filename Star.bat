@@ -9,4 +9,4 @@ cd ..
 cd CustomRuleAD
 F:/python3.7/python.exe e:/work/Advertising/CustomRuleAD/CustomRuleAD_Ex.py
 
-pause
+#pause
