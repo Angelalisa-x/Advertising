@@ -209,8 +209,8 @@ def pullEach():
 
             ################## kbsmlDns Start ####################
     with open("KnightAD.txt","a+",encoding='UTF-8') as fin7:
-        #for line in open("..\WhiteList\kbsmlDns.txt","r",encoding='UTF-8'):
-        for line in open("WhiteList\kbsmlDns.txt","r",encoding='UTF-8'):
+        for line in open("..\WhiteList\kbsmlDns.txt","r",encoding='UTF-8'):
+        #for line in open("WhiteList\kbsmlDns.txt","r",encoding='UTF-8'):
             str=[]
             str = line
             if "#" in line:
@@ -534,27 +534,33 @@ def doProcessCustomRuleAD():
     os.remove("KnightAD_3.txt")
 ###################### 执行函数 End ########################
 
-# if __name__ == '__main__':
-    # pullBlackmatrix7()
-    # pullEach()
+if __name__ == '__main__':
+    pullBlackmatrix7()
+    pullEach()
 
 
-    # quchong("KnightAD_1.txt","KnightAD.txt")
-    # quchong("blackmatrix7_1.txt","blackmatrix7.txt")
-    # blackmatrix7_num = getFileLineNum("blackmatrix7_1.txt")
+    quchong("KnightAD_1.txt","KnightAD.txt")
+    quchong("blackmatrix7_1.txt","blackmatrix7.txt")
+    blackmatrix7_num = getFileLineNum("blackmatrix7_1.txt")
 
-    # hebingFile("blackmatrix7_1.txt","KnightAD_1.txt")
-    # quchong("blackmatrix7_2.txt","blackmatrix7_1.txt")
+    quchong("BlackmatrixBackups_1.txt","BlackmatrixBackups.txt")
+    baimingdangProcess("BlackmatrixBackups.list","BlackmatrixBackups_1.txt")
 
-    # qiegeFile("KnightAD_2.txt","blackmatrix7_2.txt",blackmatrix7_num)
+    hebingFile("blackmatrix7_1.txt","KnightAD_1.txt")
+    quchong("blackmatrix7_2.txt","blackmatrix7_1.txt")
 
-    # geshiProcess("KnightAD.list","KnightAD_2.txt")
+    qiegeFile("KnightAD_2.txt","blackmatrix7_2.txt",blackmatrix7_num)
+    baimingdangProcess("KnightAD_3.txt","KnightAD_2.txt")
+    geshiProcess("KnightAD.list","KnightAD_3.txt")
 
 
-    # os.remove("1.txt")
-    # os.remove("blackmatrix7.txt")
-    # os.remove("blackmatrix7_1.txt")
-    # os.remove("blackmatrix7_2.txt")
-    # os.remove("KnightAD.txt")
-    # os.remove("KnightAD_1.txt")
-    # os.remove("KnightAD_2.txt")
+    os.remove("1.txt")
+    os.remove("blackmatrix7.txt")
+    os.remove("blackmatrix7_1.txt")
+    os.remove("blackmatrix7_2.txt")
+    os.remove("BlackmatrixBackups.txt")
+    os.remove("BlackmatrixBackups_1.txt")
+    os.remove("KnightAD.txt")
+    os.remove("KnightAD_1.txt")
+    os.remove("KnightAD_2.txt")
+    os.remove("KnightAD_3.txt")

@@ -3,14 +3,12 @@ import sys,os
 import shutil
 from pathlib import Path
 
-sys.path.append( os.path.join(os.path.dirname(__file__),'CustomRuleAD'))
-import CustomRuleAD
 
-sys.path.append( os.path.join(os.path.dirname(__file__),'WhiteList'))
-import WhiteList
 
 ###################### CustomRuleAD ##################################
 def doProcessCustomRuleAD():
+    sys.path.append( os.path.join(os.path.dirname(__file__),'CustomRuleAD'))
+    import CustomRuleAD
     CustomRuleAD.doProcessCustomRuleAD()
 
     my_file = Path(os.path.join(os.path.dirname(__file__),'CustomRuleAD\__pycache__'))
@@ -23,6 +21,8 @@ def doProcessCustomRuleAD():
 
 ####################### WhiteList #########################################
 def doProcessWhiteList():
+    sys.path.append( os.path.join(os.path.dirname(__file__),'WhiteList'))
+    import WhiteList
     WhiteList.doProcessWhiteList()
 
     my_file = Path(os.path.join(os.path.dirname(__file__),'WhiteList\__pycache__'))
