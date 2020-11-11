@@ -1454,7 +1454,57 @@ def pullEach():
                 fin7.write(str)
                 continue
     fin7.close()               
-            ################## sbc.io-hosts End     #####################      
+            ################## sbc.io-hosts End     #####################
+
+            ################## damengzhudamengzhu Star    #####################
+    url = 'https://gitee.com/damengzhudamengzhu/guanggaoguolv/raw/master/jiekouAD.txt'
+    html = requests.get(url).text
+    with open("1.txt","w",encoding='UTF-8') as f:
+        f.write(html)
+    f.close()
+
+    with open("KnightAD.txt","a+",encoding='UTF-8') as fin7:
+        for line in open("1.txt",encoding='UTF-8'):
+            str=[]
+            str = line
+            if "#" in line:
+                continue
+            if "!" in line:
+                continue
+            if line == '\n':
+                continue
+            if "。" in line:
+                continue
+            if "@" in line:
+                continue
+            if ":" in line:
+                continue
+            if "," in line:
+                continue
+            if ":" in line:
+                continue
+            if "=" in line:
+                continue
+            if "||*." in line:
+                str = str[str.find("||*.")+4:str.rfind("^")] + "\n"
+                fin7.write(str)
+                continue
+            if "||." in line:
+                str = str[str.find("||.")+3:str.rfind("^")] + "\n"
+                fin7.write(str)
+                continue
+            if "||*" in line:
+                str = str[str.find("||*")+3:str.rfind("^")] + "\n"
+                fin7.write(str)
+                continue
+            if "||" in line:
+                str = str[str.find("||")+2:str.rfind("^")] + "\n"
+                fin7.write(str)
+                continue
+            fin7.write(str)
+
+    fin7.close()              
+            ################## damengzhudamengzhu End     #####################
 
 
 
