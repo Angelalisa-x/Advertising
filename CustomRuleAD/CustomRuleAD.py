@@ -111,6 +111,7 @@ def baimingdangProcess(targetFile,readPath):
             continue
         if "mapi.m.jd.com" in line:
             continue
+############# yudong white ###############################
         if "wl.jd.com" in line:
             continue
         if "union-click.jd.com" in line:
