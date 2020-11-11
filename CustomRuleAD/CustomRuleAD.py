@@ -123,6 +123,8 @@ def baimingdangProcess(targetFile,readPath):
             continue
         if "google-analytics.com" in line:
             continue
+        if "wq.360buyimg.com" in line:
+            continue
         str=[]
         str = line
         str = str[0:str.find('/n')]
