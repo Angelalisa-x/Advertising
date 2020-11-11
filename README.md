@@ -9,7 +9,7 @@
 非常感谢大神提供的思路
     https://github.com/blackmatrix7/ios_rule_script
 
-Quantumult X 日常去广告规则：https://raw.githubusercontent.com/Angelalisa-x/Advertising/master/BlackmatrixBackups.list
+Quantumult X 日常去广告规则：https://raw.githubusercontent.com/Angelalisa-x/Advertising/master/CustomRuleAD/BlackmatrixBackups.list
 
 重度用户补充：https://raw.githubusercontent.com/Angelalisa-x/Advertising/master/CustomRuleAD/KnightAD.list
 
