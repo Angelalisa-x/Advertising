@@ -299,50 +299,50 @@ def pullEach():
             ################## GoodbyeAds End ####################
 
             ################## AdGuardDNS Start ####################
-    # url = 'https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt'
-    # html = requests.get(url).text
-    # with open("1.txt","w",encoding='UTF-8') as f:
-    #     f.write(html)
-    # f.close()
+    url = 'https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt'
+    html = requests.get(url).text
+    with open("1.txt","w",encoding='UTF-8') as f:
+        f.write(html)
+    f.close()
 
-    # with open("KnightAD.txt","a+",encoding='UTF-8') as fin7:
-    #     for line in open("1.txt",encoding='UTF-8'):
-    #         str=[]
-    #         str = line
-    #         if "#" in line:
-    #             continue
-    #         if "!" in line:
-    #             continue
-    #         if line == '\n':
-    #             continue
-    #         if "。" in line:
-    #             continue
-    #         if "@" in line:
-    #             continue
-    #         if '\/' in line:
-    #             continue
-    #         if ":" in line:
-    #             continue
-    #         if "||*." in line:
-    #             str = str[str.find("||*.")+4:str.rfind("^")] + "\n"
-    #             fin7.write(str)
-    #             continue
-    #         if "||." in line:
-    #             str = str[str.find("||.")+3:str.rfind("^")] + "\n"
-    #             fin7.write(str)
-    #             continue
-    #         if "||*" in line:
-    #             str = str[str.find("||*")+3:str.rfind("^")] + "\n"
-    #             fin7.write(str)
-    #             continue
-    #         if "||" in line:
-    #             str = str[str.find("||")+2:str.rfind("^")] + "\n"
-    #             fin7.write(str)
-    #             continue
-    #         if "$" in line:
-    #             continue
-    #         fin7.write(str)
-    # fin7.close()
+    with open("KnightAD.txt","a+",encoding='UTF-8') as fin7:
+        for line in open("1.txt",encoding='UTF-8'):
+            str=[]
+            str = line
+            if "#" in line:
+                continue
+            if "!" in line:
+                continue
+            if line == '\n':
+                continue
+            if "。" in line:
+                continue
+            if "@" in line:
+                continue
+            if '\/' in line:
+                continue
+            if ":" in line:
+                continue
+            if "||*." in line:
+                str = str[str.find("||*.")+4:str.rfind("^")] + "\n"
+                fin7.write(str)
+                continue
+            if "||." in line:
+                str = str[str.find("||.")+3:str.rfind("^")] + "\n"
+                fin7.write(str)
+                continue
+            if "||*" in line:
+                str = str[str.find("||*")+3:str.rfind("^")] + "\n"
+                fin7.write(str)
+                continue
+            if "||" in line:
+                str = str[str.find("||")+2:str.rfind("^")] + "\n"
+                fin7.write(str)
+                continue
+            if "$" in line:
+                continue
+            fin7.write(str)
+    fin7.close()
             ################## AdGuardDNS End ####################
 
             ################## 1Hosts-Pro Start ###################
@@ -437,115 +437,115 @@ def pullEach():
             ################## iOSAdblockList End    #####################
 
             ################## VeleSila Star    #####################
-    # url = 'https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts'
-    # html = requests.get(url).text
-    # with open("1.txt","w",encoding='UTF-8') as f:
-    #     f.write(html)
-    # f.close()
+    url = 'https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts'
+    html = requests.get(url).text
+    with open("1.txt","w",encoding='UTF-8') as f:
+        f.write(html)
+    f.close()
 
-    # with open("KnightAD.txt","a+",encoding='UTF-8') as fin7:
-    #     for line in open("1.txt",encoding='UTF-8'):
-    #         str=[]
-    #         str = line
-    #         if "#" in line:
-    #             continue
-    #         if "!" in line:
-    #             continue
-    #         if line == '\n':
-    #             continue
-    #         if "。" in line:
-    #             continue
-    #         if "@" in line:
-    #             continue
-    #         if ":" in line:
-    #             continue
-    #         if "127.0.0.1 " in line:
-    #             str = str[str.find("127.0.0.1 ")+10:str.rfind("\n")] + "\n"
-    #             fin7.write(str)
-    #             continue
-    # fin7.close()               
+    with open("KnightAD.txt","a+",encoding='UTF-8') as fin7:
+        for line in open("1.txt",encoding='UTF-8'):
+            str=[]
+            str = line
+            if "#" in line:
+                continue
+            if "!" in line:
+                continue
+            if line == '\n':
+                continue
+            if "。" in line:
+                continue
+            if "@" in line:
+                continue
+            if ":" in line:
+                continue
+            if "127.0.0.1 " in line:
+                str = str[str.find("127.0.0.1 ")+10:str.rfind("\n")] + "\n"
+                fin7.write(str)
+                continue
+    fin7.close()               
             ################## VeleSila End     #####################
 
             ################## sbc.io-hosts Star    #####################
-    # url = 'http://sbc.io/hosts/hosts'
-    # html = requests.get(url).text
-    # with open("1.txt","w",encoding='UTF-8') as f:
-    #     f.write(html)
-    # f.close()
+    url = 'http://sbc.io/hosts/hosts'
+    html = requests.get(url).text
+    with open("1.txt","w",encoding='UTF-8') as f:
+        f.write(html)
+    f.close()
 
-    # with open("KnightAD.txt","a+",encoding='UTF-8') as fin7:
-    #     for line in open("1.txt",encoding='UTF-8'):
-    #         str=[]
-    #         str = line
-    #         if "#" in line:
-    #             continue
-    #         if "!" in line:
-    #             continue
-    #         if line == '\n':
-    #             continue
-    #         if "。" in line:
-    #             continue
-    #         if "@" in line:
-    #             continue
-    #         if ":" in line:
-    #             continue
-    #         if "0.0.0.0 0.0.0.0" in line:
-    #             continue
-    #         if "0.0.0.0 " in line:
-    #             str = str[str.find("0.0.0.0 ")+8:str.rfind("\n")] + "\n"
-    #             fin7.write(str)
-    #             continue
-    # fin7.close()               
+    with open("KnightAD.txt","a+",encoding='UTF-8') as fin7:
+        for line in open("1.txt",encoding='UTF-8'):
+            str=[]
+            str = line
+            if "#" in line:
+                continue
+            if "!" in line:
+                continue
+            if line == '\n':
+                continue
+            if "。" in line:
+                continue
+            if "@" in line:
+                continue
+            if ":" in line:
+                continue
+            if "0.0.0.0 0.0.0.0" in line:
+                continue
+            if "0.0.0.0 " in line:
+                str = str[str.find("0.0.0.0 ")+8:str.rfind("\n")] + "\n"
+                fin7.write(str)
+                continue
+    fin7.close()               
             ################## sbc.io-hosts End     #####################
 
             ################## damengzhudamengzhu Star    #####################
-    # url = 'https://gitee.com/damengzhudamengzhu/guanggaoguolv/raw/master/jiekouAD.txt'
-    # html = requests.get(url).text
-    # with open("1.txt","w",encoding='UTF-8') as f:
-    #     f.write(html)
-    # f.close()
+    url = 'https://gitee.com/damengzhudamengzhu/guanggaoguolv/raw/master/jiekouAD.txt'
+    html = requests.get(url).text
+    with open("1.txt","w",encoding='UTF-8') as f:
+        f.write(html)
+    f.close()
 
-    # with open("KnightAD.txt","a+",encoding='UTF-8') as fin7:
-    #     for line in open("1.txt",encoding='UTF-8'):
-    #         str=[]
-    #         str = line
-    #         if "#" in line:
-    #             continue
-    #         if "!" in line:
-    #             continue
-    #         if line == '\n':
-    #             continue
-    #         if "。" in line:
-    #             continue
-    #         if "@" in line:
-    #             continue
-    #         if ":" in line:
-    #             continue
-    #         if "," in line:
-    #             continue
-    #         if ":" in line:
-    #             continue
-    #         if "=" in line:
-    #             continue
-    #         if "||*." in line:
-    #             str = str[str.find("||*.")+4:str.rfind("^")] + "\n"
-    #             fin7.write(str)
-    #             continue
-    #         if "||." in line:
-    #             str = str[str.find("||.")+3:str.rfind("^")] + "\n"
-    #             fin7.write(str)
-    #             continue
-    #         if "||*" in line:
-    #             str = str[str.find("||*")+3:str.rfind("^")] + "\n"
-    #             fin7.write(str)
-    #             continue
-    #         if "||" in line:
-    #             str = str[str.find("||")+2:str.rfind("^")] + "\n"
-    #             fin7.write(str)
-    #             continue
-    #         fin7.write(str)
+    with open("KnightAD.txt","a+",encoding='UTF-8') as fin7:
+        for line in open("1.txt",encoding='UTF-8'):
+            str=[]
+            str = line
+            if "#" in line:
+                continue
+            if "!" in line:
+                continue
+            if line == '\n':
+                continue
+            if "。" in line:
+                continue
+            if "@" in line:
+                continue
+            if ":" in line:
+                continue
+            if "," in line:
+                continue
+            if ":" in line:
+                continue
+            if "=" in line:
+                continue
+            if "||*." in line:
+                str = str[str.find("||*.")+4:str.rfind("^")] + "\n"
+                fin7.write(str)
+                continue
+            if "||." in line:
+                str = str[str.find("||.")+3:str.rfind("^")] + "\n"
+                fin7.write(str)
+                continue
+            if "||*" in line:
+                str = str[str.find("||*")+3:str.rfind("^")] + "\n"
+                fin7.write(str)
+                continue
+            if "||" in line:
+                str = str[str.find("||")+2:str.rfind("^")] + "\n"
+                fin7.write(str)
+                continue
+            fin7.write(str)
 
-    # fin7.close()              
+    fin7.close()              
             ################## damengzhudamengzhu End     #####################
 
             ################## huangjiaduchang Star    #####################
@@ -603,8 +603,8 @@ def pullEach():
                 continue
             if "0.0.0.0 0.0.0.0" in line:
                 continue
-            if "0.0.0.0 " in line:
-                str = str[str.find("0.0.0.0 ")+8:str.rfind("\n")] + "\n"
+            if "0.0.0.0  " in line:
+                str = str[str.find("0.0.0.0  ")+9:str.rfind("\n")] + "\n"
                 fin7.write(str)
                 continue
     fin7.close()                 
