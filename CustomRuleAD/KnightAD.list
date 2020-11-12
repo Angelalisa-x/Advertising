@@ -1822,7 +1822,6 @@ HOST-SUFFIX,www.online.sh.cn,REJECT
 HOST-SUFFIX,adt.shuzilm.cn,REJECT
 HOST-SUFFIX,hits.sinajs.cn,REJECT
 HOST-SUFFIX,sitesite.cn,REJECT
-HOST-SUFFIX,log.snmi.cn,REJECT
 HOST-SUFFIX,download.sttcounter.cn,REJECT
 HOST-SUFFIX,log2.tagtic.cn,REJECT
 HOST-SUFFIX,log3.tagtic.cn,REJECT
@@ -23487,8 +23486,6 @@ HOST-SUFFIX,batmobi.net,REJECT
 HOST-SUFFIX,api2.batmobil.net,REJECT
 HOST-SUFFIX,api5.batmobil.net,REJECT
 HOST-SUFFIX,dsp.batmobil.net,REJECT
-HOST-SUFFIX,telemetry.battle.net,REJECT
-HOST-SUFFIX,telemetry-in.battle.net,REJECT
 HOST-SUFFIX,acehardware-www.baynote.net,REJECT
 HOST-SUFFIX,autotrader-www.baynote.net,REJECT
 HOST-SUFFIX,uncommongoods-www.baynote.net,REJECT
@@ -26844,7 +26841,6 @@ HOST-SUFFIX,ds.specificclick.net,REJECT
 HOST-SUFFIX,mpp.specificclick.net,REJECT
 HOST-SUFFIX,notrack.specificclick.net,REJECT
 HOST-SUFFIX,www.speedcounter.net,REJECT
-HOST-SUFFIX,zdstatic.speedtest.net,REJECT
 HOST-SUFFIX,www.speedvid.net,REJECT
 HOST-SUFFIX,spendcrazy.net,REJECT
 HOST-SUFFIX,a.spolecznosci.net,REJECT
@@ -33370,7 +33366,6 @@ HOST-SUFFIX,c.agrantsem.com,REJECT
 HOST-SUFFIX,static.t.agrantsem.com,REJECT
 HOST-SUFFIX,www.agrantsem.com,REJECT
 HOST-SUFFIX,114.allyes.com,REJECT
-HOST-SUFFIX,17173im.allyes.com,REJECT
 HOST-SUFFIX,a3.allyes.com,REJECT
 HOST-SUFFIX,adzjvnet.allyes.com,REJECT
 HOST-SUFFIX,allyesbjafa.allyes.com,REJECT
@@ -60537,7 +60532,6 @@ HOST-SUFFIX,kevinley.com,REJECT
 HOST-SUFFIX,keywatch.yourpageserver.com,REJECT
 HOST-SUFFIX,kinesiolog.de,REJECT
 HOST-SUFFIX,kittstr.com,REJECT
-HOST-SUFFIX,knami.cn,REJECT
 HOST-SUFFIX,kndesign.com.br,REJECT
 HOST-SUFFIX,kofamonline.com,REJECT
 HOST-SUFFIX,kollab.blog.br,REJECT
@@ -61342,9 +61336,7 @@ HOST-SUFFIX,www.q68.com,REJECT
 HOST-SUFFIX,sdk.nouzhu.cn,REJECT
 HOST-SUFFIX,www.68710266.com,REJECT
 HOST-SUFFIX,www.wyxcb1.top,REJECT
-HOST-SUFFIX,145.shandiankami.cn,REJECT
 HOST-SUFFIX,t.jjjdjc.top,REJECT
-HOST-SUFFIX,83.shandiankami.cn,REJECT
 HOST-SUFFIX,m.8c3k.cn,REJECT
 HOST-SUFFIX,fa.sdxctr.com,REJECT
 HOST-SUFFIX,m.hlcnzz.com,REJECT
@@ -61354,7 +61346,6 @@ HOST-SUFFIX,www.jfsdiwmnbsk003.top,REJECT
 HOST-SUFFIX,cw.guominziben.com,REJECT
 HOST-SUFFIX,xg.whsbpw.cn,REJECT
 HOST-SUFFIX,exh.xuhuihui.top,REJECT
-HOST-SUFFIX,a.shandiankami.cn,REJECT
 HOST-SUFFIX,cv.guominziben.com,REJECT
 HOST-SUFFIX,www.poakdv.cn,REJECT
 HOST-SUFFIX,s.csalsylqx.com,REJECT

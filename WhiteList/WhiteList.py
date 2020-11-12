@@ -145,43 +145,57 @@ class whiteList:
                 continue
         fwhite.close()
 
-    # def pullADgk():
-    #     url = 'https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt'
-    #     html = requests.get(url).text
-    #     with open("whiteList1.txt","w",encoding='UTF-8') as f:
-    #         f.write(html)
-    #     f.close()
+            ######################### ADgk Star ##########################
+        url = 'https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt'
+        html = requests.get(url).text
+        with open("whiteList1.txt","w",encoding='UTF-8') as f:
+            f.write(html)
+        f.close()
 
-    #     fwhite=open("whiteList_1.txt","w")
-    #     for line in open("whiteList1.txt",encoding='UTF-8'):
-    #         str=[]
-    #         str = line
-    #         if "#" in line:
-    #             #print(line)
-    #             continue
-    #         if "!" in line:
-    #             continue
-    #         if "$" in line:
-    #             continue
-    #         if "=" in line:
-    #             continue
-    #         if "?" in line:
-    #             continue
-    #         if "/|" in line:
-    #             continue
-    #         if "/" in line:
-    #             continue
-    #         if "。" in line:
-    #             continue
-    #         if "@@||*" in line:
-    #             str = str[str.find("@@||*")+5:str.rfind("^")] + "\n"
-    #             fwhite.write(str)
-    #             continue
-    #         if "@@||" in line:
-    #             str = str[str.find("@@||")+4:str.rfind("^")] + "\n"
-    #             fwhite.write(str)
-    #             continue
-    #     fwhite.close()    
+        fwhite=open("whiteList_1.txt","a+")
+        for line in open("whiteList1.txt",encoding='UTF-8'):
+            str=[]
+            str = line
+            if "#" in line:
+                continue
+            if "!" in line:
+                continue
+            if "$" in line:
+                continue
+            if "=" in line:
+                continue
+            if "?" in line:
+                continue
+            if "/|" in line:
+                continue
+            if "/" in line:
+                continue
+            if "。" in line:
+                continue
+            if "*" in line:
+                continue
+            if "@@||*." in line:
+                if "^" in line:
+                    str = str[str.find("@@||*.")+6:str.rfind("^")] + "\n"
+                    fwhite.write(str)
+                    continue
+            if "@@||." in line:
+                if "^" in line:
+                    str = str[str.find("@@||.")+5:str.rfind("^")] + "\n"
+                    fwhite.write(str)
+                    continue
+            if "@@||*" in line:
+                if "^" in line:
+                    str = str[str.find("@@||*")+5:str.rfind("^")] + "\n"
+                    fwhite.write(str)
+                    continue
+            if "@@||" in line:
+                if "^" in line:
+                    str = str[str.find("@@||")+4:str.rfind("^")] + "\n"
+                    fwhite.write(str)
+                    continue
+        fwhite.close()
+            ######################### ADgk End ##########################
  
  ############################ 执行函数 Start ##########################
 def doProcessWhiteList():
