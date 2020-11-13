@@ -95,49 +95,7 @@ def baimingdangProcess(targetFile,readPath):
     for line in open(readPath,"r"):
         if "music.126.net" in line:
             continue
-        if ".snssdk.com" in line:
-            continue
-        if ".pstatp.com" in line:
-            continue
-        if ".mkey.163.com" in line:
-            continue
-        if "jr.jd.com" in line:
-            continue
-        if ".netease.com" in line:
-            continue
-        if "gia.jd.com" in line:
-            continue
-        if ".m.jd.com" in line:
-            continue
-        if "mapi.m.jd.com" in line:
-            continue
 ######### yudong white #############
-        if "wl.jd.com" in line:
-            continue
-        if "union-click.jd.com" in line:
-            continue
-        if "dig.bdurl.net" in line:
-            continue
-        if "mjrpay.jd.com" in line:
-            continue
-        if "cfm.jd.com" in line:
-            continue
-        if "app-measurement.com" in line:
-            continue
-        if "ynuf.aliapp.org" in line:
-            continue
-        if "uland.taobao.com" in line:
-            continue
-        if "mos.m.taobao.com" in line:
-            continue
-        if "s.click.taobao.com" in line:
-            continue
-        if "h5.m.taobao.com" in line:
-            continue
-        if "ip.taobao.com" in line:
-            continue
-        if "acs.m.taobao.com" in line:
-            continue
         if ",lianmeng," in line:
             continue
         if ",analytics," in line:
@@ -150,8 +108,6 @@ def baimingdangProcess(targetFile,readPath):
         if "meituan.net" == str:
             continue
         if "meituan.com" == str:
-            continue
-        if "kepler.jd.com" == str:
             continue
         if "analytics" == str:
             continue
