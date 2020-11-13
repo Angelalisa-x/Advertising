@@ -165,6 +165,8 @@ def pullEach():
 
             ################## kbsmlDns Start ####################
     with open("KnightAD.txt","a+",encoding='UTF-8') as fin7:
+        #url = 'https://www.kbsml.com/wp-content/uploads/adblock/adguard/adg-kall-dns.txt'
+        #url = 'https://www.kbsml.com/wp-content/uploads/adblock/adguard/adg-kall.txt'
         for line in open("..\WhiteList\kbsmlDns.txt","r",encoding='UTF-8'):
         #for line in open("WhiteList\kbsmlDns.txt","r",encoding='UTF-8'):
             str=[]
