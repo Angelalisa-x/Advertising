@@ -9,7 +9,12 @@ cd ..
 cd CustomRuleAD
 F:/python3.7/python.exe e:/work/Advertising/CustomRuleAD/CustomRuleAD_Ex.py
 
+cd ..
+cd Surge
+F:/python3.7/python.exe e:/work/Advertising/Surge/SurgeCustomRuleAD_Ex.py
+
 del E:\work\Advertising\xiugaiWhite\CustomRuleAD_Ex.py /q /f /s 
 del E:\work\Advertising\CustomRuleAD\CustomRuleAD_Ex.py /q /f /s 
+del E:\work\Advertising\Surge\SurgeCustomRuleAD_Ex.py /q /f /s 
 
-#pause
+pause

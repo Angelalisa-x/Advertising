@@ -7,8 +7,11 @@ def copyFileOut():
     shutil.copy("../WhiteList/swhiteList.txt", os.path.join(os.path.dirname(__file__)))
     shutil.copy("../CustomRuleAD/CustomRuleAD.py", os.path.join(os.path.dirname(__file__)))
 
+    shutil.copy("../Surge/SurgeCustomRuleAD.py", os.path.join(os.path.dirname(__file__)))
+
 def copyFileIn():
     shutil.copy("CustomRuleAD_Ex.py", os.path.join(os.path.dirname(__file__),'../CustomRuleAD'))
+    shutil.copy("SurgeCustomRuleAD_Ex.py", os.path.join(os.path.dirname(__file__),'../Surge'))
 
 def DelFile():
     my_file = Path(os.path.join(os.path.dirname(__file__),'xiugaiWhite\__pycache__'))
@@ -18,6 +21,7 @@ def DelFile():
 
     os.remove("swhiteList.txt")
     os.remove("CustomRuleAD.py")
+    os.remove("SurgeCustomRuleAD_Ex.py")
 
     
 
@@ -50,7 +54,11 @@ def insertWhite(targetFile,readPath,whitePath):
 
 if __name__ == '__main__':
     copyFileOut()
+#Qx
     insertWhite("CustomRuleAD_Ex.py","CustomRuleAD.py","swhiteList.txt", )
+
+#Surge
+    insertWhite("SurgeCustomRuleAD_Ex.py","SurgeCustomRuleAD.py","swhiteList.txt", )
 
     copyFileIn()
     DelFile()
