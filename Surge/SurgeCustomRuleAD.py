@@ -56,6 +56,10 @@ def pullBlackmatrix7():
                 continue
             str=[]
             str = line
+            if str[0] == ".":
+                str = str[1:str.find('\n')] + "\n"
+                fin7.write(str)
+                continue
             str = str[0: str.rfind('\n')] + "\n"
             fin7.write(str)
     fin7.close()
