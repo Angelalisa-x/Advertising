@@ -5,8 +5,8 @@ from pathlib import Path
 
 def copyFileOut():
     shutil.copy("../WhiteList/swhiteList.txt", os.path.join(os.path.dirname(__file__)))
-    shutil.copy("../CustomRuleAD/CustomRuleAD.py", os.path.join(os.path.dirname(__file__)))
 
+    shutil.copy("../CustomRuleAD/CustomRuleAD.py", os.path.join(os.path.dirname(__file__)))
     shutil.copy("../Surge/SurgeCustomRuleAD.py", os.path.join(os.path.dirname(__file__)))
 
 def copyFileIn():
@@ -21,7 +21,7 @@ def DelFile():
 
     os.remove("swhiteList.txt")
     os.remove("CustomRuleAD.py")
-    os.remove("SurgeCustomRuleAD_Ex.py")
+    os.remove("SurgeCustomRuleAD.py")
 
     
 

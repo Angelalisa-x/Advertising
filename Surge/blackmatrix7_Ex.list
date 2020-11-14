@@ -31,7 +31,6 @@ DOMAIN-KEYWORD,fenxi
 DOMAIN-KEYWORD,googleads
 DOMAIN-KEYWORD,guanggao
 DOMAIN-KEYWORD,inmobi
-DOMAIN-KEYWORD,lianmeng
 DOMAIN-KEYWORD,mobaders
 DOMAIN-KEYWORD,monitor
 DOMAIN-KEYWORD,omgmta
@@ -353,7 +352,6 @@ URL-REGEX,https?://9377\w{2}.com
 URL-REGEX,https?://[^(apple|10010)]+.(com|cn)\/(a|a)d(s|v)?(/|.js)
 URL-REGEX,https?://[^bbs].tianya\.cn
 URL-REGEX,https?://\w+.cloudfront.net/banner
-URL-REGEX,https?://\w+.gdt.qq.com
 URL-REGEX,https?://\w+.kingsoft-office-service.com
 URL-REGEX,https?://\w.?up.qingdaonews.com
 URL-REGEX,https?://\w{6}.com1.z0.glb.clouddn.com
@@ -365,7 +363,6 @@ URL-REGEX,https?://img\w.g.pptv.com
 URL-REGEX,https?://impservice.+?youdao.com
 URL-REGEX,https?://notice.send-anywhere.com/banner
 URL-REGEX,https?://paopao\w?.qiyipic.com
-URL-REGEX,https?://sax\w?.sina.cn
 URL-REGEX,https?://sax\w?.sina.com.cn
 URL-REGEX,https?://server-\w+.imrworldwide.com
 URL-REGEX,https?:\/\/.+.atm.youku.com
