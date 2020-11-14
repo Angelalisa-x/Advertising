@@ -60,6 +60,38 @@ def pullBlackmatrix7():
             fin7.write(str)
     fin7.close()
 
+#################### pull Blackmatrix_Ex 规则，去掉前后缀 #############
+def pullBlackmatrix7_Ex():
+    url = 'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surge/AdvertisingTest/AdvertisingTest.list'
+    html = requests.get(url).text
+    #print(html)
+    with open("1.txt","w") as f:
+        f.write(html)
+    f.close()
+
+    BlackmatrixBackups = open("BlackmatrixBackups_Ex.txt","w")
+    BlackmatrixBackups.write(html)
+    BlackmatrixBackups.close()
+
+    with open("blackmatrix7_Ex.txt","w+") as fin7:
+        for line in open("1.txt"):
+            if "#" in line:
+                #print(line)
+                continue
+            if "!" in line:
+                continue
+            if line == '\n':
+                continue
+            if "$" in line:
+                continue
+            if "。" in line:
+                continue
+            str=[]
+            str = line
+            str = str[0: str.rfind('\n')] + "\n"
+            fin7.write(str)
+    fin7.close()
+
 ########################### 切割文本文件 #################################
 def qiegeFile(writePath,readPath,num):
     file = open(readPath,"r")
@@ -210,51 +242,6 @@ def pullEach():
     fin7.close()
             ############### kbsmlDns End ####################
 
-            ################## GoodbyeAds Start ####################
-    # url = 'https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Formats/GoodbyeAds-AdBlock-Filter.txt'
-    # html = requests.get(url).text
-    # with open("1.txt","w",encoding='UTF-8') as f:
-    #     f.write(html)
-    # f.close()
-
-    # with open("KnightAD.txt","a+",encoding='UTF-8') as fin7:
-    #     for line in open("1.txt",encoding='UTF-8'):
-    #         str=[]
-    #         str = line
-    #         if "#" in line:
-    #             continue
-    #         if "!" in line:
-    #             continue
-    #         if line == '\n':
-    #             continue
-    #         if "。" in line:
-    #             continue
-    #         if "@" in line:
-    #             continue
-    #         if ":" in line:
-    #             continue
-    #         if "||*." in line:
-    #             str = str[str.find("||*.")+4:str.rfind("^")] + "\n"
-    #             fin7.write(str)
-    #             continue
-    #         if "||." in line:
-    #             str = str[str.find("||.")+3:str.rfind("^")] + "\n"
-    #             fin7.write(str)
-    #             continue
-    #         if "||*" in line:
-    #             str = str[str.find("||*")+3:str.rfind("^")] + "\n"
-    #             fin7.write(str)
-    #             continue
-    #         if "||" in line:
-    #             str = str[str.find("||")+2:str.rfind("^")] + "\n"
-    #             fin7.write(str)
-    #             continue
-    #         if "$" in line:
-    #             continue
-    #         fin7.write(str)
-    # fin7.close()
-            ################## GoodbyeAds End ####################
-
             ################## AdGuardDNS Start ####################
     url = 'https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt'
     html = requests.get(url).text
@@ -302,35 +289,6 @@ def pullEach():
     fin7.close()
             ################## AdGuardDNS End ####################
 
-            ################## 1Hosts-Pro Start ###################
-    # url = 'https://badmojr.github.io/1Hosts/Lite/domains.txt'
-    # html = requests.get(url).text
-    # with open("1.txt","w",encoding='UTF-8') as f:
-    #     f.write(html)
-    # f.close()
-
-    # with open("KnightAD.txt","a+",encoding='UTF-8') as fin7:
-    #     for line in open("1.txt",encoding='UTF-8'):
-    #         str=[]
-    #         str = line
-    #         if "#" in line:
-    #             continue
-    #         if "!" in line:
-    #             continue
-    #         if line == '\n':
-    #             continue
-    #         if "。" in line:
-    #             continue
-    #         if "@" in line:
-    #             continue
-    #         if ":" in line:
-    #             continue
-    #         if "$" in line:
-    #             continue
-    #         fin7.write(str)
-    # fin7.close()            
-            ################## 1Hosts-Pro End #####################
-
             ################## AdAway Start #####################
     url = 'https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt'
     html = requests.get(url).text
@@ -362,36 +320,6 @@ def pullEach():
                 continue
     fin7.close()  
             ################## AdAway End   #####################
-
-            ################## iOSAdblockList Start  #####################
-    # url = 'https://raw.githubusercontent.com/BlackJack8/iOSAdblockList/master/iPv4Hosts.txt'
-    # html = requests.get(url).text
-    # with open("1.txt","w",encoding='UTF-8') as f:
-    #     f.write(html)
-    # f.close()
-
-    # with open("KnightAD.txt","a+",encoding='UTF-8') as fin7:
-    #     for line in open("1.txt",encoding='UTF-8'):
-    #         str=[]
-    #         str = line
-    #         if "#" in line:
-    #             continue
-    #         if "!" in line:
-    #             continue
-    #         if line == '\n':
-    #             continue
-    #         if "。" in line:
-    #             continue
-    #         if "@" in line:
-    #             continue
-    #         if ":" in line:
-    #             continue
-    #         if "0.0.0.0 " in line:
-    #             str = str[str.find("0.0.0.0 ")+8:str.rfind("\n")] + "\n"
-    #             fin7.write(str)
-    #             continue
-    # fin7.close()              
-            ################## iOSAdblockList End    #####################
 
             ################## VeleSila Star    #####################
     url = 'https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts'
@@ -603,31 +531,14 @@ def doProcessCustomRuleAD():
 
 if __name__ == '__main__':
     pullBlackmatrix7()
-    pullEach()
+    pullBlackmatrix7_Ex()
 
+    baimingdangProcess("blackmatrix7.list","blackmatrix7.txt")
+    baimingdangProcess("blackmatrix7_Ex.list", "blackmatrix7_Ex.txt")
 
-    quchong("KnightAD_1.txt","KnightAD.txt")
-    quchong("blackmatrix7_1.txt","blackmatrix7.txt")
-    blackmatrix7_num = getFileLineNum("blackmatrix7_1.txt")
-
-    quchong("BlackmatrixBackups_1.txt","BlackmatrixBackups.txt")
-    baimingdangProcess("BlackmatrixBackups.list","BlackmatrixBackups_1.txt")
-
-    hebingFile("blackmatrix7_1.txt","KnightAD_1.txt")
-    quchong("blackmatrix7_2.txt","blackmatrix7_1.txt")
-
-    qiegeFile("KnightAD_2.txt","blackmatrix7_2.txt",blackmatrix7_num)
-    baimingdangProcess("KnightAD.list","KnightAD_2.txt")
-    #geshiProcess("KnightAD.list","KnightAD_3.txt")
 
 
     os.remove("1.txt")
     os.remove("blackmatrix7.txt")
-    os.remove("blackmatrix7_1.txt")
-    os.remove("blackmatrix7_2.txt")
-    os.remove("BlackmatrixBackups.txt")
-    os.remove("BlackmatrixBackups_1.txt")
-    os.remove("KnightAD.txt")
-    os.remove("KnightAD_1.txt")
-    os.remove("KnightAD_2.txt")
-    #os.remove("KnightAD_3.txt")
+    os.remove("blackmatrix7_Ex.txt")
+

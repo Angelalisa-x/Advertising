@@ -1415,8 +1415,6 @@ HOST-SUFFIX,arm28.track.appier.net,REJECT
 HOST-SUFFIX,ctrapx-lb.track.appier.net,REJECT
 HOST-SUFFIX,web0.track.appier.net,REJECT
 HOST-SUFFIX,rtb.appintop.com,REJECT
-HOST-SUFFIX,ca.iadsdk.apple.com,REJECT
-HOST-SUFFIX,ut.iadsdk.apple.com,REJECT
 HOST-SUFFIX,a-usa.applovin.com,REJECT
 HOST-SUFFIX,api.applovin.com,REJECT
 HOST-SUFFIX,assets.applovin.com,REJECT
@@ -8067,6 +8065,8 @@ HOST-SUFFIX,banner.gameads.io,REJECT
 HOST-SUFFIX,node.gameads.io,REJECT
 HOST-SUFFIX,panel.gameads.io,REJECT
 HOST-SUFFIX,shapez.gameads.io,REJECT
+HOST-SUFFIX,ca.iadsdk.apple.com,REJECT
+HOST-SUFFIX,ut.iadsdk.apple.com,REJECT
 HOST-SUFFIX,102.112.2o7.net,REJECT
 HOST-SUFFIX,102.122.2o7.net,REJECT
 HOST-SUFFIX,10xhellometro.112.2o7.net,REJECT

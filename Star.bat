@@ -17,4 +17,4 @@ del E:\work\Advertising\xiugaiWhite\CustomRuleAD_Ex.py /q /f /s
 del E:\work\Advertising\CustomRuleAD\CustomRuleAD_Ex.py /q /f /s 
 del E:\work\Advertising\Surge\SurgeCustomRuleAD_Ex.py /q /f /s 
 
-pause
+#pause
