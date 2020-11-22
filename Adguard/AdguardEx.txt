@@ -51269,6 +51269,7 @@ $$p[class="ReadAd"]
 $$div[class="ad_bottom"]
 $$div[class="ad_top"]
 ||go.sohu.com
+||103.75.47.19^
 ||baomitu.com/layer/*/layer.js
 zhenbuka.com##.is-draggable.flickity-enabled.flickity-page.carousel_center
 ||xxmh269.com^
@@ -51290,6 +51291,7 @@ zhenbuka.com##.is-draggable.flickity-enabled.flickity-page.carousel_center
 ||mhxin.com/g_dd/*.js^
 ||jfsdiwmnbsk008.top^
 ||vod.300hu.com^
+@@||vod.300hu.com^$app=com.jingdong.app.mall
 ||t7z.cupid.iqiyi.com$app=com.tencent.mobileqq
 ||sf*-fe-tos.pglstatp-toutiao.com^
 ||show-m.mediav.com/adsdk^
@@ -51362,10 +51364,10 @@ ximalaya.com/checkIP?domain=adse.ximalaya.com
 /focusPicture?appid=
 /ting/direct_v2
 /api/v1/adRealTime
-||114.80.161.22$network
-||180.153.255.23$network
-||114.80.139.231$network
-||114.80.139.228$network
+||114.80.161.22
+||180.153.255.23
+||114.80.139.231
+||114.80.139.228
 ||s1j.kuwo.cn^
 ||jx.kuwo.cn^
 ||mgxhtj.kuwo.cn/mgxh.s?type=tuijian^$replace=/(banner_ad|banner|\<ad|weight=\"[1-9]{10}\")/null/
@@ -51465,7 +51467,7 @@ avgle.com###adxp
 zodns.cn$$div[class="container copy-right"]
 ||kbsml.com:‌‍​‍‌‌​‍‍‌​​‍‌‍​‌‍​‌‍‌‌​‌‍‌‌kbsml.com
 ||www.qchannel01.cn/center/adj^
-||59.111.181.38:53$network
+||59.111.181.38:53
 xp85.com$$div[class="n-soft basebox"]
 xp85.com$$div[class="cont5_lis"]
 xp85.com$$div[class="cont4-lis"]
@@ -51494,7 +51496,7 @@ youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAd
 /generate_204^$domain=youtube.com|googlevideo.com
 ||static1.51cto.com/edu/blog/mobile/js/lib/box.js^
 51cto.com$$script[tag-content="AutoAD"]
-||208.96.19.87$network
+||208.96.19.87
 cmsky.com##.sidebar-roll
 cmsky.com###text-12
 cmsky.com###text-10
@@ -51503,7 +51505,7 @@ cmsky.com###text-10
 www.tldm.net$$div[class="box230 fr"]
 www.tldm.net$$div[style="border:1px #BFE6F4 solid;width:960px;height:90px;margin:0 auto;"]
 ||m.pianku.tv/ajax/MyJs^
-||59.111.21.14:53$network
+||59.111.21.14:53
 ||trading.assistant.miui.com^
 ||download.qidian.com/apknew/hotfix^$replace=/point//
 ||druidv6.if.qidian.com/argus/api/*/adv/getadvlistbatch^
@@ -51569,7 +51571,7 @@ ohmanhua.com##+js(aeld, /.?/, popMagic)
 ||youtube.com/api/stats/ads^
 ||mbdp02.bdstatic.com^
 ||if.ad4.com.cn^
-||39.105.226.174$network
+||39.105.226.174
 ||mangaapi.manhuaren.com/*/public/getBaseurl^$replace=/"adsBaseurl"/"sbadsBaseurl"/
 ||mangaapi.manhuaren.com/*/manga/getCategoryMangas^$replace=/"(topAd|comicListAd)"/"\$1"/
 ||mangaapi.manhuaren.com/*/book/getCategoryBooks^$replace=/"(topAd|bookListAd)"/"\$1"/
@@ -51613,8 +51615,8 @@ success.jdpay.com##.ui-modal-mask
 success.jdpay.com##.result-promotion-area
 success.jdpay.com###newGift
 ||stv.ptqy.gitv.tv
-||203.107.1.197$network
-||203.119.211.219$network
+||203.107.1.197
+||203.119.211.219
 36kr.com$$div[class="kr-ad-home-flow-banner"]
 36kr.com$$div[class="kr-ad-home-banner-left"]
 36kr.com$$div[class="banner-left-item"]
@@ -51661,7 +51663,7 @@ www.douyu.com##.HeaderGif-left
 www.baidu.com###content_right > table > tbody > tr > td > div:not(#con-ar):not([class])
 ||ribaoapi.com^
 ||webcast-ppx.snssdk.com^
-||203.107.1.97$network
+||203.107.1.97
 ||snssdk.com/bds/feed/stream/?api_version$replace=/(ad_info|comment_show_ad|story_info|banner_info)//
 ||snssdk.com/service/settings/v2/?app$replace=/(app|bds_ad_settings|ad_webview_sdk_config)/null/
 ||snssdk.com/bds/banner/?api_version^
@@ -51669,12 +51671,12 @@ www.baidu.com###content_right > table > tbody > tr > td > div:not(#con-ar):not([
 /static/embed_index_banner*.jpg
 ||txc.gtimg.com^$app=com.free.player
 ||timgsa.baidu.com^$app=com.free.player
-||119.147.70.219$network
-||14.119.114.93$network
-||121.12.109.158$network
-||121.12.109.156$network
-||202.104.186.228$network
-||113.96.181.211$network
+||119.147.70.219
+||14.119.114.93
+||121.12.109.158
+||121.12.109.156
+||202.104.186.228
+||113.96.181.211
 /img/ad.union.api/*
 ||pangolin.snssdk.com/api/ad^
 v2rayssr.com$$script[tag-content=".mask"]
@@ -51683,7 +51685,7 @@ v2rayssr.com###b2-widget-html-2
 v2rayssr.com###b2-widget-html-3
 v2rayssr.com##.module-html.home_row_5.home_row
 ||mobappconfig.securities.eastmoney.com/*ad*
-||139.224.5.157$network
+||139.224.5.157
 ||acttg.eastmoney.com^
 ||zqhd.eastmoney.com^
 ||nhtradecfg.18.cn^
@@ -51696,7 +51698,7 @@ v2rayssr.com##.module-html.home_row_5.home_row
 ||issuecdn.baidupcs.com/issue/netdisk/guanggao^$image
 ||app.bilibili.com/x/v2/splash/list$replace=/(miaozhen|nielsen|doubleclick|dongfeng|jdmobile|acgvideo|tanx|admaster)/sb/
 ||app.bilibili.com/x/v2/feed/index$replace=/ad_info//
-||203.107.1.34$network
+||203.107.1.34
 /resolve?host=
 ||open.oneplus.cn^
 ||c.x733ppp.cn^
@@ -51820,9 +51822,9 @@ so.com$$script[wildcard="*realTimeNewsData*"]
 ||togame.iqiyi.com^
 ||h5.game.iqiyi.com^
 ||apisgame.iqiyi.com^
-223.202.198.132:53$network
-59.111.21.13:53$network
-110.185.122.115:53$network
+223.202.198.132:53
+59.111.21.13:53
+110.185.122.115:53
 ||pgdt.ugdtimg.com^
 ||ads.game.iqiyi.com^
 ||msg.qy.net/qos^
@@ -51859,8 +51861,8 @@ chongbuluo.com###lga
 kxxzz.com##.pcd_ad
 kxxzz.com##.sidebar
 ||outbrain.com^$third-party
-114.114.114.114$network
-14.18.239.11$network
+114.114.114.114
+14.18.239.11
 @@||in.m.jd.com^
 @@||payfinish.m.jd.com^$app=com.jingdong.app.mall
 ||tw.appledaily.com/pf/resources/prebid*.js
@@ -51911,7 +51913,7 @@ wuhaozhan.net$$div[class="embed-card-info"]
 wuhaozhan.net$$a[class="aaaaa"]
 wuhaozhan.net$$div[class="hongbao111"]
 wuhaozhan.net$$script[tag-content="ad_bottom"]
-||144.48.127.203^$network
+||144.48.127.203^
 ##.ad_bottom
 $$div[class="add-firstAd"]
 www.sina.com.cn###bgLeftAd
@@ -52034,18 +52036,18 @@ www.zzzmode.com##dt:nth-of-type(4)
 ||api.meijuniao.net^$replace=/\"fullScreenImgUrl\"\:\s*?.*//
 ||api.meijuniao.net^$replace=/\"vod_id\":\s+?\"-\d",/"vod_id": "null",/
 ||api.meijuniao.net^$replace=/\"fullScreenSecond\":\s/d+?/\"fullScreenSecond\": 0,/
-1.81.5.115:53$network,app=com.adguard.dns
-223.202.198.134:53$network
+1.81.5.115:53,app=com.adguard.dns
+223.202.198.134:53
 @@||tools.3g.qq.com^
 @@||mazu.3g.qq.com^
-23.91.98.132:53$network
+23.91.98.132:53
 rfi.fr$$div[class="m-block-ad__content"]
 rfi.fr$$div[class="m-block-ad__label"]
 rfi.fr$$div[class="m-interstitial__ad"]
 rfi.fr$$div[class="m-interstitial__unlock-btn__svg"]
 rfi.fr$$div[class="t-content__related t-content__hidden-when-chopped"]
-14.18.239.12$network
-110.185.122.114$network
+14.18.239.12
+110.185.122.114
 tool.lu$$div[class="ad-container swiper-container"]
 toolfk.com$$div[class="desc"]
 toolfk.com$$div[class="desc center"]
@@ -52132,8 +52134,6 @@ aliyun.nagekuai.com##.celan
 @@||engine.lvehaisen.com^$app=com.hhmss.verticalsearch
 @@||www.ixs.cc^$app=com.hhmss.verticalsearch
 @@||yun.tuitiger.com^$app=com.hhmss.verticalsearch,important
-||im.solidworks.com^
-||www.solidworks.com^
 baidu.com##.qrcode-img
 baidu.com##.qrcodeCon
 baidu.com##.bdbriimgtitle
@@ -52276,8 +52276,8 @@ m.kankanews.com##.recommend
 ||adx.open-adx.com^
 ||oset-api.open-adx.com/app/init$replace=/data//
 ||jxhf.gx10010.com.cn^
-139.99.9.29$network,app=com.yyets.pro
-121.46.30.51$network,app=com.yyets.pro
+139.99.9.29,app=com.yyets.pro
+121.46.30.51,app=com.yyets.pro
 ||ebjvu.cn^$app=com.yyets.pro
 ||oset-api.open-adx.com/ad/sdk/sequence$replace=/data//
 @@||imgsa.baidu.com^$domain=jingyan.baidu.com,important
@@ -52359,7 +52359,7 @@ wenku.baidu.com##div.fix-searchbar-wrap:nth-child(46) > div.sb-con.clearfix:nth-
 ||mapi.m.jd.com^
 ||is.snssdk.com/cloudpush/local_push^
 /d?host=msg.umengcloud.com
-||203.107.1.1^$network
+||203.107.1.1^
 ||api.amemv.com/aweme/*/screen/ad^
 ||mail.google.com/mail/ads^
 ||i.loli.net/*.png$image
@@ -52676,7 +52676,7 @@ m.baidu.com##.se-ft-promlink
 m.baidu.com###index-form > div:first-child > div.con-wrap > div.se-inner:last-child > div.callicon-wrap:nth-child(2) > div.baiduappcall-wrap:last-child > div.voice.call:first-child
 ||47.99.227.46:8082^$app=com.insigmacc.nannsmk
 ||47.99.227.46:8081/yd3/mediaconfig^$app=com.insigmacc.nannsmk
-||203.107.1.65^$network
+||203.107.1.65^
 ||ali-stats.jpush.cn^$app=com.insigmacc.nannsmk
 ||emma-53d7e61896.huodonghezi.com/app$app=com.insigmacc.nannsmk
 m.baidu.com/static/search
