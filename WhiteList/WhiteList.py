@@ -249,6 +249,45 @@ def pullWhite():
                 continue
     fwhite.close()
             ############# anti-ad End    ################
+
+           ############# lhzgl6587 Star   ################
+    url = 'https://gitee.com/lhzgl6587/hosts/raw/master/myruler'
+    html = requests.get(url).text
+    with open("whiteList1.txt","w") as f:
+        f.write(html)
+    f.close()
+
+    fwhite=open("whiteList_1.txt","a+")
+    for line in open("whiteList1.txt"):
+        if "#" in line:
+            #print(line)
+            continue
+        if "!" in line:
+            continue
+        if line in ['\n','\r\n']:
+            continue
+        if line.strip() == "":
+            continue
+        str=[]
+        str = line
+        if "@@||*" in line:
+            str = str[str.find("@@||*")+5:str.rfind("\n")] + "\n"
+            fwhite.write(str)
+            continue
+        if "@@||" in line:
+            str = str[str.find("@@||")+4:str.rfind("\n")] + "\n"
+            fwhite.write(str)
+            continue
+        if "@@||*." in line:
+            str = str[str.find("@@||*.")+6:str.rfind("\n")] + "\n"
+            fwhite.write(str)
+            continue
+        if "@@||." in line:
+            str = str[str.find("@@||.")+5:str.rfind("\n")] + "\n"
+            fwhite.write(str)
+            continue
+    fwhite.close()
+            ############# lhzgl6587 End    ################
  
 if __name__ == '__main__':
     pullWhite()

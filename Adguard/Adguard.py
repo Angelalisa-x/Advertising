@@ -174,8 +174,9 @@ def pull():
                 str = str[str.find("127.0.0.1 ")+10:str.find("\n")]
                 str = "||" + str + "^" + "\n"
                 fin7.write(str)
-        fin7.close()   
+        fin7.close()
 
+########################################################################################################################
 def PullDirectly():
 
     ################## anti-ad ##########################
@@ -188,23 +189,6 @@ def PullDirectly():
  
     with open("Adguard.txt","w",encoding='UTF-8') as fin7:
         for line in open("temporary.txt",encoding='UTF-8'):
-            str = []
-            str = line
-            str = str[0:str.find("\n")] + "\n"
-            if "!" in line:
-                continue
-            if line == '\n':
-                continue
-            if "@@||" in line:
-                continue
-            fin7.write(str)
-        fin7.close()
-
-    ####################   kbsml  ############
-    #url = 'https://www.kbsml.com/wp-content/uploads/adblock/adguard/adg-kall.txt '
-
-    with open("Adguard.txt","a+",encoding='UTF-8') as fin7:
-        for line in open("kbsm.txt",encoding='UTF-8'):
             str = []
             str = line
             str = str[0:str.find("\n")] + "\n"
@@ -253,12 +237,85 @@ def PullDirectly():
                 continue
             if "@@||" in line:
                 continue
+            if "#" in line:
+                continue
             fin7.write(str)
         fin7.close()
 
+    ################## lhzgl6587 ##################
+    url = 'https://gitee.com/lhzgl6587/hosts/raw/master/myruler'
+    html = requests.get(url).text
+
+    fin = open("temporary.txt","w",encoding='UTF-8')
+    fin.write(html)
+    fin.close()
+ 
+    with open("Adguard.txt","a+",encoding='UTF-8') as fin7:
+        for line in open("temporary.txt",encoding='UTF-8'):
+            str = []
+            str = line
+            str = str[0:str.find("\n")] + "\n"
+            if "!" in line:
+                continue
+            if line == '\n':
+                continue
+            if "@@||" in line:
+                continue
+            if "#" in line:
+                continue
+            fin7.write(str)
+        fin7.close()
+
+    ################ jdlingyu ##################
+    url = 'https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts'
+    html = requests.get(url).text
+
+    fin = open("temporary.txt","w",encoding='UTF-8')
+    fin.write(html)
+    fin.close()
+ 
+    with open("Adguard.txt","a+",encoding='UTF-8') as fin7:
+        for line in open("temporary.txt",encoding='UTF-8'):
+            str = []
+            str = line
+            str = str[0:str.find("\n")] + "\n"
+            if "!" in line:
+                continue
+            if line == '\n':
+                continue
+            if "@@||" in line:
+                continue
+            if "#" in line:
+                continue
+            fin7.write(str)
+        fin7.close()
+
+    #################### anye1998 #######################
+    url = 'https://gitee.com/anye1998/Adguard-List-of-personal-rules/raw/master/List-of-personal-rules.txt'
+    html = requests.get(url).text
+
+    fin = open("temporary.txt","w",encoding='UTF-8')
+    fin.write(html)
+    fin.close()
+ 
+    with open("Adguard.txt","a+",encoding='UTF-8') as fin7:
+        for line in open("temporary.txt",encoding='UTF-8'):
+            str = []
+            str = line
+            str = str[0:str.find("\n")] + "\n"
+            if "!" in line:
+                continue
+            if line == '\n':
+                continue
+            if "#" in line:
+                continue
+            fin7.write(str)
+        fin7.close()
+
+
 if __name__ == "__main__":
-    #pull()
-    PullDirectly()
+    pull()
+    #PullDirectly()
 
     Deduplication("Adguard_1.txt","Adguard.txt")
     addWhite("AdguardEx.txt","Adguard_1.txt")
