@@ -176,9 +176,89 @@ def pull():
                 fin7.write(str)
         fin7.close()   
 
+def PullDirectly():
+
+    ################## anti-ad ##########################
+    url = 'https://anti-ad.net/easylist.txt'
+    html = requests.get(url).text
+
+    fin = open("temporary.txt","w",encoding='UTF-8')
+    fin.write(html)
+    fin.close()
+ 
+    with open("Adguard.txt","w",encoding='UTF-8') as fin7:
+        for line in open("temporary.txt",encoding='UTF-8'):
+            str = []
+            str = line
+            str = str[0:str.find("\n")] + "\n"
+            if "!" in line:
+                continue
+            if line == '\n':
+                continue
+            if "@@||" in line:
+                continue
+            fin7.write(str)
+        fin7.close()
+
+    ####################   kbsml  ############
+    #url = 'https://www.kbsml.com/wp-content/uploads/adblock/adguard/adg-kall.txt '
+
+    with open("Adguard.txt","a+",encoding='UTF-8') as fin7:
+        for line in open("kbsm.txt",encoding='UTF-8'):
+            str = []
+            str = line
+            str = str[0:str.find("\n")] + "\n"
+            if "!" in line:
+                continue
+            if line == '\n':
+                continue
+            if "@@||" in line:
+                continue
+            fin7.write(str)
+        fin7.close()
+
+    #################### kbsml DNS ############
+    #url = 'https://www.kbsml.com/wp-content/uploads/adblock/adguard/adg-kall-dns.txt'
+
+    with open("Adguard.txt","a+",encoding='UTF-8') as fin7:
+        for line in open("../WhiteList/kbsmlDns.txt",encoding='UTF-8'):
+            str = []
+            str = line
+            str = str[0:str.find("\n")] + "\n"
+            if "!" in line:
+                continue
+            if line == '\n':
+                continue
+            if "@@||" in line:
+                continue
+            fin7.write(str)
+        fin7.close()
+
+    ##################### AdAway ###################
+    url = 'https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt'
+    html = requests.get(url).text
+
+    fin = open("temporary.txt","w",encoding='UTF-8')
+    fin.write(html)
+    fin.close()
+ 
+    with open("Adguard.txt","a+",encoding='UTF-8') as fin7:
+        for line in open("temporary.txt",encoding='UTF-8'):
+            str = []
+            str = line
+            str = str[0:str.find("\n")] + "\n"
+            if "!" in line:
+                continue
+            if line == '\n':
+                continue
+            if "@@||" in line:
+                continue
+            fin7.write(str)
+        fin7.close()
 
 if __name__ == "__main__":
-    pull()
+    #pull()
+    PullDirectly()
 
     Deduplication("Adguard_1.txt","Adguard.txt")
     addWhite("AdguardEx.txt","Adguard_1.txt")
