@@ -23541,7 +23541,6 @@
 ||livep.l.qq.com^
 ||lives.l.ott.video.qq.com^
 ||lives.l.qq.com^
-||livew.l.qq.com^
 ||log.tbs.qq.com^
 ||ls.l.qq.com^
 ||masdk.3g.qq.com^
@@ -23579,7 +23578,6 @@
 ||union.discuz.qq.com^
 ||us.l.qq.com^
 ||user1.game.qq.com^
-||vd.l.qq.com^
 ||video.ureport.push.qq.com^
 ||wap.mpush.qq.com^
 ||w.l.qq.com^
@@ -34194,7 +34192,6 @@ zhujiwiki.com$$div[class="asb-post-footer"]
 ||zhujiwiki.com/ad^
 ||www.zhihu.com/api/v4/members/
 ||pianku.tv/ajax/MyJs
-@@||vd.l.qq.com^
 ||l.qq.com^
 ||gitee.com/joinli/Api/raw/master/banner$replace=/ad_url//
 ||fast8.com/skin/default/images/63065.png
@@ -38146,7 +38143,6 @@ pageMediaControl*$script
 @@||stat.pc.music.qq.com/fcgi-bin/player_
 ||games.qq.com/playgame/gamesad/js/swfobject.js
 @@||union.video.qq.com/fcgi-bin/data?$script
-@@||livew.l.qq.com/crossdomain.xml
 ||open.show.qq.com/cgi-bin/qqshow_user_gdt_ad?
 ||tj.video.qq.com/
 ||qzs.qq.com/qzone/biz/
@@ -51784,7 +51780,6 @@ wenku.baidu.com##div.fix-searchbar-wrap:nth-child(46) > div.sb-con.clearfix:nth-
 ||203.119.217.100^network
 ||203.119.217.102^network
 ||is.snssdk.com/cloudpush/local_push^
-/d?host=msg.umengcloud.com
 ||203.107.1.1^
 ||api.amemv.com/aweme/*/screen/ad^
 ||mail.google.com/mail/ads^
@@ -63578,7 +63573,6 @@ gamersky.com##div[style*="MARGIN-BOTTOM: 10px"]
 @@||ja.gamersky.com/common/down_info.js
 @@||l.qq.com/lview?$domain=888.sports.qq.com
 @@||libs.baidu.com^$domain=m.supfree.net
-@@||livew.l.qq.com/livemsg?pf=H5&ad$domain=m.v.qq.com
 @@||mediav.com/js/feed_ts.js$domain=toutiao.china.com
 @@||mediav.com/js/interactive_plugin.js$domain=v.360kan.com
 @@||myqqjd.com^$generichide
@@ -76806,7 +76800,6 @@ _1xhtml?$script
 ||au.umeng.com^
 ||dev.umeng.com^
 ||ex.umengcloud.com^
-||msg.umengcloud.com^
 ||udash.umengcloud.com^
 ||upoll.umengcloud.com^
 ||utop.umengcloud.com^
@@ -84017,7 +84010,6 @@ _1xhtml?$script
 ||analytics.sohatv.vn^
 ||analytics.solidbau.at^
 ||analytics.spotta.nl^
-||analytics.strava.com^
 ||analytics.styria.hr^
 ||analytics.sutterhealth.org^
 ||analytics.swiggy.com^
