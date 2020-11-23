@@ -1,0 +1,123 @@
+启用中
+DNS封锁清单
+AdGuard Home将阻止匹配DNS拦截清单的域名
+AdGuard Home 可以解析基础的 adblock 规则和 Hosts 语法。
+
+anti-ad
+https://anti-ad.net/easylist.txt
+36,255
+2020年11月23日 09:01
+
+adg-kall-dns
+https://www.kbsml.com/wp-content/uploads/adblock/adguard/adg-kall-dns.txt
+2,194
+2020年11月23日 09:01
+
+adg-kall
+https://www.kbsml.com/wp-content/uploads/adblock/adguard/adg-kall.txt
+42,143
+2020年11月23日 09:01
+
+AdAway default blocklist
+https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt
+9,263
+2020年11月23日 09:01
+
+MalwareDomainList.com Hosts List
+https://www.malwaredomainlist.com/hostslist/hosts.txt
+1
+2020年11月23日 09:01
+
+BarbBlock
+https://paulgb.github.io/BarbBlock/blacklists/hosts-file.txt
+550
+2020年11月23日 09:01
+
+lhzgl6587
+https://gitee.com/lhzgl6587/hosts/raw/master/myruler
+350
+2020年11月23日 09:01
+
+jdlingyu
+https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
+1,774
+2020年11月23日 09:01
+
+List of personal rules
+https://gitee.com/anye1998/Adguard-List-of-personal-rules/raw/master/List-of-personal-rules.txt
+235
+2020年11月23日 09:01
+
+ADgk手机去广告规则
+https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt
+24,377
+2020年11月23日 09:01
+
+DivineEngine-filter.txt
+https://raw.githubusercontent.com/DivineEngine/AdGuardFilter/master/filter.txt
+475
+2020年11月23日 09:01
+
+neodevpro
+https://raw.githubusercontent.com/neodevpro/neodevhost/master/host
+98,945
+2020年11月23日 09:02
+
+ang
+https://raw.githubusercontent.com/Angelalisa-x/Advertising/master/Adguard/AdguardEx.txt
+0
+–
+
+adbyby
+https://opt.cn2qq.com/opt-file/lazy.txt
+11,994
+2020年11月23日 09:02
+
+iohost
+http://sbc.io/hosts/hosts
+59,854
+2020年11月23日 09:02
+
+梵
+https://raw.githubusercontent.com/Potterli20/filtering/master/purification
+1,657
+2020年11月23日 09:02
+
+AdAway Default Blocklist
+https://adaway.org/hosts.txt
+9,263
+2020年11月23日 09:02
+
+AdGuard DNS filter
+https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
+38,718
+2020年11月23日 09:02
+
+velesila
+https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts
+9,317
+2020年11月23日 09:02
+
+damengzu
+https://gitee.com/damengzhudamengzhu/guanggaoguolv/raw/master/jiekouAD.txt
+766
+2020年11月23日 09:02
+
+host1024
+https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts
+4,883
+2020年11月23日 09:02
+上一页
+页 
+1
+ / 1
+
+100 行
+下一页
+加载中……
+主页隐私策略
+
+简体中文
+版权 © 2020 AdGuard
+版本: 
+0.104.3
