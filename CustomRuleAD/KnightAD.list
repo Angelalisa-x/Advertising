@@ -2662,7 +2662,6 @@ HOST-SUFFIX,gannett.hb.omtrdc.net,REJECT
 HOST-SUFFIX,hulu.hb.omtrdc.net,REJECT
 HOST-SUFFIX,allstate.sc.omtrdc.net,REJECT
 HOST-SUFFIX,att.sc.omtrdc.net,REJECT
-HOST-SUFFIX,audible.sc.omtrdc.net,REJECT
 HOST-SUFFIX,allstate.tt.omtrdc.net,REJECT
 HOST-SUFFIX,audible.tt.omtrdc.net,REJECT
 HOST-SUFFIX,consumerinfo.tt.omtrdc.net,REJECT
@@ -8100,6 +8099,7 @@ HOST-SUFFIX,link.datatrics.com,REJECT
 HOST-SUFFIX,opengapps.com,REJECT
 HOST-SUFFIX,pamsg.online,REJECT
 HOST-SUFFIX,www.pamsg.online,REJECT
+HOST-SUFFIX,audible.sc.omtrdc.net,REJECT
 HOST-SUFFIX,102.112.2o7.net,REJECT
 HOST-SUFFIX,102.122.2o7.net,REJECT
 HOST-SUFFIX,10xhellometro.112.2o7.net,REJECT
