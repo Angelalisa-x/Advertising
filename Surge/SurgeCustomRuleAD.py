@@ -37,9 +37,15 @@ def pullBlackmatrix7():
         f.write(html)
     f.close()
 
-    # BlackmatrixBackups = open("BlackmatrixBackups.txt","w")
-    # BlackmatrixBackups.write(html)
-    # BlackmatrixBackups.close()
+    with open("BlackmatrixBackups.txt","w+") as fin7:
+        for line in open("1.txt"):
+            if "#" in line:
+                continue
+            str=[]
+            str = line
+            str = str[0: str.rfind('\n')] + "\n"
+            fin7.write(str)
+    fin7.close()
 
     with open("blackmatrix7.txt","w+") as fin7:
         for line in open("1.txt"):
@@ -518,6 +524,9 @@ if __name__ == '__main__':
     baimingdangProcess("KnightAD.list","KnightAD_2.txt")
     baimingdangProcess("blackmatrix7_Ex.list","blackmatrix7_Ex.txt")
 
+    quchong("BlackmatrixBackups_1.txt","BlackmatrixBackups.txt")
+    baimingdangProcess("BlackmatrixBackups.list","BlackmatrixBackups_1.txt")
+
 
     os.remove("1.txt")
     os.remove("blackmatrix7.txt")
@@ -527,3 +536,5 @@ if __name__ == '__main__':
     os.remove("KnightAD_1.txt")
     os.remove("KnightAD_2.txt")
     os.remove("blackmatrix7_Ex.txt")
+    os.remove("BlackmatrixBackups.txt")
+    os.remove("BlackmatrixBackups_1.txt")
