@@ -79,22 +79,10 @@ def pullBlackmatrix7_Ex():
         f.write(html)
     f.close()
 
-    # BlackmatrixBackups = open("BlackmatrixBackups_Ex.txt","w")
-    # BlackmatrixBackups.write(html)
-    # BlackmatrixBackups.close()
 
     with open("blackmatrix7_Ex.txt","w+") as fin7:
         for line in open("1.txt"):
-            if "#" in line:
-                #print(line)
-                continue
-            if "!" in line:
-                continue
             if line == '\n':
-                continue
-            if "$" in line:
-                continue
-            if "。" in line:
                 continue
             str=[]
             str = line
