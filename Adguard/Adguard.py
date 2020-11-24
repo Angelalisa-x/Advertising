@@ -119,6 +119,42 @@ def pullKbsmlDns():
             fin7.write(line)
         fin7.close()
 
+def pullBlackmatrix7():
+    url = 'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/AdvertisingTest/AdvertisingTest.list'
+    html = requests.get(url).text
+
+    fin = open("temporary.txt","w",encoding='UTF-8')
+    fin.write(html)
+    fin.close()
+
+    with open("blackmatrix7.txt","w",encoding='UTF-8') as fin7:
+        for line in open("temporary.txt",encoding='UTF-8'):
+            str = []
+            str = line
+            dier = str.find(',',len(str[0:str.find(',')])+1)
+            if "!" in line:
+                continue
+            if "#" in line:
+                continue
+            if "," in line:
+                str = str[str.find(',')+1:dier]
+                if "HOST-KEYWORD" in line:
+                    str = "||" + str + "^" + "\n"
+                    fin7.write(str)
+                    continue
+                if "IP-CIDR" in line:
+                    continue
+                str = "127.0.0.1 " + str + "\n"
+                fin7.write(str)
+                continue
+        fin7.close()
+
+################ 合并文件 #################
+def hebingFile(targetFile,mergeFile):
+    fin = open(targetFile, "a+",encoding='UTF-8')
+    for line in open(mergeFile,"r",encoding='UTF-8'):
+        fin.write(line)
+    fin.close()
 
 if __name__ == "__main__":
 
@@ -146,9 +182,15 @@ if __name__ == "__main__":
     geshiProcess("AdguardEx_1.txt","AdguardEx.txt")
     Deduplication("AdguardEx.txt","AdguardEx_1.txt")
 
+    pullBlackmatrix7()
+    hebingFile("blackmatrix7.txt","AdguardEx.txt")
+    Deduplication("AdguardEx_1.txt","blackmatrix7.txt")
+    addWhite("AdguardEx.txt","AdguardEx_1.txt")
+
 
     os.remove("temporary.txt")
     os.remove("Adguard.txt")
     os.remove("Adguard_1.txt")
     os.remove("AdguardEx_1.txt")
+    os.remove("blackmatrix7.txt")
 
