@@ -78,7 +78,7 @@ def pullWangzhanInfo(urlInfo):
         for line in open("temporary.txt",encoding='UTF-8'):
             str = []
             str = line
-            str = str[0:str.find("\n")] + "\n"
+            str = str[0:str.find("\n")]
             if "!" in line:
                 continue
             if "#" in line:
@@ -86,6 +86,14 @@ def pullWangzhanInfo(urlInfo):
             if "@@||" in line:
                 continue
             if "localhost" in line:
+                continue
+            if "0.0.0.0 0.0.0.0" in line:
+                continue
+            if " ip6-" in line:
+                continue
+            if "255.255.255.255 broadcasthost" in line:
+                continue
+            if "127.0.0.1 local" == str:
                 continue
             fin7.write(line)
         fin7.close()
@@ -178,6 +186,7 @@ if __name__ == "__main__":
     pullWangzhanInfo('https://adaway.org/hosts.txt')
     pullWangzhanInfo('https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts')
     pullWangzhanInfo('https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts')
+    pullWangzhanInfo('http://sbc.io/hosts/alternates/fakenews-gambling-porn-social/hosts')
 
     
 
