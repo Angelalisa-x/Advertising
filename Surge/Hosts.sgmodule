@@ -1,4 +1,4 @@
 #!name=Hosts
 #!desc=本地 DNS 映射，解决证书问题
 [Host]
-*.kwaixiaodian.com = server:112.74.84.175
+*.kwaixiaodian.com = server:223.6.6.6
