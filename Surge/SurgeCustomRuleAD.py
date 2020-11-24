@@ -80,9 +80,11 @@ def pullBlackmatrix7_Ex():
     f.close()
 
 
-    with open("blackmatrix7_Ex.txt","w+") as fin7:
+    with open("blackmatrix7_Ex.list","w+") as fin7:
         for line in open("1.txt"):
             if line == '\n':
+                continue
+            if ",lianmeng" in line:
                 continue
             str=[]
             str = line
@@ -510,7 +512,7 @@ if __name__ == '__main__':
 
     qiegeFile("KnightAD_2.txt","blackmatrix7_2.txt",blackmatrix7_num)
     baimingdangProcess("KnightAD.list","KnightAD_2.txt")
-    baimingdangProcess("blackmatrix7_Ex.list","blackmatrix7_Ex.txt")
+    #baimingdangProcess("blackmatrix7_Ex.list","blackmatrix7_Ex.txt")
 
     quchong("BlackmatrixBackups_1.txt","BlackmatrixBackups.txt")
     baimingdangProcess("BlackmatrixBackups.list","BlackmatrixBackups_1.txt")
@@ -523,6 +525,6 @@ if __name__ == '__main__':
     os.remove("KnightAD.txt")
     os.remove("KnightAD_1.txt")
     os.remove("KnightAD_2.txt")
-    os.remove("blackmatrix7_Ex.txt")
+    #os.remove("blackmatrix7_Ex.txt")
     os.remove("BlackmatrixBackups.txt")
     os.remove("BlackmatrixBackups_1.txt")
