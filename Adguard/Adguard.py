@@ -46,7 +46,7 @@ def geshiProcess(targetFile,readPath):
                 continue
             if "0.0.0.0 " in line:
                 str = str[8:str.find("\n")]
-                str = "127.0.0.1 " + str + "\n"
+                str = "127.0.0.1 " + str +"\n"
                 fin7.write(str)
                 continue
 
@@ -87,7 +87,7 @@ def pullWangzhanInfo(urlInfo):
                 continue
             if "localhost" in line:
                 continue
-            fin7.write(str)
+            fin7.write(line)
         fin7.close()
 
 def pullKbsml():
