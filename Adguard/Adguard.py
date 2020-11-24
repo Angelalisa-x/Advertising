@@ -138,15 +138,20 @@ def pullBlackmatrix7():
                 continue
             if "," in line:
                 str = str[str.find(',')+1:dier]
-                if "HOST-KEYWORD" in line:
+                if "HOST-KEYWORD," in line:
                     str = "||" + str + "^" + "\n"
+                    fin7.write(str)
+                    continue
+                if "HOST-SUFFIX," in line:
+                    str = "||" + str + "^" + "\n"
+                    fin7.write(str)
+                    continue
+                if "HOST," in line:
+                    str = "127.0.0.1 " + str + "\n"
                     fin7.write(str)
                     continue
                 if "IP-CIDR" in line:
                     continue
-                str = "127.0.0.1 " + str + "\n"
-                fin7.write(str)
-                continue
         fin7.close()
 
 ################ 合并文件 #################
