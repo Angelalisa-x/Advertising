@@ -26,8 +26,32 @@ def addWhite(targetFile,readPath):
         if "analytics" == str:
             continue
         fin.write(line)
-    fin.close()  
+    fin.close()
 
+################# 格式处理，方便去重 ############
+def geshiProcess(targetFile,readPath):
+    with open(targetFile,"w",encoding='UTF-8') as fin7:
+        for line in open(readPath,encoding='UTF-8'):
+            str = []
+            str = line
+            if "0.0.0.0   " in line:
+                str = str[10:str.find("\n")]
+                str = "127.0.0.1 " + str + "\n"
+                fin7.write(str)
+                continue
+            if "0.0.0.0  " in line:
+                str = str[9:str.find("\n")]
+                str = "127.0.0.1 " + str + "\n"
+                fin7.write(str)
+                continue
+            if "0.0.0.0 " in line:
+                str = str[8:str.find("\n")]
+                str = "127.0.0.1 " + str + "\n"
+                fin7.write(str)
+                continue
+
+            fin7.write(line)
+        fin7.close()
 
 def Deduplication(writePath,readPath):
     lines_seen=set()
@@ -119,8 +143,12 @@ if __name__ == "__main__":
     Deduplication("Adguard_1.txt","Adguard.txt")
     addWhite("AdguardEx.txt","Adguard_1.txt")
 
+    geshiProcess("AdguardEx_1.txt","AdguardEx.txt")
+    Deduplication("AdguardEx.txt","AdguardEx_1.txt")
+
 
     os.remove("temporary.txt")
     os.remove("Adguard.txt")
     os.remove("Adguard_1.txt")
+    os.remove("AdguardEx_1.txt")
 
