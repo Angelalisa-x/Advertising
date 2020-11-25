@@ -205,6 +205,36 @@ def pullWhite():
                 fwhite.write(str)
                 continue
     fwhite.close()
+            ############ adg-kall ############
+    fwhite=open("whiteList_1.txt","a+")
+    for line in open("..\Adguard\kbsm.txt",encoding='UTF-8'):
+        str=[]
+        str = line
+        if "$" in line:
+            continue
+        if "*" in line:
+            continue
+        if "@@||*" in line:
+            if "^" in line:
+                str = str[str.find("@@||*")+5:str.rfind("^")] + "\n"
+                fwhite.write(str)
+                continue
+        if "@@||" in line:
+            if "^" in line:
+                str = str[str.find("@@||")+4:str.rfind("^")] + "\n"
+                fwhite.write(str)
+                continue
+        if "@@||*." in line:
+            if "^" in line:
+                str = str[str.find("@@||*.")+6:str.rfind("^")] + "\n"
+                fwhite.write(str)
+                continue
+        if "@@||." in line:
+            if "^" in line:
+                str = str[str.find("@@||.")+5:str.rfind("^")] + "\n"
+                fwhite.write(str)
+                continue
+    fwhite.close()
             ############# kbsml End    ################
 
             ############# anti-ad Star   ################
