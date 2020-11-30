@@ -20,6 +20,10 @@ cd Adguard
 py %cd%\Adguard_Ex.py
 
 cd ..
+cd quantumult
+py %cd%\jiaobenJS.py
+
+cd ..
 
 del %cd%\xiugaiWhite\CustomRuleAD_Ex.py \q \f \s 
 del %cd%\xiugaiWhite\SurgeCustomRuleAD_Ex.py \q \f \s
