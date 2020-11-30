@@ -95,6 +95,8 @@ def pullWangzhanInfo(urlInfo):
                 continue
             if "127.0.0.1 local" == str:
                 continue
+            if "Request ID" in line:
+                continue
             fin7.write(line)
         fin7.close()
 
