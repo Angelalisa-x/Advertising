@@ -280,7 +280,7 @@ cron "21 9 8 * * *" https://raw.githubusercontent.com/barrym-chen/Script/master/
 20 0-20/4 * * * https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_timeMachine.js, enable=false, tag=京东时光机, enabled=true
 11 1 * * * https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_lotteryMachine.js, tag=京东抽奖机, enabled=true
 11 9 * * * https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_rankingList.js, tag=京东排行榜, enabled=true
-11 0 * * * https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_woHome.js,tag=京东东小窝, enabled=true
+11 0 * * * https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_woHome.js,tag=东东小窝, enabled=true
 
 # whyour
 5 9 * * * https://raw.githubusercontent.com/whyour/hundun/master/quanx/daymatter.js, tag=倒数日, enabled=true
@@ -299,7 +299,7 @@ cron "21 9 8 * * *" https://raw.githubusercontent.com/barrym-chen/Script/master/
 1 0 * * * https://gitee.com/passerby-b/javascript/raw/master/unipay.js, tag=云闪付签到, enabled=true
 
 # ziye12
-*/11 * * * * https://raw.githubusercontent.com/ziye12/JavaScript/master/qqread.js, tag=企鹅读, enabled=true
+*/11 * * * * https://raw.githubusercontent.com/ziye12/JavaScript/master/qqread.js, tag=企鹅读书, enabled=true
 
 #!name=Tartarus iOS Tasks Module
 #!desc=iOS Tasks 模块配置
