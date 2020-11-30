@@ -1,10 +1,13 @@
 ! Homepage: https://kbsml.com
 ! Title: adg-kall
 ! Description: Adg-kall collected on the network and I have written some rules
-! Version: 1.0.0.110
-! TimeUpdated: 2020-11-22T12:40
+! Version: 1.0.0.111
+! TimeUpdated: 2020-11-25T22:30
 ! Expires: 7 days
 !
+||adclick.tencentmusic.com^
+||ssp.tencentmusic.com^
+||adexpo.tencentmusic.com^
 ||103.75.47.19^
 ||baomitu.com/layer/*/layer.js
 zhenbuka.com##.is-draggable.flickity-enabled.flickity-page.carousel_center
@@ -41485,8 +41488,6 @@ cartoonmad.com##table[width="100%"][cellpadding="0"] > tbody > tr:nth-child(3) t
 ||m.sjzhushou.com^
 ||mti.35kds.com^
 ||mtty-cdn.mtty.xin^
-||m.uc123.com^
-||m.uczzd.cn^
 ||musik-mp3.info^
 ||mxvp-feature-toggle-prod-1.zenmxapps.com^
 ||my-material.zone1.meitudata.com^

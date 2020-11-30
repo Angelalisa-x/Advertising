@@ -1,10 +1,13 @@
 ! Homepage: www.kbsml.com
 ! Title: adg-kall-dns
 ! Description: adg-kall-dns collected on the network and I have written some rules
-! Version: 1.0.0.25
-! TimeUpdated: 2020-11-13T21:40
+! Version: 1.0.0.26
+! TimeUpdated: 2020-11-25T22:30
 ! Expires: 7 days
 !
+||adclick.tencentmusic.com^
+||ssp.tencentmusic.com^
+||adexpo.tencentmusic.com^
 ||xxmh269.com^
 ||juruigj.com^
 ||hbandier.com^
