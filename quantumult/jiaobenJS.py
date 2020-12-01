@@ -141,6 +141,7 @@ if __name__ == "__main__":
     pullWangzhandizhi('https://github.com/lxk0301/jd_scripts/tree/master')
     pullWangzhandizhi('https://github.com/799953468/Quantumult-X/tree/master/Scripts/JD')
     pullWangzhandizhi('https://github.com/yangtingxiao/QuantumultX/tree/master/scripts/jd')
+    pullWangzhandizhi('https://github.com/whyour/hundun/tree/master/quanx')
 
     
 
