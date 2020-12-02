@@ -496,33 +496,33 @@ def pullEach():
             ################## neodevpro End     #####################
             
             ################## 小贝塔 Star    #####################
-    url = 'https://raw.githubusercontent.com/rentianyu/Ad-set-hosts/master/hosts'
-    html = requests.get(url).text
-    with open("1.txt","w",encoding='UTF-8') as f:
-        f.write(html)
-    f.close()
+    # url = 'https://raw.githubusercontent.com/rentianyu/Ad-set-hosts/master/hosts'
+    # html = requests.get(url).text
+    # with open("1.txt","w",encoding='UTF-8') as f:
+    #     f.write(html)
+    # f.close()
 
-    with open("KnightAD.txt","a+",encoding='UTF-8') as fin7:
-        for line in open("1.txt",encoding='UTF-8'):
-            str=[]
-            str = line
-            if "#" in line:
-                continue
-            if "!" in line:
-                continue
-            if line == '\n':
-                continue
-            if "。" in line:
-                continue
-            if "@" in line:
-                continue
-            if ":" in line:
-                continue
-            if "127.0.0.1 " in line:
-                str = str[str.find("127.0.0.1 ")+10:str.rfind("\n")] + "\n"
-                fin7.write(str)
-                continue
-    fin7.close()    
+    # with open("KnightAD.txt","a+",encoding='UTF-8') as fin7:
+    #     for line in open("1.txt",encoding='UTF-8'):
+    #         str=[]
+    #         str = line
+    #         if "#" in line:
+    #             continue
+    #         if "!" in line:
+    #             continue
+    #         if line == '\n':
+    #             continue
+    #         if "。" in line:
+    #             continue
+    #         if "@" in line:
+    #             continue
+    #         if ":" in line:
+    #             continue
+    #         if "127.0.0.1 " in line:
+    #             str = str[str.find("127.0.0.1 ")+10:str.rfind("\n")] + "\n"
+    #             fin7.write(str)
+    #             continue
+    # fin7.close()    
             ################## 小贝塔 End     #####################
 
 

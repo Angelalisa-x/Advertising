@@ -189,7 +189,7 @@ if __name__ == "__main__":
     pullWangzhanInfo('https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts')
     pullWangzhanInfo('https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts')
     pullWangzhanInfo('http://sbc.io/hosts/alternates/fakenews-gambling-porn-social/hosts')
-    pullWangzhanInfo('https://raw.githubusercontent.com/rentianyu/Ad-set-hosts/master/hosts')
+    #pullWangzhanInfo('https://raw.githubusercontent.com/rentianyu/Ad-set-hosts/master/hosts')
 
     
 
