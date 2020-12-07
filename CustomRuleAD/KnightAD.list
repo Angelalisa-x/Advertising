@@ -35455,6 +35455,7 @@ HOST-SUFFIX,counting.kmindex.ru,REJECT
 HOST-SUFFIX,espn.com.ssl.sc.omtrdc.net,REJECT
 HOST-SUFFIX,eu1.madsone.com,REJECT
 HOST-SUFFIX,hits.puls.lv,REJECT
+HOST-SUFFIX,hitttenevtanin.com,REJECT
 HOST-SUFFIX,log.logrocket.io,REJECT
 HOST-SUFFIX,media.ftv-publicite.fr,REJECT
 HOST-SUFFIX,metrics.getrockerbox.com,REJECT
@@ -35500,7 +35501,6 @@ HOST-SUFFIX,govzhejiang.cn,REJECT
 HOST-SUFFIX,www.fzdeng.com,REJECT
 HOST-SUFFIX,ad.suning.design,REJECT
 HOST-SUFFIX,aliyun.cdn.chengzilte.top,REJECT
-HOST-SUFFIX,d1f05vr3sjsuy7.cloudfront.net,REJECT
 HOST-SUFFIX,m.am77p.cn,REJECT
 HOST-SUFFIX,j.jfgcxj.com,REJECT
 HOST-SUFFIX,cq.qdkzjdsb.cn,REJECT
