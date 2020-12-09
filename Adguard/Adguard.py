@@ -81,6 +81,8 @@ def pullWangzhanInfo(urlInfo):
             str = str[0:str.find("\n")]
             if "!" in line:
                 continue
+            if "！" in line:
+                continue
             if "#" in line:
                 continue
             if "@@||" in line:
@@ -190,6 +192,9 @@ if __name__ == "__main__":
     pullWangzhanInfo('https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts')
     pullWangzhanInfo('http://sbc.io/hosts/alternates/fakenews-gambling-porn-social/hosts')
     #pullWangzhanInfo('https://raw.githubusercontent.com/rentianyu/Ad-set-hosts/master/hosts')
+    pullWangzhanInfo('https://gitee.com/gk0011/fuckad/raw/master/fuckadForAPP.txt')
+    pullWangzhanInfo('https://gitee.com/gk0011/fuckad/raw/master/fuckadForWeb.txt')
+    pullWangzhanInfo('https://gitee.com/gk0011/fuckad/raw/master/ab.txt')
 
     
 
