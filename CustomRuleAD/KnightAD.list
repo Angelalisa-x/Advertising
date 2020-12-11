@@ -756,6 +756,7 @@ HOST-SUFFIX,zalo-ads*.zadn.vn,REJECT
 HOST-SUFFIX,zaloapp.ads.zdn.vn,REJECT
 HOST-SUFFIX,boxpr.aiservice.vn,REJECT
 HOST-SUFFIX,vn.alexajstrack.com,REJECT
+HOST-SUFFIX,depnegj.cn,REJECT
 HOST-SUFFIX,111.175.219.*.js,REJECT
 HOST-SUFFIX,218.26.217.*.html,REJECT
 HOST-SUFFIX,nlrsq.com,REJECT
@@ -841,12 +842,14 @@ HOST-SUFFIX,fpb1.chinacar.,REJECT
 HOST-SUFFIX,qizhihaotian.com,REJECT
 HOST-SUFFIX,zhihu.xmcimg.com,REJECT
 HOST-SUFFIX,s1-a1.dnvodcdn.me,REJECT
-HOST-SUFFIX,toujing9.top,REJECT
+HOST-SUFFIX,ohthub.com.cn,REJECT
+HOST-SUFFIX,jtwlj.cn,REJECT
 HOST-SUFFIX,0577renliu.,REJECT
 HOST-SUFFIX,daomengren.com,REJECT
 HOST-SUFFIX,g8waw1.cn,REJECT
 HOST-SUFFIX,prpcoin.com,REJECT
 HOST-SUFFIX,qianqianxsw.com,REJECT
+HOST-SUFFIX,toujing9.top,REJECT
 HOST-SUFFIX,vodtw.la,REJECT
 HOST-SUFFIX,x81zw.com,REJECT
 HOST-SUFFIX,yidiansurong.com,REJECT
