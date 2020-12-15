@@ -120,6 +120,16 @@ def pullWangzhandizhi(urlInfo):
             
         fin7.close()
 
+def pullJS(urlInfo):
+    url = urlInfo
+    html = requests.get(url).text
+
+    fin = open("JS.txt","a",encoding='UTF-8')
+    fin.write(html)
+    fin.close()
+
+
+
 ################ 合并文件 #################
 def hebingFile(targetFile,mergeFile):
     fin = open(targetFile, "a+",encoding='UTF-8')
@@ -144,7 +154,20 @@ if __name__ == "__main__":
     pullWangzhandizhi('https://github.com/whyour/hundun/tree/master/quanx')
     pullWangzhandizhi('https://github.com/MoPoQAQ/Script/tree/main/Me')
 
-    
+    fin = open("JS.txt","w",encoding='UTF-8')
+    fin.close()
+    pullJS('https://raw.githubusercontent.com/royximei/QuantumultX/master/js.conf')
+    pullJS('https://raw.githubusercontent.com/id77/QuantumultX/master/rewrite/other.conf')
+    pullJS('https://raw.githubusercontent.com/id77/QuantumultX/master/rewrite/ad.conf')
+    pullJS('https://raw.githubusercontent.com/id77/QuantumultX/master/rewrite/vip.conf')
+    pullJS('https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/Quan_crack.conf')
+    pullJS('https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/Ua.conf')
+    pullJS('https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/Xxys.conf')
+    pullJS('https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/Youtube.conf')
+    pullJS('https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/Crazyjoy.conf')
+    pullJS('https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Js.conf')
+    Deduplication("JS-Ex.txt", "JS.txt")
 
 
     os.remove("temporary.txt")
+    os.remove("JS.txt")
