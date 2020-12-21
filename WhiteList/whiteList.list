@@ -1,4 +1,10 @@
-HOST-SUFFIX,oth.str.mdt.qq.com,DIRECT
+HOST-SUFFIX,h.trace.qq.com,DIRECT
+HOST-SUFFIX,aegis.qq.com,DIRECT
+HOST-SUFFIX,bt.jd.com,DIRECT
+HOST-SUFFIX,baidu.com,DIRECT
+HOST-SUFFIX,sm.baidu.com,DIRECT
+HOST-SUFFIX,mapi.m.jd.com,DIRECT
+HOST-SUFFIX,h5.m.jd.com,DIRECT
 HOST-SUFFIX,n.sinaimg.cn,DIRECT
 HOST-SUFFIX,acs4baichuan.m.taobao.com,DIRECT
 HOST-SUFFIX,nsimg.net,DIRECT
@@ -236,6 +242,7 @@ HOST-SUFFIX,r5---sn-4g5ednsl.googlevideo.com,DIRECT
 HOST-SUFFIX,r4---sn-a5meknek.googlevideo.com,DIRECT
 HOST-SUFFIX,xn--ngstr-lra8j.com,DIRECT
 HOST-SUFFIX,r3---sn-a5mlrn7r.googlevideo.com,DIRECT
+HOST-SUFFIX,gvt1.com,DIRECT
 HOST-SUFFIX,api.device.xiaomi.net,DIRECT
 HOST-SUFFIX,api.micloud.xiaomi.net,DIRECT
 HOST-SUFFIX,api.miui.security.xiaomi.com,DIRECT
@@ -302,9 +309,11 @@ HOST-SUFFIX,passport.youdao.com,DIRECT
 HOST-SUFFIX,c.tieba.baidu.com,DIRECT
 HOST-SUFFIX,mbd.baidu.com,DIRECT
 HOST-SUFFIX,cpu.baidu.com,DIRECT
+HOST-SUFFIX,baijiahao.baidu.com,DIRECT
 HOST-SUFFIX,u1.img.mobile.sina.cn,DIRECT
 HOST-SUFFIX,weibo.cn,DIRECT
 HOST-SUFFIX,pstatp.com,DIRECT
+HOST-SUFFIX,mars.jd.com,DIRECT
 HOST-SUFFIX,raw.githubusercontent.com,DIRECT
 HOST-SUFFIX,self.events.data.microsoft.com,DIRECT
 HOST-SUFFIX,bing.com,DIRECT
@@ -339,6 +348,9 @@ HOST-SUFFIX,iteye.com,DIRECT
 HOST-SUFFIX,bmap6.cn,DIRECT
 HOST-SUFFIX,96956.com.cn,DIRECT
 HOST-SUFFIX,www.kanjiantu.com,DIRECT
+HOST-SUFFIX,analytics.yinxiang.com,DIRECT
+HOST-SUFFIX,pic.mairuan.com,DIRECT
+HOST-SUFFIX,dataprajna.net,DIRECT
 HOST-SUFFIX,digac.cc,DIRECT
 HOST-SUFFIX,digac.top,DIRECT
 HOST-SUFFIX,pthome.net,DIRECT
@@ -430,7 +442,6 @@ HOST-SUFFIX,int.dpool.sina.com.cn,DIRECT
 HOST-SUFFIX,scdown.qq.com,DIRECT
 HOST-SUFFIX,displaycatalog.mp.microsoft.com,DIRECT
 HOST-SUFFIX,windows.policies.live.net,DIRECT
-HOST-SUFFIX,mapi.m.jd.com,DIRECT
 HOST-SUFFIX,eimg.smzdm.com,DIRECT
 HOST-SUFFIX,mazu.3g.qq.com,DIRECT
 HOST-SUFFIX,mountain.zhidao.baidu.com,DIRECT
@@ -465,6 +476,7 @@ HOST-SUFFIX,d3g.qq.com,DIRECT
 HOST-SUFFIX,dxp.baidu.com,DIRECT
 HOST-SUFFIX,pmm.people.com.cn,DIRECT
 HOST-SUFFIX,zconfig.alibabausercontent.com,DIRECT
+HOST-SUFFIX,oth.str.mdt.qq.com,DIRECT
 HOST-SUFFIX,2052.flash2-http.qq.com,DIRECT
 HOST-SUFFIX,e.crashlytics.com,DIRECT
 HOST-SUFFIX,b.qchannel03.cn,DIRECT
@@ -544,7 +556,6 @@ HOST-SUFFIX,analytics.strava.com,DIRECT
 HOST-SUFFIX,msg.umeng.com,DIRECT
 HOST-SUFFIX,msg.umengcloud.com,DIRECT
 HOST-SUFFIX,analytics.95516.com,DIRECT
-HOST-SUFFIX,fairplay.l.qq.com,DIRECT
 HOST-SUFFIX,fonts.gstatic.com,DIRECT
 HOST-SUFFIX,tracking.miui.com,DIRECT
 HOST-SUFFIX,f.video.weibocdn.com,DIRECT
