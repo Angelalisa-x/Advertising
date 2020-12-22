@@ -1,3 +1,4 @@
+HOST-SUFFIX,adclick.g.doubleclick.net,REJECT
 HOST-SUFFIX,googleads.g.doubleclick.net,REJECT
 HOST-SUFFIX,alime-customer-upload-cn-hangzhou.oss-cn-hangzhou.aliyuncs.com,REJECT
 HOST-SUFFIX,p3-tt.byteimg.com,REJECT
@@ -28,7 +29,6 @@ HOST-SUFFIX,pizzaseo.com,REJECT
 HOST-SUFFIX,relay.phub.hz.sandai.net,REJECT
 HOST-SUFFIX,6699997.com,REJECT
 HOST-SUFFIX,htcp.ppbk4.com,REJECT
-HOST-SUFFIX,adclick.g.doubleclick.net,REJECT
 HOST-SUFFIX,rtkgyo.com,REJECT
 HOST-SUFFIX,scdn.abawa.top,REJECT
 HOST-SUFFIX,qubo72.xyz,REJECT
@@ -48245,10 +48245,13 @@ HOST-SUFFIX,data.hhhhbf.com,REJECT
 HOST-SUFFIX,show.13wnjs.com,REJECT
 HOST-SUFFIX,e.cz9k8b.top,REJECT
 HOST-SUFFIX,js.qudaoweiwang.com,REJECT
+HOST-SUFFIX,xg.depnegj.cn,REJECT
 HOST-SUFFIX,ad.xn--3bs795g.link,REJECT
 HOST-SUFFIX,www.toujing7.top,REJECT
 HOST-SUFFIX,js.handanxinkai.com,REJECT
 HOST-SUFFIX,hmjs.cnmo-img.com.cn,REJECT
+HOST-SUFFIX,ximg.wkvxuoi.cn,REJECT
+HOST-SUFFIX,xc.ejboayh.cn,REJECT
 HOST-SUFFIX,show.pinyoux.com,REJECT
 HOST-SUFFIX,jkjei8.cn,REJECT
 HOST-SUFFIX,k.97wanle.com,REJECT
