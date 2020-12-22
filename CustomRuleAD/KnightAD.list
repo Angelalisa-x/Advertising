@@ -1287,6 +1287,7 @@ HOST-SUFFIX,s*.site.flashx.cc,REJECT
 HOST-SUFFIX,s*.skencituer.com,REJECT
 HOST-SUFFIX,likeminer.nablabee.com,REJECT
 HOST-SUFFIX,miner.nablabee.com,REJECT
+HOST-SUFFIX,basicapp.online,REJECT
 HOST-SUFFIX,cointiply.com,REJECT
 HOST-SUFFIX,demand.bidgear.com,REJECT
 HOST-SUFFIX,seephoak.net,REJECT
@@ -2267,6 +2268,7 @@ HOST-SUFFIX,ad.accesstrade.vn,REJECT
 HOST-SUFFIX,boxpr.aiservice.vn,REJECT
 HOST-SUFFIX,track.accesstrade.vn,REJECT
 HOST-SUFFIX,vn.alexajstrack.com,REJECT
+HOST-SUFFIX,cxgh.net,REJECT
 HOST-SUFFIX,111.175.219.*.js,REJECT
 HOST-SUFFIX,218.26.217.*.html,REJECT
 HOST-SUFFIX,baiducom.bj.bcebos.com,REJECT
@@ -48245,13 +48247,18 @@ HOST-SUFFIX,data.hhhhbf.com,REJECT
 HOST-SUFFIX,show.13wnjs.com,REJECT
 HOST-SUFFIX,e.cz9k8b.top,REJECT
 HOST-SUFFIX,js.qudaoweiwang.com,REJECT
+HOST-SUFFIX,js.handanxinkai.com,REJECT
 HOST-SUFFIX,xg.depnegj.cn,REJECT
 HOST-SUFFIX,ad.xn--3bs795g.link,REJECT
 HOST-SUFFIX,www.toujing7.top,REJECT
-HOST-SUFFIX,js.handanxinkai.com,REJECT
+HOST-SUFFIX,spider.cosinesstex.net,REJECT
 HOST-SUFFIX,hmjs.cnmo-img.com.cn,REJECT
 HOST-SUFFIX,ximg.wkvxuoi.cn,REJECT
 HOST-SUFFIX,xc.ejboayh.cn,REJECT
+HOST-SUFFIX,appid.ebrhnud.cn,REJECT
+HOST-SUFFIX,www.xingpingmaoyi.cn,REJECT
+HOST-SUFFIX,mao.onesg.cn,REJECT
+HOST-SUFFIX,56.xxdongfa.com,REJECT
 HOST-SUFFIX,show.pinyoux.com,REJECT
 HOST-SUFFIX,jkjei8.cn,REJECT
 HOST-SUFFIX,k.97wanle.com,REJECT
