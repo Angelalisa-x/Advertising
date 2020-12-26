@@ -132,7 +132,7 @@ hostname= api.termius.com, *.rr.tv, education.github.com, baimiao.uzero.cn, lamb
 ^https:\/\/biz\.caiyunapp\.com\/v2\/user\?app_name\=weather url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/ColorWeather.js// ==UserScript==
 // @ScriptName        Quan Crack 脚本
 // @Author            Cuttlefish
-// @Tg group          https://t.me/ddgksf2013
+// @Tg                https://t.me/ddgksf2013
 // @WechatID          公众号墨鱼手记
 // @UpdateTime        20201218
 // @Attention         Only for backup,请勿引用本重写配置
