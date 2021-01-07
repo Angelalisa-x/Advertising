@@ -2258,12 +2258,12 @@ HOST-SUFFIX,nspapi.aiservice.vn,REJECT
 HOST-SUFFIX,static.accesstrade.vn,REJECT
 HOST-SUFFIX,track.accesstrade.vn,REJECT
 HOST-SUFFIX,vn.alexajstrack.com,REJECT
-HOST-SUFFIX,mitao17.com,REJECT
 HOST-SUFFIX,111.175.219.*.js,REJECT
 HOST-SUFFIX,218.26.217.*.html,REJECT
 HOST-SUFFIX,baiducom.bj.bcebos.com,REJECT
 HOST-SUFFIX,farm-cn.plista.com,REJECT
 HOST-SUFFIX,log.interest.mix.sina.com.cn,REJECT
+HOST-SUFFIX,mitao17.com,REJECT
 HOST-SUFFIX,nlrsq.com,REJECT
 HOST-SUFFIX,notice.uchome.manyou.com,REJECT
 HOST-SUFFIX,static-cn.plista.com,REJECT
@@ -2386,10 +2386,11 @@ HOST-SUFFIX,vi1.souid.com,REJECT
 HOST-SUFFIX,zhihu.xmcimg.com,REJECT
 HOST-SUFFIX,ip.hivps.xyz,REJECT
 HOST-SUFFIX,s1-a1.dnvodcdn.me,REJECT
-HOST-SUFFIX,gcctqal.cn,REJECT
+HOST-SUFFIX,ygnoqu.cn,REJECT
 HOST-SUFFIX,0577renliu.,REJECT
 HOST-SUFFIX,daima.dsxdn.com,REJECT
 HOST-SUFFIX,daomengren.com,REJECT
+HOST-SUFFIX,gcctqal.cn,REJECT
 HOST-SUFFIX,prpcoin.com,REJECT
 HOST-SUFFIX,qianqianxsw.com,REJECT
 HOST-SUFFIX,sibozhihui-lc.com,REJECT
@@ -51365,6 +51366,7 @@ HOST-SUFFIX,2ydl.axbxgg.com,REJECT
 HOST-SUFFIX,42103.c.mystat-in.net,REJECT
 HOST-SUFFIX,44.adsina.allyes.com,REJECT
 HOST-SUFFIX,45.adsina.allyes.com,REJECT
+HOST-SUFFIX,5centscdn.com,REJECT
 HOST-SUFFIX,60.adsina.allyes.com,REJECT
 HOST-SUFFIX,7202019monday.sgbbc.cn,REJECT
 HOST-SUFFIX,a-llq.whbmy.com,REJECT
@@ -51425,6 +51427,8 @@ HOST-SUFFIX,appcloud2.in.zhihu.com,REJECT
 HOST-SUFFIX,appcloud2.zhihu.com,REJECT
 HOST-SUFFIX,arms-retcode.aliyuncs.com,REJECT
 HOST-SUFFIX,az43064.vo.msecnd.net,REJECT
+HOST-SUFFIX,azioncdn.net,REJECT
+HOST-SUFFIX,azureedge.net,REJECT
 HOST-SUFFIX,b-gtc.getui.com,REJECT
 HOST-SUFFIX,b.19869.com,REJECT
 HOST-SUFFIX,b.domob.cn,REJECT
@@ -51444,7 +51448,9 @@ HOST-SUFFIX,beacons3.gvt2.com,REJECT
 HOST-SUFFIX,beacons4.gvt2.com,REJECT
 HOST-SUFFIX,beacons5.gvt2.com,REJECT
 HOST-SUFFIX,beeglivesex.com,REJECT
+HOST-SUFFIX,belugacdn.link,REJECT
 HOST-SUFFIX,beta.nimiqpool.com,REJECT
+HOST-SUFFIX,blazingcdn.net,REJECT
 HOST-SUFFIX,bozhihua.com,REJECT
 HOST-SUFFIX,bs.da.hunantv.com,REJECT
 HOST-SUFFIX,btrace.play.aiseet.atianqi.com,REJECT
@@ -51460,6 +51466,7 @@ HOST-SUFFIX,cams.spacash.com,REJECT
 HOST-SUFFIX,cas.pxl.ace.advertising.com,REJECT
 HOST-SUFFIX,cb.lomark.cn,REJECT
 HOST-SUFFIX,cdn-7n-pt.zbwowo.com,REJECT
+HOST-SUFFIX,cdn-tech.io,REJECT
 HOST-SUFFIX,cdn.adblade.com,REJECT
 HOST-SUFFIX,cdn.adless.io,REJECT
 HOST-SUFFIX,cdn.minescripts.info,REJECT
@@ -51468,6 +51475,7 @@ HOST-SUFFIX,cdn.streambeam.io,REJECT
 HOST-SUFFIX,cdn1.pebx.pl,REJECT
 HOST-SUFFIX,cdnqq.yl89.cn,REJECT
 HOST-SUFFIX,ce3e75d5.jpush.cn,REJECT
+HOST-SUFFIX,cf-china.info,REJECT
 HOST-SUFFIX,click.jebe.renren.com,REJECT
 HOST-SUFFIX,click.uol.com.br,REJECT
 HOST-SUFFIX,clickio.mgr.consensu.org,REJECT
@@ -51503,10 +51511,12 @@ HOST-SUFFIX,d4.mobaders.com,REJECT
 HOST-SUFFIX,d5.mobaders.com,REJECT
 HOST-SUFFIX,d8.mobaders.com,REJECT
 HOST-SUFFIX,d9.mobaders.com,REJECT
+HOST-SUFFIX,darking09.tk,REJECT
 HOST-SUFFIX,data-mistat-india-xiaomi-com-1248219176.ap-south-1.elb.amazonaws.com,REJECT
 HOST-SUFFIX,data.bizographics.com,REJECT
 HOST-SUFFIX,data.reactandshare.com,REJECT
 HOST-SUFFIX,dc1.networkbench.com,REJECT
+HOST-SUFFIX,dcf.espn.com,REJECT
 HOST-SUFFIX,de1.eu.nimiqpool.com,REJECT
 HOST-SUFFIX,dev.cryptobara.com,REJECT
 HOST-SUFFIX,digger.cryptobara.com,REJECT
@@ -51517,6 +51527,7 @@ HOST-SUFFIX,dl.youjia2016.com,REJECT
 HOST-SUFFIX,dm.zhiyuanteam.com,REJECT
 HOST-SUFFIX,dmp.marketgid.com,REJECT
 HOST-SUFFIX,dna.uol.com.br,REJECT
+HOST-SUFFIX,doracdn.com,REJECT
 HOST-SUFFIX,download.xp666.com,REJECT
 HOST-SUFFIX,download.zjsyawqj.cn,REJECT
 HOST-SUFFIX,download.zzb6.cn,REJECT
@@ -51554,9 +51565,11 @@ HOST-SUFFIX,g.domob.cn,REJECT
 HOST-SUFFIX,game.internetat.tv,REJECT
 HOST-SUFFIX,gdp.gsgsr.xyz,REJECT
 HOST-SUFFIX,geo.frtya.com,REJECT
+HOST-SUFFIX,gleam.io,REJECT
 HOST-SUFFIX,global.mgr.consensu.org,REJECT
 HOST-SUFFIX,go2.mercy.ga,REJECT
 HOST-SUFFIX,gobba.myeffect.net,REJECT
+HOST-SUFFIX,gocache.net,REJECT
 HOST-SUFFIX,googleanalysis.mobi,REJECT
 HOST-SUFFIX,gs.getui.com,REJECT
 HOST-SUFFIX,h.domob.cn,REJECT
@@ -51564,6 +51577,7 @@ HOST-SUFFIX,hd.browser.miui.com,REJECT
 HOST-SUFFIX,headlines.sharethrough.com,REJECT
 HOST-SUFFIX,himatangi.nimiqpool.com,REJECT
 HOST-SUFFIX,hive.tubetitties.com,REJECT
+HOST-SUFFIX,hlpidkr.ru,REJECT
 HOST-SUFFIX,hot.browser.miui.com,REJECT
 HOST-SUFFIX,html.shibeiou.com,REJECT
 HOST-SUFFIX,httpdns.browser.miui.com,REJECT
@@ -51571,6 +51585,7 @@ HOST-SUFFIX,i.domob.cn,REJECT
 HOST-SUFFIX,i.haloapps.com,REJECT
 HOST-SUFFIX,i.tddmp.com,REJECT
 HOST-SUFFIX,i.zzb6.cn,REJECT
+HOST-SUFFIX,ianpos.com,REJECT
 HOST-SUFFIX,ias816.ujikdd041o.cn,REJECT
 HOST-SUFFIX,ibn.adnxs.com,REJECT
 HOST-SUFFIX,ids.deliver.ifeng.com,REJECT
@@ -51610,6 +51625,7 @@ HOST-SUFFIX,kn.bjbrtc.com,REJECT
 HOST-SUFFIX,krb.devphp.org.ua,REJECT
 HOST-SUFFIX,l.domob.cn,REJECT
 HOST-SUFFIX,l.fancyapi.com,REJECT
+HOST-SUFFIX,latestpromotions.club,REJECT
 HOST-SUFFIX,lc-push.zhihu.com,REJECT
 HOST-SUFFIX,lc.getui.com,REJECT
 HOST-SUFFIX,levin.nimiqpool.com,REJECT
@@ -51658,6 +51674,7 @@ HOST-SUFFIX,miner.nimiq.com,REJECT
 HOST-SUFFIX,minr.browsermine.com,REJECT
 HOST-SUFFIX,mlib.browsermine.com,REJECT
 HOST-SUFFIX,mm.zubovskaya-banya.ru,REJECT
+HOST-SUFFIX,mncdn.com,REJECT
 HOST-SUFFIX,mo.test.haloapps.com,REJECT
 HOST-SUFFIX,mon-deu-1.inf.nimiq.network,REJECT
 HOST-SUFFIX,mon-deu-2.inf.nimiq.network,REJECT
@@ -51672,6 +51689,7 @@ HOST-SUFFIX,munchkin.brightfunnel.com,REJECT
 HOST-SUFFIX,munchkin.marketo.com,REJECT
 HOST-SUFFIX,musicid.samsungcloudsolution.com,REJECT
 HOST-SUFFIX,my.leadpages.net,REJECT
+HOST-SUFFIX,mylovesister.gq,REJECT
 HOST-SUFFIX,mysite.irkdsu.ru,REJECT
 HOST-SUFFIX,n.domob.cn,REJECT
 HOST-SUFFIX,na-ab21.marketo.com,REJECT
@@ -51770,6 +51788,7 @@ HOST-SUFFIX,proxy-gbr-1.inf.nimiq.network,REJECT
 HOST-SUFFIX,proxy-gbr-2.inf.nimiq.network,REJECT
 HOST-SUFFIX,proxy-pol-1.inf.nimiq.network,REJECT
 HOST-SUFFIX,proxy-pol-2.inf.nimiq.network,REJECT
+HOST-SUFFIX,psychz.net,REJECT
 HOST-SUFFIX,pub.nakedreel.com,REJECT
 HOST-SUFFIX,pub.pxl.ace.advertising.com,REJECT
 HOST-SUFFIX,q.domob.cn,REJECT
