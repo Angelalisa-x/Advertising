@@ -30,7 +30,7 @@ def getFileLineNum(fileName):
 
 #################### pull Blackmatrix 规则，去掉前后缀 #############
 def pullBlackmatrix7():
-    url = 'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AdvertisingTest/Domain.list'
+    url = 'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AdvertisingTest/AdvertisingTest_Domain.list'
     html = requests.get(url).text
     #print(html)
     with open("1.txt","w") as f:
@@ -72,7 +72,7 @@ def pullBlackmatrix7():
 
 #################### pull Blackmatrix_Ex 规则，去掉前后缀 #############
 def pullBlackmatrix7_Ex():
-    url = 'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surge/AdvertisingTest/AdvertisingTest.list'
+    url = 'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AdvertisingTest/AdvertisingTest.list'
     html = requests.get(url).text
     #print(html)
     with open("1.txt","w") as f:
