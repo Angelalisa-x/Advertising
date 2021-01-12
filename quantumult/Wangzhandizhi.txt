@@ -18,6 +18,7 @@ https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_blueCoin.js
 https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_bookshop.js
 https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_car.js
 https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_car_exchange.js
+https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_cash.js
 https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_club_lottery.js
 https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_crazy_joy.js
 https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_crazy_joy_coin.js
@@ -52,6 +53,7 @@ https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_superMarket.js
 https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_syj.js
 https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_unbind.js
 https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_unsubscribe.js
+https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jx_sign.js
 https://raw.githubusercontent.com/lxk0301/jd_scripts/master/lxk0301.boxjs.js
 https://raw.githubusercontent.com/lxk0301/jd_scripts/master/package-lock.js
 https://raw.githubusercontent.com/lxk0301/jd_scripts/master/package.js
@@ -60,24 +62,20 @@ https://raw.githubusercontent.com/lxk0301/jd_scripts/master/test2.js
 
 https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/JD_DailyBonus.js
 https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jdCookie.js
-https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_apple_live.js
 https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_baiTiao.js
 https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_bean_change.js
 https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_bean_home.js
 https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_blueCoin.js
+https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_bookshop.js
 https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_car.js
+https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_car_exchange.js
 https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_club_lottery.js
 https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_crazy_joy.js
 https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_crazy_joy_coin.js
 https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_daily_egg.js
-https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_digital_floor.js
 https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_dreamFactory.js
-https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_ds.js
 https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_factory.js
 https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_fruit.js
-https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_health.js
-https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_hongbao.js
-https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_jdh.js
 https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_jdzz.js
 https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_joy.js
 https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_joy_feedPets.js
@@ -85,13 +83,12 @@ https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_jo
 https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_joy_reward.js
 https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_joy_run.js
 https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_joy_steal.js
+https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_jxnc.js
 https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_jxstory.js
 https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_kd.js
 https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_live.js
-https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_live_redrain.js
 https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_lotteryMachine.js
 https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_moneyTree.js
-https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_ms_redrain.js
 https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_necklace.js
 https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_new_shop.js
 https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_paopao.js
@@ -100,9 +97,7 @@ https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_pe
 https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_pigPet.js
 https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_plantBean.js
 https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_price.js
-https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_pubg.js
 https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_qiandao.js
-https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_rankingList.js
 https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_redPacket.js
 https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_shop.js
 https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_small_home.js
@@ -111,10 +106,9 @@ https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_su
 https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_syj.js
 https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_unbind.js
 https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_unsubscribe.js
-https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_watch.js
 https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jdczf.js
 https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jdczf_cookie.js
-https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jr_sign.js
+https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jx_nc.cookie.js
 
 https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jdCookie.js
 https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_baiTiao.js
