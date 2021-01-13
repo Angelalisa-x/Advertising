@@ -1,8 +1,12 @@
+HOST-SUFFIX,ca.iadsdk.apple.com,DIRECT
+HOST-SUFFIX,ts.qq.com,DIRECT
+HOST-SUFFIX,.mdt.qq.com,DIRECT
+HOST-SUFFIX,dp3.qq.com,DIRECT
+HOST-SUFFIX,weixin.scrcu.com,DIRECT
 HOST-SUFFIX,dl.op.wpscdn.cn,DIRECT
 HOST-SUFFIX,gouwu.qq.com,DIRECT
 HOST-SUFFIX,h5.youzan.com,DIRECT
 HOST-SUFFIX,wap.10010.com,DIRECT
-HOST-SUFFIX,oth.update.mdt.qq.com,DIRECT
 HOST-SUFFIX,h.trace.qq.com,DIRECT
 HOST-SUFFIX,aegis.qq.com,DIRECT
 HOST-SUFFIX,bt.jd.com,DIRECT
@@ -19,6 +23,7 @@ HOST-SUFFIX,m.huya.com,DIRECT
 HOST-SUFFIX,gm.mmstat.com,DIRECT
 HOST-SUFFIX,ttps,DIRECT
 HOST-SUFFIX,uxmgnt.ele.me,DIRECT
+HOST-SUFFIX,sopush-primary-https-new.elemecdn.com,DIRECT
 HOST-SUFFIX,nt2.ele.me,DIRECT
 HOST-SUFFIX,mtop.ele.me,DIRECT
 HOST-SUFFIX,shopping.ele.me,DIRECT
@@ -409,7 +414,6 @@ HOST-SUFFIX,tools.3g.qq.com,DIRECT
 HOST-SUFFIX,cloud.xdrig.com,DIRECT
 HOST-SUFFIX,adash.man.aliyuncs.com,DIRECT
 HOST-SUFFIX,dig.bdurl.net,DIRECT
-HOST-SUFFIX,dp3.qq.com,DIRECT
 HOST-SUFFIX,me.xdrig.com,DIRECT
 HOST-SUFFIX,cm.bilibili.com,DIRECT
 HOST-SUFFIX,fp-it.fengkongcloud.com,DIRECT
