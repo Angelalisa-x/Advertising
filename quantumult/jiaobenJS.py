@@ -120,6 +120,36 @@ def pullWangzhandizhi(urlInfo):
             
         fin7.close()
 
+def pullWangzhangGitee(urlInfo):
+    url = urlInfo
+    html = requests.get(url).text
+
+    fin = open("temporary.txt","w",encoding='UTF-8')
+    fin.write(html)
+    fin.close()
+
+    with open("Wangzhandizhi.txt","a+",encoding='UTF-8') as fin7:
+        fin7.write("\n")
+        for line in open("temporary.txt",encoding='UTF-8'):
+            str = []
+            strL = []
+            strR = []
+            str = line
+            if "<a href=" in line:
+                str = str[str.find("href=\"") + 6 : str.find("\n")]
+                if "不要fork-请点亮star" in line:
+                    continue
+                if ".js" in line:
+                    str = str[0 : str.find(".js") + 3] + "\n"
+                    strL = str[0 : str.find("blob")] + "raw/"
+                    strR = str[str.find("blob") + 5 : str.find("\n")] + "\n"
+                    str =  "https://gitee.com" + strL + strR
+                    fin7.write(str)
+                    continue
+            
+            
+        fin7.close()
+
 def pullJS(urlInfo):
     url = urlInfo
     html = requests.get(url).text
@@ -167,6 +197,8 @@ if __name__ == "__main__":
     pullJS('https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/Crazyjoy.conf')
     pullJS('https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Js.conf')
     Deduplication("JS-Ex.txt", "JS.txt")
+
+    pullWangzhangGitee('https://gitee.com/lxk0301/jd_scripts/tree/master')
 
 
     os.remove("temporary.txt")
