@@ -1,100 +1,28 @@
-hostname = www.google.*, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, weibo.cn, m.weibo.cn, mp.weixin.qq.com, biz.caiyunapp.com, api.weather.com, weather-data.apple.com, *.baidu.com, www.zhihu.com, zhuanlan.zhihu.com,api.zhihu.com,  *.amemv.com, *.kuwo.cn, vip1.kuwo.cn, *.xiaoxiao*.com,  trade-acs.m.taobao.com, api.m.jd.com, ios.prod.ftl.netflix.com, api.gamer.com.tw,api*.musical.ly, api*-normal-c-hl.ixigua.com,avoscloud.com, mb3admin.com, sub.store, simple_cert_hostname=sub.store, lcs-mobile-cops.adobe.io, *.xxjjappss.com, *.huaerdadi.com,  commerce-i18n-api.faceu.mobi,commerce-api.faceu.mobi, api.jiaonizuocai.com, *.videostarapp.com, license.pdfexpert.com,  education.github.com,  vsco.co, getway.radio.cn,  api.xiuxiu.meitu.com, api.meiyan.com, claritywallpaper.com, www.luqijianggushi.com
-# google 翻页 (senku)
-https?:\/\/www\.google\.([a-z.]*)\/search.*(?<!start=\d{2}|\d{3})$ url script-response-body https://raw.githubusercontent.com/id77/QuantumultX/master/Script/endless.js
-# 去微博应用内广告 (By yichahucha)
-^https?://(sdk|wb)app.uve.weibo.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/wb_launch.js
-^https?://m?api.weibo.c(n|om)/2/(statuses/(unread|extend|positives/get|(friends|video)(/|_)(mix)?timeline)|stories/(video_stream|home_list)|(groups|fangle)/timeline|profile/statuses|comments/build_comments|photo/recommend_list|service/picfeed|searchall|cardlist|page|!/photos/pic_recommend_status|video/tiny_stream_video_list) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/wb_ad.js
-# 微博重定向界面
-^https?:\/\/weibo\.cn\/sinaurl\?(.*&)?(u|toasturl|goto)= url script-echo-response https://raw.githubusercontent.com/zZPiglet/Task/master/asset/noredirect.js
-^https:\/\/shop\.sc\.weibo\.com\/h5\/jump\/error\?(.*&)?url= url script-echo-response https://raw.githubusercontent.com/zZPiglet/Task/master/asset/noredirect.js
-^https?:\/\/(sinaurl|t)\.cn\/ url script-response-header https://raw.githubusercontent.com/zZPiglet/Task/master/asset/noredirect.js
-# 微博网页跳转登陆屏蔽
-https://m\.weibo\.cn/comments/hotflow.*max_id=.* url reject-dict
-# 去微信公众号广告 (By Choler)
-^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
-# 百度（全站替换为手机百度 Quark 的 User-Agent）
-^https?:\/\/(?!d\.pcs).*(?<!map)\.baidu\.com url script-request-header https://raw.githubusercontent.com/zZPiglet/Task/master/asset/BaiduChangeUA.js
-# 知乎
-# ChangeUA （部分替换为手机百度 Quark 的 User-Agent）
-^https:\/\/www\.zhihu\.com\/ url request-header (\r\n)User-Agent:.+(\r\n) request-header $1User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 Quark/604.1 T7/10.7 SearchCraft/2.7.7 (Baidu; P1 9.0.0)$2
-# 知乎网页直接看
-^https://www\.zhihu\.com/question/ url script-response-body https://raw.githubusercontent.com/id77/QuantumultX/master/Script/zhihu.js
-^https://zhuanlan\.zhihu\.com/p/ url script-response-body https://raw.githubusercontent.com/id77/QuantumultX/master/Script/zhihu.js
-# 知乎付费内容提醒
-^https?:\/\/www\.zhihu\.com\/appview\/v2\/answer\/[0-9]*\? url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js
+404: Not Foundhostname= api.rr.tv, www.google.*, m.weibo.cn, www.zhihu.com, zhuanlan.zhihu.com, weather-data.apple.com, trade-acs.m.taobao.com, api.m.jd.com, xeq1kjnhr.m.jd.com, draw.jdfcloud.com, *.m.jd.com, 
 
-# 抖音去广告去水印 (By Choler)
-^https?:\/\/.*\.amemv\.com\/aweme\/v2\/(follow\/)?feed\/ url request-header ^GET \/aweme\/v\d\/(follow\/)?feed\/(.+\r\n) request-header GET /aweme/v1/$1feed/$2
-^https?:\/\/.*\.amemv\.com\/aweme\/v\d\/(feed|mix\/aweme|aweme\/post|(multi\/)?aweme\/detail|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/ url script-response-body https://raw.githubusercontent.com/Choler/Surge/master/Script/douyin.js
-# 酷我音乐SVIP (By yxiaocai)
-^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Kuwo.js
-^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?uid\=\d+ url 302 http://musicpay.kuwo.cn/music.pay?uid=1
-# 小小影视Vip (By Meeta)
-https:\/\/.*\.xiaoxiao.*\.com\/(vod\/reqplay\/|ucp/index|getGlobalData) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/xxys.js
-# 彩云天气 Vip-svip
-#^https:\/\/biz\.caiyunapp\.com\/v2\/user\?app_name\=weather url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/ColorWeather.js
-^https:\/\/biz\.caiyunapp\.com\/v2\/user\?app_name\=weather url script-response-body https://raw.githubusercontent.com/royximei/QuantumultX/master/Script/caiyun_svip.js
-#^https:\/\/biz\.caiyunapp\.com\/v2\/user\?app_name\=weather url script-response-body https://raw.githubusercontent.com/whyour/hundun/master/quanx/caiyun.cookie.js
-#彩云天气获取定位
-https:\/\/((weather-data\.apple)|(api.weather))\.com url script-request-header https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js
-# 京东比价
-^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js
-# 淘宝比价
-^http://.+/amdc/mobileDispatch url script-request-body https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js
-^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js
-# Netflix评分
-^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D url script-request-header https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
-^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
-# 单集评分
-^https?://ios\.prod\.ftl\.netflix\.com/iosui/warmer/.+type=show-ath url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating_season.js
-#西瓜视频去除内容页广告 by Sunert
-https:\/\/api3-normal-c-hl\.ixigua\.com\/video\/app\/stream\/ url script-response-body https://raw.githubusercontent.com/Sunert/Scripts/master/Script/xigua_ad.js
-# > 西窗烛 解锁终身会员 文艺范的福音（20200924）Attention：登录使用
-https://avoscloud.com/* url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcz.js
-# >  emby 流媒体解锁订阅（20200913）Attention: 配合普拉斯影业提供的账号可进行观影：域名: https://movie.xeton.dev 端口: 443 账号：普拉斯影业 密码：plusisbest
-^https:\/\/mb3admin\.com\/admin\/service(\/registration\/validateDevice|\/appstore\/register|\/registration\/validate|\/registration\/getStatus|\/supporter\/retrievekey) url script-echo-response https://subweb.oss-cn-hongkong.aliyuncs.com/Script/embycrack.js
-# >  Sub-Store
-^https?:\/\/sub\.store url script-analyze-echo-response https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/backend/sub-store.min.js
-#photoshop&PSexpress
-^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile url script-response-body https://raw.githubusercontent.com/langkhach270389/Scripting/master/photoshop.js
-# 小小影视 unlock Vip&免广告
-https:\/\/.*\..*\.com\/(ssp-svr\/ssp\/list3|ucp/index) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xxys.js
-#轻颜相机和ulike解锁vip
-^https:\/\/commerce-.*api\.faceu\.mobi\/commerce\/v1\/subscription\/user_info url script-response-body https://raw.githubusercontent.com/songyangzz/QuantumultX/master/ulike/ulike.js
-# >菜谱大全 解锁VIP功能（20200906）
-https?:\/\/api\.jiaonizuocai\.com url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/cpdq.js
-# >VideoStar
-^https:\/\/.*\.videostarapp\.com\/scripts\/subsNew\.php url script-response-body https://raw.githubusercontent.com/langkhach270389/Scripting/master/VideoStar.js
-#document
-^https:\/\/license\.pdfexpert\.com\/api\/.*\/documents\/subscription\/(refresh$|check$) url script-response-body https://raw.githubusercontent.com/langkhach270389/Scripting/master/documents.js
-#workingcopy
-^https:\/\/education\.github\.com\/api\/user$ url script-response-body https://raw.githubusercontent.com/langkhach270389/Scripting/master/workingcopy.js
-#VSCO unlock vip
-^https?:\/\/vsco\.co\/api\/subscriptions\/2.1\/user-subscriptions\/ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/vsco.js
-# 云听 解锁会员专属音频 舒舒服服躺着听（20201020）
-http://getway.radio.cn/app* url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/yt.js
-#  美图秀秀 你笑的真好看（20201124）
-https://api.xiuxiu.meitu.com/v1/user/show.json url response-body vip_type":0 response-body vip_type":1   
-#  美颜相机 解锁内购（20201123）
-https://api.meiyan.com/iap/verify.json url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/myxj.js
-#克拉壁纸解锁付费壁纸
-^https:\/\/claritywallpaper\.com\/clarity\/api\/(userInfo|special\/queryByCatalogAll) url script-response-body https://raw.githubusercontent.com/royximei/QuantumultX/master/Script/clarity.js	
-# 陆琪讲故事
-^https:\/\/www\.luqijianggushi\.com\/api\/v2\/user\/get url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/luqi.js
-hostname= api.rr.tv, www.google.*, m.weibo.cn, www.zhihu.com, zhuanlan.zhihu.com, weather-data.apple.com, trade-acs.m.taobao.com, api.m.jd.com, xeq1kjnhr.m.jd.com, draw.jdfcloud.com, *.m.jd.com, 
 # 人人视频 禁用升级检测
 ^https:\/\/api\.rr\.tv\/getLastestVersion url reject-200
 # 人人视频 旧版本api限制解除
 ^https:\/\/api\.rr\.tv url script-request-header https://raw.githubusercontent.com/id77/QuantumultX/master/Script/rrtv.js
+# google 翻页 (senku)
+https?:\/\/www\.google\.([a-z.]*)\/search.*(?<!start=\d{2}|\d{3})$ url script-response-body https://raw.githubusercontent.com/id77/QuantumultX/master/Script/endless.js
+# 微博网页跳转登陆屏蔽
+https://m\.weibo\.cn/comments/hotflow.*max_id=.* url reject-dict
 # 知乎（部分替换为手机百度 Quark 的 User-Agent）
 # 可以看楼层回复 1-2 条
+^https:\/\/www\.zhihu\.com\/ url request-header (\r\n)User-Agent:.+(\r\n) request-header $1User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 Quark/604.1 T7/10.7 SearchCraft/2.7.7 (Baidu; P1 9.0.0)$2
 # 知乎直接看
+^https://www\.zhihu\.com/question/ url script-response-body https://raw.githubusercontent.com/id77/QuantumultX/master/Script/zhihu.js
+^https://zhuanlan\.zhihu\.com/p/ url script-response-body https://raw.githubusercontent.com/id77/QuantumultX/master/Script/zhihu.js
 # 宠汪汪-聚宝盆助手
 ^https:\/\/jdjoy\.jd\.com(\/mirror)?\/?\/pet\/getPetTreasureBox|^https:\/\/draw\.jdfcloud\.com(\/mirror)?\/?\/pet\/getPetTreasureBox url script-response-body https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_petTreasureBox.js
 # 彩云天气 获取定位
 https:\/\/weather-data\.apple\.com url script-request-header https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js
 # 淘宝历史价格
+^http://.+/amdc/mobileDispatch url script-request-body https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js
+^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js
 # 京东历史价格
+^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js
 # 来客有礼小程序-宠汪汪
 ^https:\/\/draw\.jdfcloud\.com(\/mirror)?\/?\/pet\/enterRoom\/h5\?reqSource=weapp&invitePin=.*+(&inviteSource=task_invite&shareSource=\w+&inviteTimeStamp=\d+&openId=\w+)?|^https:\/\/draw\.jdfcloud\.com(\/mirror)?\/?\/pet\/helpFriend\?friendPin url script-request-header https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_joy_help.js
 # 京东活动
@@ -107,6 +35,7 @@ https://www\.zhihu\.com/commercial_api/banners_v3/mobile_banner url reject-200
 https://zhuanlan\.zhihu\.com/api/articles/\d+/recommendation url reject-200
 # 韩剧TV去除开屏广告
 ^http:\/\/api\.hanju\.koudaibaobao\.com\/api\/carp\/kp.*? url reject
+# 抖音去广告去水印 (By Choler)
 # start ==============================>
 ^https?:\/\/.+?\.amemv\.com\/aweme\/v\d\/(feed|aweme\/post|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/ url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Aweme.js
 ^https?:\/\/.+?\.amemv\.com\/aweme\/v\d\/(feed|aweme\/post|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Aweme.js
@@ -163,6 +92,7 @@ https://api.yonekura.cn/3.6.8/uicommon/getuser url script-response-body https://
 # > 054 美图秀秀 你笑的真好看（20201124）
 https://api.xiuxiu.meitu.com/v1/user/show.json url response-body vip_type":0 response-body vip_type":1
 # > 053 美颜相机 解锁内购（20201123）⭐️Need Old Version：V9.6.20 ID：839250957
+https://api.meiyan.com/iap/verify.json url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/myxj.js
 # > 052 每日艺术 解锁vip权限（20201123）
 https://panel.getdailyart.com/APIMobile/users/single url response-body account_type":"0 response-body account_type":"2
 # > 051 彩云天气 解锁会员权限（20201121）
@@ -186,6 +116,7 @@ https://d.smkj33.top/wp-json/wp/v2/posts/* url script-response-body https://raw.
 # > 042 樊登读书 解锁会员的课程音频 畅游知识的海洋（20201026）
 https://api.dushu.io/Album/Info url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/fdds.js
 # > 041 云听 解锁会员专属音频 舒舒服服躺着听（20201020）
+http://getway.radio.cn/app* url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/yt.js
 # > 040 Reface 解锁会员权限 随心移花接木（20201013）
 https://api.reface.video/api/reface/v1/iosSubscription url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/reface.js
 # > 039 睡眠助手 解锁VIP独享的白噪音乐（20201010）
@@ -205,6 +136,7 @@ https://cm.szsszykj.com/interface/GetVip.php url script-response-body https://ra
 # > 032 Fantastical 解锁SVIP会员订阅 （20200924）⭐️
 ^https:\/\/api\.flexibits\.com\/(v1\/auth\/device|v1\/account\/details) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/fantastical.js
 # > 031 西窗烛 解锁终身会员 文艺范的福音（20200924）Attention：登录使用
+https://avoscloud.com/* url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcz.js
 # > 030 老胡工具箱 微信小程序解除隐藏内容 （20200916）
 https://d.syshhc.top/wp-json/wp/v2/* url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcx.js
 # > 029 一言 解锁终身会员 （20200916）Attention:登录使用
@@ -231,6 +163,7 @@ https://www.mindmeister.com/api/v2/licenses/meistertask url script-response-body
 # > 018 蜗牛睡眠 解锁会员音乐（20200906）
 ^https:\/\/(snailsleep\.net\/|(music|community)\.snailsleep\.net\/)(snail\/v1\/profile\/get|snail-music\/music\/(sleeping|meditation)\/single\/list) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/wnsm.js
 # > 017 菜谱大全 解锁VIP功能（20200906）
+https?:\/\/api\.jiaonizuocai\.com url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/cpdq.js
 # > 016 大象冥想 解锁会员音乐（20200904）
 ^https?:\/\/nmeditation\.snailsleep\.net\/meditation-(audio|user|order|audio)\/(api|user)\/(audio\/master\/detail|get\/info|order/user\/vip\/info|ad\/get) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/dxmx.js
 # > 015 京东APP商品显示历史价格（20200904）
@@ -283,9 +216,15 @@ hostname = *.csdn.net, m.baidu.com, www.jianshu.com,
 // @UpdateTime        20201030      
 // @ScriptURL         https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/Xxys.conf
 hostname = *.xxjjappss.com,*.huaerdadi.com
+https:\/\/.*\..*\.com\/(ssp-svr\/ssp\/list3|ucp/index) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xxys.js
 hostname = *.googlevideo.com
 ^https?:\/\/.+?\.googlevideo\.com\/.+&(oad|ctier)=(?!A) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/youtube.js
 404: Not Found﻿hostname = api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, mp.weixin.qq.com, api.bilibili.com, app.bilibili.com, www.zhihu.com, api.zhihu.com, link.zhihu.com, aweme*.snssdk.com, *.kuwo.cn, *.xiaoxiao*.com, *.amemv.com, p.du.163.com, getuserinfo.321mh.com, getuserinfo-globalapi.zymk.cn, ios.fuliapps.com, vsco.co, api.vnision.com, *.my10api.com, apple.fuliapps.com, newdrugs.dxy.cn, app101.avictown.cc, api.hlo.xyz, api.ijo.xyz, www.luqijianggushi.com, account.wps.cn, u.kanghuayun.com, api1.dobenge.cn, api.mvmtv.com, mitaoapp.yeduapp.com, origin-prod-phoenix.jibjab.com, www.3ivf.com, pay.guoing.com, api.bjxkhc.com, viva.v21xy.com, biz.caiyunapp.com, ap*.intsig.net, mp.bybutter.com, api.vuevideo.net, api.picsart.c*, api.meiease.c*, ios.xiangjiaoapps.com, apple.xiangjiaoapps.com, *.xiangxiangapps.com, trade-acs.m.taobao.com, api.m.jd.com, ios.prod.ftl.netflix.com
+# 去微博应用内广告 (By yichahucha)
+^https?://(sdk|wb)app.uve.weibo.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/wb_launch.js
+^https?://m?api.weibo.c(n|om)/2/(statuses/(unread|extend|positives/get|(friends|video)(/|_)(mix)?timeline)|stories/(video_stream|home_list)|(groups|fangle)/timeline|profile/statuses|comments/build_comments|photo/recommend_list|service/picfeed|searchall|cardlist|page|!/photos/pic_recommend_status|video/tiny_stream_video_list) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/wb_ad.js
+# 去微信公众号广告 (By Choler)
+^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
 # 知乎去广告 (By onewayticket255)
 https://api.zhihu.com/(ad|drama|fringe|commercial|market/popover|search/(top|preset|tab)|.*featured-comment-ad) url reject-200
 https://api.zhihu.com/people/ url script-response-body https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20zhihu%20people.js
@@ -305,6 +244,11 @@ https://api.bilibili.com/x/v2/reply/main\?access_key url script-response-body ht
 https://api.live.bilibili.com/xlive/app-room/v1/index/getInfoByRoom\?access_key url script-response-body https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20bilibili%20live.js
 #^https?:\/\/.+?\.amemv\.com\/aweme\/v\d\/(feed|aweme\/post|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/ url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Aweme.js
 #^https?:\/\/.+?\.amemv\.com\/aweme\/v\d\/(feed|aweme\/post|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Aweme.js
+# 酷我音乐SVIP (By yxiaocai)
+^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Kuwo.js
+^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?uid\=\d+ url 302 http://musicpay.kuwo.cn/music.pay?uid=1
+# 小小影视Vip (By Meeta)
+https:\/\/.*\.xiaoxiao.*\.com\/(vod\/reqplay\/|ucp/index|getGlobalData) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/xxys.js
 # 爱美剧Vip (by huihui）(官网：app.meiju2018.com)
 ^https?:\/\/api.bjxkhc.com\/index\.php\/app\/ios\/(vod\/show|(user|vod|topic|type)\/index) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/aimeiju.js
 # 广告
@@ -321,6 +265,7 @@ https://api.live.bilibili.com/xlive/app-room/v1/index/getInfoByRoom\?access_key 
 # 哔哩哔哩番剧开启1080P+
 ^https:\/\/ap(p|i)\.bilibili\.com\/((pgc\/player\/api\/playurl)|(x\/v2\/account\/myinfo\?)|(x\/v2\/account/mine\?)) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/bilifj.js
 # VSCO滤镜VIP
+^https?:\/\/vsco\.co\/api\/subscriptions\/2.1\/user-subscriptions\/ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/vsco.js
 # 大片-视频编辑器 VIP
 ^https?:\/\/api\.vnision\.com\/v1\/(users\/|banners) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/dapian.js
 # 91短视频
@@ -329,6 +274,8 @@ https://api.live.bilibili.com/xlive/app-room/v1/index/getInfoByRoom\?access_key 
 ^https?:\/\/.*\.(fuli|xiang(jiao|xiang))apps\.com\/(ucp\/index|getGlobalData|.+\/reqplay\/) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/xjsp.js
 # 用药助手解锁专业版 (By Primovist)
 ^https?:\/\/(i|newdrugs)\.dxy\.cn\/(snsapi\/username\/|app\/user\/(pro\/stat\?|init\?timestamp=)) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/yyzs.js
+# 陆琪讲故事
+^https:\/\/www\.luqijianggushi\.com\/api\/v2\/user\/get url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/luqi.js
 # WPS (By eHpo)
 ^https://account.wps.cn/api/users/ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
 # 水印精灵 vip (By Alex0510)
@@ -348,3 +295,8 @@ https://api.live.bilibili.com/xlive/app-room/v1/index/getInfoByRoom\?access_key 
 ^https?:\/\/mp\.bybutter\.com\/mood\/(official-templates|privileges) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/NiChi.js
 # PicsArt美易 pro
 ^https:\/\/api\.(picsart|meiease)\.c(n|om)\/users\/show\/me\.json url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/PicsArt.js
+# 京东比价
+# 淘宝比价
+# Netflix评分
+^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D url script-request-header https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
+^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
