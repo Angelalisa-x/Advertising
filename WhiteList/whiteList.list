@@ -1,9 +1,9 @@
+HOST-SUFFIX,pay.wsds.cn,DIRECT
 HOST-SUFFIX,www.meipian7.cn,DIRECT
 HOST-SUFFIX,home.miui.com,DIRECT
 HOST-SUFFIX,ca.iadsdk.apple.com,DIRECT
 HOST-SUFFIX,ts.qq.com,DIRECT
 HOST-SUFFIX,.mdt.qq.com,DIRECT
-HOST-SUFFIX,dp3.qq.com,DIRECT
 HOST-SUFFIX,weixin.scrcu.com,DIRECT
 HOST-SUFFIX,dl.op.wpscdn.cn,DIRECT
 HOST-SUFFIX,gouwu.qq.com,DIRECT
@@ -110,7 +110,6 @@ HOST-SUFFIX,mam.netease.com,DIRECT
 HOST-SUFFIX,pp.myapp.com,DIRECT
 HOST-SUFFIX,duiba.com.cn,DIRECT
 HOST-SUFFIX,t.me,DIRECT
-HOST-SUFFIX,btrace.qq.com,DIRECT
 HOST-SUFFIX,graph.qq.com,DIRECT
 HOST-SUFFIX,api.account.xiaomi.com,DIRECT
 HOST-SUFFIX,metok.sys.miui.com,DIRECT
@@ -300,6 +299,7 @@ HOST-SUFFIX,dj.1688.com,DIRECT
 HOST-SUFFIX,click.simba.taobao.com,DIRECT
 HOST-SUFFIX,na61-na62.wagbridge.advertisement.alibabacorp.com.gds.alibabadns.com,DIRECT
 HOST-SUFFIX,na61-na62.wagbridge.advertisement.alibabacorp.com,DIRECT
+HOST-SUFFIX,btrace.qq.com,DIRECT
 HOST-SUFFIX,dns.weixin.qq.com,DIRECT
 HOST-SUFFIX,cfg.imtt.qq.com,DIRECT
 HOST-SUFFIX,tbs.imtt.qq.com,DIRECT
@@ -416,6 +416,7 @@ HOST-SUFFIX,tools.3g.qq.com,DIRECT
 HOST-SUFFIX,cloud.xdrig.com,DIRECT
 HOST-SUFFIX,adash.man.aliyuncs.com,DIRECT
 HOST-SUFFIX,dig.bdurl.net,DIRECT
+HOST-SUFFIX,dp3.qq.com,DIRECT
 HOST-SUFFIX,me.xdrig.com,DIRECT
 HOST-SUFFIX,cm.bilibili.com,DIRECT
 HOST-SUFFIX,fp-it.fengkongcloud.com,DIRECT
