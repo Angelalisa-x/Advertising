@@ -183,6 +183,7 @@ if __name__ == "__main__":
     pullWangzhandizhi('https://github.com/yangtingxiao/QuantumultX/tree/master/scripts/jd')
     pullWangzhandizhi('https://github.com/whyour/hundun/tree/master/quanx')
     pullWangzhandizhi('https://github.com/MoPoQAQ/Script/tree/main/Me')
+    pullWangzhandizhi('https://github.com/LXK9301/jd_scripts/tree/master')
 
     fin = open("JS.txt","w",encoding='UTF-8')
     fin.close()
