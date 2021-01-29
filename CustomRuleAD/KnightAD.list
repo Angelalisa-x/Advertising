@@ -1047,6 +1047,7 @@ HOST-SUFFIX,hzs8.cnzz.com,REJECT
 HOST-SUFFIX,hzs9.cnzz.com,REJECT
 HOST-SUFFIX,hzvs1.cnzz.com,REJECT
 HOST-SUFFIX,pcookie.cnzz.co,REJECT
+HOST-SUFFIX,wvekalpmn.com,REJECT
 HOST-SUFFIX,idswinpole.casa,REJECT
 HOST-SUFFIX,irkerecue.com,REJECT
 HOST-SUFFIX,paychat.fuse-cloud.com,REJECT
@@ -2243,6 +2244,7 @@ HOST-SUFFIX,partner.accesstrade.vn,REJECT
 HOST-SUFFIX,static.accesstrade.vn,REJECT
 HOST-SUFFIX,track.accesstrade.vn,REJECT
 HOST-SUFFIX,vn.alexajstrack.com,REJECT
+HOST-SUFFIX,hxssj.cn,REJECT
 HOST-SUFFIX,111.175.219.*.js,REJECT
 HOST-SUFFIX,1888pro.com,REJECT
 HOST-SUFFIX,218.26.217.*.html,REJECT
@@ -2404,6 +2406,9 @@ HOST-SUFFIX,union*.365inews.com,REJECT
 HOST-SUFFIX,vi1.souid.com,REJECT
 HOST-SUFFIX,ip.hivps.xyz,REJECT
 HOST-SUFFIX,s1-a1.dnvodcdn.me,REJECT
+HOST-SUFFIX,wuyuande.com,REJECT
+HOST-SUFFIX,xmstpay.com,REJECT
+HOST-SUFFIX,ebuysolar.com,REJECT
 HOST-SUFFIX,0577renliu.,REJECT
 HOST-SUFFIX,daima.dsxdn.com,REJECT
 HOST-SUFFIX,daomengren.com,REJECT
@@ -49177,6 +49182,7 @@ HOST-SUFFIX,targeted-config-test.samsungacr.com,REJECT
 HOST-SUFFIX,templates.sharethrough.com,REJECT
 HOST-SUFFIX,ten.sngapm.qq.com,REJECT
 HOST-SUFFIX,test.activity.windows.com,REJECT
+HOST-SUFFIX,test.api.xlmc.sandai.net,REJECT
 HOST-SUFFIX,test.minr.pw,REJECT
 HOST-SUFFIX,test.samsungrm.net,REJECT
 HOST-SUFFIX,timeserver.cnzz.net,REJECT
