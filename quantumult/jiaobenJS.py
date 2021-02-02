@@ -207,6 +207,8 @@ if __name__ == "__main__":
 
     pullWangzhangGitee('https://gitee.com/lxk0301/jd_scripts/tree/master')
 
+    pullios7('https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Surge/AllInOne/AllInOne.sgmodule',
+                'SurgeAllInOne.txt')
 
     os.remove("temporary.txt")
     os.remove("JS.txt")
