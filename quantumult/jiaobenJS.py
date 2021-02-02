@@ -158,7 +158,13 @@ def pullJS(urlInfo):
     fin.write(html)
     fin.close()
 
+def pullios7(urlInfo, txt):
+    url = urlInfo
+    html = requests.get(url).text
 
+    fin = open(txt,"w+",encoding='UTF-8')
+    fin.write(html)
+    fin.close()
 
 ################ 合并文件 #################
 def hebingFile(targetFile,mergeFile):
@@ -192,10 +198,10 @@ if __name__ == "__main__":
     #pullJS('https://raw.githubusercontent.com/id77/QuantumultX/master/rewrite/ad.conf')
     #pullJS('https://raw.githubusercontent.com/id77/QuantumultX/master/rewrite/vip.conf')
     pullJS('https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/Quan_crack.conf')
-    pullJS('https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/Ua.conf')
-    pullJS('https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/Xxys.conf')
-    pullJS('https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/Youtube.conf')
-    pullJS('https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/Crazyjoy.conf')
+    #pullJS('https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/Ua.conf')
+    #pullJS('https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/Xxys.conf')
+    #pullJS('https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/Youtube.conf')
+    #pullJS('https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/Crazyjoy.conf')
     pullJS('https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Js.conf')
     Deduplication("JS-Ex.txt", "JS.txt")
 
