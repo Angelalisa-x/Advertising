@@ -1,6 +1,5 @@
 HOST-SUFFIX,astrategy.beacon.qq.com,DIRECT
 HOST-SUFFIX,aeventlog.beacon.qq.com,DIRECT
-HOST-SUFFIX,dp3.qq.com,DIRECT
 HOST-SUFFIX,groupclient.qq.com,DIRECT
 HOST-SUFFIX,btrace.qq.com,DIRECT
 HOST-SUFFIX,tyaqy.m.cn.miaozhen.com,DIRECT
@@ -420,6 +419,7 @@ HOST-SUFFIX,tools.3g.qq.com,DIRECT
 HOST-SUFFIX,cloud.xdrig.com,DIRECT
 HOST-SUFFIX,adash.man.aliyuncs.com,DIRECT
 HOST-SUFFIX,dig.bdurl.net,DIRECT
+HOST-SUFFIX,dp3.qq.com,DIRECT
 HOST-SUFFIX,me.xdrig.com,DIRECT
 HOST-SUFFIX,cm.bilibili.com,DIRECT
 HOST-SUFFIX,fp-it.fengkongcloud.com,DIRECT
