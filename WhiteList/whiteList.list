@@ -1,5 +1,5 @@
+HOST-SUFFIX,push2.eastmoney.com,DIRECT
 HOST-SUFFIX,astrategy.beacon.qq.com,DIRECT
-HOST-SUFFIX,aeventlog.beacon.qq.com,DIRECT
 HOST-SUFFIX,groupclient.qq.com,DIRECT
 HOST-SUFFIX,btrace.qq.com,DIRECT
 HOST-SUFFIX,tyaqy.m.cn.miaozhen.com,DIRECT
@@ -379,6 +379,7 @@ HOST-SUFFIX,4tern.com,DIRECT
 HOST-SUFFIX,tampermonkey.net,DIRECT
 HOST-SUFFIX,qiong.ru,DIRECT
 HOST-SUFFIX,zeronet.io,DIRECT
+HOST-SUFFIX,aeventlog.beacon.qq.com,DIRECT
 HOST-SUFFIX,oth.eve.mdt.qq.com,DIRECT
 HOST-SUFFIX,gaytorrent.tw,DIRECT
 HOST-SUFFIX,qafone.co,DIRECT
