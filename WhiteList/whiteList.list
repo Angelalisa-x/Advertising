@@ -1,3 +1,6 @@
+HOST-SUFFIX,qm.qq.com,DIRECT
+HOST-SUFFIX,youpinapi.zhuanzhuan.com,DIRECT
+HOST-SUFFIX,www.youtube.com,DIRECT
 HOST-SUFFIX,push2.eastmoney.com,DIRECT
 HOST-SUFFIX,astrategy.beacon.qq.com,DIRECT
 HOST-SUFFIX,groupclient.qq.com,DIRECT
@@ -251,7 +254,6 @@ HOST-SUFFIX,.doglobal.net,DIRECT
 HOST-SUFFIX,facebook.com,DIRECT
 HOST-SUFFIX,www.google.com,DIRECT
 HOST-SUFFIX,connectivitycheck.gstatic.com,DIRECT
-HOST-SUFFIX,www.youtube.com,DIRECT
 HOST-SUFFIX,r4---sn-qxo7rn7e.googlevideo.com,DIRECT
 HOST-SUFFIX,r5---sn-4g5ednsl.googlevideo.com,DIRECT
 HOST-SUFFIX,r4---sn-a5meknek.googlevideo.com,DIRECT
