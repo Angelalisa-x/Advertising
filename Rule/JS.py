@@ -228,10 +228,55 @@ if __name__ == "__main__":
     
 
     pullios7('https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Loon/AllInOne/AllInOne.plugin',
-                'LoonAllInOne.txt')
+                'Loon/LoonAllInOne.txt')
+    pullios7('https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/AdvertisingTest/AdvertisingTest.list',
+                'Loon/AdvertisingTest.list')
+    pullios7('https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/AdvertisingTest/AdvertisingTest_Domain.list',
+                'Loon/AdvertisingTest_Domain.list')
+    pullios7('https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/360/360.list',
+                'Loon/360.list')
+    pullios7('https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/SystemOTA/SystemOTA.list',
+                'Loon/SystemOTA.list')
+    pullios7('https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/YouTube/YouTube.list',
+                'Loon/YouTube.list')
+    pullios7('https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Telegram/Telegram.list',
+                'Loon/Telegram.list')
+    pullios7('https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/China/China.list',
+                'Loon/China.list')
+
 
     pullios7('https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/QuantumultX/AllInOne/AllInOne.conf',
-                'Quantumult.txt')
+                'QuantumultX/AllInOne.conf')
+    pullios7('https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/AdvertisingTest/AdvertisingTest.list',
+                'QuantumultX/AdvertisingTest.list')
+    pullios7('https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/360/360.list',
+                'QuantumultX/360.list')
+    pullios7('https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/SystemOTA/SystemOTA.list',
+                'QuantumultX/SystemOTA.list')
+    pullios7('https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/YouTube/YouTube.list',
+                'QuantumultX/YouTube.list')
+    pullios7('https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Telegram/Telegram.list',
+                'QuantumultX/Telegram.list')
+    pullios7('https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/China/China.list',
+                'QuantumultX/China.list')
 
+
+    pullios7('https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingTest/AdvertisingTest.yaml',
+                'Clash/AdvertisingTest.yaml')
+    pullios7('https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingTest/AdvertisingTest_Domain.yaml',
+                'Clash/AdvertisingTest_Domain.yaml')
+    pullios7('https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/360/360.yaml',
+                'Clash/360.yaml')
+    pullios7('https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/SystemOTA/SystemOTA.yaml',
+                'Clash/SystemOTA.yaml')
+    pullios7('https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.yaml',
+                'Clash/YouTube.yaml')
+    pullios7('https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.yaml',
+                'Clash/Telegram.yaml')
+    pullios7('https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/China/China.yaml',
+                'Clash/China.yaml')
+
+
+    os.remove("TaskJS.txt")
     os.remove("temporary.txt")
     os.remove("JS.txt")
