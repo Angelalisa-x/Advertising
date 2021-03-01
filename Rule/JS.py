@@ -207,14 +207,25 @@ if __name__ == "__main__":
 
     #pullWangzhangGitee('https://gitee.com/lxk0301/jd_scripts/tree/master')
 
+    pullios7('https://anti-ad.net/surge2.txt',
+                'Surge/surge2.list')
     pullios7('https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Surge/AllInOne/AllInOne.sgmodule',
                 'Surge/SurgeAllInOne.txt')
     pullios7('https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AdvertisingTest/AdvertisingTest.list',
                 'Surge/AdvertisingTest.list')
     pullios7('https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AdvertisingTest/AdvertisingTest_Domain.list',
                 'Surge/AdvertisingTest_Domain.list')
+    pullios7('https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/360/360.list',
+                'Surge/360.list')
+    pullios7('https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/SystemOTA/SystemOTA.list',
+                'Surge/SystemOTA.list')
+    pullios7('https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YouTube/YouTube.list',
+                'Surge/YouTube.list')
+    pullios7('https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Telegram/Telegram.list',
+                'Surge/Telegram.list')
+    pullios7('https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/China/China.list',
+                'Surge/China.list')
     
-
 
     pullios7('https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Loon/AllInOne/AllInOne.plugin',
                 'LoonAllInOne.txt')
