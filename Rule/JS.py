@@ -177,15 +177,15 @@ if __name__ == "__main__":
 
     fin = open("TaskJS.txt","w",encoding='UTF-8')
     fin.close()
-    #pullTaskWangzhanInfo('https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Task.conf')
-    #pullTaskWangzhanInfo('https://raw.githubusercontent.com/Tartarus2014/Surge-Script/master/Task.sgmodule')
+    pullTaskWangzhanInfo('https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Task.conf')
+    pullTaskWangzhanInfo('https://raw.githubusercontent.com/Tartarus2014/Surge-Script/master/Task.sgmodule')
 
-    #Deduplication("TaskJS.conf","TaskJS.txt")
+    Deduplication("TaskJS.conf","TaskJS.txt")
 
     fin = open("Wangzhandizhi.txt","w",encoding='UTF-8')
     fin.close()
     pullWangzhandizhi('https://github.com/lxk0301/jd_scripts/tree/master')
-    #pullWangzhandizhi('https://github.com/799953468/Quantumult-X/tree/master/Scripts/JD')
+    pullWangzhandizhi('https://github.com/799953468/Quantumult-X/tree/master/Scripts/JD')
     pullWangzhandizhi('https://github.com/yangtingxiao/QuantumultX/tree/master/scripts/jd')
     pullWangzhandizhi('https://github.com/whyour/hundun/tree/master/quanx')
     pullWangzhandizhi('https://github.com/MoPoQAQ/Script/tree/main/Me')
@@ -194,24 +194,27 @@ if __name__ == "__main__":
     fin = open("JS.txt","w",encoding='UTF-8')
     fin.close()
     pullJS('https://raw.githubusercontent.com/royximei/QuantumultX/master/js.conf')
-    #pullJS('https://raw.githubusercontent.com/id77/QuantumultX/master/rewrite/other.conf')
-    #pullJS('https://raw.githubusercontent.com/id77/QuantumultX/master/rewrite/ad.conf')
-    #pullJS('https://raw.githubusercontent.com/id77/QuantumultX/master/rewrite/vip.conf')
+    pullJS('https://raw.githubusercontent.com/id77/QuantumultX/master/rewrite/other.conf')
+    pullJS('https://raw.githubusercontent.com/id77/QuantumultX/master/rewrite/ad.conf')
+    pullJS('https://raw.githubusercontent.com/id77/QuantumultX/master/rewrite/vip.conf')
     pullJS('https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/Quan_crack.conf')
-    #pullJS('https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/Ua.conf')
-    #pullJS('https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/Xxys.conf')
-    #pullJS('https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/Youtube.conf')
-    #pullJS('https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/Crazyjoy.conf')
+    pullJS('https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/Ua.conf')
+    pullJS('https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/Xxys.conf')
+    pullJS('https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/Youtube.conf')
+    pullJS('https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/Crazyjoy.conf')
     pullJS('https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Js.conf')
     Deduplication("JS-Ex.txt", "JS.txt")
 
-    pullWangzhangGitee('https://gitee.com/lxk0301/jd_scripts/tree/master')
+    #pullWangzhangGitee('https://gitee.com/lxk0301/jd_scripts/tree/master')
 
     pullios7('https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Surge/AllInOne/AllInOne.sgmodule',
-                'SurgeAllInOne.txt')
+                'Surge/SurgeAllInOne.txt')
 
     pullios7('https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Loon/AllInOne/AllInOne.plugin',
                 'LoonAllInOne.txt')
+
+    pullios7('https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/QuantumultX/AllInOne/AllInOne.conf',
+                'Quantumult.txt')
 
     os.remove("temporary.txt")
     os.remove("JS.txt")
