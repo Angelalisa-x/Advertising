@@ -1,7 +1,7 @@
 @echo off 
 
-echo cd WhiteList
-echo py %cd%\WhiteList.py
+cd WhiteList
+py %cd%\WhiteList.py
 
 echo cd ..
 echo cd xiugaiWhite
@@ -19,7 +19,7 @@ echo cd ..
 echo cd Adguard
 echo py %cd%\Adguard_Ex.py
 
-echo cd ..
+cd ..
 cd Rule
 py %cd%\JS.py
 
