@@ -225,6 +225,8 @@ if __name__ == "__main__":
                 'Surge/Telegram.list')
     pullios7('https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/China/China.list',
                 'Surge/China.list')
+    pullios7('https://raw.githubusercontent.com/asnfohsdgfbkxcv/script/main/Task%20JD.sgmodule',
+                'Surge/TaskJD.sgmodule')
     
 
     pullios7('https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Loon/AllInOne/AllInOne.plugin',
