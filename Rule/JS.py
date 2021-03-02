@@ -261,6 +261,10 @@ if __name__ == "__main__":
                 'QuantumultX/Telegram.list')
     pullios7('https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/China/China.list',
                 'QuantumultX/China.list')
+    pullios7('https://raw.githubusercontent.com/sngxpro/QuanX/master/task/AllinOne.json',
+                'QuantumultX/sngxproTaskAllinOne.json')
+    pullios7('https://raw.githubusercontent.com/sngxpro/QuanX/master/rewrite/cookie.conf',
+                'QuantumultX/sngxproCookie.conf')
 
 
     pullios7('https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingTest/AdvertisingTest.yaml',
