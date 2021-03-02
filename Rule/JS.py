@@ -210,7 +210,7 @@ if __name__ == "__main__":
     pullios7('https://anti-ad.net/surge2.txt',
                 'Surge/surge2.list')
     pullios7('https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Surge/AllInOne/AllInOne.sgmodule',
-                'Surge/SurgeAllInOne.txt')
+                'Surge/SurgeAllInOne.sgmodule')
     pullios7('https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AdvertisingTest/AdvertisingTest.list',
                 'Surge/AdvertisingTest.list')
     pullios7('https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AdvertisingTest/AdvertisingTest_Domain.list',
@@ -228,7 +228,7 @@ if __name__ == "__main__":
     
 
     pullios7('https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Loon/AllInOne/AllInOne.plugin',
-                'Loon/LoonAllInOne.txt')
+                'Loon/LoonAllInOne.plugin')
     pullios7('https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/AdvertisingTest/AdvertisingTest.list',
                 'Loon/AdvertisingTest.list')
     pullios7('https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/AdvertisingTest/AdvertisingTest_Domain.list',
