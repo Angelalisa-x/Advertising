@@ -1,3 +1,10 @@
+HOST-SUFFIX,login.live.com,DIRECT
+HOST-SUFFIX,ib.snssdk.com,DIRECT
+HOST-SUFFIX,sf6-ttcdn-tos.pstatp.com,DIRECT
+HOST-SUFFIX,sf3-ttcdn-tos.pstatp.com,DIRECT
+HOST-SUFFIX,sf1-ttcdn-tos.pstatp.com,DIRECT
+HOST-SUFFIX,spoprod-a.akamaihd.net,DIRECT
+HOST-SUFFIX,zhuti.xiaomi.com,DIRECT
 HOST-SUFFIX,gsa.apple.com,DIRECT
 HOST-SUFFIX,alsc-buy2.ele.me,DIRECT
 HOST-SUFFIX,stat.10jqka.com.cn,DIRECT
@@ -494,6 +501,7 @@ HOST-SUFFIX,analytics.95516.com,DIRECT
 HOST-SUFFIX,fairplay.l.qq.com,DIRECT
 HOST-SUFFIX,fonts.gstatic.com,DIRECT
 HOST-SUFFIX,origin-a.akamaihd.net,DIRECT
+HOST-SUFFIX,pubads.g.doubleclick.net,DIRECT
 HOST-SUFFIX,tracking.miui.com,DIRECT
 HOST-SUFFIX,dizhensubao.getui.com,DIRECT
 HOST-SUFFIX,f.video.weibocdn.com,DIRECT

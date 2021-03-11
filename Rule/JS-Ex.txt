@@ -63,6 +63,8 @@ hostname= api.termius.com, *.rr.tv, education.github.com, baimiao.uzero.cn, lamb
 // @ScriptURL         https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/Quan_crack.conf
 // ==/UserScript==
 ****Please don't quote this rewrite configuration****
+# > 072 百度云倍速播放和会员专属清晰度Crack功能 （20210310）
+https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/bdcloud.js
 # > 071 Cal 解锁会员订阅功能 （20210302）
 # > 070 MoneyCoach 解锁会员权限 （20210301）
 ;The content is obtained from the Cuttlefish WeChat public account
