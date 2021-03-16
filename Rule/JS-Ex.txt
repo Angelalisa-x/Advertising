@@ -34,7 +34,7 @@ https://zhuanlan\.zhihu\.com/api/articles/\d+/recommendation url reject-200
 ^https?:\/\/.+?\.amemv\.com\/aweme\/v\d\/(feed|aweme\/post|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/ url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Aweme.js
 ^https?:\/\/.+?\.amemv\.com\/aweme\/v\d\/(feed|aweme\/post|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Aweme.js
 #  <============================== end
-hostname= api.termius.com, *.rr.tv, education.github.com, baimiao.uzero.cn, lambda.us-east-1.amazonaws.com, biz.caiyunapp.com, 
+hostname= *.rr.tv, education.github.com, baimiao.uzero.cn, lambda.us-east-1.amazonaws.com, biz.caiyunapp.com, 
 ;buy.itunes.apple.com, 
 # workingcopy
 ^https:\/\/education\.github\.com\/api\/user$ url response-body "student":false response-body "student":true
@@ -42,15 +42,13 @@ hostname= api.termius.com, *.rr.tv, education.github.com, baimiao.uzero.cn, lamb
 ^http:\/\/api\.hanju\.koudaibaobao\.com\/api\/series\/rslvV4 url response-body "quality":\d response-body "quality":10
 # 白描
 ^https:\/\/baimiao\.uzero\.cn\/api\/v2\.user\/(logout|appLaunchWithUser|loginByWeixin) url script-response-body https://raw.githubusercontent.com/id77/QuantumultX/master/Script/baimiao.js
-# termius 会员
-^https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body https://raw.githubusercontent.com/langkhach270389/Scripting/master/Terminus.js
 #Bear熊掌记  内购解锁
 #需要ios13 复制放本地 恢复购买后禁用掉
 ^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/bear.js
 #人人视频 (by@george Jiang & R)
 ^https:\/\/api\.rr\.tv(\/user\/privilege\/list|\/ad\/getAll|\/rrtv-video\/v4plus\/season\/detail) url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/rrtv.js
 # drops
-^https:\/\/lambda\.us-east-1\.amazonaws\.com/.*/functions\/prod-4-syncPurchases\/invocations$ url script-response-body https://raw.githubusercontent.com/langkhach270389/Scripting/master/drops.js
+^https:\/\/lambda\.us-east-1\.amazonaws\.com/.*/functions\/prod-4-syncPurchases\/invocations$ url script-response-body https://raw.githubusercontent.com/id77/QuantumultX/master/Script/drops.js
 # 彩云天气 Vip
 ^https:\/\/biz\.caiyunapp\.com\/v2\/user\?app_name\=weather url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/ColorWeather.js// ==UserScript==
 // @ScriptName        Quan Crack 脚本
@@ -63,9 +61,12 @@ hostname= api.termius.com, *.rr.tv, education.github.com, baimiao.uzero.cn, lamb
 // @ScriptURL         https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/Quan_crack.conf
 // ==/UserScript==
 ****Please don't quote this rewrite configuration****
+# > 073 医考帮 解锁应用内题库及课程（20210313）
+https://api.yikaobang.com.cn/* url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/ykb.js
 # > 072 百度云倍速播放和会员专属清晰度Crack功能 （20210310）
 https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/bdcloud.js
 # > 071 Cal 解锁会员订阅功能 （20210302）
+;uncompleted
 # > 070 MoneyCoach 解锁会员权限 （20210301）
 ;The content is obtained from the Cuttlefish WeChat public account
 # > 069 简衣橱 一次性解锁会员权限（20210228）
@@ -184,8 +185,8 @@ https?:\/\/api\.jiaonizuocai\.com url script-response-body https://raw.githubuse
 ;The content is consistent with rcam, no longer repeated.    
 # > 011 lensa 人像修图解锁（20200902）
 ^https?:\/\/subscription-service\.neuralprisma\.com\/subscription_get url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/lensa.js
-# > 010 财新 解锁付费文章（20200901）
-https://mappsv5.caixin.com/articlev5/* url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/caixin.js
+# > 010 财新 解锁付费文章（20210314）
+;The script has expired
 # > 009 moo 日记永久会员 (20200831) ⭐️
 https://diary.7english.cn:2433//api/user/userInfo url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/moo.js
 # > 008 Geist  Picsew 二者解锁会员功能（20200831）
