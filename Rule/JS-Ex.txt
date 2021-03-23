@@ -34,8 +34,10 @@ https://zhuanlan\.zhihu\.com/api/articles/\d+/recommendation url reject-200
 ^https?:\/\/.+?\.amemv\.com\/aweme\/v\d\/(feed|aweme\/post|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/ url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Aweme.js
 ^https?:\/\/.+?\.amemv\.com\/aweme\/v\d\/(feed|aweme\/post|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Aweme.js
 #  <============================== end
-hostname= *.rr.tv, education.github.com, baimiao.uzero.cn, lambda.us-east-1.amazonaws.com, biz.caiyunapp.com, 
+hostname= *.rr.tv, education.github.com, baimiao.uzero.cn, lambda.us-east-1.amazonaws.com, biz.caiyunapp.com, *.intsig.net
 ;buy.itunes.apple.com, 
+# 扫描全能王
+^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? url script-response-body https://raw.githubusercontent.com/id77/QuantumultX/master/Script/camscanner.js
 # workingcopy
 ^https:\/\/education\.github\.com\/api\/user$ url response-body "student":false response-body "student":true
 # 韩剧TV
@@ -54,13 +56,22 @@ hostname= *.rr.tv, education.github.com, baimiao.uzero.cn, lambda.us-east-1.amaz
 // @ScriptName        Quan Crack 脚本
 // @Author            Cuttlefish
 // @TgChannel         https://t.me/ddgksf2021
-// @WechatID          公众号墨鱼手记
-// @UpdateTime        20210130
+// @WechatID          墨鱼手记
+// @UpdateTime        20210320
 // @Attention         Only for backup,please don't quote this rewrite configuration
 // @ScriptTime        若脚本失效可抓取对应时间的旧版本应用
+// @ForHelp           If the scripts have expired, you can send a private message to me
 // @ScriptURL         https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/Quan_crack.conf
 // ==/UserScript==
 ****Please don't quote this rewrite configuration****
+# > 077 Myscript Nebo APP UNBLOCK（20210321）
+^https?:\/\/.*\.nebo\.app\/api\/.*\/inapppurchase\/apple\/receipt url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/nebo.js
+# > 076 Photoshop for iPad and Ps Express（20210321）
+^https:\/\/.*\.adobe\..*\/mobile_profile\/nul\/v\d$ url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/ps.js
+# > 075 财新周刊 解锁会员文章（20210320）
+http://ipadcms.caixin.com/tmp/articles/* url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/cxzk.js
+# > 074 财新APP 认认真真看新闻（20210318）
+;The content is obtained from the Cuttlefish WeChat public account
 # > 073 医考帮 解锁应用内题库及课程（20210313）
 https://api.yikaobang.com.cn/* url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/ykb.js
 # > 072 百度云倍速播放和会员专属清晰度Crack功能 （20210310）
@@ -68,7 +79,6 @@ https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body
 # > 071 Cal 解锁会员订阅功能 （20210302）
 ;uncompleted
 # > 070 MoneyCoach 解锁会员权限 （20210301）
-;The content is obtained from the Cuttlefish WeChat public account
 # > 069 简衣橱 一次性解锁会员权限（20210228）
 # > 068 Avatarify 破解会员功能（20210228）
 ;https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/avatarify.js
@@ -209,6 +219,7 @@ https://[a-z]+.ddly666.top/wp-json/wp/v2/posts/* url script-response-body https:
 // @Website           百度，CSDN，简书          
 // @Author            @elecV2、@Cuttlefish
 // @Share             若有需要的网站UA设置，可TG私信
+// @WechatID          公众号墨鱼手记
 // @UpdateTime        20210101    
 // @ScriptURL         https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/Ua.conf
 hostname = *.csdn.net, m.baidu.com, www.jianshu.com, 
@@ -223,7 +234,6 @@ hostname = *.csdn.net, m.baidu.com, www.jianshu.com,
 // @Suitable          **最新TF版**
 // @Attention         如果你每天观看视频次数较少，可以使用此配置
 // @Download          tf.niux123.com
-// @WechatID          墨鱼手记
 // @UpdateTime        20210214      
 // @ScriptURL         https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/Xxys.conf
 hostname = *.xxjjappss.com,

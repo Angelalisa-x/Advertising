@@ -1,3 +1,9 @@
+HOST-SUFFIX,exposure-notification.fe.apple-dns.net,DIRECT
+HOST-SUFFIX,mesu-china.apple.com.akadns.net,DIRECT
+HOST-SUFFIX,clients2.google.com,DIRECT
+HOST-SUFFIX,clients.l.google.com,DIRECT
+HOST-SUFFIX,clients3.google.com,DIRECT
+HOST-SUFFIX,clients4.google.com,DIRECT
 HOST-SUFFIX,chrome.cloudflare-dns.com,DIRECT
 HOST-SUFFIX,cloudflare-dns.com,DIRECT
 HOST-SUFFIX,login.live.com,DIRECT
@@ -342,6 +348,7 @@ HOST-SUFFIX,c.tieba.baidu.com,DIRECT
 HOST-SUFFIX,mbd.baidu.com,DIRECT
 HOST-SUFFIX,cpu.baidu.com,DIRECT
 HOST-SUFFIX,baijiahao.baidu.com,DIRECT
+HOST-SUFFIX,sp1.baidu.com,DIRECT
 HOST-SUFFIX,u1.img.mobile.sina.cn,DIRECT
 HOST-SUFFIX,weibo.cn,DIRECT
 HOST-SUFFIX,pstatp.com,DIRECT
