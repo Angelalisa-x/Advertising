@@ -135,7 +135,6 @@ HOST-SUFFIX,mobile.appchina.com,DIRECT
 HOST-SUFFIX,connect.rom.miui.com,DIRECT
 HOST-SUFFIX,get.sogou.com,DIRECT
 HOST-SUFFIX,twimg.com,DIRECT
-HOST-SUFFIX,mam.netease.com,DIRECT
 HOST-SUFFIX,pp.myapp.com,DIRECT
 HOST-SUFFIX,duiba.com.cn,DIRECT
 HOST-SUFFIX,t.me,DIRECT
@@ -344,6 +343,7 @@ HOST-SUFFIX,map.qq.com,DIRECT
 HOST-SUFFIX,126.net,DIRECT
 HOST-SUFFIX,163.com,DIRECT
 HOST-SUFFIX,passport.youdao.com,DIRECT
+HOST-SUFFIX,mam.netease.com,DIRECT
 HOST-SUFFIX,c.tieba.baidu.com,DIRECT
 HOST-SUFFIX,mbd.baidu.com,DIRECT
 HOST-SUFFIX,cpu.baidu.com,DIRECT
