@@ -31,8 +31,8 @@ https://zhuanlan\.zhihu\.com/api/articles/\d+/recommendation url reject-200
 ^http:\/\/api\.hanju\.koudaibaobao\.com\/api\/carp\/kp.*? url reject
 # 抖音去广告去水印 (By Choler)
 # start ==============================>
-^https?:\/\/.+?\.amemv\.com\/aweme\/v\d\/(feed|aweme\/post|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/ url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Aweme.js
-^https?:\/\/.+?\.amemv\.com\/aweme\/v\d\/(feed|aweme\/post|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Aweme.js
+^https?:\/\/(.*)\.amemv\.com\/aweme\/v2\/(follow\/)?feed\/ url request-header ^GET (\/aweme\/)v2(.+\r\n) request-header GET $1v1$2
+^https?:\/\/.*\.amemv\.com\/aweme\/v1\/(feed|mix\/aweme|aweme\/post|(multi\/)?aweme\/detail|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/ url script-response-body https://raw.githubusercontent.com/Choler/Surge/master/Script/douyin.js
 #  <============================== end
 hostname= *.rr.tv, education.github.com, baimiao.uzero.cn, lambda.us-east-1.amazonaws.com, biz.caiyunapp.com, *.intsig.net
 ;buy.itunes.apple.com, 
