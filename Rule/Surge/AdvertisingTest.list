@@ -1,15 +1,15 @@
-# NAME: AdvertisingTest
+# NAME: 去广告测试版
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-04-02 00:12:17
+# UPDATED: 2021-04-06 02:27:54
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，请搭配MITM使用
-# DOMAIN-KEYWORD: 62
-# DOMAIN-SUFFIX: 64220
-# DOMAIN: 16475
-# IP-CIDR: 245
+# DOMAIN-KEYWORD: 59
+# DOMAIN-SUFFIX: 72012
+# DOMAIN: 14401
+# IP-CIDR: 246
 # IP-CIDR6: 1
 # URL-REGEX: 305
-# TOTAL: 81308
+# TOTAL: 87024
 DOMAIN-KEYWORD,adashx
 DOMAIN-KEYWORD,admarvel
 DOMAIN-KEYWORD,admaster
@@ -31,7 +31,6 @@ DOMAIN-KEYWORD,allyes
 DOMAIN-KEYWORD,analysis
 DOMAIN-KEYWORD,analysys
 DOMAIN-KEYWORD,analytics
-DOMAIN-KEYWORD,announce
 DOMAIN-KEYWORD,applovin
 DOMAIN-KEYWORD,appsflyer
 DOMAIN-KEYWORD,asewlfjqwlflkew
@@ -62,8 +61,6 @@ DOMAIN-KEYWORD,stsdk.vivoglobal.com
 DOMAIN-KEYWORD,supersonicads
 DOMAIN-KEYWORD,taboola
 DOMAIN-KEYWORD,talkingdata
-DOMAIN-KEYWORD,torrent
-DOMAIN-KEYWORD,tracker
 DOMAIN-KEYWORD,tracking
 DOMAIN-KEYWORD,traffic
 DOMAIN-KEYWORD,uedas
@@ -180,6 +177,7 @@ IP-CIDR,124.232.160.178/32,no-resolve
 IP-CIDR,125.46.61.28/32,no-resolve
 IP-CIDR,125.89.69.5/32,no-resolve
 IP-CIDR,134.73.54.252/32,no-resolve
+IP-CIDR,137.175.18.113/32,no-resolve
 IP-CIDR,139.159.32.82/32,no-resolve
 IP-CIDR,139.196.166.21/32,no-resolve
 IP-CIDR,139.196.239.52/32,no-resolve

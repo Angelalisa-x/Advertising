@@ -57,13 +57,19 @@ hostname= *.rr.tv, education.github.com, baimiao.uzero.cn, lambda.us-east-1.amaz
 // @Author            Cuttlefish
 // @TgChannel         https://t.me/ddgksf2021
 // @WechatID          墨鱼手记
-// @UpdateTime        20210320
+// @UpdateTime        20210402
 // @Attention         Only for backup,please don't quote this rewrite configuration
 // @ScriptTime        若脚本失效可抓取对应时间的旧版本应用
 // @ForHelp           If the scripts have expired, you can send a private message to me
 // @ScriptURL         https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/Quan_crack.conf
 // ==/UserScript==
 ****Please don't quote this rewrite configuration****
+# > 080 PdfExpert 会员功能解锁（20210403）
+https:\/\/license\.pdfexpert\.com\/api\/.+\/pdfexpert6\/subscription\/(refresh$|check$) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/pdfexpert.js
+# > 079 OneDay 解锁会员（20210402）
+;The content is obtained from the Cuttlefish WeChat public account
+# > 078  MolyCam and VaporCam 拍出你的美解锁VIP（20210402）
+https:\/\/pay\.wecut\.com\/apple\/(iosVerifyReceipt|iosAppVerifyReceipt)\.php url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/mv.js
 # > 077 Myscript Nebo APP UNBLOCK（20210321）
 ^https?:\/\/.*\.nebo\.app\/api\/.*\/inapppurchase\/apple\/receipt url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/nebo.js
 # > 076 Photoshop for iPad and Ps Express（20210321）
@@ -71,7 +77,6 @@ hostname= *.rr.tv, education.github.com, baimiao.uzero.cn, lambda.us-east-1.amaz
 # > 075 财新周刊 解锁会员文章（20210320）
 http://ipadcms.caixin.com/tmp/articles/* url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/cxzk.js
 # > 074 财新APP 认认真真看新闻（20210318）
-;The content is obtained from the Cuttlefish WeChat public account
 # > 073 医考帮 解锁应用内题库及课程（20210313）
 https://api.yikaobang.com.cn/* url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/ykb.js
 # > 072 百度云倍速播放和会员专属清晰度Crack功能 （20210310）

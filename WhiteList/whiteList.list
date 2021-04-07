@@ -1,3 +1,8 @@
+HOST-SUFFIX,m.zhuanzhuan.com,DIRECT
+HOST-SUFFIX,api.vip.miui.com,DIRECT
+HOST-SUFFIX,isee.weishi.qq.com,DIRECT
+HOST-SUFFIX,dns.google.com,DIRECT
+HOST-SUFFIX,163.lu,DIRECT
 HOST-SUFFIX,act.qzone.qq.com,DIRECT
 HOST-SUFFIX,exposure-notification.fe.apple-dns.net,DIRECT
 HOST-SUFFIX,mesu-china.apple.com.akadns.net,DIRECT
@@ -53,7 +58,6 @@ HOST-SUFFIX,zlive.linroid.com,DIRECT
 HOST-SUFFIX,www.huya.com,DIRECT
 HOST-SUFFIX,m.huya.com,DIRECT
 HOST-SUFFIX,gm.mmstat.com,DIRECT
-HOST-SUFFIX,ttps,DIRECT
 HOST-SUFFIX,uxmgnt.ele.me,DIRECT
 HOST-SUFFIX,sopush-primary-https-new.elemecdn.com,DIRECT
 HOST-SUFFIX,nt2.ele.me,DIRECT
