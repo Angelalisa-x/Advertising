@@ -57,13 +57,15 @@ hostname= *.rr.tv, education.github.com, baimiao.uzero.cn, lambda.us-east-1.amaz
 // @Author            Cuttlefish
 // @TgChannel         https://t.me/ddgksf2021
 // @WechatID          墨鱼手记
-// @UpdateTime        20210402
+// @UpdateTime        20210408
 // @Attention         Only for backup,please don't quote this rewrite configuration
 // @ScriptTime        若脚本失效可抓取对应时间的旧版本应用
 // @ForHelp           If the scripts have expired, you can send a private message to me
 // @ScriptURL         https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/Quan_crack.conf
 // ==/UserScript==
 ****Please don't quote this rewrite configuration****
+# > 081 作业帮 解锁付费音频资源（20210407）by photonmang
+https://mall.zuoyebang.com/mall/goods/audio/voice/list?audioId=\d+ url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/zyb.js
 # > 080 PdfExpert 会员功能解锁（20210403）
 https:\/\/license\.pdfexpert\.com\/api\/.+\/pdfexpert6\/subscription\/(refresh$|check$) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/pdfexpert.js
 # > 079 OneDay 解锁会员（20210402）

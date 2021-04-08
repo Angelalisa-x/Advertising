@@ -1,3 +1,5 @@
+HOST-SUFFIX,api.zhuti.xiaomi.com,DIRECT
+HOST-SUFFIX,cal.meizu.com,DIRECT
 HOST-SUFFIX,m.zhuanzhuan.com,DIRECT
 HOST-SUFFIX,api.vip.miui.com,DIRECT
 HOST-SUFFIX,isee.weishi.qq.com,DIRECT
@@ -461,13 +463,11 @@ HOST-SUFFIX,adcdn.fastmirror.org,DIRECT
 HOST-SUFFIX,ad2.uoocuniversity.com,DIRECT
 HOST-SUFFIX,ads.askgamblers.com,DIRECT
 HOST-SUFFIX,ads.com,DIRECT
-HOST-SUFFIX,ads.fuckingmachines.com,DIRECT
 HOST-SUFFIX,ads.instacart.com,DIRECT
 HOST-SUFFIX,ads.pinterest.com,DIRECT
 HOST-SUFFIX,ads.spotify.com,DIRECT
 HOST-SUFFIX,ads.taboola.com,DIRECT
 HOST-SUFFIX,ads.tiktok.com,DIRECT
-HOST-SUFFIX,ads.ultimatesurrender.com,DIRECT
 HOST-SUFFIX,analytics.amplitude.com,DIRECT
 HOST-SUFFIX,api.ad-gone.com,DIRECT
 HOST-SUFFIX,widget.myrentacar.me,DIRECT
