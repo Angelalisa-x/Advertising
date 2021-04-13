@@ -1,15 +1,15 @@
 # NAME: AdvertisingTest
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-04-09 02:25:40
+# UPDATED: 2021-04-12 22:55:17
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，请搭配MITM使用
 # DOMAIN-KEYWORD: 59
-# DOMAIN-SUFFIX: 72167
-# DOMAIN: 14383
-# IP-CIDR: 245
+# DOMAIN-SUFFIX: 72279
+# DOMAIN: 14378
+# IP-CIDR: 247
 # IP-CIDR6: 1
 # URL-REGEX: 304
-# TOTAL: 87159
+# TOTAL: 87268
 DOMAIN-KEYWORD,adashx
 DOMAIN-KEYWORD,admarvel
 DOMAIN-KEYWORD,admaster
@@ -290,6 +290,8 @@ IP-CIDR,47.90.50.177/32,no-resolve
 IP-CIDR,47.93.103.196/32,no-resolve
 IP-CIDR,47.94.89.32/32,no-resolve
 IP-CIDR,47.96.162.122/32,no-resolve
+IP-CIDR,51.77.227.96/29,no-resolve
+IP-CIDR,51.89.187.136/29,no-resolve
 IP-CIDR,58.215.179.159/32,no-resolve
 IP-CIDR,58.221.28.166/32,no-resolve
 IP-CIDR,60.19.29.16/28,no-resolve
