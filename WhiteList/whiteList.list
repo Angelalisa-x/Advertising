@@ -1,3 +1,7 @@
+HOST-SUFFIX,jump.alibaba.com,DIRECT
+HOST-SUFFIX,na61-na62.wagbridge.advertisement.tanx.com,DIRECT
+HOST-SUFFIX,access.open.uc.cn,DIRECT
+HOST-SUFFIX,.res.wpscdn.cn,DIRECT
 HOST-SUFFIX,api.zhuti.xiaomi.com,DIRECT
 HOST-SUFFIX,cal.meizu.com,DIRECT
 HOST-SUFFIX,m.zhuanzhuan.com,DIRECT
@@ -154,7 +158,6 @@ HOST-SUFFIX,work.weixin.qq.com,DIRECT
 HOST-SUFFIX,.aliyun.com,DIRECT
 HOST-SUFFIX,toutiaocdn.com,DIRECT
 HOST-SUFFIX,.qlogo.cn,DIRECT
-HOST-SUFFIX,.sm.cn,DIRECT
 HOST-SUFFIX,sina.cn,DIRECT
 HOST-SUFFIX,broccoli.uc.cn,DIRECT
 HOST-SUFFIX,t.co,DIRECT
