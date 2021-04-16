@@ -21,7 +21,7 @@ def geshiProcess(targetFile,readPath):
         str = []
         str = line
         str = str[0:str.find("\n")]
-        str = "HOST-SUFFIX," + str + ",DIRECT" + "\n"
+        str = "DOMAIN-SUFFIX," + str + "\n"
         f.write(str)
     f.close()
 
