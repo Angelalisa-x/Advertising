@@ -15,7 +15,17 @@ def quchong(writePath,readPath):
     f.close()
 
 ######################### 格式处理 #############################
-def geshiProcess(targetFile,readPath):
+def geshiProcess_Qx(targetFile,readPath):
+    f = open(targetFile,"w+")
+    for line in open(readPath,"r"):
+        str = []
+        str = line
+        str = str[0:str.find("\n")]
+        str = "HOST-SUFFIX," + str + ",DIRECT" + "\n"
+        f.write(str)
+    f.close()
+
+def geshiProcess_Surge(targetFile,readPath):
     f = open(targetFile,"w+")
     for line in open(readPath,"r"):
         str = []
@@ -392,7 +402,8 @@ if __name__ == '__main__':
 
     quchong("whiteList_2.txt","whiteList_1.txt")
     unwantedWhitelist("swhiteList.txt","whiteList_2.txt")
-    geshiProcess("whiteList.list","swhiteList.txt")
+    geshiProcess_Qx("whiteList_Qx.list", "swhiteList.txt")
+    geshiProcess_Surge("whiteList_Surge", "swhiteList.txt")
 
 
     os.remove("whiteList1.txt")
