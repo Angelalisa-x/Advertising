@@ -403,7 +403,7 @@ if __name__ == '__main__':
     quchong("whiteList_2.txt","whiteList_1.txt")
     unwantedWhitelist("swhiteList.txt","whiteList_2.txt")
     geshiProcess_Qx("whiteList_Qx.list", "swhiteList.txt")
-    geshiProcess_Surge("whiteList_Surge", "swhiteList.txt")
+    geshiProcess_Surge("whiteList_Surge.list", "swhiteList.txt")
 
 
     os.remove("whiteList1.txt")
