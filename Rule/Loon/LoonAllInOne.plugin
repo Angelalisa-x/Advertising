@@ -1,9 +1,9 @@
 # NAME: AllInOne
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-04-16 01:08:31
+# UPDATED: 2021-04-17 00:16:07
 # REWRITE: 828
-# SCRIPT: 29
+# SCRIPT: 30
 # MITM: 639
 
 [Rule]
@@ -565,7 +565,7 @@ USER-AGENT,avos*,REJECT
 ^https?:\/\/mbl\.56\.com\/config\/v1\/common\/config\.union\.ios\.do? - reject-img
 ^https?:\/\/mcupdate\.gstarcad\.com\/api\/v2\/ - reject
 ^https?:\/\/media\.qyer\.com\/ad\/ - reject
-^https?:\/\/mi\.gdt\.qq\.com\/gdt_mview\.fcg - reject
+^https?:\/\/mi\.gdt\.qq\.com\/gdt_mview\.fcg - reject-img
 ^https?:\/\/mime\.baidu\.com\/v\d\/IosStart\/getStartInfo$ - reject
 ^https?:\/\/mime\.baidu\.com\/v\d\/activity\/advertisement - reject
 ^https?:\/\/mimg\.127\.net\/external\/smartpop-manger\.min\.js - reject-img
@@ -883,6 +883,7 @@ http-response ^https?:\/\/fmapp\.chinafamilymart\.com\.cn\/api\/app\/market\/sta
 http-response ^https?:\/\/haojia-api\.smzdm\.com\/home\/list requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js,tag=什么值得买_好价去广告
 http-response ^https?:\/\/hd\.mina\.mi\.com\/splashscreen\/alert requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js,tag=小爱音箱_开屏去广告
 http-response ^https?:\/\/homepage-api\.smzdm\.com\/home requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js,tag=什么值得买_首页去广告
+http-response ^https?:\/\/mi\.gdt\.qq\.com\/gdt_mview\.fcg requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js,tag=联享家_开屏去广告
 http-response ^https?:\/\/s-api\.smzdm\.com\/sou\/list requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js,tag=什么值得买_搜索去广告
 http-response ^https?:\/\/wmapi\.meituan\.com\/api\/v\d+\/loadInfo? requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js,tag=美团外卖_开屏去广告
 http-response ^https?:\/\/www\.zhihu\.com\/appview\/v2\/answer\/.*(entry=(?!(preload-topstory|preload-search|preload-subscription)))? requires-body=1,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/zhihu/zhihu_plus.js,tag=知乎_回答内容优化
