@@ -99,47 +99,47 @@ def pullWhite():
             ############# Potterli20 End ###################
 
             ############# liwenjie119 Start ################
-    url = 'https://raw.githubusercontent.com/liwenjie119/adg-rules/master/white.txt'
-    html = requests.get(url).text
-    #print(html)
-    with open("whiteList1.txt","w") as f:
-        f.write(html)
-    f.close()
+    # url = 'https://raw.githubusercontent.com/liwenjie119/adg-rules/master/white.txt'
+    # html = requests.get(url).text
+    # #print(html)
+    # with open("whiteList1.txt","w") as f:
+    #     f.write(html)
+    # f.close()
 
-    fwhite=open("whiteList_1.txt","a+")
-    for line in open("whiteList1.txt"):
-        if "#" in line:
-            #print(line)
-            continue
-        if "!" in line:
-            continue
-        if line in ['\n','\r\n']:
-            continue
-        if line.strip() == "":
-            continue
-        str=[]
-        str = line
-        if "@@||*" in line:
-            if "^" in line:
-                str = str[str.find("@@||*")+5:str.rfind("^")] + "\n"
-                fwhite.write(str)
-                continue
-        if "@@||" in line:
-            if "^" in line:
-                str = str[str.find("@@||")+4:str.rfind("^")] + "\n"
-                fwhite.write(str)
-                continue
-        if "@@||*." in line:
-            if "^" in line:
-                str = str[str.find("@@||*.")+6:str.rfind("^")] + "\n"
-                fwhite.write(str)
-                continue
-        if "@@||." in line:
-            if "^" in line:
-                str = str[str.find("@@||.")+5:str.rfind("^")] + "\n"
-                fwhite.write(str)
-                continue
-    fwhite.close()
+    # fwhite=open("whiteList_1.txt","a+")
+    # for line in open("whiteList1.txt"):
+    #     if "#" in line:
+    #         #print(line)
+    #         continue
+    #     if "!" in line:
+    #         continue
+    #     if line in ['\n','\r\n']:
+    #         continue
+    #     if line.strip() == "":
+    #         continue
+    #     str=[]
+    #     str = line
+    #     if "@@||*" in line:
+    #         if "^" in line:
+    #             str = str[str.find("@@||*")+5:str.rfind("^")] + "\n"
+    #             fwhite.write(str)
+    #             continue
+    #     if "@@||" in line:
+    #         if "^" in line:
+    #             str = str[str.find("@@||")+4:str.rfind("^")] + "\n"
+    #             fwhite.write(str)
+    #             continue
+    #     if "@@||*." in line:
+    #         if "^" in line:
+    #             str = str[str.find("@@||*.")+6:str.rfind("^")] + "\n"
+    #             fwhite.write(str)
+    #             continue
+    #     if "@@||." in line:
+    #         if "^" in line:
+    #             str = str[str.find("@@||.")+5:str.rfind("^")] + "\n"
+    #             fwhite.write(str)
+    #             continue
+    # fwhite.close()
             ############# liwenjie119 End ################
 
             ############# AdGuardDNSPassList Start ################
