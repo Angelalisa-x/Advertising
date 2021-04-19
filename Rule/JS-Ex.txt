@@ -56,16 +56,24 @@ hostname= *.rr.tv, education.github.com, baimiao.uzero.cn, lambda.us-east-1.amaz
 // @ScriptName        Quan Crack 脚本
 // @Author            Cuttlefish
 // @TgChannel         https://t.me/ddgksf2021
+// @TgChannel         频道已移除所有人员，私有不再对外公开
 // @WechatID          墨鱼手记
-// @UpdateTime        20210411
+// @UpdateTime        20210418
 // @Attention         Only for backup,please don't quote this rewrite configuration
 // @ScriptTime        若脚本失效可抓取对应时间的旧版本应用
 // @ForExplain        “++” is the sign of Http Catcher Rules
 // @ScriptURL         https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/Quan_crack.conf
 // ==/UserScript==
 ****Please don't quote this rewrite configuration****
-# > 082 U-Dictionary++ 解锁离线词典会员功能（20210411）
+# > 086 Musi++ 一次性解锁会员Block广告 （20210418）
 ;The content is obtained from the Cuttlefish WeChat public account
+# > 085 时尚芭莎 破解高级画册的会员权限
+;uncompleted
+# > 084 Castbox 解锁高级会员Premium功能（20210418）
+https://everest.castbox.fm/auth/user/properties\?country=\w+&raw=1 url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/cb.js
+# > 083 Keep 解锁私人课程,动作库,解锁运动课程页面会员精讲，解锁会员专属页面会员课程，解锁智能训练(胸背部无跑步无器材84天锻炼) for V6.24~V6.27 （20210418）
+https://api.gotokeep.com/(.+/subject|.+/dynamic|.+/coursePlus/.+|.+/status|.+/tab|.+/my|.+/start|.+/join|.+/complete|.+/detail/.+|.+/preview|.+/auth|.+/tab|.+/days) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/keep_new.js
+# > 082 U-Dictionary++ 解锁离线词典会员功能（20210411）
 # > 081 作业帮 解锁付费音频资源（20210407）by photonmang
 https://mall.zuoyebang.com/mall/goods/audio/voice/list?audioId=\d+ url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/zyb.js
 https://apivip.zybang.com/vipols/vip/viphomev1?.+ url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/zyb.js
@@ -86,7 +94,6 @@ https://api.yikaobang.com.cn/* url script-response-body https://raw.githubuserco
 # > 072 百度云倍速播放和会员专属清晰度Crack功能 （20210310）
 https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/bdcloud.js
 # > 071 Cal 解锁会员订阅功能 （20210302）
-;uncompleted
 # > 070 MoneyCoach++ 解锁会员权限 （20210301）
 # > 069 简衣橱++ 一次性解锁会员权限（20210228）
 # > 068 Avatarify 破解会员功能（20210228）
@@ -222,7 +229,7 @@ https://[a-z]+.ddly666.top/wp-json/wp/v2/posts/* url script-response-body https:
 # > 002 搜罗好货（20200901）小程序解除隐藏内容
 ^https:\/\/www.i3zh.com/wp-json/wp/v2/posts/* url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcx.js
 # > 001 最新版keep（20200819）小程序解除隐藏内容
-^https:\/\/api\.gotokeep\.com\/* url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/keep.js
+;^https:\/\/api\.gotokeep\.com\/* url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/keep.js
 // ==UserScript==
 // @Name              UA设置及优化手机端网页显示
 // @Website           百度，CSDN，简书          
