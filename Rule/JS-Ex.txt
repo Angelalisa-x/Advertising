@@ -65,10 +65,9 @@ hostname= *.rr.tv, education.github.com, baimiao.uzero.cn, lambda.us-east-1.amaz
 // @ScriptURL         https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/Quan_crack.conf
 // ==/UserScript==
 ****Please don't quote this rewrite configuration****
-# > 086 Musi++ 一次性解锁会员Block广告 （20210418）
+# > 086 Facetune2++ 一次性解锁Premium （20210420）
 ;The content is obtained from the Cuttlefish WeChat public account
-# > 085 时尚芭莎 破解高级画册的会员权限
-;uncompleted
+# > 085 Musi++ 一次性解锁会员Block广告 （20210418）
 # > 084 Castbox 解锁高级会员Premium功能（20210418）
 https://everest.castbox.fm/auth/user/properties\?country=\w+&raw=1 url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/cb.js
 # > 083 Keep 解锁私人课程,动作库,解锁运动课程页面会员精讲，解锁会员专属页面会员课程，解锁智能训练(胸背部无跑步无器材84天锻炼) for V6.24~V6.27 （20210418）
@@ -94,6 +93,7 @@ https://api.yikaobang.com.cn/* url script-response-body https://raw.githubuserco
 # > 072 百度云倍速播放和会员专属清晰度Crack功能 （20210310）
 https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/bdcloud.js
 # > 071 Cal 解锁会员订阅功能 （20210302）
+;uncompleted
 # > 070 MoneyCoach++ 解锁会员权限 （20210301）
 # > 069 简衣橱++ 一次性解锁会员权限（20210228）
 # > 068 Avatarify 破解会员功能（20210228）
