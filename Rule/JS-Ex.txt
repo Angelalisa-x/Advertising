@@ -65,11 +65,18 @@ hostname= *.rr.tv, education.github.com, baimiao.uzero.cn, lambda.us-east-1.amaz
 // @ScriptURL         https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/Quan_crack.conf
 // ==/UserScript==
 ****Please don't quote this rewrite configuration****
-****I will be very happy if you can go to the cuttlefish official account and appreciate me a glass of coke****
+/* 那些fork本仓库的人都眼瞎吗！不看说明嘛（本来不想骂人的）*/
+# > 092 Dayone 更新会员crack功能（20210423）
+;uncomplete
+        
+# > 091 Photofox++ 一次性解锁Premium （20210423）
+;The content is obtained from the Cuttlefish WeChat public account
+# > 090 Dazz++ 一次性解锁Premium （20210423）
+# > 089 Inside++ 一次性解锁Premium （20210423）
+# > 088 Imgplay++ 一次性解锁Premium （20210423）
 # > 087 卡通相机 破解会员需要登录（20210422）
 http://vstou.faxingwu.com/huihua/user/getUser url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/ktxj.js
 # > 086 Facetune2++ 一次性解锁Premium （20210420）
-;The content is obtained from the Cuttlefish WeChat public account
 # > 085 Musi++ 一次性解锁会员Block广告 （20210418）
 # > 084 Castbox 解锁高级会员Premium功能（20210418）
 https://everest.castbox.fm/auth/user/properties\?country=\w+&raw=1 url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/cb.js
