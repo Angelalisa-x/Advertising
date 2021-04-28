@@ -63,8 +63,7 @@ crazyJoy挂机 = type=cron,cronexp="10 1,12 * * *",wake-system=1,timeout=20,scri
 东东超市 = type=cron,cronexp="11 * * * *",wake-system=1,timeout=3600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_superMarket.js
 赚京豆 = type=cron,cronexp="10 0,7,23 * * *",wake-system=1,timeout=3600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_syj.js
 球队赢好礼 = type=cron,cronexp="10 1 * * *",wake-system=1,timeout=3600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_tcl.js
-取关京东店铺商品 = type=cron,cronexp="*/5 23 * * *",wake-system=1,timeout=3600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_unsubscribe.js
-取关京东店铺商品（试用js前） = type=cron,cronexp="*/10 8,9 * * *",wake-system=1,timeout=3600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_unsubscribe.js
+取关京东店铺商品 = type=cron,cronexp="*/10 8,9,11,20 * * *",wake-system=1,timeout=3600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_unsubscribe.js
 京喜签到 = type=cron,cronexp="5 0 * * *",wake-system=1,timeout=3600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jx_sign.js
 球队赢好礼 = type=cron,cronexp="10 16 * * *",wake-system=1,timeout=3600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_tcl.js
 领金贴 = type=cron,cronexp="10 * * * *",wake-system=1,timeout=3600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_jin_tie.js
@@ -100,11 +99,11 @@ crazyJoy挂机 = type=cron,cronexp="10 1,12 * * *",wake-system=1,timeout=20,scri
 interCenter渠道店铺签到 = type=cron,cronexp="0 0 * * *",wake-system=1,timeout=3600,script-path=https://share.r2ray.com/dust/normal/monk_inter_shop_sign.js
 有机牧场 = type=cron,cronexp="0 0,1-22/2 1-31 4-7 *",wake-system=1,timeout=3600,script-path=https://share.r2ray.com/dust/member/monk_pasture.js
 “韧”性探索 空降好礼 = type=cron,cronexp="15 08 5-30 4 *",wake-system=1,timeout=3600,script-path=https://share.r2ray.com/dust/member/monk_vinda.js
-TCLxLINING = type=cron,cronexp="25 8 * * 4-5 *",wake-system=1,timeout=3600,script-path=https://share.r2ray.com/dust/car/z_tcl_liling.js
 
 ## chavyleung https://github.com/chavyleung/scripts
 京东金融领白条券（周五） = type=cron,cronexp="0 9 * * Fri",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/jd/JD_BaiTiao.js
 京东金融领白条券（每日） = type=cron,cronexp="5 0 * * Fri",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/jd/JD_BaiTiao.js
+
 ## ZCY01 https://github.com/ZCY01/daily_scripts
 京东价格保护 = type=cron,cronexp="35 0 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/ZCY01/daily_scripts/main/jd/jd_priceProtect.js
 京东试用 = type=cron,cronexp="30 10 * * *",wake-system=1,timeout=7200,script-path=https://raw.githubusercontent.com/ZCY01/daily_scripts/main/jd/jd_try.js
@@ -119,6 +118,9 @@ TCLxLINING = type=cron,cronexp="25 8 * * 4-5 *",wake-system=1,timeout=3600,scrip
 ## nianyuguai https://github.com/nianyuguai/longzhuzhu
 整点京豆雨 = type=cron,cronexp="1 0-23/1 * * *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_super_redrain.js
 直播间抽奖（全局） = type=cron,cronexp="5 8-23/1 * * *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/nianyuguai/longzhuzhu/main/qx/jd_live_lottery_social.js
+
+## 私库
+# 注销京东会员卡 = type=cron,cronexp="55 23 * * 6",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/asnfohsdgfbkxcv/script/main/js/jd_vip.js
 
 [MITM]
 hostname = %APPEND% jdread-api.jd.com, me-api.jd.com, wq.jd.com, m.jingxi.com, daojia.jd.com, api.m.jd.com, jdjoy.jd.com, draw.jdfcloud.com
