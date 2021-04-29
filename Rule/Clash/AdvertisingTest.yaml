@@ -1,13 +1,13 @@
 # NAME: AdvertisingTest
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-04-28 02:24:25
-# DOMAIN-KEYWORD: 59
-# DOMAIN-SUFFIX: 74018
-# DOMAIN: 14246
+# UPDATED: 2021-04-29 02:24:42
+# DOMAIN-KEYWORD: 61
+# DOMAIN-SUFFIX: 65894
+# DOMAIN: 16251
 # IP-CIDR: 247
 # IP-CIDR6: 1
-# TOTAL: 88571
+# TOTAL: 82454
 payload:
   - DOMAIN-KEYWORD,adashx
   - DOMAIN-KEYWORD,admarvel
@@ -42,6 +42,7 @@ payload:
   - DOMAIN-KEYWORD,exosrv
   - DOMAIN-KEYWORD,fenxi
   - DOMAIN-KEYWORD,googleads
+  - DOMAIN-KEYWORD,greenplasticdua
   - DOMAIN-KEYWORD,guanggao
   - DOMAIN-KEYWORD,inmobi
   - DOMAIN-KEYWORD,lianmeng
@@ -60,6 +61,7 @@ payload:
   - DOMAIN-KEYWORD,supersonicads
   - DOMAIN-KEYWORD,taboola
   - DOMAIN-KEYWORD,talkingdata
+  - DOMAIN-KEYWORD,toateeli
   - DOMAIN-KEYWORD,tracking
   - DOMAIN-KEYWORD,traffic
   - DOMAIN-KEYWORD,uedas

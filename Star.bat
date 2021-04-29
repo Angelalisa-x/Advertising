@@ -33,4 +33,9 @@ echo del %cd%\CustomRuleAD\CustomRuleAD_Ex.py \q \f \s
 echo del %cd%\Surge\SurgeCustomRuleAD_Ex.py \q \f \s 
 echo del %cd%\Adguard\Adguard_Ex.py \q \f \s
 
+cd blackmatrix7
+py %cd%\pullRuleSurge.py
+
+cd ..
+
 pause
