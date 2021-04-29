@@ -4,16 +4,16 @@ import os
 import sys
 
 
-def pullios7(urlInfo, txt):
+def pullios7(urlInfo, list):
     url = urlInfo
     html = requests.get(url).text
 
-    fin = open(txt,"w+", encoding='UTF-8')
+    fin = open("1.txt", "w+", encoding='UTF-8')
     fin.write(html)
     fin.close()
 
     with open("2.txt","w+", encoding='UTF-8') as fin2:
-        for line in open(txt, encoding='UTF-8'):
+        for line in open("1.txt", encoding='UTF-8'):
             str = []
             str = line
             if "js-navigation-open Link--primary" in line and "css-truncate css-truncate-target d-block width-fit" in line:
@@ -27,7 +27,12 @@ def pullios7(urlInfo, txt):
                         #print(str)
                         html = requests.get(str).text
                         #print(html)
-                        finRE = open("README.md", "w+", encoding='UTF-8')
+                        
+                        folderRe = os.getcwd() +  "\\" + list
+                        if not os.path.exists(folderRe):
+                            os.makedirs(folderRe)
+                        Readme = folderRe + "\\" + "README.md"
+                        finRE = open(Readme, "w+", encoding='UTF-8')
                         finRE.write(html)
                         finRE.close()
                         continue
@@ -42,7 +47,7 @@ def pullios7(urlInfo, txt):
             str = line[line.rfind('/') + 1 : line.find("\n")]
             #print(str)
 
-            folder = os.getcwd() +  "\\" + str
+            folder = os.getcwd() +  "\\" + list + "\\" + str
 
             if not os.path.exists(folder):
                 os.makedirs(folder)
@@ -62,7 +67,8 @@ def pullios7(urlInfo, txt):
 
 
 if __name__ == "__main__":
-    pullios7("https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge", "1.txt")
+    pullios7("https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge", "Surge")
+    pullios7("https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX", "QuantumultX")
 
     os.remove("1.txt")
     os.remove("2.txt")
