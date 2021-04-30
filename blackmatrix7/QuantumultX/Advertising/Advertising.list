@@ -1,13 +1,13 @@
 # NAME: Advertising
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-04-29 02:24:40
-# HOST-KEYWORD: 61
+# UPDATED: 2021-04-30 02:19:41
+# HOST-KEYWORD: 68
 # HOST-SUFFIX: 45535
-# HOST: 20641
+# HOST: 20623
 # IP-CIDR: 247
 # IP6-CIDR: 1
-# TOTAL: 66485
+# TOTAL: 66474
 HOST,0.nextyourcontent.com,Advertising
 HOST,0.up.qingdaonews.com,Advertising
 HOST,0001.2waky.com,Advertising
@@ -2197,7 +2197,6 @@ HOST,adsonflags.com,Advertising
 HOST,adsp.haberturk.com,Advertising
 HOST,adspectacle.net,Advertising
 HOST,adspirit.net,Advertising
-HOST,adspserving.com,Advertising
 HOST,adsrv.ads.eniro.com,Advertising
 HOST,adsrv.bangbros.com,Advertising
 HOST,adsrv.deviantart.com,Advertising
@@ -2618,7 +2617,6 @@ HOST,all.alisatilsner.com,Advertising
 HOST,all.technologyoptical.com,Advertising
 HOST,allaboutsearching.com,Advertising
 HOST,alladvantage.com,Advertising
-HOST,allanimehentai.com,Advertising
 HOST,allaptair.club,Advertising
 HOST,allaskme.com,Advertising
 HOST,allbestnews.net,Advertising
@@ -3149,7 +3147,6 @@ HOST,app.software-phile.com,Advertising
 HOST,app.storage.yunvm.com,Advertising
 HOST,app.subiz.com,Advertising
 HOST,app.theuolo.com,Advertising
-HOST,app.trackappr.com,Advertising
 HOST,app.unbounce.com,Advertising
 HOST,app.us-east-1.unbounce.com,Advertising
 HOST,app.wigzo.com,Advertising
@@ -3468,6 +3465,7 @@ HOST,avast-downloads.com,Advertising
 HOST,avazunativeads.com,Advertising
 HOST,aveprize.com,Advertising
 HOST,aviamexpress.com,Advertising
+HOST,aviatordiscs.com,Advertising
 HOST,avidnewssource.com,Advertising
 HOST,avidtrak.com,Advertising
 HOST,avilagtitkai.com,Advertising
@@ -3776,7 +3774,6 @@ HOST,bbs.tiens.net.cn,Advertising
 HOST,bbs.youzu.com,Advertising
 HOST,bbs.zgfhl.com,Advertising
 HOST,bbsroofing.com,Advertising
-HOST,bbtv.blinkx.com,Advertising
 HOST,bbullard.com,Advertising
 HOST,bbzassociates.com,Advertising
 HOST,bc.yahoo.com,Advertising
@@ -3786,7 +3783,6 @@ HOST,bchackomania.org,Advertising
 HOST,bcmediagroup.com,Advertising
 HOST,bcp.lotamedmp.com,Advertising
 HOST,bcpfb.perutracker.com,Advertising
-HOST,bcpzonasegurabetra.com,Advertising
 HOST,bcvcmedia.com,Advertising
 HOST,bd4travel.com,Advertising
 HOST,bdcelectricalservices.com,Advertising
@@ -4433,7 +4429,6 @@ HOST,buyu9918.com,Advertising
 HOST,buyu9919.com,Advertising
 HOST,buyu9920.com,Advertising
 HOST,buyu9921.com,Advertising
-HOST,buyu9922.com,Advertising
 HOST,buyu9923.com,Advertising
 HOST,buyu9924.com,Advertising
 HOST,buyu9926.com,Advertising
@@ -4478,7 +4473,6 @@ HOST,buyu9972.com,Advertising
 HOST,buyu9973.com,Advertising
 HOST,buyu9974.com,Advertising
 HOST,buyu9976.com,Advertising
-HOST,buyu9977.com,Advertising
 HOST,buyu9979.com,Advertising
 HOST,buyu9980.com,Advertising
 HOST,buyu9981.com,Advertising
@@ -4487,14 +4481,6 @@ HOST,buyu9983.com,Advertising
 HOST,buyu9984.com,Advertising
 HOST,buyu9986.com,Advertising
 HOST,buyu9988.com,Advertising
-HOST,buyu9990.com,Advertising
-HOST,buyu9991.com,Advertising
-HOST,buyu9992.com,Advertising
-HOST,buyu9993.com,Advertising
-HOST,buyu9994.com,Advertising
-HOST,buyu9996.com,Advertising
-HOST,buyu9997.com,Advertising
-HOST,buyu9998.com,Advertising
 HOST,buyu9999.com,Advertising
 HOST,buz2mobile.com,Advertising
 HOST,buzina.xyz,Advertising
@@ -5183,6 +5169,7 @@ HOST,check2bill.org,Advertising
 HOST,checker.cityads.com,Advertising
 HOST,checkhit.com,Advertising
 HOST,checkmy.cam,Advertising
+HOST,checkmygeo.com,Advertising
 HOST,cheerfulrange.com,Advertising
 HOST,cheersfile.net,Advertising
 HOST,chefnbrewfestival.com,Advertising
@@ -5576,6 +5563,7 @@ HOST,clomgiriwil.com,Advertising
 HOST,clone147.com,Advertising
 HOST,cloreautomotive.com,Advertising
 HOST,cloud.roistat.com,Advertising
+HOST,cloudadservers.com,Advertising
 HOST,cloudcrown.com,Advertising
 HOST,cloudfrontage.com,Advertising
 HOST,cloudgraphite.com,Advertising
@@ -5878,7 +5866,6 @@ HOST,cookie.oup.com,Advertising
 HOST,cookielawblog.wordpress.com,Advertising
 HOST,cookies.cmpnet.com,Advertising
 HOST,cookies.insites.com,Advertising
-HOST,cookingtiprewards.com,Advertising
 HOST,cookingyourspanish.com,Advertising
 HOST,cooknfit.com,Advertising
 HOST,cool-hacks.com,Advertising
@@ -6174,6 +6161,7 @@ HOST,csgosteamanalyst.uk.com,Advertising
 HOST,csgotape.com,Advertising
 HOST,csgotaunt.com,Advertising
 HOST,csgotradefly.com,Advertising
+HOST,csgotradejet.com,Advertising
 HOST,csgotunes.com,Advertising
 HOST,csgoweaponskins.net,Advertising
 HOST,csinterinc.com,Advertising
@@ -6577,7 +6565,6 @@ HOST,desertedbreath.com,Advertising
 HOST,desertedrat.com,Advertising
 HOST,desertsportswear.com,Advertising
 HOST,desguacesautocoche.com,Advertising
-HOST,deshmedia.com,Advertising
 HOST,design.mangoxl.com,Advertising
 HOST,designcss.org,Advertising
 HOST,designiya.com,Advertising
@@ -7861,7 +7848,6 @@ HOST,feedback.apuslauncher.com,Advertising
 HOST,feedback.miui.com,Advertising
 HOST,feedback.uc.cn,Advertising
 HOST,feedback.windows.com,Advertising
-HOST,feedbackexplorer.com,Advertising
 HOST,feedbackresearch.com,Advertising
 HOST,feedburner.google.com,Advertising
 HOST,feedpedia.com,Advertising
@@ -8559,7 +8545,6 @@ HOST,galileounaluna.com,Advertising
 HOST,gall.dcinside.com,Advertising
 HOST,gallerycrush.com,Advertising
 HOST,gamblerush.com,Advertising
-HOST,game-fix.com,Advertising
 HOST,game-hacked.com,Advertising
 HOST,game.fire2333.com,Advertising
 HOST,game.youzu.com,Advertising
@@ -9730,7 +9715,6 @@ HOST,hohosearch.com,Advertising
 HOST,hoidulich.com,Advertising
 HOST,holadescuentos.com,Advertising
 HOST,holexknw.loan,Advertising
-HOST,holidayshoppingrewards.com,Advertising
 HOST,holisticperiodontist.com,Advertising
 HOST,holmesballard.chez.com,Advertising
 HOST,holmeshelptest.uc.cn,Advertising
@@ -10311,6 +10295,7 @@ HOST,info527.000webhostapp.com,Advertising
 HOST,infocentroidtech.com,Advertising
 HOST,infodocsportal.com,Advertising
 HOST,infomas11.000webhostapp.com,Advertising
+HOST,infomobilhonda.com,Advertising
 HOST,infonovia.com,Advertising
 HOST,informacja-dnia.com,Advertising
 HOST,information.com,Advertising
@@ -13703,7 +13688,6 @@ HOST,openx.omniton.net,Advertising
 HOST,openx.vsekiden.com,Advertising
 HOST,openx.watchmygf.net,Advertising
 HOST,operationkettle.com,Advertising
-HOST,operationoverdrive.net,Advertising
 HOST,opertrans.org,Advertising
 HOST,opienetwork.com,Advertising
 HOST,opiopiopi.000webhostapp.com,Advertising
@@ -13737,7 +13721,6 @@ HOST,oreo.iawsnetwork.com,Advertising
 HOST,oreshki-news.net,Advertising
 HOST,oreware.com,Advertising
 HOST,org-dot-com.com,Advertising
-HOST,organicbeautyminispa.com,Advertising
 HOST,organizedmadness.org,Advertising
 HOST,organogold.com,Advertising
 HOST,orgdotcom.com,Advertising
@@ -14108,6 +14091,7 @@ HOST,perupuntocom.com,Advertising
 HOST,peskygamer.com,Advertising
 HOST,pestxbakersfield.com,Advertising
 HOST,petelazer.com,Advertising
+HOST,peter-walters.com,Advertising
 HOST,peterjj.000webhostapp.com,Advertising
 HOST,peterjjj.000webhostapp.com,Advertising
 HOST,peterschramko.com,Advertising
@@ -15123,7 +15107,6 @@ HOST,realcastmedia.com,Advertising
 HOST,realclever.com,Advertising
 HOST,realclix.com,Advertising
 HOST,realestate.ipopple.net,Advertising
-HOST,realestate2.deshmedia.com,Advertising
 HOST,realfreakypedia.com,Advertising
 HOST,realgfsbucks.com,Advertising
 HOST,realimob.com,Advertising
@@ -15269,6 +15252,7 @@ HOST,relaxsearch.uphero.com,Advertising
 HOST,relayimmo.com,Advertising
 HOST,relevantknowledge.com,Advertising
 HOST,reliable-trip.com,Advertising
+HOST,reliablebanners.com,Advertising
 HOST,reliabledownloads.org,Advertising
 HOST,reliablefast.com,Advertising
 HOST,reliablefiles.com,Advertising
@@ -15911,7 +15895,6 @@ HOST,searchremagnified.com,Advertising
 HOST,searchresultsguide.com,Advertising
 HOST,searchtoexplore.com,Advertising
 HOST,searchwe.com,Advertising
-HOST,searra-ditol.cn,Advertising
 HOST,seashare.net,Advertising
 HOST,seasonfull.com,Advertising
 HOST,seasonpass.sharezips.net,Advertising
@@ -16555,7 +16538,6 @@ HOST,smi2ru.ivan.dev.smi2.net,Advertising
 HOST,smile-angel.com,Advertising
 HOST,smile-glory.com,Advertising
 HOST,smileapparels.com,Advertising
-HOST,smiletownfarm.com,Advertising
 HOST,smilingfaceband.com,Advertising
 HOST,smilingwaves.com,Advertising
 HOST,smillie.000webhostapp.com,Advertising
@@ -17215,7 +17197,6 @@ HOST,streamfullmoviehd.com,Advertising
 HOST,streamhd24.com,Advertising
 HOST,streaming.filmsgratuits.org,Advertising
 HOST,streamingfilmhd.com,Advertising
-HOST,streamstats1.blinkx.com,Advertising
 HOST,streamuj.org,Advertising
 HOST,streamunion.com,Advertising
 HOST,streetchicgeek.com,Advertising
@@ -17547,6 +17528,7 @@ HOST,tamada69.com,Advertising
 HOST,tamilcm.com,Advertising
 HOST,tan.pridnestrovie.com,Advertising
 HOST,tangankanan.net,Advertising
+HOST,tangaroa-sailing.com,Advertising
 HOST,tangence.actonsoftware.com,Advertising
 HOST,tanglike.top,Advertising
 HOST,tangwongkit.com,Advertising
@@ -66208,6 +66190,8 @@ HOST-KEYWORD,analytics,Advertising
 HOST-KEYWORD,applovin,Advertising
 HOST-KEYWORD,appsflyer,Advertising
 HOST-KEYWORD,asewlfjqwlflkew,Advertising
+HOST-KEYWORD,bngpt,Advertising
+HOST-KEYWORD,bongacash,Advertising
 HOST-KEYWORD,cnzz,Advertising
 HOST-KEYWORD,crashlytics,Advertising
 HOST-KEYWORD,dnserror,Advertising
@@ -66219,10 +66203,13 @@ HOST-KEYWORD,fenxi,Advertising
 HOST-KEYWORD,googleads,Advertising
 HOST-KEYWORD,greenplasticdua,Advertising
 HOST-KEYWORD,guanggao,Advertising
+HOST-KEYWORD,highwebmedia,Advertising
 HOST-KEYWORD,inmobi,Advertising
+HOST-KEYWORD,jads,Advertising
 HOST-KEYWORD,lianmeng,Advertising
 HOST-KEYWORD,mobaders,Advertising
 HOST-KEYWORD,monitor,Advertising
+HOST-KEYWORD,o333o,Advertising
 HOST-KEYWORD,omgmta,Advertising
 HOST-KEYWORD,omgmtaw,Advertising
 HOST-KEYWORD,omniture,Advertising
@@ -66233,12 +66220,14 @@ HOST-KEYWORD,securepubads,Advertising
 HOST-KEYWORD,socdm,Advertising
 HOST-KEYWORD,stsdk.vivo.com.cn,Advertising
 HOST-KEYWORD,stsdk.vivoglobal.com,Advertising
+HOST-KEYWORD,stunninglover,Advertising
 HOST-KEYWORD,supersonicads,Advertising
 HOST-KEYWORD,taboola,Advertising
 HOST-KEYWORD,talkingdata,Advertising
 HOST-KEYWORD,toateeli,Advertising
 HOST-KEYWORD,tracking,Advertising
 HOST-KEYWORD,traffic,Advertising
+HOST-KEYWORD,trwl1,Advertising
 HOST-KEYWORD,uedas,Advertising
 HOST-KEYWORD,umeng,Advertising
 HOST-KEYWORD,umtrack,Advertising

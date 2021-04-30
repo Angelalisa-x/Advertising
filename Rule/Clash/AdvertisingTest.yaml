@@ -1,13 +1,13 @@
 # NAME: AdvertisingTest
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-04-29 02:24:42
-# DOMAIN-KEYWORD: 61
-# DOMAIN-SUFFIX: 65894
-# DOMAIN: 16251
+# UPDATED: 2021-04-30 02:19:42
+# DOMAIN-KEYWORD: 68
+# DOMAIN-SUFFIX: 66314
+# DOMAIN: 16310
 # IP-CIDR: 247
 # IP-CIDR6: 1
-# TOTAL: 82454
+# TOTAL: 82940
 payload:
   - DOMAIN-KEYWORD,adashx
   - DOMAIN-KEYWORD,admarvel
@@ -33,6 +33,8 @@ payload:
   - DOMAIN-KEYWORD,applovin
   - DOMAIN-KEYWORD,appsflyer
   - DOMAIN-KEYWORD,asewlfjqwlflkew
+  - DOMAIN-KEYWORD,bngpt
+  - DOMAIN-KEYWORD,bongacash
   - DOMAIN-KEYWORD,cnzz
   - DOMAIN-KEYWORD,crashlytics
   - DOMAIN-KEYWORD,dnserror
@@ -44,10 +46,13 @@ payload:
   - DOMAIN-KEYWORD,googleads
   - DOMAIN-KEYWORD,greenplasticdua
   - DOMAIN-KEYWORD,guanggao
+  - DOMAIN-KEYWORD,highwebmedia
   - DOMAIN-KEYWORD,inmobi
+  - DOMAIN-KEYWORD,jads
   - DOMAIN-KEYWORD,lianmeng
   - DOMAIN-KEYWORD,mobaders
   - DOMAIN-KEYWORD,monitor
+  - DOMAIN-KEYWORD,o333o
   - DOMAIN-KEYWORD,omgmta
   - DOMAIN-KEYWORD,omgmtaw
   - DOMAIN-KEYWORD,omniture
@@ -58,12 +63,14 @@ payload:
   - DOMAIN-KEYWORD,socdm
   - DOMAIN-KEYWORD,stsdk.vivo.com.cn
   - DOMAIN-KEYWORD,stsdk.vivoglobal.com
+  - DOMAIN-KEYWORD,stunninglover
   - DOMAIN-KEYWORD,supersonicads
   - DOMAIN-KEYWORD,taboola
   - DOMAIN-KEYWORD,talkingdata
   - DOMAIN-KEYWORD,toateeli
   - DOMAIN-KEYWORD,tracking
   - DOMAIN-KEYWORD,traffic
+  - DOMAIN-KEYWORD,trwl1
   - DOMAIN-KEYWORD,uedas
   - DOMAIN-KEYWORD,umeng
   - DOMAIN-KEYWORD,umtrack
