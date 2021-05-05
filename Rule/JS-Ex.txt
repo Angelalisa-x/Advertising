@@ -65,10 +65,11 @@ hostname= *.rr.tv, education.github.com, baimiao.uzero.cn, lambda.us-east-1.amaz
 // @ScriptURL         https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/Quan_crack.conf
 // ==/UserScript==
 ****Please don't quote this rewrite configuration****
+# > 092 疯狂脑洞大开1&2 破解钻石和关卡权限（20210504）
+;The content is obtained from the Cuttlefish WeChat public account
 # > 091 酷我音乐 解锁皮肤主题（20210425）
 ^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/theme)  url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/theme.js
 # > 090 时尚芭莎++ 卡通相机++ iHTTP浏览器++ 解锁会员权限功能（20210424）
-;The content is obtained from the Cuttlefish WeChat public account
 # > 089 Dayone 更新会员crack功能（20210423）
 ;uncomplete
 # > 088 Imgplay++ Inside++ Dazz++ Photofox++ 一次性解锁Premium （20210423）
