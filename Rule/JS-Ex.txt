@@ -58,14 +58,16 @@ hostname= *.rr.tv, education.github.com, baimiao.uzero.cn, lambda.us-east-1.amaz
 // @TgChannel         https://t.me/ddgksf2021
 // @TgChannel         频道已移除所有人员，私有不再对外公开
 // @WechatID          墨鱼手记
-// @UpdateTime        20210422
+// @UpdateTime        20210505
 // @Attention         Only for backup,please don't quote this rewrite configuration
 // @ScriptTime        若脚本失效可抓取对应时间的旧版本应用
 // @ForExplain        “++” is the sign of Http Catcher Rules
 // @ScriptURL         https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/Quan_crack.conf
 // ==/UserScript==
 ****Please don't quote this rewrite configuration****
-# > 092 疯狂脑洞大开1&2 破解钻石和关卡权限（20210504）
+# > 093 ToonMe 破解会员功能包括去广告及会员模板（20210505）
+;The script is obtained from the Cuttlefish WeChat public account
+# > 092 疯狂脑洞大开1&2++ 破解钻石和关卡权限（20210504）
 ;The content is obtained from the Cuttlefish WeChat public account
 # > 091 酷我音乐 解锁皮肤主题（20210425）
 ^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/theme)  url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/theme.js
