@@ -18,7 +18,7 @@ https:\/\/weather-data\.apple\.com url script-request-header https://raw.githubu
 ^http://.+/amdc/mobileDispatch url script-request-body https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js
 ^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js
 # 京东历史价格
-^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js
+^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig|lite_wareBusiness) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js
 # 京东活动
 https://.*\.m\.jd\.com/.*\.html url script-response-body https://raw.githubusercontent.com/id77/QuantumultX/master/Script/jd_hd.jshostname= www.zhihu.com, zhuanlan.zhihu.com, *.amemv.com, aweme.snssdk.com, 
 # 知乎网页去广告&推荐列表
@@ -343,6 +343,7 @@ https:\/\/.*\.xiaoxiao.*\.com\/(vod\/reqplay\/|ucp/index|getGlobalData) url scri
 # PicsArt美易 pro
 ^https:\/\/api\.(picsart|meiease)\.c(n|om)\/users\/show\/me\.json url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/PicsArt.js
 # 京东比价
+^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js
 # 淘宝比价
 # Netflix评分
 ^https?://ios-h2\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D url script-request-header https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js

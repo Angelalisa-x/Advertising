@@ -1,14 +1,15 @@
 # NAME: AdvertisingTest
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-05-06 02:13:50
-# DOMAIN-KEYWORD: 69
-# DOMAIN-SUFFIX: 74844
-# DOMAIN: 14457
+# UPDATED: 2021-05-08 02:14:25
+# DOMAIN-KEYWORD: 76
+# DOMAIN-SUFFIX: 75030
+# DOMAIN: 14471
 # IP-CIDR: 247
 # IP-CIDR6: 1
-# TOTAL: 89618
+# TOTAL: 89825
 payload:
+  - DOMAIN-KEYWORD,112wan
   - DOMAIN-KEYWORD,adashx
   - DOMAIN-KEYWORD,admarvel
   - DOMAIN-KEYWORD,admaster
@@ -37,6 +38,8 @@ payload:
   - DOMAIN-KEYWORD,bongacash
   - DOMAIN-KEYWORD,cnzz
   - DOMAIN-KEYWORD,crashlytics
+  - DOMAIN-KEYWORD,dat8
+  - DOMAIN-KEYWORD,dfkj8
   - DOMAIN-KEYWORD,dlads
   - DOMAIN-KEYWORD,dnserror
   - DOMAIN-KEYWORD,domob
@@ -47,10 +50,13 @@ payload:
   - DOMAIN-KEYWORD,googleads
   - DOMAIN-KEYWORD,greenplasticdua
   - DOMAIN-KEYWORD,guanggao
+  - DOMAIN-KEYWORD,haowanyou
   - DOMAIN-KEYWORD,highwebmedia
   - DOMAIN-KEYWORD,inmobi
   - DOMAIN-KEYWORD,jads
   - DOMAIN-KEYWORD,lianmeng
+  - DOMAIN-KEYWORD,lieyou
+  - DOMAIN-KEYWORD,mifengv
   - DOMAIN-KEYWORD,mobaders
   - DOMAIN-KEYWORD,monitor
   - DOMAIN-KEYWORD,o333o
@@ -77,6 +83,7 @@ payload:
   - DOMAIN-KEYWORD,umtrack
   - DOMAIN-KEYWORD,uploadmobiledata
   - DOMAIN-KEYWORD,wlmonitor
+  - DOMAIN-KEYWORD,xxshuyuan
   - DOMAIN-KEYWORD,zjtoolbar
   - IP-CIDR,1.3.0.10/32
   - IP-CIDR,10.72.25.0/24
