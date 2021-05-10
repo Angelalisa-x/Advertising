@@ -1,10 +1,46 @@
 ! Description: adg-kall-dns collected on the network and I have written some rules
 ! Homepage: www.kbsml.com
 ! Title: adg-kall-dns
-! Version: 1.0.0.53
-! TimeUpdated: 2021-04-21T22:13
+! Version: 1.0.0.61
+! TimeUpdated: 2021-05-04T20:58
 ! Expires: 7 days
 !
+||imp.ad.xelements.cn^
+||gz-data.com^
+||gzads.com^
+||gozendata.com^ 
+||emar.com^
+||onemob.mobi^
+||reyun.com^
+||71360.com^
+||zhihuiyun.net.cn^
+||chance-ad.com^
+||nequal.cn^
+||n1q.cn^
+||nequal.com^
+||adx-open-service.youku.com^
+||missile.youku.com^
+||tzxy.tonghao.ltd^
+||click.abi.run^
+||xmh4*.com^
+||yxkzp.info^
+||cyxc.info^
+||chinahld.xyz^
+||ykmh.com^
+||zxptw.cn^
+||yuyuansheji.com
+||cm365.xyz^
+||preatt15.thejierou.net^
+||98pro.cc^
+||18comic2.biz^
+||otheve.beacon.qq.com^
+||trace.rtbasia.com^
+||lmbsy.qq.com^
+||h.sora.yoyi.com.cn^
+||t.cr-nielsen.com^
+||mon.ad.xelements.cn^
+||vt.ipinyou.com^
+||adss.video.qq.com^
 ||xgxq518.com^
 ||weizhenwx.com^
 ||zazwmf.cn^
@@ -798,7 +834,7 @@
 ||a.75111.com^
 ||a.7788xs.net^
 ||a.80982.org^
-||a.ad7.com^
+||ad7.com^
 ||a.adroll.com^
 ||a.adtng.com^
 ||a.ai.inmobi.com^
@@ -1262,7 +1298,6 @@
 ||adimp.excite.co.jp^
 ||adinf.cp11.ott.cibntv.net^
 ||adinf.voole.com^
-||adinfo.ra1.xlmc.sec.miui.com^
 ||adirects.com^
 ||adjb.5nd.com^
 ||adk2x.com^
@@ -1668,7 +1703,6 @@
 ||alm1.tongyuanhejishu.com^
 ||alog.umeng.co^
 ||alryo.cn^
-||als.baidu.com^
 ||am.g.ireader.com^
 ||am.szhome.com^
 ||am.zdnet.com.cn^
@@ -1868,7 +1902,6 @@
 ||api.baifendian.com^
 ||api.bailingjiankang.com^
 ||api.cmt.mob.com^
-||api.comm.miui.com^
 ||api.coolguang.com^
 ||api.cupid.ptqy.gitv.tv^
 ||api.cupid.qiyi.com^
@@ -1898,9 +1931,7 @@
 ||api.oneyuan.nagezan.net^
 ||api.open.uc.cn^
 ||api.primecaster.net^
-||api.ra2.xlmc.sec.miui.com^
 ||api.ringtonematcher.com^
-||api.sec.miui.com^
 ||api.share.mob.com^
 ||api.shuaji.360.cn^
 ||api.shuzilm.cn^
@@ -1909,7 +1940,6 @@
 ||api.tr.blismedia.com^
 ||api.tuisong.baidu.com^
 ||api.tw06.xlmc.sandai.net^
-||api.tw06.xlmc.sec.miui.com^
 ||api.union.vip.com^
 ||api.viglink.com^
 ||api.vungle.com^
@@ -2581,7 +2611,6 @@
 ||cb.l.qq.com^
 ||cb.lomark.cn^
 ||cbdm.weathercn.com^
-||cbjs.baidu.com^
 ||cbs.wondershare.com^
 ||cbvjddh.23txt.com^
 ||cby521.cn^
@@ -3279,7 +3308,6 @@
 ||data.adserve.tomoimg.cn^
 ||data.danmu.baofeng.com^
 ||data.doodlemobile.com^
-||data.game.xiaomi.com^
 ||data.gosquared.com^
 ||data.linoleictanzaniatitanic.com^
 ||data.mistat.xiaomi.com^
@@ -3810,7 +3838,6 @@
 ||ethic.vip^
 ||ethod.gzgmjcx.com^
 ||etl.xlmc.sandai.net^
-||etl.xlmc.sec.miui.com^
 ||evefashion.cn^
 ||event.ksosoft.com^
 ||event.previewnetworks.com^
@@ -3956,7 +3983,6 @@
 ||file.bmob.cn^
 ||file.chanet.com.cn^
 ||file.ipinyou.com.cn^
-||file.xmpush.xiaomi.com^
 ||fileloadr.com^
 ||files.adform.net^
 ||files2.sogou.com^
@@ -4632,7 +4658,6 @@
 ||huashuowork.com^
 ||huayange.com^
 ||huayi65.com^
-||hub5pn.wap.sandai.net^
 ||hubojd.com^
 ||huhai.cdwz8.cn^
 ||huhu.jzm81.com^
@@ -4975,7 +5000,6 @@
 ||instreet.cn^
 ||insuf.cn^
 ||inswebt.com^
-||int.dpool.sina.com.cn^
 ||int.w3tong.com^
 ||inte.sogou.com^
 ||intelligence.dgmsearchlab.com^
@@ -6361,7 +6385,6 @@
 ||nongsalei.com^
 ||nop.xpanama.net^
 ||nord-raum.com^
-||notice.game.xiaomi.com^
 ||notice.uchome.manyou.com^
 ||notify.oupeng.com^
 ||notify.wps.cn^
@@ -6795,7 +6818,6 @@
 ||ppco.trwba.com^
 ||ppt.tianya999.com^
 ||pptte.com^
-||ppurifier.game.xiaomi.com^
 ||pr.atwola.com^
 ||pr.da.netease.com^
 ||pr.ybp.yahoo.com^
@@ -7097,7 +7119,6 @@
 ||redpaper-10006092.cos.myqcloud.com^
 ||redrain-aglnsy.bytedance.com^
 ||referrer.disqus.com^
-||register.xmpush.xiaomi.com^
 ||rekanw.com^
 ||release.baidu.com^
 ||reliancevalve.com^
@@ -7177,9 +7198,7 @@
 ||rr.knet.cn^
 ||rrsubway.com^
 ||rs.sinajs.cn^
-||rs1.qq.com^
 ||rs1.rensheng5.com^
-||rs2.qq.com^
 ||rsccs.com^
 ||rscxwmj.cn^
 ||rss.ynet.com^
@@ -7572,7 +7591,6 @@
 ||slvtx.com^
 ||sm077.com^
 ||smallmovieapp.com^
-||smartapps.cn^
 ||smf82.cn^
 ||smitionsory.co^
 ||smsksx.com^
@@ -10068,4 +10086,4 @@
 ||zzy1.quyaoya.com^
 ||zzyonghao.com^
 ||zzz7.52896368.com^
-|ad.player.baidu.com^
+||ad.player.baidu.com^

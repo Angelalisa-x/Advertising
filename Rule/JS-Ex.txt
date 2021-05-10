@@ -58,15 +58,19 @@ hostname= *.rr.tv, education.github.com, baimiao.uzero.cn, lambda.us-east-1.amaz
 // @TgChannel         https://t.me/ddgksf2021
 // @TgChannel         频道已移除所有人员，私有不再对外公开
 // @WechatID          墨鱼手记
-// @UpdateTime        20210505
+// @UpdateTime        20210510
 // @Attention         Only for backup,please don't quote this rewrite configuration
 // @ScriptTime        若脚本失效可抓取对应时间的旧版本应用
 // @ForExplain        “++” is the sign of Http Catcher Rules
+// @Appreciation      更新不易，有能力的请去公众号打赏杯凉白开，谢谢
+// @CollectApp        https://docs.qq.com/sheet/DYmRTQXpVY0hNcGls?tab=BB08J2
 // @ScriptURL         https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/Quan_crack.conf
 // ==/UserScript==
 ****Please don't quote this rewrite configuration****
+# > 094 SimplyPiano 高级会员权限破解（202105010）
+;uncompleted
 # > 093 ToonMe 破解会员功能包括去广告及会员模板（20210505）
-;The script is obtained from the Cuttlefish WeChat public account
+https://purchases.ws.pho.to/api/v2/apple/* url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/tm.js
 # > 092 疯狂脑洞大开1&2++ 破解钻石和关卡权限（20210504）
 ;The content is obtained from the Cuttlefish WeChat public account
 # > 091 酷我音乐 解锁皮肤主题（20210425）
@@ -104,7 +108,6 @@ https://api.yikaobang.com.cn/* url script-response-body https://raw.githubuserco
 # > 072 百度云倍速播放和会员专属清晰度Crack功能 （20210310）
 https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/bdcloud.js
 # > 071 Cal 解锁会员订阅功能 （20210302）
-;uncompleted
 # > 070 MoneyCoach++ 解锁会员权限 （20210301）
 # > 069 简衣橱++ 一次性解锁会员权限（20210228）
 # > 068 Avatarify 破解会员功能（20210228）
