@@ -67,6 +67,8 @@ hostname= *.rr.tv, education.github.com, baimiao.uzero.cn, lambda.us-east-1.amaz
 // @ScriptURL         https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/Quan_crack.conf
 // ==/UserScript==
 ****Please don't quote this rewrite configuration****
+# > 095 Altstore
+https:\/\/www\.patreon\.com\/api\/oauth2\/v2\/identity? url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/altstore.js
 # > 094 SimplyPiano 高级会员权限破解（202105010）
 ;uncompleted
 # > 093 ToonMe 破解会员功能包括去广告及会员模板（20210505）

@@ -1,11 +1,11 @@
 # NAME: Privacy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-05-10 02:12:05
+# UPDATED: 2021-05-10 10:21:54
 # HOST: 19
-# HOST-SUFFIX: 9457
+# HOST-SUFFIX: 9443
 # IP-CIDR: 6
-# TOTAL: 9482
+# TOTAL: 9468
 HOST,hm.baidu.com,Privacy
 HOST,hmma.baidu.com,Privacy
 HOST,js.users.51.la,Privacy
@@ -968,7 +968,6 @@ HOST-SUFFIX,analytics.wildtangent.com,Privacy
 HOST-SUFFIX,analytics.winter.ink,Privacy
 HOST-SUFFIX,analytics.witglobal.net,Privacy
 HOST-SUFFIX,analytics.worldtable.co,Privacy
-HOST-SUFFIX,analytics.yahoo.com,Privacy
 HOST-SUFFIX,analytics.yext-static.com,Privacy
 HOST-SUFFIX,analytics.yola.net,Privacy
 HOST-SUFFIX,analytics.yolacdn.net,Privacy
@@ -1129,7 +1128,6 @@ HOST-SUFFIX,b.dl.redcrossblood.org,Privacy
 HOST-SUFFIX,b.escardio.org,Privacy
 HOST-SUFFIX,b.fox.com,Privacy
 HOST-SUFFIX,b.foxsports.com,Privacy
-HOST-SUFFIX,b.gemini.yahoo.com,Privacy
 HOST-SUFFIX,b.imwx.com,Privacy
 HOST-SUFFIX,b.koodomobile.com,Privacy
 HOST-SUFFIX,b.law.com,Privacy
@@ -1161,7 +1159,6 @@ HOST-SUFFIX,barcelo.ingenioustech.biz,Privacy
 HOST-SUFFIX,barium.cheezdev.com,Privacy
 HOST-SUFFIX,bat.adforum.com,Privacy
 HOST-SUFFIX,bat.bing.com,Privacy
-HOST-SUFFIX,bats.video.yahoo.com,Privacy
 HOST-SUFFIX,bavvgo.zingat.com,Privacy
 HOST-SUFFIX,bbbihe.vertbaudet.es,Privacy
 HOST-SUFFIX,bc.law.com,Privacy
@@ -1212,7 +1209,6 @@ HOST-SUFFIX,beacons.brandads.net,Privacy
 HOST-SUFFIX,beacons.mediamelon.com,Privacy
 HOST-SUFFIX,beagle.prod.tda.link,Privacy
 HOST-SUFFIX,beam.mjhlifesciences.com,Privacy
-HOST-SUFFIX,beap-bc.yahoo.com,Privacy
 HOST-SUFFIX,beaumont.actonservice.com,Privacy
 HOST-SUFFIX,becanium.com,Privacy
 HOST-SUFFIX,befirstcdn.com,Privacy
@@ -1736,7 +1732,6 @@ HOST-SUFFIX,cookies.reedbusiness.nl,Privacy
 HOST-SUFFIX,cookies.siemens-energy.com,Privacy
 HOST-SUFFIX,cookies.siemens.com,Privacy
 HOST-SUFFIX,cookietracking.eatonpowersource.com,Privacy
-HOST-SUFFIX,cookiex.ngd.yahoo.com,Privacy
 HOST-SUFFIX,coolertracks.emailroi.com,Privacy
 HOST-SUFFIX,core.bruynzeelkeukens.nl,Privacy
 HOST-SUFFIX,core.unit-sense.net,Privacy
@@ -2875,7 +2870,6 @@ HOST-SUFFIX,ga.webdigi.co.uk,Privacy
 HOST-SUFFIX,gak.webtoons.com,Privacy
 HOST-SUFFIX,game9time.com,Privacy
 HOST-SUFFIX,gamesradar-gb.gamesradar.com,Privacy
-HOST-SUFFIX,ganon.yahoo.com,Privacy
 HOST-SUFFIX,gard4mass.com,Privacy
 HOST-SUFFIX,garm9yuma.com,Privacy
 HOST-SUFFIX,gastdn.wolfandbadger.com,Privacy
@@ -2906,7 +2900,6 @@ HOST-SUFFIX,geo.nbcsports.com,Privacy
 HOST-SUFFIX,geo.q5media.net,Privacy
 HOST-SUFFIX,geo.thehindu.com,Privacy
 HOST-SUFFIX,geo.xcel.io,Privacy
-HOST-SUFFIX,geo.yahoo.com,Privacy
 HOST-SUFFIX,geobar.ziffdavisinternational.com,Privacy
 HOST-SUFFIX,geobeacon.ign.com,Privacy
 HOST-SUFFIX,geolocation.forbes.com,Privacy
@@ -3535,7 +3528,6 @@ HOST-SUFFIX,jen.jiji.com,Privacy
 HOST-SUFFIX,jhm3.ifgexecutive.com,Privacy
 HOST-SUFFIX,jhnmpm.kiwoko.com,Privacy
 HOST-SUFFIX,jijcyb.competitivecyclist.com,Privacy
-HOST-SUFFIX,jill.fc.yahoo.com,Privacy
 HOST-SUFFIX,jknarp.kakaku.com,Privacy
 HOST-SUFFIX,jln3.clstudios.com,Privacy
 HOST-SUFFIX,jmjkix.tofisa.com,Privacy
@@ -3707,7 +3699,6 @@ HOST-SUFFIX,lfkesv.seeplaces.com,Privacy
 HOST-SUFFIX,lfnzmp.bestdeco.nl,Privacy
 HOST-SUFFIX,lg.tr.pandora.tv,Privacy
 HOST-SUFFIX,lgm.averydennison.com,Privacy
-HOST-SUFFIX,lh.secure.yahoo.com,Privacy
 HOST-SUFFIX,liadm.com,Privacy
 HOST-SUFFIX,library.westernstatescat.com,Privacy
 HOST-SUFFIX,licensing.bitmovin.com,Privacy
@@ -5448,7 +5439,6 @@ HOST-SUFFIX,nnvtvx.chegg.com,Privacy
 HOST-SUFFIX,noa0.compteczam.fr,Privacy
 HOST-SUFFIX,noflake-aggregator-http.narvar.com,Privacy
 HOST-SUFFIX,nojnix.solairepratique.com,Privacy
-HOST-SUFFIX,nol.yahoo.com,Privacy
 HOST-SUFFIX,nom.churchofjesuschrist.org,Privacy
 HOST-SUFFIX,nong3bram.com,Privacy
 HOST-SUFFIX,nora7nice.com,Privacy
@@ -5753,9 +5743,6 @@ HOST-SUFFIX,pbox.photobox.se,Privacy
 HOST-SUFFIX,pcgamer-gb.pcgamer.com,Privacy
 HOST-SUFFIX,pciidk.shopee.vn,Privacy
 HOST-SUFFIX,pciokm.glamuse.com,Privacy
-HOST-SUFFIX,pclick.europe.yahoo.com,Privacy
-HOST-SUFFIX,pclick.internal.yahoo.com,Privacy
-HOST-SUFFIX,pclick.yahoo.com,Privacy
 HOST-SUFFIX,pcykgc.onetravel.com,Privacy
 HOST-SUFFIX,pdc.dmleonyc.com,Privacy
 HOST-SUFFIX,peak2poem.com,Privacy
@@ -9086,7 +9073,6 @@ HOST-SUFFIX,visit.hypertherm.com,Privacy
 HOST-SUFFIX,visit.mobot.net,Privacy
 HOST-SUFFIX,visit.tafensw.edu.au,Privacy
 HOST-SUFFIX,visit.theglobeandmail.com,Privacy
-HOST-SUFFIX,visit.webhosting.yahoo.com,Privacy
 HOST-SUFFIX,visitors.sourcingmap.com,Privacy
 HOST-SUFFIX,visitors.winecountrygiftbaskets.com,Privacy
 HOST-SUFFIX,visitping.rossel.be,Privacy
