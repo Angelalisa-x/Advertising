@@ -67,6 +67,8 @@ hostname= *.rr.tv, education.github.com, baimiao.uzero.cn, lambda.us-east-1.amaz
 // @ScriptURL         https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/Quan_crack.conf
 // ==/UserScript==
 ****Please don't quote this rewrite configuration****
+# > 098 西窗烛 修复版 解锁终身会员 文艺范的福音（20210514）Attention：登录使用
+https://lchttpapi.xczim.com/* url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcz.js
 # > 097 Vizmato 破解VIP无限使用高级功能（20210512）
 https://web.vizmato.com/itunesreceipt_v5.php url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/vm.js
 # > 096 Pixiv 解锁高级会员权限并去除广告（20210513）
@@ -192,7 +194,7 @@ https://cm.szsszykj.com/interface/GetVip.php url script-response-body https://ra
 # > 032 Fantastical 解锁SVIP会员订阅 （20200924）⭐️
 ^https:\/\/api\.flexibits\.com\/(v1\/auth\/device|v1\/account\/details) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/fantastical.js
 # > 031 西窗烛 解锁终身会员 文艺范的福音（20200924）Attention：登录使用
-https://avoscloud.com/* url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcz.js
+;https://avoscloud.com/* url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcz.js
 # > 030 老胡工具箱 微信小程序解除隐藏内容 （20200916）
 https://d.syshhc.top/wp-json/wp/v2/* url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcx.js
 # > 029 一言 解锁终身会员 （20200916）Attention:登录使用
