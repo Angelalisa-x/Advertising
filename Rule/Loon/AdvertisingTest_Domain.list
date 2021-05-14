@@ -1,15 +1,15 @@
 # NAME: AdvertisingTest
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-05-13 10:03:44
+# UPDATED: 2021-05-14 00:24:18
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，请搭配MITM使用
 # DOMAIN-KEYWORD: 76
-# DOMAIN-SUFFIX: 75064
-# DOMAIN: 14402
+# DOMAIN-SUFFIX: 75073
+# DOMAIN: 14404
 # IP-CIDR: 253
 # IP-CIDR6: 1
 # URL-REGEX: 302
-# TOTAL: 90098
+# TOTAL: 90109
 0.up.qingdaonews.com
 0001.2waky.com
 000lk3v.wcomhost.com
@@ -4279,6 +4279,7 @@ dryazilim.com
 drywallexpo.com
 ds.cybereps.com
 ds.keshet-i.com
+ds.waimaofuzhuang.cn
 dsbcplibrary.org
 dsd7ugeb97nnc.cloudfront.net
 dserver.hw.net
@@ -14039,6 +14040,7 @@ xhamstertube.com
 xhqsysp.com
 xhvhisywkvha.com
 xiamenoa.com
+xiamiss.wap.xsbiquge.com
 xianyicao.net
 xiaocen.com
 xiaojinqipai.com
@@ -17141,6 +17143,7 @@ zzz.clickbank.net
 .a.91nets.cn
 .a.91zhongkao.com
 .a.ab90be9135de1428ae387956ebd06722.com
+.a.ac.qq.com
 .a.ad.playstation.net
 .a.admaxserver.com
 .a.aproductmsg.com
@@ -24011,6 +24014,7 @@ zzz.clickbank.net
 .analytics-pit-nfl.yinzcam.com
 .analytics-prod-ingress.bricknet.com
 .analytics-production.hapyak.com
+.analytics-proxy.springboard.com
 .analytics-rhwg.rhcloud.com
 .analytics-script.ad-shield.io
 .analytics-scripts.cablelabs.com
@@ -26039,7 +26043,6 @@ zzz.clickbank.net
 .augur.io
 .august15download.com
 .augustjudgementsuddenly.com
-.augvtjtnsfnxg.ru
 .auhqnsjbvizeey.com
 .auiviilbp2.com
 .aujaujoa.net
@@ -27676,6 +27679,7 @@ zzz.clickbank.net
 .besocial.online
 .besstahete.info
 .best-cargo.ru
+.best-cdn.pl
 .best-hir.com
 .best-search.cc
 .best-top.de
@@ -29522,6 +29526,7 @@ zzz.clickbank.net
 .byrgin.ru
 .byronevaca.fun
 .byscy.cn
+.byside.com
 .byspot.com
 .bystfied.pro
 .bytb996.top
@@ -30007,6 +30012,7 @@ zzz.clickbank.net
 .capacitygrid.com
 .capacygre.top
 .capath.com
+.capcap621.cn
 .caperning.com
 .caphaiks.com
 .caphyon-analytics.com
@@ -36312,6 +36318,7 @@ zzz.clickbank.net
 .displayvertising.com
 .displeasepawn.com
 .displink.com
+.disploot.com
 .dispop.com
 .disposalfourth.com
 .disposecompere.com
@@ -38956,7 +38963,6 @@ zzz.clickbank.net
 .enhucherions.xyz
 .eniousirre.top
 .enjoy.modd.io
-.enjoyableoffers.club
 .enjoynet.fuse-ad.com
 .enjuk.com
 .enjuw.com
@@ -46160,6 +46166,7 @@ zzz.clickbank.net
 .huoyiad2.cn
 .huoying666.com
 .hupsouft.net
+.hupu-nba.com
 .hupuzhibo.cn
 .hurchaseeffectionpe.info
 .hurchasisounci.site
@@ -46318,6 +46325,7 @@ zzz.clickbank.net
 .hz1.lanmei80.com
 .hz3137.com
 .hzaibi.com
+.hzbrcajp.cn
 .hzbxm.com
 .hzdhr.cn
 .hzeetn.natalie.mu
@@ -47780,7 +47788,6 @@ zzz.clickbank.net
 .ingenioustech.biz
 .ingest.m2appmonitor.com
 .ingoinghitchstick.com
-.ingorob.com
 .ingprographyt.info
 .ingratitudedaintyblockade.com
 .inhadhen.com
@@ -51724,6 +51731,7 @@ zzz.clickbank.net
 .lfnzmp.bestdeco.nl
 .lfouz.com
 .lfov.net
+.lfsenmei.com
 .lfstmedia.com
 .lftqch650apz.com
 .lfxdqs.mamasandpapas.ae
@@ -52246,6 +52254,7 @@ zzz.clickbank.net
 .livejasmin.com
 .livejasmin.tv
 .livelumber.com
+.livelyoffers.club
 .liventernet.ml
 .livep.l.ott.video.qq.com
 .livepartners.it
@@ -53066,6 +53075,7 @@ zzz.clickbank.net
 .lrc.nct.nixcdn.com
 .lrcs.info
 .lrdnuu.shopee.co.th
+.lrevfhmp.cn
 .lrghpuvvo.com
 .lrjglcmgbf.com
 .lrkvionrsnlc.com
@@ -53424,6 +53434,7 @@ zzz.clickbank.net
 .m.97tuk.cn
 .m.9r48f.cn
 .m.aangc.com
+.m.abfalse.cn
 .m.achuc.com
 .m.acmgloballab.com
 .m.adbridge.de
@@ -53456,10 +53467,8 @@ zzz.clickbank.net
 .m.cbeif.com
 .m.cdxtny.cn
 .m.cenrs.com
-.m.cepga.cn
 .m.cfanm.com
 .m.chenhuia.com
-.m.chqdz9.com
 .m.cjjcby.cn
 .m.ckaim.com
 .m.clubske.com
@@ -54967,6 +54976,7 @@ zzz.clickbank.net
 .mcmhatmt.com
 .mcninc.cn
 .mcnt.jp
+.mconedh.cn
 .mcontigo.com
 .mcopolice.com
 .mcore.vcgame.cn
@@ -59170,6 +59180,7 @@ zzz.clickbank.net
 .nicappazaza.com
 .nice.kuaizq.com
 .nice3aiea.com
+.nicearticle.cc
 .nicelabel.cc
 .nicequest.com
 .nicesearches.com
@@ -64447,6 +64458,7 @@ zzz.clickbank.net
 .prism.noordermeer.ch
 .prism.pandora.tv
 .pritesol.com
+.privacy-api.9gag.com
 .privacy-center.org
 .privacy-policy.truste.com
 .privacy.claytonhomes.com
@@ -67112,6 +67124,7 @@ zzz.clickbank.net
 .relatedweboffers.com
 .relaxingovercomeexaggerate.com
 .relaxspace.com.cn
+.relay.fiverr.com
 .relaycn.icloseli.com
 .relead.com
 .release-me.ru
@@ -67212,6 +67225,7 @@ zzz.clickbank.net
 .report-uri.com
 .report-uri.io
 .report-zt.allmusic.com
+.report.cms.qq.com
 .report.meituan.com
 .report.mitsubishicars.com
 .report.novinky.cz
@@ -81337,7 +81351,6 @@ zzz.clickbank.net
 .ultimateclixx.com
 .ultimatecounter.com
 .ultimatefashiongifts.com
-.ultra-cdn.pl
 .ultra2.tsinghua.edu.cn
 .ultraadserver.com
 .ultrabestportal.com
@@ -81836,7 +81849,6 @@ zzz.clickbank.net
 .us.bannyat.com
 .us.bksn.se
 .us.c1.yimg.com
-.us.cf
 .us.cfcdist.loan
 .us.cfcnet.top
 .us.d1.yimg.com
@@ -84014,7 +84026,6 @@ zzz.clickbank.net
 .webcampromotions.com
 .webcams.com
 .webcamsex.nl
-.webcare.byside.com
 .webcash.nl
 .webcaster.pro
 .webclickengine.com
@@ -84893,7 +84904,6 @@ zzz.clickbank.net
 .wl.duoshitong.com
 .wl.eastlady.cn
 .wl.hd.sohu.com
-.wl.spotify.com
 .wl.xsoftmall.com
 .wl.yna.co.kr
 .wl963.com
@@ -87224,6 +87234,7 @@ zzz.clickbank.net
 .xunhuaji.cn
 .xunkhuczqnuf.com
 .xunlaile.com
+.xunleiii.com
 .xuntingad.com
 .xunyibaike.com
 .xunzhuo123.com

@@ -67,9 +67,8 @@ hostname= *.rr.tv, education.github.com, baimiao.uzero.cn, lambda.us-east-1.amaz
 // @ScriptURL         https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/Quan_crack.conf
 // ==/UserScript==
 ****Please don't quote this rewrite configuration****
-# > 098 Vizmato 破解VIP无限使用高级功能（20210512）
+# > 097 Vizmato 破解VIP无限使用高级功能（20210512）
 https://web.vizmato.com/itunesreceipt_v5.php url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/vm.js
-# > 097 Headspace 破解会员音频享受宁静音乐（20210513）
 # > 096 Pixiv 解锁高级会员权限并去除广告（20210513）
 ;For personal use, not open to the public
 # > 095 Altstore not testing（20210512）
