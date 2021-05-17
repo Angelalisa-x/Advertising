@@ -58,7 +58,7 @@ hostname= *.rr.tv, education.github.com, baimiao.uzero.cn, lambda.us-east-1.amaz
 // @TgChannel         https://t.me/ddgksf2021
 // @TgChannel         频道已移除所有人员，私有不再对外公开
 // @WechatID          墨鱼手记
-// @UpdateTime        20210512
+// @UpdateTime        20210515
 // @Attention         Only for backup,please don't quote this rewrite configuration
 // @ScriptTime        若脚本失效可抓取对应时间的旧版本应用
 // @ForExplain        “++” is the sign of Http Catcher Rules
@@ -67,6 +67,12 @@ hostname= *.rr.tv, education.github.com, baimiao.uzero.cn, lambda.us-east-1.amaz
 // @ScriptURL         https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/Quan_crack.conf
 // ==/UserScript==
 ****Please don't quote this rewrite configuration****
+# > 101 京东取消店铺会员 跳转浏览器版 （20210516）
+https://api\.m\.jd\.com\/client\.action\?appid=jd_shop_member&functionId=getShopMemberCardDetail&.+ url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/unbind.js
+# > 100 我奥篮球 解锁付费直播回放及回放下载（20210515）by photonmang
+http://api.woaoo.net/.+ url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/walq.js
+# > 099 小睡眠 新版有sign校验 请自行抓包旧版安装（20210515）
+;Please download old ipa version
 # > 098 西窗烛 修复版 解锁终身会员 文艺范的福音（20210514）Attention：登录使用
 https://lchttpapi.xczim.com/* url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xcz.js
 # > 097 Vizmato 破解VIP无限使用高级功能（20210512）
@@ -84,8 +90,8 @@ https://purchases.ws.pho.to/api/v2/apple/* url script-response-body https://raw.
 # > 091 酷我音乐 解锁皮肤主题（20210425）
 ^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/theme)  url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/theme.js
 # > 090 时尚芭莎++ 卡通相机++ iHTTP浏览器++ 解锁会员权限功能（20210424）
-# > 089 Dayone 更新会员crack功能（20210423）
-;uncomplete
+# > 089 Dayone 更新会员crack功能（20210515）by langkhach
+https:\/\/dayone\.(me|app)\/api\/(users|v2\/users\/(account-status|receipt))$ url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/dayone.js
 # > 088 Imgplay++ Inside++ Dazz++ Photofox++ 一次性解锁Premium （20210423）
 # > 087 卡通相机 破解会员需要登录（20210422）
 http://vstou.faxingwu.com/huihua/user/getUser url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/ktxj.js
