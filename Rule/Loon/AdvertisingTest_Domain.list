@@ -1,15 +1,15 @@
 # NAME: AdvertisingTest
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-05-17 02:23:39
+# UPDATED: 2021-05-18 02:25:31
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，请搭配MITM使用
 # DOMAIN-KEYWORD: 79
-# DOMAIN-SUFFIX: 75189
-# DOMAIN: 14360
+# DOMAIN-SUFFIX: 75207
+# DOMAIN: 14341
 # IP-CIDR: 253
 # IP-CIDR6: 1
 # URL-REGEX: 302
-# TOTAL: 90184
+# TOTAL: 90183
 0.up.qingdaonews.com
 0001.2waky.com
 000lk3v.wcomhost.com
@@ -389,6 +389,7 @@ aaa520.izlinix.com
 aaafinancebd.com
 aaannuairex.com
 aaaurgentcare.net
+aac-aaic.com
 aacihealthcare.com
 aadultwork.com
 aakashgangarealtors.com
@@ -468,7 +469,6 @@ ac.ybinst9.ec.yimg.com
 academiajo.com
 academic-reading.com
 academiebooks.org
-academy.unbounce.com
 accede.site
 accengage.com
 accentumbrella.com
@@ -758,7 +758,6 @@ ads.freeonlinegames.com
 ads.fuelo.net
 ads.fulldls.com
 ads.fulltiltpoker.com
-ads.futurenet.com
 ads.gameservers.com
 ads.gamned.com
 ads.ghettotube.com
@@ -910,7 +909,6 @@ ads2000.hw.net
 ads3.blastro.com
 ads3.speedbit.com
 ads4.speedbit.com
-ads4pubs.com
 ads5.speedbit.com
 ads5.truecaller.com
 ads6.speedbit.com
@@ -935,7 +933,6 @@ adserver.barrapunto.com
 adserver.beggarspromo.com
 adserver.bloodhorse.com
 adserver.bondage.com
-adserver.digitalmedianet.com
 adserver.exgfnetwork.com
 adserver.finditquick.com
 adserver.hispanoclick.com
@@ -1609,7 +1606,6 @@ app.wigzo.com
 app.wpsmail.net
 appad-api.perfectcorp.cn
 apparelopolis.net
-appatualizar.com
 appcaptcha.com
 appcdn.tvpage.com
 appgasstation.com
@@ -2288,7 +2284,6 @@ bloglock.net
 blogonews.com
 blogrush.com
 bloketoberfest.com
-bloomingtonoptometrist.com
 blow20.newsregular.com
 blportal.rapidns.com
 blu.mobileads.msn.com
@@ -2719,7 +2714,6 @@ cashbackworld.com
 cashbuzz.org
 cashcownetworks.com
 cashfile.org
-cashierresume.org
 cashmerelands.com
 casinoasia.org
 casinogames.com
@@ -2933,7 +2927,6 @@ chatty-imaginativelady.com
 chattysnaps.com
 chaturbate.epickeys.com
 chaturbatetokenhack.org
-chaussuressoldesnb.com
 chazdean.inq.com
 chazdean.touchcommerce.com
 chcdonline.org
@@ -2956,7 +2949,6 @@ cheatingus.com
 cheatload.com
 cheatmods.com
 cheatmyapp.com
-cheatnhack.com
 cheatpointsgenerator.com
 cheats4us.com
 cheatsandhack.com
@@ -3494,7 +3486,6 @@ cpv.popxml.com
 cpweb.kosungames.com
 cq118114.net
 crackage.net
-crackedscripts.com
 crackelite.com
 cracker-nation.com
 crackernapper.com
@@ -5306,7 +5297,6 @@ freehornygirls.com
 freehostservers.com
 freehuluplus.org
 freeimghost.trafflow.com
-freeindiangals.com
 freeinstadownload.com
 freeipadgiveaway.net
 freeiqtest.blogspot.com
@@ -5851,7 +5841,6 @@ gokhancoban.com
 goku.brightcove.com
 goldbye.vicp.net
 golden-hacks.com
-goldendeerinteriors.com
 goldenliquor.com
 goldenuploading.com
 goldgamehacks.com
@@ -6243,7 +6232,6 @@ hanksbest.com
 hansrane.000webhostapp.com
 hanulsms.com
 hanzele.wpdevcloud.com
-hao.6955000.com
 hao.rising.cn
 hao.xiaomi.com
 happyfathersdaydaddy.com
@@ -6335,7 +6323,6 @@ helpmedownload.com
 hengyongonline.com
 hentaidatabase.com
 hentainotits.com
-hentelpower.com
 hentoshphotography.com
 herbalmantap.com
 herbrasil.com
@@ -6790,7 +6777,6 @@ imvucreditshack.com
 imvuzone.com
 imworld.rediff.com
 in-automate.sendinblue.com
-in.cybererotica.com
 in.dodowind.com
 in.joinourwebsite.com
 in.o2o.api.xiaomi.com
@@ -8415,7 +8401,6 @@ midatlanticsecurity.com
 midilibremarchespublics.com
 midnightclicking.com
 miducnafleh.com
-midwaysports.net
 mifepriston.net
 mig.str.mdt.qq.com
 mightyhacks.com
@@ -8525,7 +8510,6 @@ mob22.lymiao89.com
 mobacoinhack.com
 mobap.njlbms.com
 mobiapp-games.com
-mobile-craigslist.org
 mobile-redirection.com
 mobile.2200120.com
 mobile.activeshopper.com
@@ -8593,7 +8577,6 @@ moneymakingnews.xyz
 moneymove.smi2.net
 moneytreebillingllc.com
 moneywin24.com
-monjuticlub.com
 monofeel.com
 monsieuradz.zapto.org
 monsterlamp.cn
@@ -8635,7 +8618,6 @@ movie-masala.com
 movie.imdbwatch.com
 moviease.com
 moviebli.com
-moviebox21.com
 moviecoupons.com
 moviedownloader.net
 moviehack.net
@@ -9357,7 +9339,6 @@ ontologos.org
 ontv.down.9apps.com
 onwardclick.com
 ooftoomy.com
-oort.wifi588.net
 oouggjayokzx.com
 oozrsmpieq.com
 open.e.kuaishou.com
@@ -9667,6 +9648,7 @@ performancevitality.net
 perfotec.net76.net
 pericosonline.com
 permis-ok.com
+pernikunik.com
 perpinshop.com
 persiajam.com
 personalkapital.com
@@ -10120,6 +10102,7 @@ ps3superslimjailbreak.com
 ps4emulator.org
 ps4jailbreakk.com
 pscdn1.lbesec.com
+psebsifil.com
 psi.lbesecapi.com
 psn-code-generator.com
 psn.cardcodes.net
@@ -10206,7 +10189,6 @@ pushplay.com
 pussysaga.com
 pussyspace.com
 putlockermovie.net
-puzzlesgaming.com
 pvmultimedia.net
 pvz2.amazinglyhot.com
 pwrfcia.com
@@ -10794,6 +10776,7 @@ sanskarjewels.com
 santacruzsuspension.com
 santaritadeouropreto.com
 santrnrksmv.com
+sapynews.com
 sarahdaniella.com
 sarahmpetersonfoundation.org
 sarahpalinhotpics.com
@@ -11525,6 +11508,7 @@ solventra.net
 solvusoft.com
 somanidiagnostic.com
 someligeoas.com
+somnoy.com
 sompuserve.com
 sonaliaansh.net
 sonarappliances.com
@@ -11543,7 +11527,6 @@ soulmemory.org
 soulsinsynch.com
 source-hack.com
 sourcelemon.com
-soushop.net
 southernchampion.com
 southstreetim.com
 souvenirua.com
@@ -11818,7 +11801,6 @@ steam-wallet-rewards.com
 steam.cooldownloadz.com
 steam.extafiles.com
 steam.legratuits.com
-steam.zombieden.cn
 steamcammunitu.com
 steamcommunita.com
 steamcommunitly.site88.net
@@ -14157,7 +14139,6 @@ yinyuanhotel.net
 yiqisese.com
 yiren02.com
 yisouxinxi.com
-yixingim.com
 yngxtgj.com
 ynrenai.com
 ynrenai.net
@@ -15931,6 +15912,7 @@ zzz.clickbank.net
 .51showmy.com
 .51sxzz.com
 .51taifu.com
+.51toubu.com
 .51vipedu.com
 .51weidashi.com
 .51wxyx.cn
@@ -23235,6 +23217,7 @@ zzz.clickbank.net
 .ahunai.cn
 .ahunui.cn
 .ahw3.com
+.ahwangtao.com
 .ahwczn.cn
 .ahwrin88tl.com
 .ahwzvnqc.com
@@ -28046,6 +28029,7 @@ zzz.clickbank.net
 .bingq.ru
 .bingtonwr.top
 .bingyinq.com
+.binkens.cn
 .binlayer.com
 .binlayer.de
 .binmedia.su
@@ -28225,6 +28209,7 @@ zzz.clickbank.net
 .bjycsb.com
 .bjygfd.com
 .bjyikao.org
+.bjytdqwx.com
 .bjytgw.com
 .bjzcbx.com
 .bjzsyx.cn
@@ -34240,6 +34225,7 @@ zzz.clickbank.net
 .cz9k8b.top
 .czdqhyo1.net
 .czechose.com
+.czgjhotel.com
 .czhcloud.cn
 .czilladx.com
 .czjiuding.cn
@@ -36159,6 +36145,7 @@ zzz.clickbank.net
 .dingsincernett.info
 .dingviewjeep.info
 .dingyuanyao.cn
+.diningprefixmyself.com
 .dinneredaq.club
 .dinoadserver1.roka.net
 .dinoadserver2.roka.net
@@ -44648,9 +44635,11 @@ zzz.clickbank.net
 .harbinbaojia.net
 .harborcub.com
 .hardtofindmilk.com
+.hardyconflict.com
 .hardydisplayedprawn.com
 .haremwhipshook.com
 .hariqavi.com
+.harlsmums.com
 .harm6stop.com
 .harmlesstacticalhonorable.com
 .harmoniousstrandbulk.com
@@ -53382,6 +53371,7 @@ zzz.clickbank.net
 .lyztdz.com
 .lz.chaelc.com
 .lzdtetwgfyt.com
+.lzhyhy.cn
 .lzida.com
 .lzjl.com
 .lzjycy.com
@@ -56860,6 +56850,7 @@ zzz.clickbank.net
 .mkhoj.com
 .mkitgfs.com
 .mkjsqrpmxqdf.com
+.mkjunc.cn
 .mkkliq.com
 .mkkxioajtwm.com
 .mklik.gazeta.pl
@@ -67785,6 +67776,7 @@ zzz.clickbank.net
 .rjk1.com
 .rjltpektsuqsu.com
 .rjr-rs.com.br
+.rjtpos.cn
 .rjvbtutup.com
 .rjvochbc.com
 .rjzwheddxjuk.com
@@ -67930,6 +67922,7 @@ zzz.clickbank.net
 .roia.hutchmedia.com
 .roifmd.info
 .roikingdom.com
+.roilsnadirink.com
 .roirocket.com
 .roiservice.com
 .roispy.com
@@ -67992,6 +67985,7 @@ zzz.clickbank.net
 .rosafun.com
 .roscvyybfkm.com
 .rose.ixbt.com
+.roselip-fetish.com
 .rosemand.pro
 .roseolsen.pro
 .roshanad.com
@@ -70707,6 +70701,7 @@ zzz.clickbank.net
 .shengyaxd.com
 .shengzhuanbb.cn
 .shenhao258.top
+.shenhuachuwei.cn
 .shenleyuni.com
 .shenouth.com
 .shentaiesp.asia
@@ -71101,6 +71096,7 @@ zzz.clickbank.net
 .simvinvo.com
 .sin1.geoadnxs.com
 .sin114.com
+.sin88.com
 .sina-img.club
 .sina.yinstar.org
 .sinaalicdn.com
@@ -76500,6 +76496,7 @@ zzz.clickbank.net
 .szfaq.com
 .szggdw.com
 .szh6.xyz
+.szhdhbz.com
 .szhgmd.com
 .szhomes.net
 .szhyzkj.com
@@ -77921,6 +77918,7 @@ zzz.clickbank.net
 .thoughtsondance.info
 .thoughtthricecompress.com
 .thoughuttered.com
+.thousandfixedlyyawn.com
 .thoutiquede.club
 .thqwivyhdpoem.com
 .threat-analytics.com
@@ -84554,6 +84552,7 @@ zzz.clickbank.net
 .whenvideoup.thebigandfreesystemupdate.website
 .whenvideoup.thebigandfreesystemupdating.date
 .wheptoot.net
+.wherabygry.com
 .where.com
 .whereascredentialsurmise.com
 .wheredoyoucomefrom.ovh
