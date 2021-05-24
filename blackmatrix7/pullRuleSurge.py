@@ -67,9 +67,10 @@ def pullios7(urlInfo, list):
 
 
 if __name__ == "__main__":
-    pullios7("https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge", "Surge")
-    pullios7("https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX", "QuantumultX")
+    #pullios7("https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge", "Surge")
+    #pullios7("https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX", "QuantumultX")
 
-    os.remove("1.txt")
-    os.remove("2.txt")
-    os.remove("3.txt")
+    #os.remove("1.txt")
+    #os.remove("2.txt")
+    #os.remove("3.txt")
+    print("hello ios")
