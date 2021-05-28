@@ -44,9 +44,11 @@ hostname= *.rr.tv, education.github.com, baimiao.uzero.cn, lambda.us-east-1.amaz
 ^http:\/\/api\.hanju\.koudaibaobao\.com\/api\/series\/rslvV4 url response-body "quality":\d response-body "quality":10
 # 白描
 ^https:\/\/baimiao\.uzero\.cn\/api\/v2\.user\/(logout|appLaunchWithUser|loginByWeixin) url script-response-body https://raw.githubusercontent.com/id77/QuantumultX/master/Script/baimiao.js
-#Bear熊掌记  内购解锁
-#需要ios13 复制放本地 恢复购买后禁用掉
-^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/bear.js
+# 内购解锁
+# 需要ios13 复制放本地 申请试用-》恢复购买-〉取消订阅；禁用主机名
+# 通用解锁 试用取消 主机名buy.itunes.apple.com
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/langkhach270389/Quantumult-X-LK/master/Scripts/langkhach/verify_receipt.js
+https://raw.githubusercontent.com/langkhach270389/Quantumult-X-LK/master/Scripts/langkhach/verify_receipt.js
 #人人视频 (by@george Jiang & R)
 ^https:\/\/api\.rr\.tv(\/user\/privilege\/list|\/ad\/getAll|\/rrtv-video\/v4plus\/season\/detail) url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/rrtv.js
 # drops
@@ -67,6 +69,8 @@ hostname= *.rr.tv, education.github.com, baimiao.uzero.cn, lambda.us-east-1.amaz
 // @ScriptURL         https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/Quan_crack.conf
 // ==/UserScript==
 ****Please don't quote this rewrite configuration****
+# > 105 京粉佣金 （20210526）
+^https?://api\.m\.jd\.com/(client\.action|api)\?functionId=(wareBusiness|serverConfig|basicConfig|lite_wareBusiness|pingou_item) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/jfyj.js
 # > 104 Prisma 解锁高级会员权限 畅想VIP功能（20210524）
 https://api.neuralprisma.com/receipt/ios/status/prisma/* url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/psa.js
 # > 103 VSCO++ 修复版 解锁VIP会员功能 （20210520）

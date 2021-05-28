@@ -1,3 +1,4 @@
+HOST-SUFFIX,tinychinacdnweb.qiniu.com.w.kunlunno.com,DIRECT
 HOST-SUFFIX,store.iqiyi.com,DIRECT
 HOST-SUFFIX,short-video.kakamobi.cn,DIRECT
 HOST-SUFFIX,cdn.jsdelivr.net,DIRECT
@@ -43,7 +44,6 @@ HOST-SUFFIX,jumpluna.58.com,DIRECT
 HOST-SUFFIX,amdc.m.taobao.com,DIRECT
 HOST-SUFFIX,qm.qq.com,DIRECT
 HOST-SUFFIX,youpinapi.zhuanzhuan.com,DIRECT
-HOST-SUFFIX,www.youtube.com,DIRECT
 HOST-SUFFIX,push2.eastmoney.com,DIRECT
 HOST-SUFFIX,astrategy.beacon.qq.com,DIRECT
 HOST-SUFFIX,groupclient.qq.com,DIRECT
@@ -89,7 +89,6 @@ HOST-SUFFIX,d.ifengimg.com,DIRECT
 HOST-SUFFIX,pornhub.com,DIRECT
 HOST-SUFFIX,.effirst.com,DIRECT
 HOST-SUFFIX,uland.taobao.com,DIRECT
-HOST-SUFFIX,s.youtube.com,DIRECT
 HOST-SUFFIX,.ourplay.net,DIRECT
 HOST-SUFFIX,.cdntip.com,DIRECT
 HOST-SUFFIX,s.click.tmall.com,DIRECT
@@ -264,7 +263,6 @@ HOST-SUFFIX,.miwifi.com,DIRECT
 HOST-SUFFIX,.data.microsoft.com,DIRECT
 HOST-SUFFIX,.qualtrics.com,DIRECT
 HOST-SUFFIX,.southcn.com,DIRECT
-HOST-SUFFIX,youtubei.googleapis.com,DIRECT
 HOST-SUFFIX,account.xiaomi.com,DIRECT
 HOST-SUFFIX,data.mistat.intl.xiaomi.com,DIRECT
 HOST-SUFFIX,tsmclient.miui.com,DIRECT
@@ -276,7 +274,6 @@ HOST-SUFFIX,sourl.cn,DIRECT
 HOST-SUFFIX,alissl.ucdl.pp.uc.cn,DIRECT
 HOST-SUFFIX,ynuf.aliapp.org,DIRECT
 HOST-SUFFIX,tv.sohu.com,DIRECT
-HOST-SUFFIX,m.youtube.com,DIRECT
 HOST-SUFFIX,.alibabausercontent.com,DIRECT
 HOST-SUFFIX,s.click.ele.me,DIRECT
 HOST-SUFFIX,.mybank.cn,DIRECT
