@@ -56,9 +56,9 @@ hostname= *.rr.tv, education.github.com, baimiao.uzero.cn, lambda.us-east-1.amaz
 ^https:\/\/biz\.caiyunapp\.com\/v2\/user\?app_name\=weather url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/ColorWeather.js// ==UserScript==
 // @ScriptName        Quan Crack 脚本
 // @Author            Cuttlefish
-// @TgChannel         https://t.me/joinchat/zOQix36_8lMyNzNl
+// @TgChannel         https://t.me/ddgksf2021
 // @WechatID          墨鱼手记
-// @UpdateTime        20210524
+// @UpdateTime        20210602
 // @Attention         Only for backup,please don't quote this rewrite configuration
 // @ScriptTime        若脚本失效可抓取对应时间的旧版本应用
 // @ForExplain        “++” is the sign of Http Catcher Rules
@@ -67,6 +67,10 @@ hostname= *.rr.tv, education.github.com, baimiao.uzero.cn, lambda.us-east-1.amaz
 // @ScriptURL         https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/Quan_crack.conf
 // ==/UserScript==
 ****Please don't quote this rewrite configuration****
+# > 108 
+url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/tex.js
+# > 107 Photomath 你掌上的计算小能手VIP（20210602）
+https://lapi.photomath.net/v4/me url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/poh.js
 # > 106 Github|Gist 加速访问（20210528）by Peng-YM
 ^(https?:\/\/(?:raw|gist)\.githubusercontent\.com\/.+)$ url 302 https://github.pengym.workers.dev/$1
 # > 105 京粉转链 （20210526）by Wangsc1
@@ -272,7 +276,6 @@ https://[a-z]+.ddly666.top/wp-json/wp/v2/posts/* url script-response-body https:
 // @Website           百度，CSDN，简书          
 // @Author            @elecV2、@Cuttlefish
 // @Share             若有需要的网站UA设置，可TG私信
-// @TgChannel         https://t.me/ddgksf2021
 // @WechatID          公众号墨鱼手记
 // @UpdateTime        20210101    
 // @ScriptURL         https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/Ua.conf
