@@ -1,15 +1,15 @@
 # NAME: AdvertisingTest
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-06-21 02:06:12
+# UPDATED: 2021-06-22 02:06:40
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，请搭配MITM使用
 # DOMAIN-KEYWORD: 86
 # DOMAIN-SUFFIX: 77374
-# DOMAIN: 14287
+# DOMAIN: 14294
 # IP-CIDR: 254
 # IP-CIDR6: 1
 # URL-REGEX: 301
-# TOTAL: 92303
+# TOTAL: 92310
 0.up.qingdaonews.com
 0001.2waky.com
 000lk3v.wcomhost.com
@@ -241,6 +241,7 @@
 51huanche.com
 51xingming.com
 51zhongguo.com
+51zjkouqiang.com
 520ccsex.com
 529collegesaving.com
 52guangda.com
@@ -381,6 +382,7 @@ a10.reflexcash.com
 a1thumbpost.com
 a1trafficticketdefense.com
 a2.hotpornfile.org
+a2.huiqituan.com
 a2.ym193.com
 a2132959.0lx.net
 a2a.lockerz.com
@@ -511,6 +513,7 @@ acoachat.org
 acompanhantesdeportugal.com
 acornpointlodge.com
 acortame.net
+acourseinpresence.com
 acoustoopticmodulator.com
 acproyectos.com
 acquireenglish.org
@@ -2673,7 +2676,6 @@ captaindemand.net
 car-accident-birmingham.com
 caradisegno.com
 carambaba.com
-caravanfs.com
 carboneas.com
 cardcodes.net
 cardplanetindia.com
@@ -2770,6 +2772,7 @@ cdn.adbucks.com
 cdn.adtradr.com
 cdn.adual.net
 cdn.alooma.com
+cdn.appdynamics.com
 cdn.banner.thumbplay.com
 cdn.beaconpush.com
 cdn.beginads.com
@@ -3245,7 +3248,6 @@ codesforfree.net
 codeskype.betack.com
 codesplace.com
 codesxblfree.com
-codesxboxlive.com
 codghost.sharezips.net
 codghostprestigehack.com
 codornicesforge.com
@@ -4341,6 +4343,7 @@ e.thanksearch.com
 e09f3e4ceda.com
 e1472540213.mtraction.com
 e2e.pcmag.com
+e73.t6qnj6a4v.com
 e89.friendfinder.com
 e8dcdcd1ddcb352b.com
 e9mlrvy1.com
@@ -8600,6 +8603,7 @@ movie-masala.com
 movie.imdbwatch.com
 moviease.com
 moviebli.com
+moviebox21.com
 moviecoupons.com
 moviedownloader.net
 moviehack.net
@@ -9273,6 +9277,7 @@ onixcase.com
 online-cheats.com
 online-counter.cn
 online-intim.com
+online-media24.de
 online-templatestore.com
 online.aria-web.com
 online.sh.cn
@@ -12087,6 +12092,7 @@ tatango.com
 tattooha.com
 taurus.eu.com
 taurusproducciones.com
+tavaresmovelaria.com
 tavelscape.com
 tavuks.com
 taximtravel.com
@@ -13570,6 +13576,7 @@ wpc.v0cdn.net
 wpstage.adelphic.com
 wpte.j8inn1zektoe.com
 wpthemes.lock24.net
+wpvpcuwp.com
 wpvvusso.xyz
 wrapper.fileplanet.com
 wrapper.ign.com
@@ -16665,6 +16672,7 @@ zzz.clickbank.net
 .88-baidu.com
 .88-sms.com
 .88.yunqishi.net
+.88.yunqishi8.com
 .8800271.com.cn
 .88210212.com
 .88461059da0a12ea.com
@@ -24922,8 +24930,6 @@ zzz.clickbank.net
 .api.analytics.omgpop.com
 .api.android-root-tool.com
 .api.anti.wauee.com
-.api.appcelerator.com
-.api.appdynamics.com
 .api.appfireworks.com
 .api.applovefrom.com
 .api.appnxt.net
@@ -25402,7 +25408,6 @@ zzz.clickbank.net
 .approvalglamourduly.com
 .apprupt.com
 .apps-cloud.xyz
-.apps.appmachine.com
 .apps.azhelp.ru
 .apps.crowdtangle.com
 .apps.nexus.bazaarvoice.com
@@ -26657,6 +26662,7 @@ zzz.clickbank.net
 .b8af8878e9a9565.com
 .b8cf0fd3179ef.com
 .b8pfulzbyj7h.com
+.b90.yahoo.co.jp
 .b92.putniktravel.com
 .b936c5932623f.com
 .b9377h.com
@@ -27359,6 +27365,7 @@ zzz.clickbank.net
 .bc.geocities.yahoo.co.jp
 .bc.infoblog.today
 .bc.law.com
+.bc.nhk.jp
 .bc.qunar.com
 .bc.semwerkt.nl
 .bc05.ru
@@ -30670,7 +30677,6 @@ zzz.clickbank.net
 .cdn.api.fotoable.com
 .cdn.app.kachapt.cn
 .cdn.app.liuxingyul.cn
-.cdn.appdynamics.com
 .cdn.apprope.com
 .cdn.arcstudiopro.com
 .cdn.askosshunt.com
@@ -32211,7 +32217,6 @@ zzz.clickbank.net
 .cloud-miner.de
 .cloud-miner.eu
 .cloud-store-cdn.com
-.cloud.appcelerator.com
 .cloud.aspiresys.com
 .cloud.ogury.io
 .cloud.roistat.com
@@ -42098,6 +42103,7 @@ zzz.clickbank.net
 .franticcarpenter.com
 .franticdivergemindless.com
 .frase.io
+.fraud.adjoe.zone
 .fraudjs.io
 .fraudmetrix.cn
 .fraudoutrageoustransport.com
@@ -65995,6 +66001,7 @@ zzz.clickbank.net
 .prod-e.sprtad.com
 .prod-pdx-beacon-1406086907.us-west-2.elb.amazonaws.com
 .prod-sb-appanalytics-us1.servicebus.windows.net
+.prod.adjoe.zone
 .prod.entry.video-ads.a2z.com
 .prod.html5-ads.vk-apps.com
 .prod.linkitox.com
@@ -70370,7 +70377,6 @@ zzz.clickbank.net
 .saambaa.com
 .saametrics.aktia.fi
 .saas-eue-1.com
-.saas.appdynamics.com
 .saastt.com
 .saat.dow.com
 .sabavision.com
@@ -82791,6 +82797,7 @@ zzz.clickbank.net
 .tyue.me
 .tyunderives.info
 .tyvjyt.rivers.com.au
+.tywzyhfliwdbu.com
 .tyxo.bg
 .tyxo.com
 .tyxvcadx.com
@@ -83111,6 +83118,7 @@ zzz.clickbank.net
 .uhor8.cn
 .uhpdsplo.com
 .uhpjkt.uv100.com.tw
+.uhqpnhorurueku.com
 .uhrsek.shoemarker.co.kr
 .uhsmmaq4l2n5.com
 .uhxdsplo.com
@@ -84255,7 +84263,6 @@ zzz.clickbank.net
 .vareza.net
 .variabilitycomprehension.com
 .variablefitness.com
-.variantswatches.apphb.com
 .varielcontentdelivery.info
 .variety.tc.qq.com
 .varietyofdisplayformats.com
