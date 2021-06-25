@@ -1,15 +1,15 @@
 # NAME: AdvertisingTest
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-06-24 02:06:29
+# UPDATED: 2021-06-25 02:04:59
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，请搭配MITM使用
 # DOMAIN-KEYWORD: 88
-# DOMAIN-SUFFIX: 76983
-# DOMAIN: 14296
+# DOMAIN-SUFFIX: 77012
+# DOMAIN: 14291
 # IP-CIDR: 254
 # IP-CIDR6: 1
 # URL-REGEX: 301
-# TOTAL: 91923
+# TOTAL: 91947
 0.up.qingdaonews.com
 0001.2waky.com
 000lk3v.wcomhost.com
@@ -823,6 +823,7 @@ ads.mindviz.com
 ads.mnemosoft.com
 ads.mobilemarketer.com
 ads.mondogames.com
+ads.monetize-me.com
 ads.mrgreen.com
 ads.mrskin.com
 ads.mrtones.com
@@ -928,7 +929,6 @@ ads5.truecaller.com
 ads6.speedbit.com
 ads8.speedbit.com
 ads9.speedbit.com
-adsbox.detik.com
 adsbtrack.com
 adsby.effective-ads.com
 adsby.klikki.com
@@ -2611,7 +2611,6 @@ c1.cdnjav.com
 c1479369057.mtraction.com
 c2.clickprotects.com
 c2i-cdn.startappnetwork.com
-c3.hashfish.cn
 c4.mysearch.com
 c6.edgesuite.net
 c75b9ac5103e5d125b8.com
@@ -2635,7 +2634,6 @@ caishang6.com
 calabriasportfishing.com
 calcluth.com
 calcomsec.com
-calhasmaringa.com
 calicutmis.com
 californiaroaddream.com
 californiastateparks.com
@@ -2715,6 +2713,7 @@ cashbackworld.com
 cashbuzz.org
 cashcownetworks.com
 cashfile.org
+cashierresume.org
 cashmerelands.com
 casinoasia.org
 casinogames.com
@@ -4755,6 +4754,7 @@ extragenerators.xyz
 extrasdownload.com
 extrasgalore.com
 exts77apk.com
+eytancohen.com
 ezeeplay.com
 ezeoma.agrillcs.com
 ezertrans.com
@@ -5307,6 +5307,7 @@ freehornygirls.com
 freehostservers.com
 freehuluplus.org
 freeimghost.trafflow.com
+freeindiangals.com
 freeinstadownload.com
 freeipadgiveaway.net
 freeiqtest.blogspot.com
@@ -5631,7 +5632,6 @@ gchronics.com
 gcmapi.wshareit.com
 gd.xxtvphoto.com
 gddingtian.com.cn
-gdhongyu17.cn
 gdyn.nba.com
 gdyn.veryfunnyads.com
 gearinformer.com
@@ -6130,7 +6130,6 @@ hackfacebookaccount.com
 hackfacebookpd.com
 hackfbaccount.com
 hackfbaccountlive.com
-hackfbhacker.com
 hackfbprofile.com
 hackfinity.com
 hackfinity.net
@@ -6989,7 +6988,6 @@ isotoner.com
 isralink.net
 istanbulsackaynak.org
 italiappalti.com
-itaucliente.com
 itc.2081.blueseek.com
 itcg3.c5369.blueseek.com
 itcompany.com
@@ -8154,7 +8152,6 @@ maven.apptimize.com
 maviapartments.com
 max.ad.xiaomi.com
 maxcrack.com
-maxdezignz.com
 maxdome.inq.com
 maxdome.touchcommerce.com
 maximafitness.com
@@ -9968,7 +9965,6 @@ pricemistake.com
 pricheski-video.com
 pride-u-bike.com
 priiceline.com
-prima-re.com
 primemarks.com
 primetimecambodia.com
 primosearch.com
@@ -11775,6 +11771,7 @@ steamcommunitly.site88.net
 steamcommunituy.com
 steamcommunnity.com
 steamcomunlty.com
+steamgames4free.net
 steamgamesnetwork.com
 steamkeygiveaway.com
 steamkeysfree.com
@@ -14005,13 +14002,11 @@ xn--metherwallet-qlb.com
 xn--minecrft-5za.com
 xn--myetherwalet-lcc.com
 xn--myetherwallt-cfb.com
-xn--myetherwallt-leb.com
 xn--myethrwallet-5eb.com
 xn--mytherwallet-2eb.com
 xn--mytherwallet-ceb.com
 xn--orw0a8690a.com
 xn--os-g7s.com
-xn--polonex-ffb.com
 xn--qckyd1cy656a.net
 xn--shpeshift-11a.com
 xn--ttrex-ysa9423c.com
@@ -17457,6 +17452,7 @@ zzz.clickbank.net
 .a3p4.com
 .a3p4.net
 .a3pz36.cn
+.a3vy69.cn
 .a3xo-eng.spankbang.com
 .a3yqjsrczwwp.com
 .a4.b2b168.com
@@ -22261,12 +22257,14 @@ zzz.clickbank.net
 .adtiger.de
 .adtilt.com
 .adtima-common.zadn.vn
+.adtima-common.zascdn.me
 .adtima-media-td.zadn.vn
 .adtima-media.zadn.vn
 .adtima-media.zascdn.me
 .adtima-static-td.zadn.vn
 .adtima-static.zadn.vn
 .adtima-static.zascdn.me
+.adtima-video.zadn.vn
 .adtima-video.zascdn.me
 .adtima.net.vn
 .adtima.org
@@ -24836,6 +24834,7 @@ zzz.clickbank.net
 .ap72el.com
 .ap76rmx3.accountant
 .apac.wf.com
+.apainter.cn
 .apas.aipai.com
 .apathetictheory.com
 .apcats.ddns.net
@@ -27728,6 +27727,7 @@ zzz.clickbank.net
 .belaya2shu1ba1.com
 .belazyelephant.com
 .belboon.de
+.belezaedieta.com
 .belgradualuna.site
 .belicimo.pw
 .beliebtestewebseite.de
@@ -34697,6 +34697,7 @@ zzz.clickbank.net
 .d138am4hd4ke4y.cloudfront.net
 .d13jhr4vol1304.cloudfront.net
 .d13k7prax1yi04.cloudfront.net
+.d13nu0oomnx5ti.cloudfront.net
 .d140sbu1b1m3h0.cloudfront.net
 .d141wsrw9m4as6.cloudfront.net
 .d14821r0t3377v.cloudfront.net
@@ -35547,7 +35548,6 @@ zzz.clickbank.net
 .databerries.com
 .databrain.com
 .datacaciques.com
-.datacollector-drru.dt.hicloud.com
 .datacoral.com
 .datacoral.io
 .datacygnal.io
@@ -37093,6 +37093,7 @@ zzz.clickbank.net
 .do09.net
 .do67etikr7pwz.cloudfront.net
 .do69ifsly4.me
+.do69ll745l27z.cloudfront.net
 .doa1.immobilier-neuf.com
 .doabqu.s3.com.tw
 .doagpm.promart.pe
@@ -37491,6 +37492,7 @@ zzz.clickbank.net
 .drewbarrymore.ca.tt
 .dreyeli.info
 .drf8e429z5jzt.cloudfront.net
+.drfdisvc.walmart.com
 .drgykb.cn
 .dripappliance.com
 .driv-analytics.com
@@ -40559,7 +40561,9 @@ zzz.clickbank.net
 .faayojxf.com
 .fab.interia.pl
 .fabet.com
+.fabet.me
 .fabet.vip
+.fabet88.net
 .fabetvn.com
 .fabric.io
 .fabricmedia.ru
@@ -40902,6 +40906,8 @@ zzz.clickbank.net
 .fcaot.com
 .fcardq.didongthongminh.vn
 .fcb8.com
+.fcb8.fun
+.fcb8.vip
 .fcb88.com
 .fcb88d.com
 .fcbkqm.manzara.ro
@@ -41433,6 +41439,7 @@ zzz.clickbank.net
 .five88.com
 .five88.net
 .fivecdm.com
+.fivevn.net
 .fiwhibse.com
 .fiwinet.firmenwissen.com
 .fiwinet.firmenwissen.de
@@ -44633,6 +44640,7 @@ zzz.clickbank.net
 .grooveshark.fr
 .groovinads.com
 .gropsyruty.com
+.grothafepi.com
 .groucign.com
 .groundtruth.com
 .group-ib.ru
@@ -47482,6 +47490,7 @@ zzz.clickbank.net
 .igaming.biz
 .igas.com.ua
 .igaworks.com
+.igcdnnu.com
 .igdgsfa.pro
 .igehuo.com
 .igetsend.ru
@@ -47973,6 +47982,7 @@ zzz.clickbank.net
 .impact-ad.jp
 .impact.cossette-webpact.com
 .impactaffirm.com
+.impactify.io
 .impactlaterhand.com
 .impactradius-event.com
 .impactradius-go.com
@@ -53567,6 +53577,7 @@ zzz.clickbank.net
 .log.perfecttitspics.com
 .log.pinterest.com
 .log.plinga.de
+.log.plo.vn
 .log.prezi.com
 .log.quora.com
 .log.qvb.qcloud.com
@@ -59173,6 +59184,7 @@ zzz.clickbank.net
 .my.gz2010.cn
 .my.iheart.com
 .my.iheartradio.com
+.my.my-hr.cn
 .my.mystreamdelivery.xyz
 .my.putlocker.to
 .my.shymilftube.com
@@ -59817,6 +59829,7 @@ zzz.clickbank.net
 .nelsdecademi.info
 .nelsongod.ca
 .neltoole.net
+.nemewagro.com
 .nend.net
 .nenrk.us
 .neo-kikaku.jp
@@ -60330,6 +60343,7 @@ zzz.clickbank.net
 .ngumyydbupv.com
 .nguooqblyjrz.com
 .ngyfmghgd.com
+.nh-cdn.sgp1.cdn.digitaloceanspaces.com
 .nh.5.p2l.info
 .nh.miaozhu66.com
 .nhanthuong88.com
@@ -62015,6 +62029,7 @@ zzz.clickbank.net
 .omappapi.com
 .omareeper.com
 .omaris.pw
+.omarketer.viettelpost.vn
 .omarsys.com
 .omasovizac.com
 .omatri.info
@@ -62232,10 +62247,12 @@ zzz.clickbank.net
 .one-xjygn.world
 .one.520319.cn
 .one.lg.ua
+.one.toumppk.cn
 .one88.com
 .one88.fun
 .one88.me
 .one88.us
+.one88.vip
 .one88.vn
 .oneandonlynetwork.com
 .oneapm.com
@@ -62404,6 +62421,7 @@ zzz.clickbank.net
 .onlypreteens.com
 .onlyshow.top
 .onlysix.co.uk
+.onmarketer.net
 .onmarshtompor.com
 .onms-home.com
 .onmypc.net
@@ -64995,6 +65013,7 @@ zzz.clickbank.net
 .playuhd.host
 .playukinternet.com
 .playv8.com
+.playv8.vip
 .playwrightdine.com
 .playwrightglancing.com
 .plczro.21dressroom.com
@@ -65051,6 +65070,7 @@ zzz.clickbank.net
 .plugin.me2day.net
 .plugin.mobopay.baidu.com
 .plugin.ws
+.plugins.soclminer.com.br
 .pluginsjquery.com
 .plugrush.com
 .plugs.co
@@ -66448,6 +66468,7 @@ zzz.clickbank.net
 .pub1.co
 .pub1.cope.es
 .pub2srv.com
+.pubaka5.com
 .pubbirdf.com
 .pubdirecte.com
 .pubdream.com
@@ -71694,6 +71715,8 @@ zzz.clickbank.net
 .seomaster.com.br
 .seomonitor.ro
 .seomoz.org
+.seon.io
+.seondnsresolve.com
 .seoparts.com
 .seoparts.net
 .seopult.ru
@@ -85363,6 +85386,7 @@ zzz.clickbank.net
 .wan789.net
 .wancai.com
 .wandara113.xyz
+.wanderbj.top
 .wandsworthguardian-gb.wandsworthguardian.co.uk
 .wanfcc.com
 .wanfem.com
