@@ -3,70 +3,67 @@
     "name":"Angelalisa_Tasks",
     "description":"脚本合集",
     "task":[
-        "0 10 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/exchangeRate.js, tag=实时货币换算, img-url=https://raw.githubusercontent.com/Orz-3/task/master/exchangerate.png,enabled=true",
- 
+        "15 7/12 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_bean_home.js, tag=领京豆额外奖励 , enabled=true",
+        "0 0 * * * https://raw.fastgit.org/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=京东签到, enabled=true",
+        "2 8,12,18 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_blueCoin.js, tag=东东超市兑换奖品, enabled=true",
+        "2 8,12,18 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_bookshop.js, tag=口袋书店, enabled=true",
+        "5 0,6-23/4 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_car.js, tag=京东汽车, enabled=true",
+        "5 0,6-23/4 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_cash.js, tag=签到领现金, enabled=true",
+        "0,1 0 0 * * 6,7,0,1https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_cash_exchange.js, tag=领现金兑换红包, enabled=true",
+        "10 8,13,19,22 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_cfd.js, tag=京喜财富岛, enabled=true",
+        "59 11,12,23 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_cfdtx.js, tag=京喜财富岛提现, enabled=true",
+        "6 0 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_club_lottery.js, tag=摇京豆, enabled=true",
+        "15 0,7-23 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_daily_egg.js, tag=天天提鹅, enabled=true",
+        "20 0,6-23 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_dreamFactory.js, tag=京喜工厂, enabled=true",
+        "10 0,6-18/6 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_fruit.js, tag=东东农场, enabled=true",
+        "16 0 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_get_share_code.js, tag=获取互助码, enabled=true",
+        "13 0 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_jdfactory.js , tag=东东工厂, enabled=true",
+        "14 0 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_jdzz.js, tag=京东赚赚, enabled=true",
+        "12 0 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_jin_tie.js, tag=领金贴, enabled=true",
+        "18 0-23/2 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_joy.js, tag=京东宠汪汪, enabled=true",
+        "18 0-23/2 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_joy_feedPets.js, tag=京东宠汪汪喂食, enabled=true",
+        "35 15,19 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_joy_run.js, tag=京东宠汪汪赛跑, enabled=true",
+        "0 0-16/8 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_joy_reward.js, tag=宠汪汪积分兑换奖品, enabled=true",
+        "1 0 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jx_sign.js, tag=京喜签到, enabled=true",
+        "10 9,12,18 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_jxnc.js, tag=京喜农场, enabled=true",
+        "30 0,6-23/3 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_jxmc.js, tag=京喜牧场, enabled=true",
+        "25 0 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_kd.js, tag=京东快递签到, enabled=true",
+        "10 9 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_ljd.js, tag=领京豆, enabled=true",
+        "10-20/5 12 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_live.js, tag=京东直播, enabled=true",
+        "2 0 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_lotteryMachine.js, tag=京东抽奖机, enabled=true",
+        "35 0-23/2 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_moneyTree.js, tag=京东摇钱树, enabled=true",
+        "40 6-23/1 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_moneyTree_help.js, tag=京东摇钱树助力, enabled=true",
+        "12 7 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_ms.js, tag=京东秒秒币, enabled=true",
+        "23 0,20 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_necklace.js, tag=点点券, enabled=true",
+        "20 9,23 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_nzmh.js, tag=女装盲盒, enabled=true",
+        "16 6-18/6 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_pet.js, tag=东东萌宠, enabled=true",
+        "12 0,7-23 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_pigPet.js, tag=京东金融养猪猪, enabled=true",
+        "6 0,7-21/2 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_plantBean.js, tag=种豆得豆, enabled=true",
+        "12 6 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_rankingList.js, tag=京东排行榜, enabled=true",
+        "30,35 0,5-23/3 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_redPacket.js, tag=京东全民开红包, enabled=true",
+        "25 8 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_sgmh.js, tag=闪购盲盒, enabled=true",
+        "10 0 0 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_shop.js, tag=进店领豆, enabled=true",
+        "18 22 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_small_home.js, tag=东东小窝, enabled=true",
+        "18 22 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_speed_redpocke.js, tag=京东极速版红包, enabled=true",
+        "2 7 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_speed_sign.js, tag=京东极速版, enabled=true",
+        "18 0,7-23/1 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_superMarket.js, tag=东东超市, enabled=true",
+        "20 0 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_syj.js, tag=赚京豆, enabled=true",
+        "30 23 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_unsubscribe.js, tag=取关京东店铺商品, enabled=true",
+        "30 10-22/3 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_health.js, tag=健康社区, enabled=true",
+        "30 0,6-23/1 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_z_health_energy.js, tag=健康社区收取能量, enabled=true",
+        "25 6,22 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_gold_creator.js, tag=金榜创造营, enabled=true",
+        "2 0,6-23/3 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_mohe.js, tag=5G超级盲盒, enabled=true",
+        "5 0,6-23/6 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_carnivalcity.js, tag=手机狂欢城, enabled=true",
+        "18 7 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_ddly.js, tag=东东乐园, enabled=true",
+        "45 0,6-23/4 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_qjd.js, tag=抢京豆, enabled=true",
+        "25 5-23/3 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_joy_park.js, tag=汪汪乐园合成joy, enabled=true",
+        "15 9 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_joy_park_task.js, tag=汪汪乐园任务, enabled=true",
+        "8 8,18 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_xyc.js, tag=柠檬众筹许愿池, enabled=true",
+        "35 6 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_zqfl.js, tag=早起福利, enabled=true",
+        "30 8-23 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_big_winner.js, tag=发财大赢家, enabled=true",
+        "30 0,6-23/4 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_wsdlb.js, tag=柠檬我是大老板, enabled=true",
+        "40 0,7 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_earn30.js, tag=赚30, enabled=true",
+        "30 0,9,21 4-15 8 * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_qixi.js, tag=七夕情报局, enabled=true",
+        "20 8 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_dpqd.js, tag=店铺签到, enabled=true"
     ]
 }
-
-15 7/12 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_bean_home.js, tag=领京豆额外奖励 
-0 0 * * * https://raw.fastgit.org/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=京东签到
-2 8,12,18 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_blueCoin.js, tag=东东超市兑换奖品
-2 8,12,18 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_bookshop.js, tag=口袋书店
-5 0,6-23/4 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_car.js, tag=京东汽车
-5 0,6-23/4 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_cash.js, tag=签到领现金
-0,1 0 0 * * 6,7,0,1https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_cash_exchange.js, tag=领现金兑换红包
-10 8,13,19,22 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_cfd.js, tag=京喜财富岛
-59 11,12,23 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_cfdtx.js, tag=京喜财富岛提现
-6 0 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_club_lottery.js, tag=摇京豆
-15 0,7-23 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_daily_egg.js, tag=天天提鹅
-20 0,6-23 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_dreamFactory.js, tag=京喜工厂
-10 0,6-18/6 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_fruit.js, tag=东东农场
-16 0 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_get_share_code.js, tag=获取互助码
-13 0 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_jdfactory.js , tag=东东工厂
-14 0 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_jdzz.js, tag=京东赚赚
-12 0 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_jin_tie.js, tag=领金贴
-18 0-23/2 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_joy.js, tag=京东宠汪汪
-18 0-23/2 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_joy_feedPets.js, tag=京东宠汪汪喂食
-35 15,19 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_joy_run.js, tag=京东宠汪汪赛跑
-0 0-16/8 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_joy_reward.js, tag=宠汪汪积分兑换奖品
-1 0 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jx_sign.js, tag=京喜签到
-10 9,12,18 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_jxnc.js, tag=京喜农场
-30 0,6-23/3 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_jxmc.js, tag=京喜牧场
-25 0 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_kd.js, tag=京东快递签到
-10 9 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_ljd.js, tag=领京豆
-10-20/5 12 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_live.js, tag=京东直播
-2 0 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_lotteryMachine.js, tag=京东抽奖机
-35 0-23/2 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_moneyTree.js, tag=京东摇钱树
-40 6-23/1 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_moneyTree_help.js, tag=京东摇钱树助力
-12 7 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_ms.js, tag=京东秒秒币
-23 0,20 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_necklace.js, tag=点点券
-20 9,23 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_nzmh.js, tag=女装盲盒
-16 6-18/6 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_pet.js, tag=东东萌宠
-12 0,7-23 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_pigPet.js, tag=京东金融养猪猪
-6 0,7-21/2 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_plantBean.js, tag=种豆得豆
-12 6 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_rankingList.js, tag=京东排行榜
-30,35 0,5-23/3 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_redPacket.js, tag=京东全民开红包
-25 8 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_sgmh.js, tag=闪购盲盒
-10 0 0 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_shop.js, tag=进店领豆
-18 22 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_small_home.js, tag=东东小窝
-18 22 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_speed_redpocke.js, tag=京东极速版红包
-2 7 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_speed_sign.js, tag=京东极速版
-18 0,7-23/1 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_superMarket.js, tag=东东超市
-20 0 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_syj.js, tag=赚京豆
-30 23 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_unsubscribe.js, tag=取关京东店铺商品
-30 10-22/3 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_health.js, tag=健康社区
-30 0,6-23/1 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_z_health_energy.js, tag=健康社区收取能量
-25 6,22 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_gold_creator.js, tag=金榜创造营
-2 0,6-23/3 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_mohe.js, tag=5G超级盲盒
-5 0,6-23/6 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_carnivalcity.js, tag=手机狂欢城
-18 7 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_ddly.js, tag=东东乐园
-45 0,6-23/4 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_qjd.js, tag=抢京豆
-25 5-23/3 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_joy_park.js, tag=汪汪乐园合成joy
-15 9 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_joy_park_task.js, tag=汪汪乐园任务
-8 8,18 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_xyc.js, tag=柠檬众筹许愿池
-35 6 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_zqfl.js, tag=早起福利
-30 8-23 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_big_winner.js, tag=发财大赢家
-30 0,6-23/4 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_wsdlb.js, tag=柠檬我是大老板
-40 0,7 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_earn30.js, tag=赚30
-30 0,9,21 4-15 8 * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_qixi.js, tag=七夕情报局
-20 8 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_dpqd.js, tag=店铺签到
