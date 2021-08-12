@@ -1,0 +1,9 @@
+
+{
+    "name":"Angelalisa_Tasks",
+    "description":"脚本合集",
+    "task":[
+        "0 10 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/exchangeRate.js, tag=实时货币换算, img-url=https://raw.githubusercontent.com/Orz-3/task/master/exchangerate.png,enabled=true",
+ 
+    ]
+}
