@@ -206,7 +206,7 @@ if __name__ == "__main__":
     # pullJS('https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Js.conf')
     # Deduplication("JS-Ex.txt", "JS.txt")
     pullJS('https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_task.json')
-    Deduplication("JS-Ex.txt", "JS.txt")
+    Deduplication("JS.json", "JS.txt")
 
     #pullWangzhangGitee('https://gitee.com/lxk0301/jd_scripts/tree/master')
 
