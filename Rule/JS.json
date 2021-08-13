@@ -195,6 +195,12 @@
       "name": "七夕情报局",
       "time": "30 0,9,21 4-15 8 *",
         "target": "https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_qixi.js"
+      "name": "送豆得豆",
+      "time": "6 0,9,20 * * *",
+        "target": "https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_sddd.js"
+      "name": "特物z",
+      "time": "20 7,8 * * *",
+        "target": "https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_superBrand.js"
       "name": "店铺签到",
       "time": "20 8 * * *",
         "target": "https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_dpqd.js"
