@@ -3,6 +3,7 @@
     "name":"Angelalisa_Tasks",
     "description":"脚本合集",
     "task":[
+        "18 9,19 13-25 8 * https://raw.githubusercontent.com/smiek2221/scripts/master/gua_xiaolong.js, tag=8.13-8.25 骁龙品牌日, enabled=true",
         "20 7,8 * * * https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_superBrand.js, tag=特物z,  enabled=true",
         "6 0,9,20 * * * https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_sddd.js, tag=送豆得豆,  enabled=true",
         "30 9,21 12-20 8 * https://raw.githubusercontent.com/smiek2221/scripts/master/jd_qcshj.js, tag=8.12-8.20 汽车生活节, enabled=true",
