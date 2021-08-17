@@ -1,13 +1,13 @@
 # NAME: AdvertisingTest
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-08-16 10:22:29
-# HOST: 15170
+# UPDATED: 2021-08-17 02:07:43
+# HOST: 15176
 # HOST-KEYWORD: 88
 # HOST-SUFFIX: 78069
 # IP-CIDR: 244
 # IP6-CIDR: 1
-# TOTAL: 93572
+# TOTAL: 93578
 HOST,0001.2waky.com,AdvertisingTest
 HOST,000lk3v.wcomhost.com,AdvertisingTest
 HOST,000lkub.rcomhost.com,AdvertisingTest
@@ -353,10 +353,12 @@ HOST,7mart2500.com,AdvertisingTest
 HOST,7metasearch.com,AdvertisingTest
 HOST,7minuteworkout.com,AdvertisingTest
 HOST,7p.news-subscribe.com,AdvertisingTest
+HOST,7power.com.cn,AdvertisingTest
 HOST,803.stats.misstrends.com,AdvertisingTest
 HOST,80579.net,AdvertisingTest
 HOST,81182479.com,AdvertisingTest
 HOST,833wellsell.com,AdvertisingTest
+HOST,85102152.com,AdvertisingTest
 HOST,86240336d5604d7.com,AdvertisingTest
 HOST,86402d8a7f2aa0.com,AdvertisingTest
 HOST,879.stats.misstrends.com,AdvertisingTest
@@ -1914,7 +1916,6 @@ HOST,asd5211.f3322.net,AdvertisingTest
 HOST,asdegypt.com,AdvertisingTest
 HOST,asdkd.tutuapp.com,AdvertisingTest
 HOST,aseanlegaltech.com,AdvertisingTest
-HOST,aseanstore.com,AdvertisingTest
 HOST,asenytuhlhwrwz.com,AdvertisingTest
 HOST,aservitel.com,AdvertisingTest
 HOST,asgarddlc.sharezips.net,AdvertisingTest
@@ -4351,6 +4352,7 @@ HOST,dkd69bwkvrht1.cloudfront.net,AdvertisingTest
 HOST,dkdwv3lcby5zi.cloudfront.net,AdvertisingTest
 HOST,dkj2m377b0yzw.cloudfront.net,AdvertisingTest
 HOST,dkmdklhu.com,AdvertisingTest
+HOST,dl.bzgthg.com,AdvertisingTest
 HOST,dl.cr173.com,AdvertisingTest
 HOST,dl.faedmr.com,AdvertisingTest
 HOST,dl.gameplaylabs.com,AdvertisingTest
@@ -5146,6 +5148,7 @@ HOST,extranetcom.com,AdvertisingTest
 HOST,extrasdownload.com,AdvertisingTest
 HOST,extrasgalore.com,AdvertisingTest
 HOST,exts77apk.com,AdvertisingTest
+HOST,eyemedias.com,AdvertisingTest
 HOST,eytancohen.com,AdvertisingTest
 HOST,ezeeplay.com,AdvertisingTest
 HOST,ezeoma.agrillcs.com,AdvertisingTest
@@ -5651,6 +5654,7 @@ HOST,free-psncards.com,AdvertisingTest
 HOST,free-psncodegenerator.com,AdvertisingTest
 HOST,free-serv.com,AdvertisingTest
 HOST,free-social-buttons.xyz,AdvertisingTest
+HOST,free-stats.com,AdvertisingTest
 HOST,free-stats.i8.com,AdvertisingTest
 HOST,free-steam-code.com,AdvertisingTest
 HOST,free-steam-games.com,AdvertisingTest
@@ -6007,6 +6011,7 @@ HOST,gamestrick.org,AdvertisingTest
 HOST,gamesunite.net,AdvertisingTest
 HOST,gametofaster.com,AdvertisingTest
 HOST,gametrainersave.com,AdvertisingTest
+HOST,gamevance.com,AdvertisingTest
 HOST,gamexcode.com,AdvertisingTest
 HOST,gamextensions.net,AdvertisingTest
 HOST,gamezdownloadfree.com,AdvertisingTest
@@ -7282,6 +7287,7 @@ HOST,inf-team-live.epizy.com,AdvertisingTest
 HOST,inf.dragon-cityhack.com,AdvertisingTest
 HOST,infektsii.com,AdvertisingTest
 HOST,infinitcenter.com,AdvertisingTest
+HOST,infinite-hacks.com,AdvertisingTest
 HOST,infiniti-bd.com,AdvertisingTest
 HOST,infinitydownline.com,AdvertisingTest
 HOST,info-web.000webhostapp.com,AdvertisingTest
@@ -7522,7 +7528,6 @@ HOST,jamesokumu.com,AdvertisingTest
 HOST,jaminjubilee.com,AdvertisingTest
 HOST,jammulinks.com,AdvertisingTest
 HOST,jamsmsltd.000webhostapp.com,AdvertisingTest
-HOST,janagames.com,AdvertisingTest
 HOST,janeaustenjoy.com,AdvertisingTest
 HOST,janedoemain.com,AdvertisingTest
 HOST,jankessinger.com,AdvertisingTest
@@ -8210,6 +8215,7 @@ HOST,liberated.org,AdvertisingTest
 HOST,libergaming.com,AdvertisingTest
 HOST,libertybilisim.com,AdvertisingTest
 HOST,library.cowley.edu,AdvertisingTest
+HOST,libreape.com,AdvertisingTest
 HOST,libtechresource.com,AdvertisingTest
 HOST,license.bluesoleil.com,AdvertisingTest
 HOST,license.piriform.com,AdvertisingTest
@@ -8233,7 +8239,6 @@ HOST,lightsoundstore.com,AdvertisingTest
 HOST,lignerich.com,AdvertisingTest
 HOST,liiaannwhite.com,AdvertisingTest
 HOST,lijapan.com,AdvertisingTest
-HOST,likefreehack.com,AdvertisingTest
 HOST,likelbs.dinoyy.xyz,AdvertisingTest
 HOST,likeventy.com,AdvertisingTest
 HOST,lilian.redirectme.net,AdvertisingTest
@@ -9110,7 +9115,6 @@ HOST,monde-gourmandises.net,AdvertisingTest
 HOST,mondoads.s3.amazonaws.com,AdvertisingTest
 HOST,mondoperaio.net,AdvertisingTest
 HOST,monetizemore.com,AdvertisingTest
-HOST,money.payadded.com,AdvertisingTest
 HOST,money4ads.com,AdvertisingTest
 HOST,moneyexpert.com,AdvertisingTest
 HOST,moneymakingnews.xyz,AdvertisingTest
@@ -10170,6 +10174,7 @@ HOST,paytmofferlive.wpengine.com,AdvertisingTest
 HOST,payusatax.com,AdvertisingTest
 HOST,pb-assets.tedcdn.com,AdvertisingTest
 HOST,pbg2cs01.doteasy.com,AdvertisingTest
+HOST,pc-pointers.com,AdvertisingTest
 HOST,pc.mobad.ijinshan.com,AdvertisingTest
 HOST,pc.sborscweuu.cn,AdvertisingTest
 HOST,pc1restore.com,AdvertisingTest
@@ -11177,6 +11182,7 @@ HOST,roadmap.unbounce.com,AdvertisingTest
 HOST,roadrunnerhomebuyers.com,AdvertisingTest
 HOST,roadtrip.unbounce.com,AdvertisingTest
 HOST,roamtify.com,AdvertisingTest
+HOST,roaneink.com,AdvertisingTest
 HOST,roaringcash.com,AdvertisingTest
 HOST,robdeprop.com,AdvertisingTest
 HOST,robertfrumento.com,AdvertisingTest
@@ -12064,7 +12070,6 @@ HOST,smashingdealz.com,AdvertisingTest
 HOST,smc.silvercash.com,AdvertisingTest
 HOST,smd.premiumpromotions.com,AdvertisingTest
 HOST,smdrsdcollegepathankot.com,AdvertisingTest
-HOST,smeqatalyst.com,AdvertisingTest
 HOST,smi-engineering.com,AdvertisingTest
 HOST,smi2net.dev.smi2.net,AdvertisingTest
 HOST,smi2ru.ivan.dev.smi2.net,AdvertisingTest
@@ -13685,6 +13690,7 @@ HOST,unister-adservices.com,AdvertisingTest
 HOST,unisyschannel.com,AdvertisingTest
 HOST,unit8.test2.itembridge.com,AdvertisingTest
 HOST,unitechmetalindoperkasa.com,AdvertisingTest
+HOST,unitedagricare.com,AdvertisingTest
 HOST,unitedkingdomamerica.com,AdvertisingTest
 HOST,unitedsol.net,AdvertisingTest
 HOST,unitedtraders.com,AdvertisingTest

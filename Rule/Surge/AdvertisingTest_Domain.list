@@ -1,15 +1,15 @@
 # NAME: AdvertisingTest
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-08-16 10:22:29
+# UPDATED: 2021-08-17 02:07:42
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，请搭配MITM使用
-# DOMAIN: 15170
+# DOMAIN: 15176
 # DOMAIN-KEYWORD: 88
 # DOMAIN-SUFFIX: 78069
 # IP-CIDR: 244
 # IP-CIDR6: 1
 # URL-REGEX: 302
-# TOTAL: 93874
+# TOTAL: 93880
 0001.2waky.com
 000lk3v.wcomhost.com
 000lkub.rcomhost.com
@@ -355,10 +355,12 @@
 7metasearch.com
 7minuteworkout.com
 7p.news-subscribe.com
+7power.com.cn
 803.stats.misstrends.com
 80579.net
 81182479.com
 833wellsell.com
+85102152.com
 86240336d5604d7.com
 86402d8a7f2aa0.com
 879.stats.misstrends.com
@@ -1916,7 +1918,6 @@ asd5211.f3322.net
 asdegypt.com
 asdkd.tutuapp.com
 aseanlegaltech.com
-aseanstore.com
 asenytuhlhwrwz.com
 aservitel.com
 asgarddlc.sharezips.net
@@ -4353,6 +4354,7 @@ dkd69bwkvrht1.cloudfront.net
 dkdwv3lcby5zi.cloudfront.net
 dkj2m377b0yzw.cloudfront.net
 dkmdklhu.com
+dl.bzgthg.com
 dl.cr173.com
 dl.faedmr.com
 dl.gameplaylabs.com
@@ -5148,6 +5150,7 @@ extranetcom.com
 extrasdownload.com
 extrasgalore.com
 exts77apk.com
+eyemedias.com
 eytancohen.com
 ezeeplay.com
 ezeoma.agrillcs.com
@@ -5653,6 +5656,7 @@ free-psncards.com
 free-psncodegenerator.com
 free-serv.com
 free-social-buttons.xyz
+free-stats.com
 free-stats.i8.com
 free-steam-code.com
 free-steam-games.com
@@ -6009,6 +6013,7 @@ gamestrick.org
 gamesunite.net
 gametofaster.com
 gametrainersave.com
+gamevance.com
 gamexcode.com
 gamextensions.net
 gamezdownloadfree.com
@@ -7284,6 +7289,7 @@ inf-team-live.epizy.com
 inf.dragon-cityhack.com
 infektsii.com
 infinitcenter.com
+infinite-hacks.com
 infiniti-bd.com
 infinitydownline.com
 info-web.000webhostapp.com
@@ -7524,7 +7530,6 @@ jamesokumu.com
 jaminjubilee.com
 jammulinks.com
 jamsmsltd.000webhostapp.com
-janagames.com
 janeaustenjoy.com
 janedoemain.com
 jankessinger.com
@@ -8212,6 +8217,7 @@ liberated.org
 libergaming.com
 libertybilisim.com
 library.cowley.edu
+libreape.com
 libtechresource.com
 license.bluesoleil.com
 license.piriform.com
@@ -8235,7 +8241,6 @@ lightsoundstore.com
 lignerich.com
 liiaannwhite.com
 lijapan.com
-likefreehack.com
 likelbs.dinoyy.xyz
 likeventy.com
 lilian.redirectme.net
@@ -9112,7 +9117,6 @@ monde-gourmandises.net
 mondoads.s3.amazonaws.com
 mondoperaio.net
 monetizemore.com
-money.payadded.com
 money4ads.com
 moneyexpert.com
 moneymakingnews.xyz
@@ -10172,6 +10176,7 @@ paytmofferlive.wpengine.com
 payusatax.com
 pb-assets.tedcdn.com
 pbg2cs01.doteasy.com
+pc-pointers.com
 pc.mobad.ijinshan.com
 pc.sborscweuu.cn
 pc1restore.com
@@ -11179,6 +11184,7 @@ roadmap.unbounce.com
 roadrunnerhomebuyers.com
 roadtrip.unbounce.com
 roamtify.com
+roaneink.com
 roaringcash.com
 robdeprop.com
 robertfrumento.com
@@ -12066,7 +12072,6 @@ smashingdealz.com
 smc.silvercash.com
 smd.premiumpromotions.com
 smdrsdcollegepathankot.com
-smeqatalyst.com
 smi-engineering.com
 smi2net.dev.smi2.net
 smi2ru.ivan.dev.smi2.net
@@ -13687,6 +13692,7 @@ unister-adservices.com
 unisyschannel.com
 unit8.test2.itembridge.com
 unitechmetalindoperkasa.com
+unitedagricare.com
 unitedkingdomamerica.com
 unitedsol.net
 unitedtraders.com
