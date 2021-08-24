@@ -35,6 +35,9 @@
       "name": "京东签到②",
       "time": "2 0 * * *",
         "target": "https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_sign_graphics.js"
+      "name": "京东领券中心签到",
+      "time": "5 0 * * *",
+        "target": "https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_ccSign.js"
       "name": "东东超市兑换奖品",
         "target": "https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_blueCoin.js"
       "name": "口袋书店",

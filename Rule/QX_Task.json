@@ -3,6 +3,7 @@
     "name":"Angelalisa_Tasks",
     "description":"脚本合集",
     "task":[
+        "15 0/12 * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_ccSign.js, tag=领券中心签到, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true",
         "55 6/12 * * * https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_unsubscriLive.js,tag=取关主播",
         "30 6-23/6 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_fcdyj.js,tag=发财大赢家助力",
         "18 0-23/2 * * * https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_joy_steal.js,tag=京东宠汪汪偷好友积分与狗粮",
