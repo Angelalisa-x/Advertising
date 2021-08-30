@@ -285,6 +285,8 @@ if __name__ == "__main__":
     pullios7('https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/China/China.yaml',
                 'Clash/China.yaml')
 
+    pullios7('https://qxnav.com/rules/QuantumultX/gz/guanggao.list','guanggao.list')
+
 
     os.remove("TaskJS.txt")
     os.remove("temporary.txt")
