@@ -190,7 +190,7 @@ if __name__ == "__main__":
     # pullWangzhandizhi('https://github.com/whyour/hundun/tree/master/quanx')
     # pullWangzhandizhi('https://github.com/MoPoQAQ/Script/tree/main/Me')
     # pullWangzhandizhi('https://github.com/LXK9301/jd_scripts/tree/master')
-    pullWangzhandizhi('https://github.com/zero205/JD_tencent_scf')
+    pullWangzhandizhi('https://github.com/zero205/JD_tencent_scf/tree/main')
 
     fin = open("JS.txt","w",encoding='UTF-8')
     fin.close()

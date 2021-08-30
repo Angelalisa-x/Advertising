@@ -183,9 +183,6 @@
       "name": "东东乐园",
       "time": "18 7 * * *",
         "target": "https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_ddly.js"
-      "name": "抢京豆",
-      "time": "45 0,6-23/4 * * *",
-        "target": "https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_qjd.js"
       "name": "汪汪乐园合成joy",
       "time": "25 5-23/3 * * *",
         "target": "https://gitee.com/zero205/JD_tencent_scf/raw/main/jd_joy_park.js"
