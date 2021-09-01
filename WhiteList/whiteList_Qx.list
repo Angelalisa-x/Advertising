@@ -1,3 +1,12 @@
+HOST-SUFFIX,apigateway.iqiyi.com,DIRECT
+HOST-SUFFIX,m.moguvet.com,DIRECT
+HOST-SUFFIX,avatars.mds.yandex.net,DIRECT
+HOST-SUFFIX,an.yandex.ru,DIRECT
+HOST-SUFFIX,jbzj.com,DIRECT
+HOST-SUFFIX,tejia.taobao.com,DIRECT
+HOST-SUFFIX,appdownload.alicdn.com,DIRECT
+HOST-SUFFIX,icws.jb51.net,DIRECT
+HOST-SUFFIX,log.gds.mmstat.com,DIRECT
 HOST-SUFFIX,cashier.ele.me,DIRECT
 HOST-SUFFIX,grand.ele.me,DIRECT
 HOST-SUFFIX,buy.ele.me,DIRECT
@@ -41,7 +50,6 @@ HOST-SUFFIX,odin.re.taobao.com,DIRECT
 HOST-SUFFIX,issuecdn.baidupcs.com,DIRECT
 HOST-SUFFIX,natfrp.cloud,DIRECT
 HOST-SUFFIX,cmshow.gtimg.cn,DIRECT
-HOST-SUFFIX,ts.qq.com,DIRECT
 HOST-SUFFIX,pacaio.match.qq.com,DIRECT
 HOST-SUFFIX,gg.,DIRECT
 HOST-SUFFIX,idqqimg.com,DIRECT
@@ -151,6 +159,7 @@ HOST-SUFFIX,pay.wsds.cn,DIRECT
 HOST-SUFFIX,www.meipian7.cn,DIRECT
 HOST-SUFFIX,home.miui.com,DIRECT
 HOST-SUFFIX,ca.iadsdk.apple.com,DIRECT
+HOST-SUFFIX,ts.qq.com,DIRECT
 HOST-SUFFIX,.mdt.qq.com,DIRECT
 HOST-SUFFIX,weixin.scrcu.com,DIRECT
 HOST-SUFFIX,dl.op.wpscdn.cn,DIRECT
