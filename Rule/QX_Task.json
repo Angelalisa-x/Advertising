@@ -3,7 +3,8 @@
     "name":"Angelalisa_Tasks",
     "description":"脚本合集",
     "task":[
-        "4 10/12 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_jxlhb.js, tag=京喜领88元红包, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true",
+        "35 8,12 * * * https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_try.js, tag=试用, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true",
+        "35 8,12 * * * https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_nzmh.js, tag=女装盲盒, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true",
         "40 0,2 * * * https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_wish.js, tag=众筹许愿池, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true",
         "30 11 * * * https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_superBrand.js, tag=特物Z|万物皆可国创, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true",
         "33 7,19 * * * https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_dwapp.js, tag=积分换话费",
@@ -23,7 +24,6 @@
         "2 8,12,18 * * * https://ghproxy.com/https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_bookshop.js, tag=口袋书店, enabled=true",
         "5 0,6-23/4 * * * https://ghproxy.com/https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_car.js, tag=京东汽车, enabled=true",
         "5 0,6-23/4 * * * https://ghproxy.com/https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_cash.js, tag=签到领现金, enabled=true",
-        "0,1 0 0 * * 6,7,0,1https://ghproxy.com/https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_cash_exchange.js, tag=领现金兑换红包, enabled=true",
         "10 8,13,19,22 * * * https://ghproxy.com/https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_cfd.js, tag=京喜财富岛, enabled=true",
         "59 11,12,23 * * * https://ghproxy.com/https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_cfdtx.js, tag=京喜财富岛提现, enabled=true",
         "6 0 * * * https://ghproxy.com/https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_club_lottery.js, tag=摇京豆, enabled=true",
