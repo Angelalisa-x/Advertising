@@ -101,3 +101,19 @@ DOMAIN-SUFFIX,kwaitv.com
 DOMAIN-SUFFIX,kwimgs.com
 DOMAIN-SUFFIX,yximgs.com
 DOMAIN-SUFFIX,yxixy.com
+
+## >> 皮皮虾
+DOMAIN-SUFFIX,pipix.com
+
+## >> 西瓜视频
+DOMAIN-SUFFIX,bdxiguaimg.com
+DOMAIN-SUFFIX,ixgvideo.com
+DOMAIN-SUFFIX,ixigua.com
+DOMAIN-SUFFIX,ixiguavideo.com
+DOMAIN-SUFFIX,xiguaapp.cn
+DOMAIN-SUFFIX,xiguaapp.com
+DOMAIN-SUFFIX,xiguashipin.cn
+DOMAIN-SUFFIX,xiguashipin.net
+DOMAIN-SUFFIX,xiguavideo.cn
+DOMAIN-SUFFIX,xiguavideo.net
+IP-CIDR,114.246.10.65/32,no-resolve
