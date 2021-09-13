@@ -1,3 +1,12 @@
+HOST-SUFFIX,imgstat.baidu.com,DIRECT
+HOST-SUFFIX,v6lvs.com,DIRECT
+HOST-SUFFIX,qzs.qq.com,DIRECT
+HOST-SUFFIX,store-images.s-microsoft.com,DIRECT
+HOST-SUFFIX,default.cn.zb.wagbridge.ad.alibabacorp.com,DIRECT
+HOST-SUFFIX,default.cn.zb.wagbridge.ad.alibabacorp.com.gds.alibabadns.com,DIRECT
+HOST-SUFFIX,cas.baidu.com,DIRECT
+HOST-SUFFIX,bce-cdn.bj.bcebos.com,DIRECT
+HOST-SUFFIX,console.bce.baidu.com,DIRECT
 HOST-SUFFIX,yunjiasu-cdn.net,DIRECT
 HOST-SUFFIX,login.bce.baidu.com,DIRECT
 HOST-SUFFIX,ad.zcool.com.cn,DIRECT
@@ -406,7 +415,6 @@ HOST-SUFFIX,api.tw06.xlmc.sandai.net,DIRECT
 HOST-SUFFIX,app-advertise.zhihuishu.com,DIRECT
 HOST-SUFFIX,buyad.bi-xenon.cn,DIRECT
 HOST-SUFFIX,captcha.su.baidu.com,DIRECT
-HOST-SUFFIX,console.bce.baidu.com,DIRECT
 HOST-SUFFIX,cws-cctv.conviva.com,DIRECT
 HOST-SUFFIX,data.mistat.xiaomi.com,DIRECT
 HOST-SUFFIX,eimg.smzdm.com,DIRECT

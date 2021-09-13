@@ -57,15 +57,18 @@
       "name": "京喜财富岛挂机",
       "time": "10 0-23/6 * * *",
         "target": "https://ghproxy.com/https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_cfd_loop.js"
-      "name": "京喜财富岛提现",
-      "time": "59 11,12,23 * * *",
-        "target": "https://ghproxy.com/https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_cfdtx.js"
+      "name": "京喜财富岛合成月饼",
+      "time": "13 6,13,23 * * *",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_cfd_mooncake.js"
       "name": "摇京豆",
       "time": "6 0 * * *",
         "target": "https://ghproxy.com/https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_club_lottery.js"
       "name": "天天提鹅",
       "time": "15 0,7-23 * * *",
         "target": "https://ghproxy.com/https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_daily_egg.js"
+      "name": "积分换话费",
+      "time": "50 8 * * *",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_dwapp.js"
       "name": "京喜工厂",
       "time": "20 0,6-23 * * *",
         "target": "https://ghproxy.com/https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_dreamFactory.js"
@@ -104,12 +107,21 @@
       "name": "京喜牧场",
       "time": "30 0,6-23/3 * * *",
         "target": "https://ghproxy.com/https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_jxmc.js"
+      "name": "京小鸽",
+      "time": "45 0 * * *",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_jxg.js"
+      "name": "京喜领红包",
+      "time": "3 0,6-20/4 * * *",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_jxlhb.js"
       "name": "京东快递签到",
       "time": "25 0 * * *",
         "target": "https://ghproxy.com/https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_kd.js"
       "name": "领京豆",
       "time": "10 9 * * *",
         "target": "https://ghproxy.com/https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_ljd.js"
+      "name": "零食街",
+      "time": "2 0,6-23 * * *",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_lsj.js"
       "name": "京东直播",
       "time": "10-20/5 12 * * *",
         "target": "https://ghproxy.com/https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_live.js"
@@ -168,6 +180,9 @@
       "name": "取关京东主播",
       "time": "30 22 * * *",
         "target": "https://ghproxy.com/https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_unsubscriLive.js"
+      "name": "赚金币",
+      "time": "6 0,15 * * *",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_zjb.js"
       "name": "健康社区",
       "time": "30 10-22/3 * * *",
         "target": "https://ghproxy.com/https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_health.js"
@@ -213,6 +228,15 @@
       "name": "特物z",
       "time": "20 7,8 * * *",
         "target": "https://ghproxy.com/https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_superBrand.js"
+      "name": "星店长",
+      "time": "20 10 * 9 *",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_star_shop.js"
+      "name": "许愿池",
+      "time": "20 0,11 * * *",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_wish.js"
+      "name": "内容鉴赏官",
+      "time": "15 0,21 * 9 *",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_connoisseur.js"
       "name": "店铺签到",
       "time": "20 8 * * *",
         "target": "https://ghproxy.com/https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_dpqd.js"
