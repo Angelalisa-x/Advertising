@@ -9,7 +9,7 @@
 # > https://raw.githubusercontent.com/Maasea/sgmodule/master/KeepAds.sgmodule
 
 [General]
-# >compatibility-mode = 3
+compatibility-mode = 3
 
 [Map Local]
 https:\/\/www\.hptoon\.com\/hanman\/static\/dist\/ppm\/js\/common(\d)?\.js data="https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Hptoon/Common.js"
