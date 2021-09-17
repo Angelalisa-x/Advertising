@@ -3,6 +3,7 @@
     "name":"Angelalisa_Tasks",
     "description":"脚本合集",
     "task":[
+        "30 0,6-23/6 * * * https://ghproxy.com/https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_qqxing.js,  tag=QQ星系牧场, enabled=true",
         "15 0,21 * 9 * https://ghproxy.com/https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_connoisseur.js,  tag=内容鉴赏官, enabled=true",
         "20 0,11 * * * https://ghproxy.com/https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_wish.js,  tag=许愿池, enabled=true",
         "20 10 * 9 * https://ghproxy.com/https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_star_shop.js, tag=星店长, enabled=true",
