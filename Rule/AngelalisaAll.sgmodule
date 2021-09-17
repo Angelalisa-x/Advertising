@@ -12,7 +12,6 @@
 compatibility-mode = 3
 
 [Map Local]
-https:\/\/www\.hptoon\.com\/hanman\/static\/dist\/ppm\/js\/common(\d)?\.js data="https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Hptoon/Common.js"
 
 [Rule]
 # > 屏蔽HTTP3/QUIC协议
@@ -42,15 +41,6 @@ douyin = type=http-response,pattern=^https?:\/\/aweme\.snssdk\.com\/aweme\/v[12]
 # > 京东比价
 http-response ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) requires-body=1,script-path=https://service.2ti.st/QuanX/Script/jd_tb_price/main.js
 
-# > KeepAds
-Tab = type=http-response,pattern=https:\/\/api\.gotokeep\.com\/homepage\/v4\/tab,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Maasea/surgeModule/master/Script/Keep/Sections.js
-Bottom = type=http-response,pattern=https:\/\/api\.gotokeep\.com\/config\/v3/basic,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Maasea/surgeModule/master/Script/Keep/BottomBar.js
-
-# > youtube
-YouTubeAds = type=http-request,pattern=^https?:\/\/.+?\.googlevideo\.com\/.+&(oad|ctier)=(?!A),script-path=https://choler.github.io/Surge/Script/YouTube.js
-
-# > baidu pan
-http-response ^https?://pan\.baidu\.com/rest/\d\.\d/membership/user\?.+&firstlaunchtime=\d+ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yjqiang/surge_scripts/main/scripts/baidu/baidu_yunpan.js
 
 [MITM]
-hostname = %APPEND% weixin110.qq.com, mp.weixin.qq.com, rtbapi.douyucdn.cn, api*.amemv.com, aweme.snssdk.com, api.m.jd.com, api.gotokeep.com, static2.keepcdn.com, *.ximalaya.com, www.hptoon.com, *.googlevideo.com, pan.baidu.com
+hostname = %APPEND% weixin110.qq.com, mp.weixin.qq.com, rtbapi.douyucdn.cn, api*.amemv.com, aweme.snssdk.com, api.m.jd.com
