@@ -237,6 +237,9 @@
       "name": "内容鉴赏官",
       "time": "15 0,21 * 9 *",
         "target": "https://ghproxy.com/https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_connoisseur.js"
+      "name": "QQ星系牧场",
+      "time": "30 0,6-23/6 * * *",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_qqxing.js"
       "name": "店铺签到",
       "time": "20 8 * * *",
         "target": "https://ghproxy.com/https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_dpqd.js"
