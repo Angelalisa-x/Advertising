@@ -99,7 +99,7 @@ DOMAIN-SUFFIX,ai.m.taobao.com
 DOMAIN-SUFFIX,tongji.baidu.com
 DOMAIN-SUFFIX,.ksyuncdn.com
 DOMAIN-SUFFIX,.ks-cdn.com
-DOMAIN-SUFFIX,.woozooo.com
+DOMAIN-SUFFIX,pc.woozooo.com
 DOMAIN-SUFFIX,pub.idqqimg.com
 DOMAIN-SUFFIX,cmts.iqiyi.com
 DOMAIN-SUFFIX,quark.sm.cn
@@ -259,7 +259,6 @@ DOMAIN-SUFFIX,appmsg.gzmtr.cn
 DOMAIN-SUFFIX,dldir1.qq.com
 DOMAIN-SUFFIX,weixin.qq.com
 DOMAIN-SUFFIX,.img.mobile.sina.cn
-DOMAIN-SUFFIX,.126.net
 DOMAIN-SUFFIX,quan.suning.com
 DOMAIN-SUFFIX,mparticle.uc.cn
 DOMAIN-SUFFIX,g.shumafen.cn
@@ -282,7 +281,6 @@ DOMAIN-SUFFIX,metok.sys.miui.com
 DOMAIN-SUFFIX,mibi.api.xiaomi.com
 DOMAIN-SUFFIX,t.cn
 DOMAIN-SUFFIX,work.weixin.qq.com
-DOMAIN-SUFFIX,.aliyun.com
 DOMAIN-SUFFIX,toutiaocdn.com
 DOMAIN-SUFFIX,.qlogo.cn
 DOMAIN-SUFFIX,sina.cn
@@ -344,7 +342,6 @@ DOMAIN-SUFFIX,res.imtt.qq.com
 DOMAIN-SUFFIX,recmd.html5.qq.com
 DOMAIN-SUFFIX,debugtbs.qq.com
 DOMAIN-SUFFIX,3gimg.qq.com
-DOMAIN-SUFFIX,.m.qq.com
 DOMAIN-SUFFIX,.map.qq.com
 DOMAIN-SUFFIX,dnet.mb.qq.com
 DOMAIN-SUFFIX,web.vip.miui.com
@@ -386,7 +383,6 @@ DOMAIN-SUFFIX,tsmclient.miui.com
 DOMAIN-SUFFIX,.app.qq.com
 DOMAIN-SUFFIX,.tencent-cloud.net
 DOMAIN-SUFFIX,cnbj1.fds.api.xiaomi.com
-DOMAIN-SUFFIX,.qzone.qq.com
 DOMAIN-SUFFIX,sourl.cn
 DOMAIN-SUFFIX,alissl.ucdl.pp.uc.cn
 DOMAIN-SUFFIX,ynuf.aliapp.org
@@ -394,9 +390,7 @@ DOMAIN-SUFFIX,tv.sohu.com
 DOMAIN-SUFFIX,.alibabausercontent.com
 DOMAIN-SUFFIX,s.click.ele.me
 DOMAIN-SUFFIX,.mybank.cn
-DOMAIN-SUFFIX,www.qq.com
 DOMAIN-SUFFIX,cn.bing.com
-DOMAIN-SUFFIX,360.cn
 DOMAIN-SUFFIX,dlied6.qq.com
 DOMAIN-SUFFIX,misc.wcd.qq.com
 DOMAIN-SUFFIX,pingtas.qq.com

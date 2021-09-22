@@ -99,7 +99,7 @@ HOST-SUFFIX,ai.m.taobao.com,DIRECT
 HOST-SUFFIX,tongji.baidu.com,DIRECT
 HOST-SUFFIX,.ksyuncdn.com,DIRECT
 HOST-SUFFIX,.ks-cdn.com,DIRECT
-HOST-SUFFIX,.woozooo.com,DIRECT
+HOST-SUFFIX,pc.woozooo.com,DIRECT
 HOST-SUFFIX,pub.idqqimg.com,DIRECT
 HOST-SUFFIX,cmts.iqiyi.com,DIRECT
 HOST-SUFFIX,quark.sm.cn,DIRECT
@@ -259,7 +259,6 @@ HOST-SUFFIX,appmsg.gzmtr.cn,DIRECT
 HOST-SUFFIX,dldir1.qq.com,DIRECT
 HOST-SUFFIX,weixin.qq.com,DIRECT
 HOST-SUFFIX,.img.mobile.sina.cn,DIRECT
-HOST-SUFFIX,.126.net,DIRECT
 HOST-SUFFIX,quan.suning.com,DIRECT
 HOST-SUFFIX,mparticle.uc.cn,DIRECT
 HOST-SUFFIX,g.shumafen.cn,DIRECT
@@ -282,7 +281,6 @@ HOST-SUFFIX,metok.sys.miui.com,DIRECT
 HOST-SUFFIX,mibi.api.xiaomi.com,DIRECT
 HOST-SUFFIX,t.cn,DIRECT
 HOST-SUFFIX,work.weixin.qq.com,DIRECT
-HOST-SUFFIX,.aliyun.com,DIRECT
 HOST-SUFFIX,toutiaocdn.com,DIRECT
 HOST-SUFFIX,.qlogo.cn,DIRECT
 HOST-SUFFIX,sina.cn,DIRECT
@@ -344,7 +342,6 @@ HOST-SUFFIX,res.imtt.qq.com,DIRECT
 HOST-SUFFIX,recmd.html5.qq.com,DIRECT
 HOST-SUFFIX,debugtbs.qq.com,DIRECT
 HOST-SUFFIX,3gimg.qq.com,DIRECT
-HOST-SUFFIX,.m.qq.com,DIRECT
 HOST-SUFFIX,.map.qq.com,DIRECT
 HOST-SUFFIX,dnet.mb.qq.com,DIRECT
 HOST-SUFFIX,web.vip.miui.com,DIRECT
@@ -386,7 +383,6 @@ HOST-SUFFIX,tsmclient.miui.com,DIRECT
 HOST-SUFFIX,.app.qq.com,DIRECT
 HOST-SUFFIX,.tencent-cloud.net,DIRECT
 HOST-SUFFIX,cnbj1.fds.api.xiaomi.com,DIRECT
-HOST-SUFFIX,.qzone.qq.com,DIRECT
 HOST-SUFFIX,sourl.cn,DIRECT
 HOST-SUFFIX,alissl.ucdl.pp.uc.cn,DIRECT
 HOST-SUFFIX,ynuf.aliapp.org,DIRECT
@@ -394,9 +390,7 @@ HOST-SUFFIX,tv.sohu.com,DIRECT
 HOST-SUFFIX,.alibabausercontent.com,DIRECT
 HOST-SUFFIX,s.click.ele.me,DIRECT
 HOST-SUFFIX,.mybank.cn,DIRECT
-HOST-SUFFIX,www.qq.com,DIRECT
 HOST-SUFFIX,cn.bing.com,DIRECT
-HOST-SUFFIX,360.cn,DIRECT
 HOST-SUFFIX,dlied6.qq.com,DIRECT
 HOST-SUFFIX,misc.wcd.qq.com,DIRECT
 HOST-SUFFIX,pingtas.qq.com,DIRECT
