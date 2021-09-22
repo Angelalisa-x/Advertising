@@ -1,3 +1,5 @@
+HOST-SUFFIX,cnzz.mmstat.com,DIRECT
+HOST-SUFFIX,bkimg.cdn.bcebos.com,DIRECT
 HOST-SUFFIX,imgstat.baidu.com,DIRECT
 HOST-SUFFIX,v6lvs.com,DIRECT
 HOST-SUFFIX,qzs.qq.com,DIRECT
@@ -64,7 +66,6 @@ HOST-SUFFIX,issuecdn.baidupcs.com,DIRECT
 HOST-SUFFIX,natfrp.cloud,DIRECT
 HOST-SUFFIX,cmshow.gtimg.cn,DIRECT
 HOST-SUFFIX,pacaio.match.qq.com,DIRECT
-HOST-SUFFIX,gg.,DIRECT
 HOST-SUFFIX,idqqimg.com,DIRECT
 HOST-SUFFIX,a-0001.a-msedge.net,DIRECT
 HOST-SUFFIX,url.cn,DIRECT

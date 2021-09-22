@@ -3,6 +3,8 @@
     "name":"Angelalisa_Tasks",
     "description":"脚本合集",
     "task":[
+        "5 6,18 1-16,21-30 9,10 * https://raw.githubusercontent.com/star261/jd/main/scripts/jd_decompression.js, tag= 蚊子腿豆子",
+        "20 0/12 * * * https://raw.githubusercontent.com/Ariszy/Private-Script/master/JD/zy_ddwj.js, tag= 东东玩家",
         "15 3,9 * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_ddworld.js, tag=东东世界, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true",
         "0 0-18/6 * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_carnivalcity.js, tag=京东手机狂欢城, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true",
         "30 0,6-23/6 * * * https://ghproxy.com/https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_qqxing.js,  tag=QQ星系牧场, enabled=true",
