@@ -186,7 +186,6 @@ if __name__ == "__main__":
     fin.close()
     # pullWangzhandizhi('https://github.com/lxk0301/jd_scripts/tree/master')
     # pullWangzhandizhi('https://github.com/799953468/Quantumult-X/tree/master/Scripts/JD')
-    # pullWangzhandizhi('https://github.com/yangtingxiao/QuantumultX/tree/master/scripts/jd')
     # pullWangzhandizhi('https://github.com/whyour/hundun/tree/master/quanx')
     # pullWangzhandizhi('https://github.com/MoPoQAQ/Script/tree/main/Me')
     # pullWangzhandizhi('https://github.com/LXK9301/jd_scripts/tree/master')
@@ -194,6 +193,7 @@ if __name__ == "__main__":
     pullWangzhandizhi('https://github.com/Ariszy/Private-Script/tree/master/JD')
     pullWangzhandizhi('https://github.com/star261/jd/tree/main/scripts')
     pullWangzhandizhi('https://github.com/yangtingxiao/QuantumultX/tree/master/scripts/jd')
+    pullWangzhandizhi('https://github.com/JDHelloWorld/jd_scripts')
 
     fin = open("JS.txt","w",encoding='UTF-8')
     fin.close()
