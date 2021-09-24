@@ -39,9 +39,7 @@ Wechat.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent
 douyin = type=http-response,pattern=^https?:\/\/aweme\.snssdk\.com\/aweme\/v[12]\/((|follow\/|nearby\/)feed|aweme\/post|hot\/search\/video\/list|mix\/aweme|aweme\/detail)\/\?,requires-body=1,script-path=https://cdn.jsdelivr.net/gh/fgprodigal/Surge-Rule@master/Script/douyin.js
 
 # > 京东比价
-#http-response ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) requires-body=1,script-path=https://service.2ti.st/QuanX/Script/jd_tb_price/main.js
-http-response ^https?://api\.m\.jd\.com/(client\.action|api)\?functionId=(wareBusiness|serverConfig|basicConfig|lite_wareBusiness|pingou_item) requires-body=true, script-path=https://raw.githubusercontent.com/Tartarus2014/Script/master/jd_price_lite.js, tag=京东比价 Lite(通知版)
-
+http-response ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) requires-body=1,script-path=https://service.2ti.st/QuanX/Script/jd_tb_price/main.js
 
 [MITM]
 hostname = %APPEND% weixin110.qq.com, mp.weixin.qq.com, rtbapi.douyucdn.cn, api*.amemv.com, aweme.snssdk.com, api.m.jd.com
