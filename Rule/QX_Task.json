@@ -3,6 +3,7 @@
     "name":"Angelalisa_Tasks",
     "description":"脚本合集",
     "task":[
+        "18 7,17 * * * https://ghproxy.com/https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_jmf.js, tag=集魔方",
         "30 0/8 * * * https://raw.githubusercontent.com/Ariszy/Private-Script/master/JD/zy_qycl.js, tag= 企有此礼",
         "50 0/8 * * * https://raw.githubusercontent.com/Ariszy/Private-Script/master/JD/zy_xyzzh.js, tag= 芯意制造盒",
         "20 0/8 * * * https://raw.githubusercontent.com/Ariszy/Private-Script/master/JD/zy_ddwj.js, tag= 东东玩家",
