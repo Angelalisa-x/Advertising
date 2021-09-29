@@ -292,6 +292,10 @@ if __name__ == "__main__":
 
     pullios7('https://qxnav.com/rules/QuantumultX/qixin.json','qixin.json')
 
+    pullios7('https://cdn.jsdelivr.net/gh/sngxpro3/QuanxTask@main/JDTask/JDTask.json', 'sngxpro3JDTask.json')
+
+    pullios7('https://cdn.jsdelivr.net/gh/sngxpro3/QuanxTask@main/OtherThanJD/OthersThanJD.json', 'sngxpro3OtherTask.json')
+
 
     os.remove("TaskJS.txt")
     os.remove("temporary.txt")
