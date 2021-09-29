@@ -290,6 +290,8 @@ if __name__ == "__main__":
 
     pullios7('https://qxnav.com/rules/QuantumultX/gz/guanggao.list','guanggao.list')
 
+    pullios7('https://qxnav.com/rules/QuantumultX/qixin.json','qixin.json')
+
 
     os.remove("TaskJS.txt")
     os.remove("temporary.txt")
