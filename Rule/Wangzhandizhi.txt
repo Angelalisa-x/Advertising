@@ -3,6 +3,7 @@ https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/JDJRValidator_Aaro
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/JDJRValidator_Smiek.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/JS_USER_AGENTS.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/USER_AGENTS.js
+https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/config.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/index.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jdCookie.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jdDreamFactoryShareCodes.js
@@ -19,7 +20,6 @@ https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_blueCoin.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_bookshop.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_car.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_car_exchange.js
-https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_carnivalcity.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_cash.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_ccSign.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_cfd.js
@@ -38,6 +38,7 @@ https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_earn30.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_fan.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_fcdyj.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_fruit.js
+https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_genz.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_get_share_code.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_gold_creator.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_health.js
@@ -52,8 +53,6 @@ https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_joy_park_task.j
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_joy_reward.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_joy_run.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_joy_steal.js
-https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_jump.js
-https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_jxg.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_jxlhb.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_jxmc.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_kd.js
@@ -93,6 +92,7 @@ https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_wish.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_wsdlb.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_z_health_energy.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_zjb.js
+https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_zsign.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jx_sign.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/package.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/sendNotify.js
@@ -142,7 +142,6 @@ https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_big_winner.js
 https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_bookshop.js
 https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_car.js
 https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_car_exchange.js
-https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_carnivalcity.js
 https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_club_lottery.js
 https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_dreamFactory.js
 https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_dreamFactory_help.js

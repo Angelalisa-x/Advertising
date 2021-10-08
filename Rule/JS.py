@@ -189,7 +189,7 @@ if __name__ == "__main__":
     # pullWangzhandizhi('https://github.com/whyour/hundun/tree/master/quanx')
     # pullWangzhandizhi('https://github.com/MoPoQAQ/Script/tree/main/Me')
     # pullWangzhandizhi('https://github.com/LXK9301/jd_scripts/tree/master')
-    pullWangzhandizhi('https://github.com/zero205/JD_tencent_scf/tree/main')
+    pullWangzhandizhi('https://github.com/zero205/JD_tencent_scf')
     pullWangzhandizhi('https://github.com/Ariszy/Private-Script/tree/master/JD')
     pullWangzhandizhi('https://github.com/star261/jd/tree/main/scripts')
     pullWangzhandizhi('https://github.com/yangtingxiao/QuantumultX/tree/master/scripts/jd')
