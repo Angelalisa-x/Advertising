@@ -19,6 +19,7 @@
         "0,30 * 6-23 * * * https://raw.githubusercontent.com/YaphetS0903/JStest/main/cyds.js, tag=成语大师, enabled=true",
         "0,30 * 6-23 * * * https://raw.githubusercontent.com/YaphetS0903/JStest/main/bsxxl.js, tag=宝石消消乐, enabled=true",
         "0 9 * * * https://raw.githubusercontent.com/laoguilin/JS-/main/dwwg/dwwg.js, tag=动物王国, enabled=true",
+        "0 */1 * * * https://raw.githubusercontent.com/xl2101200/-/main/jztt.js, tag=九章头条, enabled=true",
         "*/10 8-12 * * * https://raw.githubusercontent.com/laoguilin/JS-/main/chyu/chyu.js, tag=成语极速版, img-url=https://qxnav.com/rules/QuantumultX/img/chyu.png, enabled=true",
         "0 8-22/3 * * * https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/nCov.js, tag=疫情动态, img-url=https://qxnav.com/rules/QuantumultX/img/COVID-19.png, enabled=true",
         "11 2,11 * * * https://qxnav.com/rules/QuantumultX/js/zwf234/virmach.js, tag=流量查询, img-url=https://qxnav.com/rules/QuantumultX/img/jd.png, enabled=true",
