@@ -3,6 +3,8 @@
     "name":"Angelalisa_Tasks",
     "description":"脚本合集",
     "task":[
+        "10 0/12 * * * https://raw.githubusercontent.com/star261/jd/main/scripts/jd_lucky_egg.js, tag=概率豆子, enabled=true",
+        "13 5,16 * * * https://raw.githubusercontent.com/ickel00/gd_test/main/jd_industrial_task.js, tag=京东工业品任务, enabled=true",
         "10 15/12 * * * https://raw.githubusercontent.com/star261/jd/main/scripts/jd_haier.js, tag=海尔店铺活动, enabled=true",
         "10 14/12 * * * https://raw.githubusercontent.com/star261/jd/main/scripts/jd_yijia.js, tag=一加手机, enabled=true",
         "5 10 26-30,1-15 9,10 * https://raw.githubusercontent.com/star261/jd/main/scripts/jd_honour.js, tag=荣耀新品传送挑战, enabled=true",
