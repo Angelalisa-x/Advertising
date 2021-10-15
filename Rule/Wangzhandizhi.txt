@@ -1,6 +1,7 @@
 
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/JDJRValidator_Aaron.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/JDJRValidator_Smiek.js
+https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/JDSignValidator.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/JS_USER_AGENTS.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/USER_AGENTS.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/config.js
@@ -27,6 +28,7 @@ https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_cfd_loop.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_cfd_mooncake.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_club_lottery.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_connoisseur.js
+https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_daily_egg.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_ddly.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_ddworld.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_decompression.js
@@ -39,6 +41,7 @@ https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_fruit.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_genz.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_get_share_code.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_gold_creator.js
+https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_haier.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_health.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_industrial_task.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_jdfactory.js
@@ -57,7 +60,6 @@ https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_jxmc.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_kd.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_live.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_ljd.js
-https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_lucky_egg.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_mohe.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_moneyTree.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_moneyTree_help.js
@@ -88,6 +90,7 @@ https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_unsubscriLive.j
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_unsubscribe.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_wish.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_wsdlb.js
+https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_yijia.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_z_health_energy.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_zjb.js
 https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_zsign.js
@@ -100,16 +103,12 @@ https://raw.githubusercontent.com/Ariszy/Private-Script/master/JD/zy_ckcheck.js
 https://raw.githubusercontent.com/Ariszy/Private-Script/master/JD/zy_ddwj.js
 https://raw.githubusercontent.com/Ariszy/Private-Script/master/JD/zy_jxcollect.js
 
-https://raw.githubusercontent.com/star261/jd/main/scripts/jd_beauty_twelfth.js
 https://raw.githubusercontent.com/star261/jd/main/scripts/jd_ddworld.js
 https://raw.githubusercontent.com/star261/jd/main/scripts/jd_decompression.js
-https://raw.githubusercontent.com/star261/jd/main/scripts/jd_fan.js
 https://raw.githubusercontent.com/star261/jd/main/scripts/jd_goldenStaue.js
 https://raw.githubusercontent.com/star261/jd/main/scripts/jd_haier.js
 https://raw.githubusercontent.com/star261/jd/main/scripts/jd_jxmc.js
-https://raw.githubusercontent.com/star261/jd/main/scripts/jd_lucky_egg.js
 https://raw.githubusercontent.com/star261/jd/main/scripts/jd_productZ4Brand.js
-https://raw.githubusercontent.com/star261/jd/main/scripts/jd_yijia.js
 https://raw.githubusercontent.com/star261/jd/main/scripts/star_dreamFactory_tuan.js
 
 https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jdCookie.js
@@ -141,6 +140,7 @@ https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_bookshop.js
 https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_car.js
 https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_car_exchange.js
 https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_club_lottery.js
+https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_daily_egg.js
 https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_dreamFactory.js
 https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_dreamFactory_help.js
 https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_env_copy.js
@@ -163,6 +163,7 @@ https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_pet.js
 https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_pigPet.js
 https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_plantBean.js
 https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_redPacket.js
+https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_reward.js
 https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_sgmh.js
 https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_shop.js
 https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/jd_speed_redpocke.js
