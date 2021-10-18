@@ -1,13 +1,16 @@
 {
     "name":"奇心脚本合集",
     "description":"https://qxnav.com/rules/QuantumultX/qixin.json",
-    "UpdateTime" : "2021-09-28",
+    "UpdateTime" : "2021-10-16",
     "Author" : "Stanger",
     "navigation" : "https://qxnav.com",
     "Description" : "奇心科技 - 创造不一样的科技平台！",
     "Image" : "https://qxnav.com/images/logo.png",
     "task":[
         "* * * * 1/1 ? https://raw.githubusercontent.com/zwf234/rules/master/js/jd_Delck.js, tag=清除京东ck, img-url=https://qxnav.com/rules/QuantumultX/img/jd.png, enabled=true",
+        "event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/streaming-ui-check.js, tag=流媒体-解锁查询, img-url=checkmark.seal.system, enabled=true",
+        "event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/nf_ytb_ui-check.js, tag=YouTube/Netflix 解锁查询, img-url=checkmark.seal.system, enabled=true",
+        "event-interaction https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/geo_location.js, tag=GeoIP 查询, img-url=location.fill.viewfinder.system",
         "0,30 * 6-23 * * * https://raw.githubusercontent.com/YaphetS0903/JStest/main/ttxfk.js, tag=天天消方块, enabled=true",
         "0,30 * 6-23 * * * https://raw.githubusercontent.com/YaphetS0903/JStest/main/ttdt.js, tag=天天答题, enabled=true",
         "0,30 * 6-23 * * * https://raw.githubusercontent.com/YaphetS0903/JStest/main/ttcg.js, tag=天天猜歌, enabled=true",
