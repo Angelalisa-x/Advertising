@@ -3,8 +3,8 @@
     "name":"Angelalisa_Tasks",
     "description":"脚本合集",
     "task":[
+        "0 0-23/1 * * * https://raw.githubusercontent.com/star261/jd/main/scripts/jd_city.js, tag=城城领现金, enabled=true",
         "22 0,8 * * * https://raw.githubusercontent.com/star261/jd/main/scripts/jd_chinaJoy.js, tag=攒金币 赢大礼, enabled=true",
-        "22 0,8 * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_GoldcoinToGift.js, tag=攒金币 赢大礼, enabled=true",
         "18 7,17 * * * https://ghproxy.com/https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_jmf.js, tag=集魔方, enabled=true",
         "30 7 * * * https://qxnav.com/rules/QuantumultX/js/zwf234/jd_ddpark.js, tag=东东乐园, img-url=https://qxnav.com/rules/QuantumultX/img/jd.png, enabled=true",
         "10 * * * * https://qxnav.com/rules/QuantumultX/js/jd_jdfactory.js, tag=东东工厂, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_factory.png, enabled=true",
