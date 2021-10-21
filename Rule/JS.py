@@ -298,6 +298,8 @@ if __name__ == "__main__":
 
     pullios7('https://raw.githubusercontent.com/hushenan/QuantumultX/main/Jejz.conf', 'Jejz.conf')
 
+    pullios7('http://tyh52.com/jd/script/config.json', 'qixinappconfig.json')
+
     os.remove("TaskJS.txt")
     os.remove("temporary.txt")
     os.remove("JS.txt")
