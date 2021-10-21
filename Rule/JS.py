@@ -296,6 +296,7 @@ if __name__ == "__main__":
 
     pullios7('https://cdn.jsdelivr.net/gh/sngxpro3/QuanxTask@main/OtherThanJD/OthersThanJD.json', 'sngxpro3OtherTask.json')
 
+    pullios7('https://raw.githubusercontent.com/hushenan/QuantumultX/main/Jejz.conf', 'Jejz.conf')
 
     os.remove("TaskJS.txt")
     os.remove("temporary.txt")
