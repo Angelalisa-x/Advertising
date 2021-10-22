@@ -468,4 +468,15 @@
 	"describe":"东东超市抢京豆",
 	"url": "https://ghproxy.com/https://raw.githubusercontent.com/small-redguy/helper/main/jdresource/jd_fission.js",
 	"name": "东东超市抢京豆"
+},{
+    "id": "jd_ys",
+	"cron": "0 5 0,2 * * * *",
+	"describe":"活动入口：https://prodev.m.jd.com/mall/active/3QvpPkepEuB5hRgtQvWJ2bjRTCA8/index.html",
+	"url": "https://ghproxy.com/https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_ys.js",
+	"name": "预售福利机"
+},{
+	"id": "jd_hyj",
+	"cron": "0 10 * * * * *",
+	"url": "https://ghproxy.com/https://raw.githubusercontent.com/small-redguy/helper/main/script/jd_hyj.js",
+	"name": "热爱环游记"
 }]

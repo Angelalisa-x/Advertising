@@ -3,8 +3,11 @@
     "name":"Angelalisa_Tasks",
     "description":"脚本合集",
     "task":[
-        "0 0 * * * * * https://ghproxy.com/https://raw.githubusercontent.com/small-redguy/helper/main/jdresource/jx_mc.js, tag= 京喜牧场",
-        "0 0,9 * * * https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_fission.js, tag= 东东超市限时抢京豆",
+        "23 9,10 * * * https://raw.githubusercontent.com/star261/jd/main/scripts/jd_selectionOfficer.js, tag= 美妆馆",
+        "5 0,2 * * * https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_ys.js, tag=预售福利机",
+        "0 * * * * https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_hyj.js, tag= 环游记",
+        "0 * * * * https://ghproxy.com/https://raw.githubusercontent.com/small-redguy/helper/main/jdresource/jx_mc.js, tag= 京喜牧场",
+        "23 7,9 * * * https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_xsqjd.js, tag= 东东超市限时抢京豆",
         "3 0/12 * * * https://raw.githubusercontent.com/Ariszy/Private-Script/master/JD/zy_jxdzz.js, tag= 惊喜大作战",
         "0 0-23/1 * * * https://raw.githubusercontent.com/star261/jd/main/scripts/jd_city.js, tag=城城领现金, enabled=true",
         "22 0,8 * * * https://raw.githubusercontent.com/star261/jd/main/scripts/jd_chinaJoy.js, tag=攒金币 赢大礼, enabled=true",
