@@ -303,18 +303,11 @@
 	"url": "https://ghproxy.com/https://raw.githubusercontent.com/small-redguy/helper/main/jdresource/gua_MMdou.js",
 	"name": "升级领京豆"
 },{
-	"id": "jd_ryhxj",
-	"isConcurrent":false,
-	  "cron": "0 10 0-18/6 * * * *",
-	"describe":"荣耀焕新季",
-	"url": "https://ghproxy.com/https://raw.githubusercontent.com/yuannian1112/jd_scripts/main/jd_ryhxj.js",
-	"name": "荣耀焕新季"
-},{
 	"id": "jd_carnivalcity",
-	"isConcurrent":false,
+	"isConcurrent":true,
 	  "cron": "0 50 0,4 * * * *",
 	"describe":"手机狂欢城",
-	"url": "https://ghproxy.com/https://raw.githubusercontent.com/yuannian1112/jd_scripts/main/jd_carnivalcity.js",
+	"url": "https://ghproxy.com/https://github.com/zero205/JD_tencent_scf/blob/main/jd_carnivalcity.js",
 	"name": "手机狂欢城"
 },{
 	"id": "jd_mohe",
@@ -479,4 +472,11 @@
 	"cron": "0 10 * * * * *",
 	"url": "https://ghproxy.com/https://raw.githubusercontent.com/small-redguy/helper/main/script/jd_hyj.js",
 	"name": "热爱环游记"
+},{
+    "id": "jd_selectionOfficer",
+    	"isConcurrent":false,
+	"cron": "0 23 9,10 * * * *",
+	"describe":"APP-美妆馆-右侧浮窗",
+	"url": "https://ghproxy.com/https://raw.githubusercontent.com/star261/jd/main/scripts/jd_selectionOfficer.js",
+	"name": "选品官"
 }]
