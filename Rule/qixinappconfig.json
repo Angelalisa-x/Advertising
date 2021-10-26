@@ -470,7 +470,7 @@
 },{
 	"id": "jd_hyj",
 	"cron": "0 10 * * * * *",
-	"url": "https://ghproxy.com/https://raw.githubusercontent.com/small-redguy/helper/main/script/jd_hyj.js",
+	"url": "https://ghproxy.com/https://raw.githubusercontent.com/small-redguy/helper/main/jdresource/jd_hyj.js",
 	"name": "热爱环游记"
 },{
     "id": "jd_selectionOfficer",
@@ -479,4 +479,9 @@
 	"describe":"APP-美妆馆-右侧浮窗",
 	"url": "https://ghproxy.com/https://raw.githubusercontent.com/star261/jd/main/scripts/jd_selectionOfficer.js",
 	"name": "选品官"
+},{
+	"id": "jd_speed_signfree",
+	"cron": "0 18 8,12,20 * * * *",
+	"url": "https://ghproxy.com/https://raw.githubusercontent.com/small-redguy/helper/main/jdresource/jd_speed_signfree.js",
+	"name": "签到免单"
 }]

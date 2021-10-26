@@ -1,15 +1,15 @@
 # NAME: AdvertisingTest
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-10-25 02:08:11
+# UPDATED: 2021-10-26 02:08:34
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，请搭配MITM使用
-# DOMAIN: 14543
+# DOMAIN: 14546
 # DOMAIN-KEYWORD: 87
-# DOMAIN-SUFFIX: 84374
+# DOMAIN-SUFFIX: 84389
 # IP-CIDR: 256
 # IP-CIDR6: 1
 # URL-REGEX: 301
-# TOTAL: 99562
+# TOTAL: 99580
 0001.2waky.com
 000lk3v.wcomhost.com
 000lkub.rcomhost.com
@@ -3125,6 +3125,7 @@ cinema3satu.com
 cinemabio.com
 cinemaden.com
 cinemaedvd.com
+cinemaxy.com
 cingualr.com
 cinyour.accountkit.com
 circularhub.com
@@ -5786,6 +5787,7 @@ gemverify.com
 gen-ever.com
 gen2server.com
 general-catalog.net
+generalbikes.com
 generalchemicalsupply.com
 generaldownload.com
 generalporn.org
@@ -5809,6 +5811,7 @@ geoads.eurorevenue.com
 geoapi.indiatimes.com
 geofence.sys.miui.com
 geogeniusindia.com
+geogospeltroupe.com
 gepatit-info.top
 geraldgore.com
 gerardfetter.com
@@ -6850,7 +6853,6 @@ image.adsbing.com
 image.beike188.com
 image201844.hostoi.com
 imageadnet.com
-imagedoll.com
 imageegypt.com
 imagengraficaperu.com
 imagepeoples.com
@@ -11796,6 +11798,7 @@ ssl.trustwave.com
 ssl.xn--vqq79r59m.eu.org
 ssl3.adhost.com
 sslproxy-prod.adobedtm.com
+ssmk360.com
 ssnkumarhatti.com
 sso.anbtr.com
 ssor.tribdss.com
@@ -12042,7 +12045,6 @@ storrntoken.com
 stoves.bioenergylists.org
 straightresults.com
 straighttalk.inq.com
-strazcetech.com
 stream-tds.com
 stream.ezeedl.com
 stream.hdmoviefull.com
@@ -12226,6 +12228,7 @@ szbangjie.cn
 szczesliwydzien.com
 szdamuzhi.com
 szinhaz.hu
+sznm.com.cn
 sznxdqqvjgam.com
 szokinfo247.blogspot.com
 szwsesc.cn
@@ -14321,7 +14324,6 @@ yes4biz.net
 yescounter.com
 yesitisqqq.com
 yeukydrant.com
-yiduaner.cn
 yieldify-static-files.s3.amazonaws.com
 yihaotui.com
 yimingkennel.com
@@ -14442,6 +14444,7 @@ zarabativaisazartom.net
 zarenica.net
 zarobek4u.com
 zarobicpieniadze.com
+zastenchivosti.net
 zavariushoponline.com
 zayhipbcxig.com
 zb.hyzjd.com
@@ -26539,6 +26542,7 @@ zzz.clickbank.net
 .axbetb.com
 .axbetb2.com
 .axbxgg.com
+.axcdt.cn
 .axcdy.cn
 .axecash.com
 .axeldivision.com
@@ -38246,6 +38250,7 @@ zzz.clickbank.net
 .disparitypuppetfestivity.com
 .dispatcher.camera360.com
 .dispatcher.upmc.uc.cn
+.dispatchunique.com
 .dispensablestranger.com
 .display.360totalsecurity.com
 .display.adhudong.com
@@ -47538,6 +47543,7 @@ zzz.clickbank.net
 .guangsss1999.com
 .guangtui1999.com
 .guangweixinxi345.cn
+.guangzhengtwo.top
 .guangzhuiyuan.com
 .guangzizai.com
 .guanjia.baidu.com
@@ -49259,6 +49265,7 @@ zzz.clickbank.net
 .honghaotravel.com
 .hongjiaex.cn
 .hongjiujiaoyi.com
+.hongruikt.com
 .hongshikai.com
 .hongtefm.com
 .hongwenge.com
@@ -49691,6 +49698,7 @@ zzz.clickbank.net
 .huatakj.com
 .huatuo.qq.com
 .huatuo.weiyun.com
+.huaxiaozhang.club
 .huaxinxunye.cn
 .huayancn.cn
 .huayange.com
@@ -49889,6 +49897,7 @@ zzz.clickbank.net
 .hxadt.com
 .hxbt.alading123.com
 .hxcav77.com
+.hxf1688.xyz
 .hxfree.vip
 .hxfu.nz53h.cn
 .hxgccl.cn
@@ -56212,6 +56221,7 @@ zzz.clickbank.net
 .lijit.com
 .like-the-rest.com
 .like.likewut.net
+.likeads.com
 .likebtn.com
 .likecontrol.com
 .likefly.com.cn
@@ -57173,6 +57183,7 @@ zzz.clickbank.net
 .log22.makeshop.co.kr
 .log3-normal-hl.toutiaoapi.com
 .log4x.nixcdn.com
+.log57.top
 .log6.reader.qq.com
 .log999.goo.ne.jp
 .logaholic.com
@@ -59827,6 +59838,7 @@ zzz.clickbank.net
 .materialisticmark.com
 .materialmoon.com
 .materiel.baizhan.net
+.materiel.junshidao.com
 .mateti.net
 .mathads.com
 .mathafuda.pro
@@ -64116,6 +64128,7 @@ zzz.clickbank.net
 .n1goserch.com
 .n1internet.com
 .n1ora14.online
+.n258.cc
 .n26-trusted.n26.com
 .n2s.co.kr
 .n339.asp-cc.com
@@ -88930,6 +88943,7 @@ zzz.clickbank.net
 .tsyndicate.com
 .tsyndicate.net
 .tsyndolls.com
+.tszhongtianshiji.com
 .tsztzjvpex.com
 .tt.biquge.la
 .tt.douyaobuy.com
@@ -96017,6 +96031,7 @@ zzz.clickbank.net
 .xinterface.cn
 .xinuocp666.com
 .xinxbh.cn
+.xinyansaas.com
 .xinyijiasc.cn
 .xinyikeji.red
 .xinyuanstudio.com
@@ -97869,6 +97884,7 @@ zzz.clickbank.net
 .yzytb.com
 .yzzqza.vanillashu.co.kr
 .z-profit.com
+.z-xiao.xyz
 .z.cdn.adpool.bet
 .z.cdp-dev.cnn.com
 .z.ceotrk.com
@@ -98348,6 +98364,7 @@ zzz.clickbank.net
 .zhululm.com
 .zhunishunli.com
 .zhuoyuanxcl.cn
+.zhuozhongfangshui.cn
 .zhuren.site
 .zhushicm.com
 .zhuwawa.net
@@ -98803,6 +98820,7 @@ zzz.clickbank.net
 .zxgroymagqu.com
 .zxhrq.cn
 .zxhymh.com
+.zxiao.xyz
 .zxin131.cn
 .zxjjzx.com
 .zxlmnet.com
