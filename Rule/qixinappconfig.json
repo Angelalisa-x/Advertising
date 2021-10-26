@@ -484,4 +484,14 @@
 	"cron": "0 18 8,12,20 * * * *",
 	"url": "https://ghproxy.com/https://raw.githubusercontent.com/small-redguy/helper/main/jdresource/jd_speed_signfree.js",
 	"name": "签到免单"
+},{
+	"id": "jd_jika",
+	"cron": "0 10 7,21 * * * *",
+	"url": "https://ghproxy.com/https://raw.githubusercontent.com/yuannian1112/jd_scripts/main/jd_jika.js",
+	"name": "集魔力卡召唤大奖"
+},{
+	"id": "jd_zzt",
+	"cron": "0 23 9,12 * * * *",
+	"url": "https://ghproxy.com/https://raw.githubusercontent.com/yuannian1112/jd_scripts/main/jd_zzt.js",
+	"name": "潮玩儿制躁团"
 }]
