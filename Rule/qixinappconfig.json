@@ -494,4 +494,10 @@
 	"cron": "0 23 9,12 * * * *",
 	"url": "https://ghproxy.com/https://raw.githubusercontent.com/yuannian1112/jd_scripts/main/jd_zzt.js",
 	"name": "潮玩儿制躁团"
+},{
+	"id": "jd_red",
+	"isConcurrent":false,
+	"cron": "0 0 0,6,12 * * * *",
+	"url": "https://tyh52.com/jd/script/red.js",
+	"name": "双十一红包"
 }]
