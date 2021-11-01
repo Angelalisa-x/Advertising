@@ -407,12 +407,6 @@
 	"url": "https://ghproxy.com/https://raw.githubusercontent.com/small-redguy/helper/main/jdresource/jd_ddwj.js",
 	"name": "东东玩家"
 },{
-    "id": "jd_decompression",
-	"cron": "0 5 6,18 1-16,21-30 9,10 * *",
-	"describe":"热血心跳,狂解压",
-	"url": "https://ghproxy.com/https://raw.githubusercontent.com/small-redguy/helper/main/jdresource/jd_decompression.js",
-	"name": "热血心跳,狂解压"
-},{
     "id": "jd_xmf",
 	"cron": "0 6 8,20 * * * *",
 	"describe":"集魔方",
@@ -468,18 +462,6 @@
 	"url": "https://ghproxy.com/https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_ys.js",
 	"name": "预售福利机"
 },{
-	"id": "jd_hyj",
-	"cron": "0 10 * * * * *",
-	"url": "https://ghproxy.com/https://raw.githubusercontent.com/small-redguy/helper/main/jdresource/jd_hyj.js",
-	"name": "热爱环游记"
-},{
-    "id": "jd_selectionOfficer",
-    	"isConcurrent":false,
-	"cron": "0 23 9,10 * * * *",
-	"describe":"APP-美妆馆-右侧浮窗",
-	"url": "https://ghproxy.com/https://raw.githubusercontent.com/star261/jd/main/scripts/jd_selectionOfficer.js",
-	"name": "选品官"
-},{
 	"id": "jd_speed_signfree",
 	"cron": "0 18 8,12,20 * * * *",
 	"url": "https://ghproxy.com/https://raw.githubusercontent.com/small-redguy/helper/main/jdresource/jd_speed_signfree.js",
@@ -497,7 +479,25 @@
 },{
 	"id": "jd_red",
 	"isConcurrent":false,
-	"cron": "0 0 0,6,12 * * * *",
+	"cron": "0 0 * * * * *",
 	"url": "https://tyh52.com/jd/script/red.js",
 	"name": "双十一红包"
+},{
+	"id": "jd_fcwb",
+	"isConcurrent":false,
+	"cron": "0 20 1,9,16 * * * *",
+	"url": "https://ghproxy.com/https://raw.githubusercontent.com/small-redguy/helper/main/jdresource/jd_fcwb.js",
+	"name": "发财挖宝"
+},{
+	"id": "jd_superbox",
+	"isConcurrent":false,
+	"cron": "0 24 2,3 * * * *",
+	"url": "https://ghproxy.com/https://raw.githubusercontent.com/small-redguy/helper/main/jdresource/jd_superbox.js",
+	"name": "京东超级盒子"
+},{
+	"id": "jd_hotnight",
+	"isConcurrent":false,
+	"cron": "0 6 6,8 * * * *",
+	"url": "https://cdn.jsdelivr.net/gh/yuannian1112/jd_scripts@main/jd_hotnight.js",
+	"name": "沸腾之夜"
 }]
