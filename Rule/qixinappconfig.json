@@ -483,21 +483,9 @@
 	"url": "https://tyh52.com/jd/script/red.js",
 	"name": "双十一红包"
 },{
-	"id": "jd_fcwb",
-	"isConcurrent":false,
-	"cron": "0 20 1,9,16 * * * *",
-	"url": "https://ghproxy.com/https://raw.githubusercontent.com/small-redguy/helper/main/jdresource/jd_fcwb.js",
-	"name": "发财挖宝"
-},{
 	"id": "jd_superbox",
 	"isConcurrent":false,
 	"cron": "0 24 2,3 * * * *",
 	"url": "https://ghproxy.com/https://raw.githubusercontent.com/small-redguy/helper/main/jdresource/jd_superbox.js",
 	"name": "京东超级盒子"
-},{
-	"id": "jd_hotnight",
-	"isConcurrent":false,
-	"cron": "0 6 6,8 * * * *",
-	"url": "https://cdn.jsdelivr.net/gh/yuannian1112/jd_scripts@main/jd_hotnight.js",
-	"name": "沸腾之夜"
 }]
