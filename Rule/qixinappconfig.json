@@ -386,7 +386,7 @@
     "id": "jd_wish",
 	"cron": "0 40 0,2 * * * *",
 	"describe":"活动入口：京东-京东众筹-众筹许愿池",
-	"url": "https://ghproxy.com/https://raw.githubusercontent.com/small-redguy/helper/main/jdresource/jd_wish.js",
+	"url": "https://ghproxy.com/https://raw.githubusercontent.com/yuannian1112/jd_scripts/main/jd_wish.js",
 	"name": "众筹许愿池"
 },{
     "id": "jd_ddworld",
@@ -488,4 +488,10 @@
 	"cron": "0 24 2,3 * * * *",
 	"url": "https://ghproxy.com/https://raw.githubusercontent.com/small-redguy/helper/main/jdresource/jd_superbox.js",
 	"name": "京东超级盒子"
+},{
+	"id": "jd_tw",
+	"isConcurrent":false,
+	"cron": "0 10 9,13,16,19,20 2-8 11 * *",
+	"url": "https://ghproxy.com/https://raw.githubusercontent.com/yuannian1112/jd_scripts/main/jd_tw.js",
+	"name": "双11特务"
 }]
