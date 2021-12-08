@@ -256,7 +256,7 @@ if __name__ == "__main__":
     pullios7('https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/QuantumultX/AllInOne/AllInOne.conf',
                 'QuantumultX/AllInOne.conf')
     pullios7('https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/QuantumultX/AdvertisingLite/AdvertisingLite.conf',
-                'AdvertisingLite.conf')
+                'QuantumultX/AdvertisingLite.conf')
     pullios7('https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/AdvertisingTest/AdvertisingTest.list',
                 'QuantumultX/AdvertisingTest.list')
     pullios7('https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/360/360.list',
