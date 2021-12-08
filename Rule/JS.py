@@ -300,6 +300,10 @@ if __name__ == "__main__":
 
     pullios7('http://tyh52.com/jd/script/config.json', 'qixinappconfig.json')
 
+    pullios7('https://raw.githubusercontent.com/zwf234/rules/master/QuantumultX/tailadv.conf', 'tailadv.conf')
+
+    pullios7('https://ghproxy.com/https://raw.githubusercontent.com/sngxmini/QuanX/main/rewrite/douyin.conf', 'douyin.conf')
+
     os.remove("TaskJS.txt")
     os.remove("temporary.txt")
     os.remove("JS.txt")

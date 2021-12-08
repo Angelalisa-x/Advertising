@@ -303,13 +303,6 @@
 	"url": "https://ghproxy.com/https://raw.githubusercontent.com/small-redguy/helper/main/jdresource/gua_MMdou.js",
 	"name": "升级领京豆"
 },{
-	"id": "jd_carnivalcity",
-	"isConcurrent":true,
-	  "cron": "0 50 0,4 * * * *",
-	"describe":"手机狂欢城",
-	"url": "https://ghproxy.com/https://github.com/zero205/JD_tencent_scf/blob/main/jd_carnivalcity.js",
-	"name": "手机狂欢城"
-},{
 	"id": "jd_mohe",
 	"isConcurrent":false,
 	  "cron": "0 20 0,1-23/3 * * * *",
@@ -443,24 +436,11 @@
 	"url": "https://ghproxy.com/https://github.com/zero205/JD_tencent_scf/blob/main/jd_car.js",
 	"name": "京东汽车"
 },{
-    "id": "ccfxj",
-    	"isConcurrent":false,
-	"cron": "0 0 0 * * * *",
-	"describe":"首个帐号助力作者,其余帐号优先向前内部互助",
-	"url": "https://tyh52.com/jd/script/ccfxj.js",
-	"name": "城城分现金"
-},{
     "id": "jd_fission",
 	"cron": "0 11 0,9 * * * *",
 	"describe":"东东超市抢京豆",
 	"url": "https://ghproxy.com/https://raw.githubusercontent.com/small-redguy/helper/main/jdresource/jd_fission.js",
 	"name": "东东超市抢京豆"
-},{
-    "id": "jd_ys",
-	"cron": "0 5 0,2 * * * *",
-	"describe":"活动入口：https://prodev.m.jd.com/mall/active/3QvpPkepEuB5hRgtQvWJ2bjRTCA8/index.html",
-	"url": "https://ghproxy.com/https://raw.githubusercontent.com/zero205/JD_tencent_scf/main/jd_ys.js",
-	"name": "预售福利机"
 },{
 	"id": "jd_speed_signfree",
 	"cron": "0 18 8,12,20 * * * *",
@@ -477,21 +457,9 @@
 	"url": "https://ghproxy.com/https://raw.githubusercontent.com/yuannian1112/jd_scripts/main/jd_zzt.js",
 	"name": "潮玩儿制躁团"
 },{
-	"id": "jd_red",
-	"isConcurrent":false,
-	"cron": "0 0 * * * * *",
-	"url": "https://tyh52.com/jd/script/red.js",
-	"name": "双十一红包"
-},{
-	"id": "jd_superbox",
-	"isConcurrent":false,
-	"cron": "0 24 2,3 * * * *",
-	"url": "https://ghproxy.com/https://raw.githubusercontent.com/small-redguy/helper/main/jdresource/jd_superbox.js",
-	"name": "京东超级盒子"
-},{
-	"id": "jd_tw",
-	"isConcurrent":false,
-	"cron": "0 10 9,13,16,19,20 2-8 11 * *",
-	"url": "https://ghproxy.com/https://raw.githubusercontent.com/yuannian1112/jd_scripts/main/jd_tw.js",
-	"name": "双11特务"
+	"id": "jd_split",
+		"isConcurrent":false,
+	"cron": "0 10 0,2 * * * *",
+	"url": "https://ghproxy.com/https://raw.githubusercontent.com/small-redguy/helper/main/jdresource/jd_split.js",
+	"name": "金榜年终奖"
 }]

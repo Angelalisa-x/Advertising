@@ -1,15 +1,15 @@
 # NAME: AdvertisingTest
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2021-11-11 02:09:00
+# UPDATED: 2021-12-08 16:30:30
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，请搭配MITM使用
-# DOMAIN: 14605
-# DOMAIN-KEYWORD: 87
-# DOMAIN-SUFFIX: 86512
+# DOMAIN-KEYWORD: 88
+# DOMAIN-SUFFIX: 83996
 # IP-CIDR: 256
+# DOMAIN: 41083
 # IP-CIDR6: 1
-# URL-REGEX: 301
-# TOTAL: 101762
+# URL-REGEX: 317
+# TOTAL: 125741
 DOMAIN-KEYWORD,112wan
 DOMAIN-KEYWORD,789htbet
 DOMAIN-KEYWORD,adashx
@@ -22,6 +22,7 @@ DOMAIN-KEYWORD,adsage
 DOMAIN-KEYWORD,adsame
 DOMAIN-KEYWORD,adsensor
 DOMAIN-KEYWORD,adserver
+DOMAIN-KEYWORD,adservice
 DOMAIN-KEYWORD,adservice
 DOMAIN-KEYWORD,adsh
 DOMAIN-KEYWORD,adsmogo
@@ -97,6 +98,22 @@ DOMAIN-KEYWORD,uploadmobiledata
 DOMAIN-KEYWORD,wlmonitor
 DOMAIN-KEYWORD,xxshuyuan
 DOMAIN-KEYWORD,zjtoolbar
+URL-REGEX,^https?+:\/\/(?>101\.201\.175\.228|182\.92\.251\.113)\/promotion\/(?:feed_)?+display
+URL-REGEX,^https?+:\/\/(?>heic|gw)\.alicdn\.com\/tfs\/tb1.+?-\d{4}-\d{4}\.jpg_1200x1200q90\.jpg_\.\w{3
+URL-REGEX,^https?+:\/\/(?>promo|api)\.xueqiu\.com\/promotion\/(?:feed_)?+display
+URL-REGEX,^https?+:\/\/.+?\.(?>amemv|musical|snssdk|tiktokv)\.(?>com|ly)\/(?>api|motor)\/ad\/
+URL-REGEX,^https?+:\/\/\w+?\.youtube\.com\/p(?>agead|tracking)
+URL-REGEX,^https?+:\/\/api\.caijingmobile\.com\/ad(?:vert)?+\/
+URL-REGEX,^https?+:\/\/api\.kkmh\.com\/.+?ad(?:vertisement)?+\/
+URL-REGEX,^https?+:\/\/capi\.mwee\.cn\/app-api\/v\d{2}\/app\/(?:getstart)?+ad
+URL-REGEX,^https?+:\/\/capis(?:-slb)?+\.didapinche\.com\/ad\/
+URL-REGEX,^https?+:\/\/kaola-haitao\.oss\.kaolacdn.com\/.+?_\d{3
+URL-REGEX,^https?+:\/\/mob\.mddcloud\.com\.cn\/api\/ad(?:vert)?+\/
+URL-REGEX,^https?+:\/\/mobile-api2011\.elong\.com\/ad(?>v|gateway)
+URL-REGEX,^https?+:\/\/mp\.weixin\.qq\.com\/mp\/(?>ad_|advertisement|getappmsgad)
+URL-REGEX,^https?+:\/\/smusic\.app\.wechat\.com\/fcgi-bin\/get_(?>a|i)
+URL-REGEX,^https?+:\/\/vali\.cp31\.ott\.cibntv\.net\/youku\/.+?\.mp4\?sid=
+URL-REGEX,^https?+:\/\/y\.gtimg\.cn\/music\/common\/\/upload\/kg_ad\/.+?\d{3
 URL-REGEX,^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/EcomResourceServer/AdPlayPage/adinfo
 URL-REGEX,^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/MobileAdServer\/
 URL-REGEX,^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/[a-z.]+\.tc\.qq\.com\/[\w\W]+p20\d\.1\.mp4\?
