@@ -462,4 +462,9 @@
 	"cron": "0 10 0,2 * * * *",
 	"url": "https://ghproxy.com/https://raw.githubusercontent.com/small-redguy/helper/main/jdresource/jd_split.js",
 	"name": "金榜年终奖"
+},{
+	"id": "jd_1212",
+	"cron": "0 0 0,12,18 * * * *",
+	"url": "https://ghproxy.com/https://raw.githubusercontent.com/small-redguy/helper/main/jdresource/jd_1212.js",
+	"name": "暖暖红包"
 }]
