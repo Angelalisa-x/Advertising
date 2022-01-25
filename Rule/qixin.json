@@ -192,7 +192,7 @@
         "0 9 8-31 3 * https://qxnav.com/rules/QuantumultX/js/lxk0301/activity/jd_global.js, tag=环球挑战赛, img-url=https://qxnav.com/rules/QuantumultX/img/jd_global.png, enabled=true",
         "30 8 * * * https://qxnav.com/rules/QuantumultX/js/lxk0301/activity/jd_jxd.js, tag=京小兑, img-url=https://qxnav.com/rules/QuantumultX/img/jd_jxd.png, enabled=true",
         "0 9 * * * https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/pyq.js, tag=评有圈, img-url=https://qxnav.com/rules/QuantumultX/img/pyq.png, enabled=true",
-        "3 10 * * * https://raw.githubusercontent.com/i-chenzhe/qx/main/z_marketLottery.js, tag=⚠️京东超市-大转盘, img-url=https://qxnav.com/rules/QuantumultX/img/z_marketLottery.png, enabled=true",
+        "33 0,6-23/2 * * * https://qxnav.com/rules/QuantumultX/js/zwf234/jd_travel.js, tag=炸年兽, img-url=https://qxnav.com/rules/QuantumultX/img/jd.png, enabled=true",
         "0,30 0-23 * * * https://qxnav.com/rules/QuantumultX/js/ZIYE/Task/qmyd.js, tag=全民悦动, img-url=https://qxnav.com/rules/QuantumultX/img/qmyd.png, enabled=true",
         "5 0 * * * https://qxnav.com/rules/QuantumultX/js/jd_shakeBean.js, tag=摇京豆i-chenzhe, img-url=https://qxnav.com/rules/QuantumultX/img/jdyjd.png, enabled=true",
         "15 10 * * * https://qxnav.com/rules/QuantumultX/js/ZIYE/Task/ymzhuan.js, tag=羊毛赚, img-url=https://qxnav.com/rules/QuantumultX/img/ymz.png, enabled=true",
