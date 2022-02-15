@@ -158,12 +158,6 @@
 	"url": "https://cdn.jsdelivr.net/gh/small-redguy/helper@main/jdresource/jd_market_lottery.js",
 	"name": "幸运大转盘"
 },{
-	"id": "jd_super_redrain_xcl",
-	"cron": "0 1 0-23/1 * * * *",
-	"describe":"整点京豆雨",
-	"url": "https://cdn.jsdelivr.net/gh/small-redguy/helper@main/jdresource/jd_super_redrain.js",
-	"name": "整点京豆雨"
-},{
 	"id": "jd_jin_tie_xcl",
 	"cron": "0 10 0 * * * *",
 	"describe":"领金贴(只做签到以及互助任务里面的部分任务)",
@@ -264,19 +258,13 @@
     "id": "jd_genz",
 	"cron": "0 37 0,11 * * * *",
 	"describe":"微信-芥么小程序-赚豪礼",
-	"url": "https://cdn.jsdelivr.net/https://github.com/zero205/JD_tencent_scf/blob/main/jd_genz.js",
+	"url": "https://cdn.jsdelivr.net/gh/yuannian1112/jd_scripts@main/jd_jmzhl.js",
 	"name": "芥么赚豪礼"
-},{
-    "id": "jd_car_exchange",
-	"cron": "0 0 0 * * * *",
-	"describe":"活动入口：京东APP首页-京东汽车-屏幕右中部，车主福利",
-	"url": "https://cdn.jsdelivr.net/https://github.com/zero205/JD_tencent_scf/blob/main/jd_car_exchange.js",
-	"name": "京东汽车兑换"
 },{
     "id": "jd_car",
 	"cron": "0 10 7 * * * *",
 	"describe":"活动入口：京东APP首页-京东汽车-屏幕右中部，车主福利",
-	"url": "https://cdn.jsdelivr.net/https://github.com/zero205/JD_tencent_scf/blob/main/jd_car.js",
+	"url": "https://cdn.jsdelivr.net/gh/yuannian1112/jd_scripts@main//jd_car.js",
 	"name": "京东汽车"
 },{
     "id": "jd_fission",
@@ -293,7 +281,7 @@
 	"id": "jd_gold_sign",
 		"isConcurrent":false,
 	"cron": "0 10 0,2 * * * *",
-	"url": "https://cdn.jsdelivr.net/https://github.com/zero205/JD_tencent_scf/blob/main/jd_gold_sign.js",
+	"url": "https://cdn.jsdelivr.net/gh/yuannian1112/jd_scripts@main/jd_gold_creator.js",
 	"name": "京东金榜"
 },{
 	"id": "jd_exchangejxbeans",
@@ -302,41 +290,11 @@
 	"url": "https://cdn.jsdelivr.net/gh/small-redguy/helper@main/jdresource/jd_exchangejxbeans.js",
 	"name": "京豆兑换喜豆"
 },{
-	"id": "ccfxj1",
-	"cron": "0 0 0 * * * *",
-		"describe":"城城分现金",
-	"url": "http://tyh52.com/jd/script/ccfxj.js",
-	"name": "城城分现金"
-},{
-	"id": "jd_bzlshdgt",
-	"cron": "0 10 4,19 * * * *",
-		"describe":"把智能生活带给TA",
-	"url": "https://ghproxy.fsou.cc/https://github.com/yuannian1112/jd_scripts/blob/main/jd_bzlshdgt.js",
-	"name": "把智能生活带给TA"
-},{
 	"id": "jd_wyw",
 	"cron": "0 0 8,22 * * * *",
 		"describe":"玩一玩成就",
-	"url": "https://ghproxy.fsou.cc/https://github.com/small-redguy/helper/blob/main/jdresource/jd_wyw.js",
+	"url": "https://cdn.jsdelivr.net/gh/small-redguy/helper@main/jdresource/jd_wyw.js",
 	"name": "玩一玩成就"
-},{
-	"id": "jd_nhj_red",
-	"cron": "0 0 0,8,18,20,22 * 1 * *",
-		"describe":"年货节红包",
-	"url": "http://tyh52.com/jd/script/red.js",
-	"name": "年货节红包"
-},{
-	"id": "jd_zhanianshou",
-	"cron": "0 0 0-23/5 * 1 * *",
-		"describe":"京东炸年兽",
-	"url": "http://tyh52.com/jd/script/jd_zhanianshou.js",
-	"name": "京东炸年兽"
-},{
-	"id": "openCard1",
-	"cron": "0 0 0 * 1 * *",
-		"describe":"开卡任务1",
-	"url": "http://tyh52.com/jd/openCard/open1.js",
-	"name": "开卡任务1"
 },{
 	"id": "jd_cjhz",
 	"cron": "0 24 3,13 * * * *",
@@ -350,12 +308,6 @@
 	"url": "https://cdn.jsdelivr.net/gh/zero205/JD_tencent_scf@main/jd_fanli.js",
 	"name": "京东饭粒"
 },{
-	"id": "jd_productZ4Brand",
-	"cron": "0 23 8,9 * * * *",
-	"describe":"脚本没有自动开卡，会尝试领取开卡奖励",
-	"url": "https://cdn.jsdelivr.net/gh/zero205/JD_tencent_scf@main/jd_productZ4Brand.js",
-	"name": "特务Z"
-},{
 	"id": "jd_babel_sign",
 	"cron": "0 0 0,3 * * * *",
 	"describe":"主页-秒杀-狂撒三亿京豆",
@@ -367,4 +319,14 @@
 	"describe":"店铺签到，各类店铺签到，有新的店铺直接添加token即可",
 	"url": "https://cdn.jsdelivr.net/gh/yuannian1112/jd_scripts@main/jd_dpqd.js",
 	"name": "店铺签到"
+},{
+	"id": "jd_redrain",
+	"cron": "0 0 * * * * *",
+	"url": "https://cdn.jsdelivr.net/gh/zero205/JD_tencent_scf@main/jd_redrain.js",
+	"name": "整点京豆雨"
+},{
+	"id": "jd_redrain_half",
+	"cron": "0 30 21,22 * * * *",
+	"url": "https://cdn.jsdelivr.net/gh/zero205/JD_tencent_scf@main/jd_redrain_half.js",
+	"name": "半点京豆雨"
 }]

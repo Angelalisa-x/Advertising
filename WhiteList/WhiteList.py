@@ -56,7 +56,7 @@ def unwantedWhitelist(targetFile,readPath):
 ######################## pull whitelist #####################################
                 ############# Potterli20 Start ###################
 def pullWhite():
-    url = 'https://raw.githubusercontent.com/Potterli20/filtering/master/filtering.txt'
+    url = 'https://trli.coding.net/p/file/d/file/git/raw/master/ad-allow.txt'
     html = requests.get(url).text
     with open("whiteList1.txt","w") as f:
         f.write(html)
