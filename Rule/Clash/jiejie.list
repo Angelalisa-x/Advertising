@@ -154,3 +154,35 @@ proxies:
   - {name: VN01, server: vn01-ipt-sn127727290.shadowflycn.com, port: 5055, type: vmess, uuid: 1b8b1256-9b08-32c2-9b5d-7705752227df, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /baidu, headers: {Host: vn01-sn2389933.urltosub.com}}}
   - {name: VN02, server: vn02-ipt-sn127789.shadowflycn.com, port: 5055, type: vmess, uuid: 1b8b1256-9b08-32c2-9b5d-7705752227df, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /baidu, headers: {Host: vn01-sn2389933.urltosub.com}}}
   - {name: VN03, server: vn03-ipt-sn1277829.shadowflycn.com, port: 5055, type: vmess, uuid: 1b8b1256-9b08-32c2-9b5d-7705752227df, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /baidu, headers: {Host: vn01-sn2389933.urltosub.com}}}
+  - {name: CN_油管 TG 8度科技, server: in03.dns2333.xyz, port: 63078, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
+  - {name: CN_油管 TG 8度科技 2, server: 101.230.149.27, port: 1112, type: vmess, uuid: aa8c0fbe-e2ba-4850-8cb1-fe779fa46bd4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_油管 TG 8度科技 3, server: 101.230.149.27, port: 1113, type: vmess, uuid: aa8c0fbe-e2ba-4850-8cb1-fe779fa46bd4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_油管 TG 8度科技 4, server: 101.230.149.27, port: 1111, type: vmess, uuid: aa8c0fbe-e2ba-4850-8cb1-fe779fa46bd4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: GB_油管 TG 8度科技, server: 172.99.190.188, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: GB_油管 TG 8度科技 2, server: 172.99.190.188, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: CN_油管 TG 8度科技 5, server: hygz.doggogogo.top, port: 50102, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: hygz.doggogogo.top, skip-cert-verify: true, udp: true}
+  - {name: CN_油管 TG 8度科技 6, server: fsyd.wecanfly.top, port: 52000, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
+  - {name: CN_油管 TG 8度科技 7, server: hygz.doggogogo.top, port: 53021, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: hygz.doggogogo.top, skip-cert-verify: true, udp: true}
+  - {name: CN_油管 TG 8度科技 8, server: cscu.wecanfly.top, port: 51131, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: cscu.wecanfly.top, skip-cert-verify: true, udp: true}
+  - {name: CN_油管 TG 8度科技 9, server: hygz.doggogogo.top, port: 53030, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: hygz.doggogogo.top, skip-cert-verify: true, udp: true}
+  - {name: CN_油管 TG 8度科技 10, server: fsyd.wecanfly.top, port: 51221, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
+  - {name: CN_油管 TG 8度科技 11, server: cn2.wecanfly.top, port: 51134, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: cn2.wecanfly.top, skip-cert-verify: true, udp: true}
+  - {name: CN_油管 TG 8度科技 12, server: fsyd.wecanfly.top, port: 51219, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
+  - {name: CN_油管 TG 8度科技 13, server: cscu.wecanfly.top, port: 51132, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: cscu.wecanfly.top, skip-cert-verify: true, udp: true}
+  - {name: CN_油管 TG 8度科技 14, server: fsyd.wecanfly.top, port: 51133, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
+  - {name: DE_油管 TG 8度科技, server: 37.61.213.94, port: 443, type: vmess, uuid: 97ff78ea-8807-4c33-93e5-d8481ac0539e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: FR_油管 TG 8度科技, server: 149.202.82.172, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: GB_油管 TG 8度科技 3, server: 172.99.190.149, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: HK_油管 TG 8度科技, server: 18.163.186.175, port: 8443, type: trojan, password: nDlVCzsl9r, skip-cert-verify: true, udp: true}
+  - {name: ID_油管 TG 8度科技, server: 108.136.163.50, port: 58973, type: ss, cipher: chacha20-ietf-poly1305, password: 0eee7abb-23db-405a-9a97-720fdc01633f, udp: true}
+  - {name: RU_油管 TG 8度科技, server: 92.223.72.42, port: 443, type: vmess, uuid: ae08412f-5bb9-4be7-8560-1984976a1097, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: RU_油管 TG 8度科技 2, server: 92.223.65.119, port: 443, type: vmess, uuid: 3fd6713f-e036-4ba9-938a-da7843a17a15, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: 油管 TG 8度科技, server: v1.ssrsub.com, port: 443, type: vmess, uuid: 739e53db-d41c-4bad-a61d-6cd5a173f85b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}, udp: true}
+  - {name: US_油管 TG 8度科技, server: v8.ssrsub.com, port: 443, type: vmess, uuid: b2015918-4a70-4250-8afa-dba8a5be97f4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}, udp: true}
+  - {name: US_油管 TG 8度科技 2, server: oioooo.tk, port: 443, type: trojan, password: 54ea0e82-64e4-486c-848c-8b95be9f0010, sni: oioooo.tk, skip-cert-verify: true, udp: true}
+  - {name: CN_油管 TG 8度科技 15, server: gzyd.wozcjd.xyz, port: 11320, type: ss, cipher: chacha20-ietf-poly1305, password: c753e8a8-e180-4e76-a486-c917273d718b, udp: true}
+  - {name: JP_油管 TG 8度科技, server: os2-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-3.sstr-api.xyz, skip-cert-verify: true, udp: true}
+  - {name: JP_油管 TG 8度科技 2, server: os2-5.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-5.sstr-api.xyz, skip-cert-verify: true, udp: true}
+  - {name: JP_油管 TG 8度科技 3, server: 11.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 11.earths.team, skip-cert-verify: true, udp: true}
+  - {name: JP_油管 TG 8度科技 4, server: 106.180.225.69, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true, udp: true}
+  - {name: CA_油管 TG 8度科技, server: 134.195.196.147, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
