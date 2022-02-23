@@ -186,3 +186,10 @@ proxies:
   - {name: JP_油管 TG 8度科技 3, server: 11.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 11.earths.team, skip-cert-verify: true, udp: true}
   - {name: JP_油管 TG 8度科技 4, server: 106.180.225.69, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true, udp: true}
   - {name: CA_油管 TG 8度科技, server: 134.195.196.147, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 🇨🇳 CN | 95, server: china-zj-hz-1.forwardserver.xyz, port: 43841, type: trojan, password: f6554cbe-1852-48df-ae9f-25ed4f42d94e, sni: china-zj-hz-1.forwardserver.xyz, skip-cert-verify: false}
+  - {name: 🇨🇳 CN | 68, server: gy.wozcjd.xyz, port: 11352, type: ss, cipher: chacha20-ietf-poly1305, password: c753e8a8-e180-4e76-a486-c917273d718b}
+  - {name: "| 42", server: in05.dns2333.xyz, port: 63051, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /hls, headers: {Host: mugua-in01.airport-v2.com}}}
+  - {name: 🇨🇳 CN | 84, server: in04.dns2333.xyz, port: 64086, type: vmess, uuid: 606d5625-57af-3f68-8949-4ac4c372b4a0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /biteb, headers: {Host: in04.dns2333.xyz}}}
+  - {name: EG | 106, server: 185.217.111.132, port: 32110, type: trojan, password: OFXHnebQEK, skip-cert-verify: false}
+  - {name: 🇭🇰 香港(绿头外网集团)(Public) 2, server: hkcn2.doubledou.win, port: 4588, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: hkcn2.doubledou.win, skip-cert-verify: false}
+  - {name: "| 53", server: in05.dns2333.xyz, port: 63014, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /mg, headers: {Host: mugua-us01.covid19.rip}}}
