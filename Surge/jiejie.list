@@ -1,3 +1,14 @@
+🇭🇰 HK06 = ss, hk06-l1-g11.shadowflyurl.com, 16537, encrypt-method=rc4-md5, password=ooGvvmdL
+🇭🇰 HK07 = external, exec = "/usr/local/bin/ssr-local", local-port = 1107, args = "-c", args = "/usr/local/bin/HK07.json"
+🇭🇰 HK08 = external, exec = "/usr/local/bin/ssr-local", local-port = 1108, args = "-c", args = "/usr/local/bin/HK08.json"
+🇭🇰 HK09 = external, exec = "/usr/local/bin/ssr-local", local-port = 1109, args = "-c", args = "/usr/local/bin/HK09.json"
+🇭🇰 HK10 = external, exec = "/usr/local/bin/ssr-local", local-port = 1110, args = "-c", args = "/usr/local/bin/HK10.json"
+🇭🇰 HK11 = external, exec = "/usr/local/bin/ssr-local", local-port = 1111, args = "-c", args = "/usr/local/bin/HK11.json"
+🇭🇰 HK12 = external, exec = "/usr/local/bin/ssr-local", local-port = 1112, args = "-c", args = "/usr/local/bin/HK12.json"
+🇭🇰 HK13 = external, exec = "/usr/local/bin/ssr-local", local-port = 1113, args = "-c", args = "/usr/local/bin/HK13.json"
+[VMess] 🇭🇰 BITER 香港 02 = vmess, in01.dns2333.xyz, 64078, username=80f77618-3124-34f9-87e0-e9028d11f061, tls=true, ws=true, ws-path=/, sni=hk-balancer.airport-v2.com, ws-headers=Host:hk-balancer.airport-v2.com, skip-cert-verify=false, tfo=false, udp-relay=true
+[VMess] 🇭🇰 BITER 香港 03 = vmess, in02.dns2333.xyz, 64078, username=80f77618-3124-34f9-87e0-e9028d11f061, tls=true, ws=true, ws-path=/, sni=hk-balancer.airport-v2.com, ws-headers=Host:hk-balancer.airport-v2.com, skip-cert-verify=false, tfo=false, udp-relay=true
+[VMess] 🇭🇰 BITER 香港 04 = vmess, in03.dns2333.xyz, 64078, username=80f77618-3124-34f9-87e0-e9028d11f061, tls=true, ws=true, ws-path=/, sni=hk-balancer.airport-v2.com, ws-headers=Host:hk-balancer.airport-v2.com, skip-cert-verify=false, tfo=false, udp-relay=true
 🇭🇰 HK14 = vmess, hk14-ipt-sn672833882.shadowflycn.com, 8000, username=1b8b1256-9b08-32c2-9b5d-7705752227df, sni=hk14-sn11988122.urltosub.com, tls=true, ws=true, ws-path=/v2ray, ws-headers=Host:"hk14-sn11988122.urltosub.com"
 🇭🇰 HK15 = vmess, hk15-ipt-sn67283329393.shadowflycn.com, 8000, username=1b8b1256-9b08-32c2-9b5d-7705752227df, sni=hk14-sn11988122.urltosub.com, tls=true, ws=true, ws-path=/v2ray, ws-headers=Host:"hk14-sn11988122.urltosub.com"
 🇭🇰 HK16 = vmess, hk16-ipt-sn672833000.shadowflycn.com, 8000, username=1b8b1256-9b08-32c2-9b5d-7705752227df, sni=hk14-sn11988122.urltosub.com, tls=true, ws=true, ws-path=/v2ray, ws-headers=Host:"hk14-sn11988122.urltosub.com"
@@ -54,17 +65,6 @@
 🇭🇰 HK03 = ss, hk03-l1-g11.shadowflyurl.com, 16537, encrypt-method=rc4-md5, password=ooGvvmdL
 🇭🇰 HK04 = ss, hk04-l1-g11.shadowflyurl.com, 16537, encrypt-method=rc4-md5, password=ooGvvmdL
 🇭🇰 HK05 = ss, hk05-l1-g11.shadowflyurl.com, 16537, encrypt-method=rc4-md5, password=ooGvvmdL
-🇭🇰 HK06 = ss, hk06-l1-g11.shadowflyurl.com, 16537, encrypt-method=rc4-md5, password=ooGvvmdL
-🇭🇰 HK07 = external, exec = "/usr/local/bin/ssr-local", local-port = 1107, args = "-c", args = "/usr/local/bin/HK07.json"
-🇭🇰 HK08 = external, exec = "/usr/local/bin/ssr-local", local-port = 1108, args = "-c", args = "/usr/local/bin/HK08.json"
-🇭🇰 HK09 = external, exec = "/usr/local/bin/ssr-local", local-port = 1109, args = "-c", args = "/usr/local/bin/HK09.json"
-🇭🇰 HK10 = external, exec = "/usr/local/bin/ssr-local", local-port = 1110, args = "-c", args = "/usr/local/bin/HK10.json"
-🇭🇰 HK11 = external, exec = "/usr/local/bin/ssr-local", local-port = 1111, args = "-c", args = "/usr/local/bin/HK11.json"
-🇭🇰 HK12 = external, exec = "/usr/local/bin/ssr-local", local-port = 1112, args = "-c", args = "/usr/local/bin/HK12.json"
-🇭🇰 HK13 = external, exec = "/usr/local/bin/ssr-local", local-port = 1113, args = "-c", args = "/usr/local/bin/HK13.json"
-[VMess] 🇭🇰 BITER 香港 02 = vmess, in01.dns2333.xyz, 64078, username=80f77618-3124-34f9-87e0-e9028d11f061, tls=true, ws=true, ws-path=/, sni=hk-balancer.airport-v2.com, ws-headers=Host:hk-balancer.airport-v2.com, skip-cert-verify=false, tfo=false, udp-relay=true
-[VMess] 🇭🇰 BITER 香港 03 = vmess, in02.dns2333.xyz, 64078, username=80f77618-3124-34f9-87e0-e9028d11f061, tls=true, ws=true, ws-path=/, sni=hk-balancer.airport-v2.com, ws-headers=Host:hk-balancer.airport-v2.com, skip-cert-verify=false, tfo=false, udp-relay=true
-[VMess] 🇭🇰 BITER 香港 04 = vmess, in03.dns2333.xyz, 64078, username=80f77618-3124-34f9-87e0-e9028d11f061, tls=true, ws=true, ws-path=/, sni=hk-balancer.airport-v2.com, ws-headers=Host:hk-balancer.airport-v2.com, skip-cert-verify=false, tfo=false, udp-relay=true
 [VMess] 🇭🇰 BITER 香港 05 = vmess, in04.dns2333.xyz, 64078, username=80f77618-3124-34f9-87e0-e9028d11f061, tls=true, ws=true, ws-path=/, sni=hk-balancer.airport-v2.com, ws-headers=Host:hk-balancer.airport-v2.com, skip-cert-verify=false, tfo=false, udp-relay=true
 [VMess] 🇭🇰 BITER 香港 06 = vmess, in02.dns2333.xyz, 64081, username=80f77618-3124-34f9-87e0-e9028d11f061, tls=false, ws=true, ws-path=/, sni=hkt2-cdn.tencent.best, ws-headers=Host:hkt2-cdn.tencent.best, skip-cert-verify=false, tfo=false, udp-relay=true
 [VMess] 🇭🇰 BITER 香港 07 = vmess, in02.dns2333.xyz, 64082, username=80f77618-3124-34f9-87e0-e9028d11f061, tls=false, ws=true, ws-path=/, sni=hkt3-cdn.tencent.best, ws-headers=Host:hkt3-cdn.tencent.best, skip-cert-verify=false, tfo=false, udp-relay=true
