@@ -1,3 +1,8 @@
+[VMess] 🇭🇰 TRANSIT HKG 01 @100MBPS = vmess, 101.230.149.27, 1111, username=aa8c0fbe-e2ba-4850-8cb1-fe779fa46bd4, tls=false, skip-cert-verify=false, tfo=false, udp-relay=false
+[VMess] 🇭🇰 TRANSIT HKG 02 @100MBPS = vmess, 101.230.149.27, 1112, username=aa8c0fbe-e2ba-4850-8cb1-fe779fa46bd4, tls=false, skip-cert-verify=false, tfo=false, udp-relay=false
+[VMess] 🇭🇰 TRANSIT HKG 03 @100MBPS = vmess, 101.230.149.27, 1113, username=aa8c0fbe-e2ba-4850-8cb1-fe779fa46bd4, tls=false, skip-cert-verify=false, tfo=false, udp-relay=false
+[SS] 🇭🇰 香港1 = ss, centralchina1.cloudlink123.com, 37005, encrypt-method=aes-128-gcm, password=2e1dfa1e-ed81-4de7-bca6-64eb22b52ef6, tfo=false, udp-relay=false
+[SS] 🇯🇵 东京2 = ss, centralchina1.cloudlink123.com, 37002, encrypt-method=aes-128-gcm, password=2e1dfa1e-ed81-4de7-bca6-64eb22b52ef6, tfo=false, udp-relay=false
 🇭🇰 HK06 = ss, hk06-l1-g11.shadowflyurl.com, 16537, encrypt-method=rc4-md5, password=ooGvvmdL
 🇭🇰 HK07 = external, exec = "/usr/local/bin/ssr-local", local-port = 1107, args = "-c", args = "/usr/local/bin/HK07.json"
 🇭🇰 HK08 = external, exec = "/usr/local/bin/ssr-local", local-port = 1108, args = "-c", args = "/usr/local/bin/HK08.json"
