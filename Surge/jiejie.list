@@ -1,3 +1,12 @@
+[Trojan] 🇭🇰 香港 01 = trojan, tghk2.77710086.xyz, 888, password=887b9ece-45e8-45a1-844c-6991e2b086a8, sni=tghk2.77710086.xyz, tfo=false, udp-relay=true
+[Trojan] 🇭🇰 香港 02 = trojan, tghk2.77710086.xyz, 888, password=887b9ece-45e8-45a1-844c-6991e2b086a8, sni=tghk2.77710086.xyz, tfo=false, udp-relay=true
+[VMess] 🇭🇰 香港 03 = vmess, 23.100.91.112, 52225, username=08103798-414e-32b6-8748-2507732d2c51, tls=false, tfo=false, udp-relay=true
+[VMess] 🇭🇰 香港 04 = vmess, 126.wgong.xyz, 52226, username=08103798-414e-32b6-8748-2507732d2c51, tls=false, tfo=false, udp-relay=true
+[VMess] 🇭🇰 香港 05 = vmess, www.shanpao.xyz, 32747, username=c460ff8a-c55e-4c7c-d556-356b758af32b, tls=true, ws=true, ws-path=/pank, sni=www.shanpao.xyz, ws-headers=Host:www.shanpao.xyz, skip-cert-verify=false, tfo=false, udp-relay=true
+[VMess] 🇭🇰 AZ香港①-10Gbps = vmess, hk1.otwc-node.cc, 81, username=42f2aa47-95f9-4a36-b490-db73749cf078, tls=false, ws=true, ws-path=/, sni=hk1.otwc-node.cc, ws-headers=Host:hk1.otwc-node.cc, skip-cert-verify=false, tfo=false, udp-relay=true
+[VMess] 🇭🇰 AZ香港②-10Gbps = vmess, hk2.otwc-node.cc, 82, username=42f2aa47-95f9-4a36-b490-db73749cf078, tls=false, ws=true, ws-path=/, sni=hk2.otwc-node.cc, ws-headers=Host:hk2.otwc-node.cc, skip-cert-verify=false, tfo=false, udp-relay=true
+[VMess] 🇭🇰 AZ香港③-10Gbps = vmess, hk3.otwc-node.cc, 83, username=42f2aa47-95f9-4a36-b490-db73749cf078, tls=false, ws=true, ws-path=/, sni=hk3.otwc-node.cc, ws-headers=Host:hk3.otwc-node.cc, skip-cert-verify=false, tfo=false, udp-relay=true
+[VMess] 🇭🇰 AZ香港④-10Gbps = vmess, hk4.otwc-node.cc, 84, username=42f2aa47-95f9-4a36-b490-db73749cf078, tls=false, ws=true, ws-path=/, sni=hk4.otwc-node.cc, ws-headers=Host:hk4.otwc-node.cc, skip-cert-verify=false, tfo=false, udp-relay=true
 [VMess] 🇭🇰 TRANSIT HKG 01 @100MBPS = vmess, 101.230.149.27, 1111, username=aa8c0fbe-e2ba-4850-8cb1-fe779fa46bd4, tls=false, skip-cert-verify=false, tfo=false, udp-relay=false
 [VMess] 🇭🇰 TRANSIT HKG 02 @100MBPS = vmess, 101.230.149.27, 1112, username=aa8c0fbe-e2ba-4850-8cb1-fe779fa46bd4, tls=false, skip-cert-verify=false, tfo=false, udp-relay=false
 [VMess] 🇭🇰 TRANSIT HKG 03 @100MBPS = vmess, 101.230.149.27, 1113, username=aa8c0fbe-e2ba-4850-8cb1-fe779fa46bd4, tls=false, skip-cert-verify=false, tfo=false, udp-relay=false
