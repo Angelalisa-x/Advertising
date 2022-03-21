@@ -95,6 +95,7 @@ def pullWhite():
                 str = str[str.find("@@||.")+5:str.rfind("^")] + "\n"
                 fwhite.write(str)
                 continue
+        fwhite.write(str)
     fwhite.close()
             ############# Potterli20 End ###################
 
@@ -189,32 +190,32 @@ def pullWhite():
     #url = 'https://www.kbsml.com/wp-content/uploads/adblock/adguard/adg-kall-dns.txt'
     #url = 'https://www.kbsml.com/wp-content/uploads/adblock/adguard/adg-kall.txt'
 
-    fwhite=open("whiteList_1.txt","a+")
-    for line in open("kbsmlDns.txt",encoding='UTF-8'):
-    #for line in open("WhiteList\kbsmlDns.txt",encoding='UTF-8'):
-        str=[]
-        str = line
-        if "@@||*" in line:
-            if "^" in line:
-                str = str[str.find("@@||*")+5:str.rfind("^")] + "\n"
-                fwhite.write(str)
-                continue
-        if "@@||" in line:
-            if "^" in line:
-                str = str[str.find("@@||")+4:str.rfind("^")] + "\n"
-                fwhite.write(str)
-                continue
-        if "@@||*." in line:
-            if "^" in line:
-                str = str[str.find("@@||*.")+6:str.rfind("^")] + "\n"
-                fwhite.write(str)
-                continue
-        if "@@||." in line:
-            if "^" in line:
-                str = str[str.find("@@||.")+5:str.rfind("^")] + "\n"
-                fwhite.write(str)
-                continue
-    fwhite.close()
+    # fwhite=open("whiteList_1.txt","a+")
+    # for line in open("kbsmlDns.txt",encoding='UTF-8'):
+    # #for line in open("WhiteList\kbsmlDns.txt",encoding='UTF-8'):
+    #     str=[]
+    #     str = line
+    #     if "@@||*" in line:
+    #         if "^" in line:
+    #             str = str[str.find("@@||*")+5:str.rfind("^")] + "\n"
+    #             fwhite.write(str)
+    #             continue
+    #     if "@@||" in line:
+    #         if "^" in line:
+    #             str = str[str.find("@@||")+4:str.rfind("^")] + "\n"
+    #             fwhite.write(str)
+    #             continue
+    #     if "@@||*." in line:
+    #         if "^" in line:
+    #             str = str[str.find("@@||*.")+6:str.rfind("^")] + "\n"
+    #             fwhite.write(str)
+    #             continue
+    #     if "@@||." in line:
+    #         if "^" in line:
+    #             str = str[str.find("@@||.")+5:str.rfind("^")] + "\n"
+    #             fwhite.write(str)
+    #             continue
+    # fwhite.close()
             ############ adg-kall ############
     # fwhite=open("whiteList_1.txt","a+")
     # for line in open("..\Adguard\kbsm.txt",encoding='UTF-8'):
@@ -373,28 +374,28 @@ def pullWhite():
             ############# DivineEngine End    ################
 
             ############# blackmatrix7 Star ###################
-    # url = 'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/WhiteList/WhiteList.list'
-    # html = requests.get(url).text
-    # with open("whiteList1.txt","w") as f:
-    #     f.write(html)
-    # f.close()
+    url = 'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Direct/Direct.list'
+    html = requests.get(url).text
+    with open("whiteList1.txt","w") as f:
+        f.write(html)
+    f.close()
 
-    # fwhite=open("whiteList_1.txt","a+")
-    # for line in open("whiteList1.txt"):
-    #     if "#" in line:
-    #         continue
-    #     if "!" in line:
-    #         continue
-    #     if line in ['\n','\r\n']:
-    #         continue
-    #     if line.strip() == "":
-    #         continue
-    #     str = []
-    #     str = line
-    #     dier = str.find(',',len(str[0:str.find(',')])+1)
-    #     str = str[str.find(',')+1:dier] + "\n"
-    #     fwhite.write(str)
-    # fwhite.close()
+    fwhite=open("whiteList_1.txt","a+")
+    for line in open("whiteList1.txt"):
+        if "#" in line:
+            continue
+        if "!" in line:
+            continue
+        if line in ['\n','\r\n']:
+            continue
+        if line.strip() == "":
+            continue
+        str = []
+        str = line
+        dier = str.find(',',len(str[0:str.find(',')])+1)
+        str = str[str.find(',')+1:dier] + "\n"
+        fwhite.write(str)
+    fwhite.close()
             ############# blackmatrix7 End ###################
  
 if __name__ == '__main__':
