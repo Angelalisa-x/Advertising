@@ -1,14 +1,14 @@
 # NAME: China
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2022-02-14 10:59:41
-# DOMAIN-SUFFIX: 545
+# UPDATED: 2022-03-15 02:13:00
+# DOMAIN-SUFFIX: 548
 # DOMAIN: 15
-# IP-CIDR: 6
+# IP-CIDR: 7
 # DOMAIN-KEYWORD: 10
 # USER-AGENT: 31
 # IP-CIDR6: 4
-# TOTAL: 611
+# TOTAL: 615
 DOMAIN,analytics.strava.com
 DOMAIN,blzddist1-a.akamaihd.net
 DOMAIN,cdn.angruo.com
@@ -229,6 +229,7 @@ DOMAIN-SUFFIX,hdhome.org
 DOMAIN-SUFFIX,hdslb.com
 DOMAIN-SUFFIX,hicloud.com
 DOMAIN-SUFFIX,hitv.com
+DOMAIN-SUFFIX,hjfile.cn
 DOMAIN-SUFFIX,hkserversolution.com
 DOMAIN-SUFFIX,hollisterco.com
 DOMAIN-SUFFIX,homeinns.com
@@ -236,6 +237,7 @@ DOMAIN-SUFFIX,hongxiu.com
 DOMAIN-SUFFIX,hori-gz.com
 DOMAIN-SUFFIX,hostbuf.com
 DOMAIN-SUFFIX,hotmail.com
+DOMAIN-SUFFIX,hujiang.com
 DOMAIN-SUFFIX,huxiucdn.com
 DOMAIN-SUFFIX,huya.com
 DOMAIN-SUFFIX,hxcdn.net
@@ -446,6 +448,7 @@ DOMAIN-SUFFIX,sm.ms
 DOMAIN-SUFFIX,smartisan.com
 DOMAIN-SUFFIX,smzdm.com
 DOMAIN-SUFFIX,snapdrop.net
+DOMAIN-SUFFIX,snssdk.com
 DOMAIN-SUFFIX,snwx.com
 DOMAIN-SUFFIX,so.com
 DOMAIN-SUFFIX,sogo.com
@@ -613,6 +616,7 @@ USER-AGENT,ting_en
 IP-CIDR,1.255.62.0/24,no-resolve
 IP-CIDR,119.28.28.28/32,no-resolve
 IP-CIDR,182.254.116.0/24,no-resolve
+IP-CIDR,183.128.0.0/11,no-resolve
 IP-CIDR,185.188.32.0/22,no-resolve
 IP-CIDR,203.205.238.0/23,no-resolve
 IP-CIDR,203.205.254.0/23,no-resolve

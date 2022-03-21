@@ -329,4 +329,16 @@
 	"cron": "0 30 21,22 * * * *",
 	"url": "https://cdn.jsdelivr.net/gh/zero205/JD_tencent_scf@main/jd_redrain_half.js",
 	"name": "半点京豆雨"
+},{
+	"id": "jd_plusLottery",
+	"cron": "0 18 1,21 * * * *",
+	"describe":"逛PLUS抽京豆",
+	"url": "https://cdn.jsdelivr.net/gh/yuannian1112/jd_scripts@main/jd_plusLottery.js",
+	"name": "逛PLUS抽京豆"
+},{
+	"id": "jd_nzmh",
+	"cron": "0 35 1,23 * * * *",
+	"describe":"女装盲盒",
+	"url": "https://cdn.jsdelivr.net/gh/yuannian1112/jd_scripts@main/jd_nzmh.js",
+	"name": "女装盲盒"
 }]
