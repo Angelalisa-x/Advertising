@@ -93,7 +93,7 @@
 	"id": "jd_plantBean_xcl",
 	"cron": "0 1 7-21/2 * * * *",
 	"describe":"会自动关注任务中的店铺跟商品，介意者勿使用",
-	"url": "https://cdn.jsdelivr.net/gh/yuannian1112/jd_scripts@main/jd_plantBean.js",
+	"url": "https://cdn.jsdelivr.net/gh/small-redguy/helper@main/jdresource/jd_plantBean.js",
 	"name": "种豆得豆"
 },{
 	"id": "jd_cash_exchange_xcl",
