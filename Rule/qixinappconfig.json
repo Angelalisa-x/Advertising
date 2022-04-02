@@ -29,11 +29,6 @@
 	"url": "https://cdn.jsdelivr.net/gh/small-redguy/helper@main/jdresource/jd_live_redrain.js",
 	"name": "超级直播间红包雨"
 }, {
-	"id": "jx_nc_xcl",
-	"cron": "0 0 9,12,18 * * * *",
-	"url": "https://cdn.jsdelivr.net/gh/small-redguy/helper@main/jdresource/jd_jxnc.js",
-	"name": "京喜农场"
-},  {
 	"id": "jd_joy_xcl",
 	"cron": "0 15 0-23/2 * * * *",
 	"url": "https://cdn.jsdelivr.net/gh/small-redguy/helper@main/jdresource/jd_joy.js",
@@ -53,12 +48,7 @@
 	"cron": "0 3 * * * * *",
 	"url": "https://cdn.jsdelivr.net/gh/small-redguy/helper@main/jdresource/jd_moneyTree.js",
 	"name": "京东摇钱树"
-}, {
-	"id": "jd_redPacket_xcl",
-	"cron": "0 1 1,2,23 * * * *",
-	"url": "https://cdn.jsdelivr.net/gh/small-redguy/helper@main/jdresource/jd_redPacket.js",
-	"name": "京东全民开红包"
-}, {
+},  {
 	"id": "jd_nzmh_xcl",
 	"cron": "0 0 8 * * * *",
 	"url": "https://cdn.jsdelivr.net/gh/yuannian1112/jd_scripts@main/jd_nzmh.js",
@@ -96,12 +86,6 @@
 	"url": "https://cdn.jsdelivr.net/gh/small-redguy/helper@main/jdresource/jd_plantBean.js",
 	"name": "种豆得豆"
 },{
-	"id": "jd_cash_exchange_xcl",
-	"cron": "55 59 23 * * * *",
-	"describe":" 红包的有效期只有3天（72小时）",
-	"url": "https://cdn.jsdelivr.net/gh/small-redguy/helper@main/jdresource/jd_cash_exchange.js",
-	"name": "领现金兑红包10"
-},{
 	"id": "jd_jdzz_xcl",
 	"cron": "0 10 0 * * * *",
 	"describe":"长期活动，每日收益2毛左右，多号互助会较多",
@@ -120,12 +104,6 @@
 	"describe":"京喜APP-我的-京喜财富岛",
 	"url": "https://cdn.jsdelivr.net/gh/small-redguy/helper@main/jdresource/jx_cfd.js",
 	"name": "京喜财富岛"
-},{
-	"id": "z_mother_jump_xcl",
-	"cron": "0 5 8,14,20 6-13 4 * *",
-	"describe":"活动入口: 首页-母婴馆-跳一跳",
-	"url": "https://cdn.jsdelivr.net/gh/small-redguy/helper@main/jdresource/z_mother_jump.js",
-	"name": "母婴跳一跳"
 },{
 	"id": "jd_fruit_xcl",
 	"cron": "0 5 6-18/6 * * * *",
@@ -261,12 +239,6 @@
 	"url": "https://cdn.jsdelivr.net/gh/yuannian1112/jd_scripts@main/jd_jmzhl.js",
 	"name": "芥么赚豪礼"
 },{
-    "id": "jd_car",
-	"cron": "0 10 7 * * * *",
-	"describe":"活动入口：京东APP首页-京东汽车-屏幕右中部，车主福利",
-	"url": "https://cdn.jsdelivr.net/gh/yuannian1112/jd_scripts@main//jd_car.js",
-	"name": "京东汽车"
-},{
     "id": "jd_fission",
 	"cron": "0 11 0,9 * * * *",
 	"describe":"东东超市抢京豆",
@@ -296,49 +268,22 @@
 	"url": "https://cdn.jsdelivr.net/gh/small-redguy/helper@main/jdresource/jd_wyw.js",
 	"name": "玩一玩成就"
 },{
-	"id": "jd_cjhz",
-	"cron": "0 24 3,13 * * * *",
-	"describe":"超级盒子",
-	"url": "https://cdn.jsdelivr.net/gh/small-redguy/helper@main/jdresource/jd_cjhz.js",
-	"name": "超级盒子"
-},{
-	"id": "jd_fanli",
-	"cron": "0 24 0 * * * *",
-	"describe":"京东饭粒",
-	"url": "https://cdn.jsdelivr.net/gh/zero205/JD_tencent_scf@main/jd_fanli.js",
-	"name": "京东饭粒"
-},{
-	"id": "jd_babel_sign",
-	"cron": "0 0 0,3 * * * *",
-	"describe":"主页-秒杀-狂撒三亿京豆",
-	"url": "https://cdn.jsdelivr.net/gh/small-redguy/helper@main/jdresource/jd_babel_sign.js",
-	"name": "通天塔签到共建"
-},{
 	"id": "jd_dpqd",
 	"cron": "0 0 0 * * * *",
 	"describe":"店铺签到，各类店铺签到，有新的店铺直接添加token即可",
 	"url": "https://cdn.jsdelivr.net/gh/yuannian1112/jd_scripts@main/jd_dpqd.js",
 	"name": "店铺签到"
 },{
-	"id": "jd_redrain",
-	"cron": "0 0 * * * * *",
-	"url": "https://cdn.jsdelivr.net/gh/zero205/JD_tencent_scf@main/jd_redrain.js",
-	"name": "整点京豆雨"
-},{
-	"id": "jd_redrain_half",
-	"cron": "0 30 21,22 * * * *",
-	"url": "https://cdn.jsdelivr.net/gh/zero205/JD_tencent_scf@main/jd_redrain_half.js",
-	"name": "半点京豆雨"
-},{
-	"id": "jd_plusLottery",
-	"cron": "0 18 1,21 * * * *",
-	"describe":"逛PLUS抽京豆",
-	"url": "https://cdn.jsdelivr.net/gh/yuannian1112/jd_scripts@main/jd_plusLottery.js",
-	"name": "逛PLUS抽京豆"
-},{
 	"id": "jd_nzmh",
 	"cron": "0 35 1,23 * * * *",
 	"describe":"女装盲盒",
 	"url": "https://cdn.jsdelivr.net/gh/yuannian1112/jd_scripts@main/jd_nzmh.js",
 	"name": "女装盲盒"
+},{
+	"id": "didi_sign",
+	"isConcurrent":"false",
+	"cron": "0 35 0,12 * * * *",
+	"describe":"滴滴签到领券",
+	"url": "http://tyh52.com/jd/otherscript/didi.js",
+	"name": "滴滴签到"
 }]
